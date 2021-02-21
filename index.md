@@ -1,4 +1,4 @@
 ---
 layout: home
 ---
-Register to our [Google groups page](https://groups.google.com/forum/#!forum/gp-id) to get course notifications via email.
+The canvas site for this course can be found here: [Data Curation II](https://canvas.uw.edu) (access allowed only for registered students).

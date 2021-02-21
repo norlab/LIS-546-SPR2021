@@ -1,19 +1,19 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: Data Curation II
+course_description: "Examines a broad range of issues in the field of data curation. Focus on recent advances and challenging problems in the curation of research data across disciplines and new trends in open data resources and services for the general public. Draws on practical research findings, case studies, and current public and private sector data initiatives to examine key challenges in the field, as well as practical solutions applied by data professionals."
+course_semester: "Spring 2021"
 
-baseurl: "/jekyll-course-website-template" # the subpath of your site, e.g. /blog/
-url: "http://kazemnejad.github.io/" # the base hostname & protocol for your site
+baseurl: "/LIS-546-SPR2021" # the subpath of your site, e.g. /blog/
+url: "http://norlab.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolname: "University of Washington Information School"
+schoolurl: "https://ischool.uw.edu/"
+twitter_username: us_ischool
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    Box 352840 - Mary Gates Hall, Ste. 370
+    Seattle
+    Washington
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X

@@ -1,9 +1,7 @@
 instructors:
-  - name: Albus Dumbledore
-    profile_pic: /_images/pp/dumbledore.jpg
+  - name: Bree Norlander
+    profile_pic: /_images/pp/bree.jpg
     webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
-  - name: Minerva McGonagall
-    profile_pic: /_images/pp/mcgonagall.jpg
 
 teaching_assistants:
   - name: Harry Potter

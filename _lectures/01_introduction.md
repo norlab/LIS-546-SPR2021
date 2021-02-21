@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2021-03-29
+date: 2021-03-29T0:00:00+8:00
 title: Introduction
 tldr: "Introduction to the course."
 thumbnail: /static_files/presentations/lec.jpg

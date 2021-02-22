@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Data Curation II - Introduction
 This introductory chapter provides an overview of the conceptual content that we will engage in for DC II. The goal is to refresh our memory about concepts that were covered in DC I and how we will use these ideas throughout DC II.  
 

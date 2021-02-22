@@ -6,11 +6,10 @@ tldr: "Introduction to the course."
 thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: https://screencast-o-matic.com/embed?sc=cYfVof4yVt&v=5&ff=1
-      name: lecture
+      name: video
     - url: /static_files/presentations/code.zip
-      name: codes
-    - url: https://google.com
-      name: slides
+      name: content
+
 ---
 **Suggested Readings:**
 - [Readings 1](http://example.com)

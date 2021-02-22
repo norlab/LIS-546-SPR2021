@@ -7,7 +7,7 @@ thumbnail: /static_files/presentations/acq.png
 links: 
     - url: https://screencast-o-matic.com/embed?sc=cYh2Dik1zz&v=5&controls=1&ff=1
       name: video
-    - url: /content/acquisition-search-discovery.html
+    - url: /content/data-acquisition-search-discovery.html
       name: content
 ---
 **Suggested Readings:**

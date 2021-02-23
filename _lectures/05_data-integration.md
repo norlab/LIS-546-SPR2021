@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2021-03-29T0:00:00+8:00
+date: 2021-04-19T8:00:00+8:00
 title: Data Integration
 tldr: "Data integration as it operates at the logical level of tables, and data that feed into user interfaces."
 thumbnail: /static_files/presentations/data-int.png

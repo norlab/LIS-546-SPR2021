@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2021-03-29T0:00:00+8:00
+date: 2021-05-10T8:00:00+8:00
 title: Data Acquisition, Search, and Discovery
 tldr: "A review of the fundamental challenges that data curators face in making data discoverable."
 thumbnail: /static_files/presentations/acq.png

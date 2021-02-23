@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2021-03-29T0:00:00+8:00
+date: 2021-05-31T8:00:00+8:00
 title: Emerging Topics
 tldr: "The future in data curation."
 thumbnail: /static_files/presentations/future.png

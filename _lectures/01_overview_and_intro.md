@@ -7,7 +7,7 @@ thumbnail: /static_files/presentations/overview.png
 links: 
     - url: https://screencast-o-matic.com/embed?sc=cYfVof4yVt&v=5&ff=1
       name: video
-    - url: /content/overview.html
+    - url: /content/overview_and_intro.html
       name: content
 
 ---

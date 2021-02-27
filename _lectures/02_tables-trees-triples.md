@@ -11,6 +11,9 @@ links:
       name: content
 
 ---
-**Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+**Readings:**
+- [Lóscio et al (2017) Data on the Web - Best Practices](https://www.w3.org/TR/dwbp/)
+- [Read one additional Data on the Web - Use Case from this list](https://www.w3.org/TR/dwbp-ucr/)
+
+**Optional Readings:**
+- [Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann]()

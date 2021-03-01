@@ -14,7 +14,7 @@ links:
 - [Course Content]({{ site.baseurl }}/content/metadata-application-profiles.html)
 - Application profiles:
     - [Heery, R., & Patel, M. (2000). Application profiles: mixing and matching metadata schemas. Ariadne, (25)](http://www.ariadne.ac.uk/issue/25/app-profiles/)
-    - [The Singapore Framework for Application Profiles. Note this is currently under revision by DCMI.](https://www.dublincore.org/specifications/dublin-core/singapore-framework/) [You can catch up on their work here](https://github.com/dcmi/dcap) (and also see an example of use cases in the wild)
+    - [The Singapore Framework for Application Profiles](https://www.dublincore.org/specifications/dublin-core/singapore-framework/) Note this is currently under revision by DCMI. [You can catch up on their work here](https://github.com/dcmi/dcap) (and also see an example of use cases in the wild)
 - Some examples of metadata application profiles:
     - [DPLA](https://drive.google.com/file/d/1fJEWhnYy5Ch7_ef_-V48-FAViA72OieG/view)
     - [Cornell Library](https://confluence.cornell.edu/display/mwgweb/CUL+Metadata+Application+Profiles)

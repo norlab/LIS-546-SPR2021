@@ -8,8 +8,5 @@
     {{ include.event.description }}
 </div>
 <div class="col col-4" data-label="Course Material">
-    [<a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.title }}</a>]
-    {% if include.event.solutions %}
-    [<a href="{{ include.event.solutions | prepend: site.baseurl}}">Solutions</a>]
-    {% endif %}
+    [<a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.description }}</a>]
 </div>

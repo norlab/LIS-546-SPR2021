@@ -11,7 +11,7 @@ links:
       name: content
 ---
 **Required Readings:**
-- [Course Content](https://norlab.github.io/LIS-546-SPR2021/content/data-integration.html)
+- [Course Content]({{ site.baseurl }}/content/data-integration.html)
 - [Stonebraker, M., & Ilyas, I. F. (2018). Data Integration: The Current Status and the Way Forward. IEEE Data Eng. Bull., 41(2), 3-9](https://cs.uwaterloo.ca/~ilyas/papers/StonebrakerIEEE2018.pdf)
 - [Whong, Chris (2020) “Taming the MTA’s Unruly Turnstile Data”](https://medium.com/qri-io/taming-the-mtas-unruly-turnstile-data-c945f5f96ba0)
 

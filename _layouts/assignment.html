@@ -9,6 +9,7 @@ title: page.title
     <p class="post-meta">Released on {{ page.date | date: "%A" }} {{ page.date | date: site.dateformat }}</p>
   </header>
 
+  <!--
   <div>
     {% if page.due_event %}
     <span style="font-weight: bold">Due Date: {{ page.due_event.date | date: "%A" }} {{ page.due_event.date | date: site.dateformat }} {{ page.due_event.date | date: "%H:%M" }}</span>
@@ -24,6 +25,7 @@ title: page.title
       [<a href="{{ page.solutions | prepend: site.baseurl }}">solutions</a>]
       {% endif %}
     </p>
+-->
 
     <div style="color: gray;">
       <h3>Late Policy</h3>

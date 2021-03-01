@@ -8,11 +8,8 @@
     {{ include.event.description }}
 </div>
 <div class="col col-4" data-label="Course Material">
-    [<a title="View {{ link.name }}" href="
-    {% if link.url contains '://' %}
-      {{ link.url }} 
-    {% else %}
-      {{ link.url | prepend: site.baseurl }} 
-    {% endif %}" target="_blank">{{ link.name }}</a>]
-    [<a href="{{ link.url | prepend: site.baseurl }}">Details</a>]
+    [<a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.title }}</a>]
+    {% if include.event.solutions %}
+    [<a href="{{ include.event.solutions | prepend: site.baseurl}}">Solutions</a>]
+    {% endif %}
 </div>

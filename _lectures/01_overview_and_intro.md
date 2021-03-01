@@ -11,6 +11,6 @@ links:
       name: content
 
 ---
-**Readings:**
-- [Course Content](https://norlab.github.io/LIS-546-SPR2021/content/overview_and_intro.html)
+**Required Reading:**
+- [Course Content]({{ site.baseurl }}/content/overview_and_intro.html)
 

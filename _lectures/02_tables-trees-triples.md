@@ -12,7 +12,7 @@ links:
 
 ---
 **Required Readings:**
-- [Course Content](LIS-546-SPR2021//content/tables-trees-triples.html)
+- [Course Content]({{ site.baseurl }}/content/tables-trees-triples.html)
 - [Lóscio et al (2017) Data on the Web - Best Practices](https://www.w3.org/TR/dwbp/)
 - [Read one additional Data on the Web - Use Case from this list](https://www.w3.org/TR/dwbp-ucr/)
 

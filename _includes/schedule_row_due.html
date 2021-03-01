@@ -6,6 +6,8 @@
 </div>
 <div class="col col-2" style="font-weight: bold" data-label="Description">
     {{ include.event.description }}
+    {{ include.event.title }}
+    {{ include.event.url }}
 </div>
 <div class="col col-4" data-label="Course Material">
     <a href="{{ site.assignments.url | prepend: site.baseurl}}">{{ asg.title }}</a>

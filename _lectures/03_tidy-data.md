@@ -11,7 +11,7 @@ links:
       name: content
 ---
 **Required Readings:**
-- [Course Content](LIS-546-SPR2021/content/tidy-data.html)
+- [Course Content]({{ site.baseurl }}/LIS-546-SPR2021/content/tidy-data.html)
 - [Rowson and Munoz (2016) Against Cleaning](http://curatingmenus.org/articles/against-cleaning/)
 - [Wickham, H. (2014), “Tidy Data,” Journal of Statistical Software, 59, 1–23](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf)
 

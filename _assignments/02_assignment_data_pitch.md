@@ -2,9 +2,9 @@
 type: assignment
 date: 2021-04-05T08:00:00+8:00
 title: 'Data Pitch Assignment'
-pdf: /static_files/assignments/asg.pdf
-attachment: /static_files/assignments/asg.zip
-solutions: /static_files/assignments/asg_solutions.pdf
+pdf:
+attachment:
+solutions:
 due_event: 
     type: due
     date: 2021-04-11T23:59:00+8:00

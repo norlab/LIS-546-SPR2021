@@ -11,7 +11,7 @@ links:
       name: content
 ---
 **Required Readings:**
-- [Course Content](LIS-546-SPR2021/content/data-packaging.html)
+- [Course Content]({{ site.baseurl }}/content/data-packaging.html)
 - [Bechhofer, S., De Roure, D., Gamble, M., Goble, C., & Buchan, I. (2010). Research objects: Towards exchange and reuse of digital knowledge](https://eprints.soton.ac.uk/268555/1/fwcs-ros-submitted-2010-02-15.pdf)
 - [Read notes from this RDA meeting in 2018 which thoroughly reviews the concept of data packaging](https://docs.google.com/document/d/1-WPq17GzYL9NBM4cKVbvn3c5nAM6JFr7nEl3JjmHihs/edit)
 - [Neylon (2017) Packaging data](http://cameronneylon.net/blog/packaging-data-the-core-problem-in-general-data-sharing/)

@@ -24,11 +24,13 @@ layout: default
         {% assign all_events = all_events | concat: all_assignment_dues %}
         {% assign all_events_sorted = all_events | sort: 'date' %}
 
+        {% unless event == "assignment" %}
         {% for event in all_events_sorted %}
         <li class="table-row table-row-{{ event.type}}">
             {% include schedule_row_{{ event.type }}.html event=event %}
         </li>
         {% endfor %}
+        {% endunless %}
 
     </ul>
 </div>

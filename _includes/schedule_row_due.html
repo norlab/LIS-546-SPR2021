@@ -8,6 +8,6 @@
     {{ include.event.description }}
 </div>
 <div class="col col-4" data-label="Course Material">
-    <a href="{{ site.assignments.url | prepend: site.baseurl}}">{{ site.assignments.title }}</a>
+    <a href="{{ site.assignments.url | prepend: site.baseurl}}">{{ event.title }}</a>
     <a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.description }}</a>
 </div>

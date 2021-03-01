@@ -25,7 +25,7 @@ links:
     - [About](https://dataverse.org/about)
     - [Documentation](http://guides.dataverse.org/en/latest/)
     - Example deployments [https://data.qdr.syr.edu/](https://data.qdr.syr.edu/) and [https://dataverse.tdl.org/](https://dataverse.tdl.org/)
-    - [See the QDR Core Seal Trust documentation for more details on how Dataverse is configured]9https://www.coretrustseal.org/wp-content/uploads/2018/11/Qualitative-Data-Repository.pdf)
+    - [See the QDR Core Seal Trust documentation for more details on how Dataverse is configured](https://www.coretrustseal.org/wp-content/uploads/2018/11/Qualitative-Data-Repository.pdf)
 - Fedora (Open-source repository with semantic capabilities - often used by science repositories)
     - [About](https://duraspace.org/fedora/about/)
     - [Specifications](https://duraspace.org/fedora/resources/technical-specifications/)

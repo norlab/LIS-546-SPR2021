@@ -12,15 +12,15 @@ The last time this course was taught, it was the very beginning of the pandemic 
 
 <blockquote>I encourage you all to read my colleague Anna Hoffman's [very personal and incredibly eloquent](https://medium.com/@annaeveryday/altered-is-the-fashion-of-the-earth-teaching-and-learning-during-a-global-pandemic-to-my-e08bd7e473c3) take on the challenges that we face in the quarter that lies ahead.</blockquote>
 
-
+In one year a lot has changed and a lot hasn't. All I really want to say is that I plan to be flexible, understanding, and to give as much as I possible can to this class. Please reach out to me with feedback about workload, individual needs, and struggles (and of course let me know what is going well!) and I will see where we can make changes. 
 
 **Accessibility**       
 
-- I have created this book in place of a traditional course site hosted on canvas. I am doing this so I can provide most of the text for what are typically lectures (audio and slides) in a form of written chapters. This makes skimming and digesting the material much easier, and will provide a sustainable resource that you can return to at any time in the future. This book will be downloadable, and all of the course content will remain accessible to you regardless of your being enrolled as a student at UW.
+- I have turned Professor Weber's original course book into this website on his recommendation and with his permission. There will be minimal (but definitely some) material on the Canvas site. I hope that this makes skimming and digesting the material much easier, and it provides a sustainable resource that you can return to at any time in the future (and is publicly accessible). The course content will remain accessible to you regardless of your being enrolled as a student at UW.
 
-- I will provide a short and hopefully helpful lecture each week, but the majority of the substantive content I am trying to  create for the course will be in the form of written chapters.
+- There will be a short and hopefully helpful lecture each week either recorded by Professor Weber or myself, but the majority of the substantive content is in the form of written chapters.
 
-- On a week to week basis circumstances may change for how and when you are able to access course materials. I am attempting to provide PDFs or linke to freely available web resources for all readings that are assigned. These will not require you to have any kind of remote VPN or UW affiliated credentials to access. If you cannot, for any reason, access course materials please be in touch and I will attempt to fix the issue as soon as possible.
+- On a week to week basis circumstances may change for how and when you are able to access course materials. I am attempting to provide PDFs or links to freely available web resources for all readings that are assigned. These will not require you to have any kind of remote VPN or UW affiliated credentials to access. If you cannot, for any reason, access course materials please be in touch and I will figure out a way to get the material to you.
 
 **Reduced workload and expectations for engagement**    
 

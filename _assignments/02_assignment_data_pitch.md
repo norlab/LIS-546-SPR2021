@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2021-04-05T08:00:00+8:00
+date: 2021-04-04T08:00:00+8:00
 title: 'Data Pitch Assignment'
 pdf:
 attachment:

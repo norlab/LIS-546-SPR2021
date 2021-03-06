@@ -135,29 +135,28 @@ There are two aspect of this class that will require your time and attention.
   </tr>
 </tbody>
 </table></div>
-
-
+<br>  
 ## Grades  
 
-Your grade for this course is made up of three different components: Exercises, Protocol Assignments, and your final Protocol.
+Your grade for this course is made up of four different components: Participation, Exercises, Protocol Assignments, and your final Protocol.
 
-- Exercises: Many weeks have a practical exercise component that asks you to apply some concept that is covered in the Chapter or Lecture. You need to complete these by following the directions in each exercise. Completing each exercise is a credit / no-credit mark. Give an earnest effort and you will receive credit. (20% of your final grade)
+- Participation: See above for participation guidelines. As long as you engage, meet with me, and keep me informed you will get full participation points. (5% of your final grade.)
+
+- Exercises: Many weeks have a practical exercise component that asks you to apply some concept that is covered in the Chapter or Lecture. You need to complete these by following the directions in each exercise. Completing each exercise is a credit / no-credit mark. Give an earnest effort and you will receive credit. (15% of your final grade.)
 
 - Protocol Assignments: Most weeks also have a protocol related assignment. If you complete these before our weekly meetings I can give you feedback and help you structure these so that they are useful to your final deliverable. You only need to complete these by including them in your final protocol deliverable. (20% of your final grade)
 
-- Protocol: The final assignment that is due on or before `June 06 2020` - The assignment is described in detail in the [final chapter of this book](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html). In short, the assignment asks you to envision curating and archiving a set of open data that is focused on a particular topic of interest to a particular audience. This builds upon your experience in developing a protocol in DC I. The final protocol can be turned in a variety of formats, but must include all of the components (described in the final chapter) to be given full credit. (60% of your final grade)
-
-I will have a very liberal approach to grading this quarter. Give me your best effort, and I guarantee that I will reciprocate.
-
+- Protocol: The final assignment that is due on or before `Sunday June 06, 2021` - The assignment is described in detail on this [page](https://norlab.github.io/LIS-546-SPR2021/assignments/01_assignment_overview). In short, the assignment asks you to envision curating and archiving a set of open data that is focused on a particular topic of interest to a particular audience. This builds upon your experience in developing a protocol in DC I. The final protocol can be turned in a variety of formats, but must include all of the components to be given full credit. (60% of your final grade)
 
 ## What to do if you find a mistake in this text
 
-This is a work in progress textbook. There will be many spelling, grammar, and (hopefully minimal) content mistakes. If you find a mistake or want to make a recommendation for improvement please send me an email `nmweber@uw.edu` or file an issue directly on [Github](https://github.com/nniiicc/LIS-598-DC2-Sp2020/issues/new/choose)
-
+I have done my best to customize and adapt Professor Weber's course content. Since this is my first time preparing the content in this form there will inevitably be mistakes or usability issues. If you find a mistake, an issue, or want to make a recommendation for improvement please send me an email `norlab@uw.edu`. I promise I want to hear about it.
 
 **Acknowledgements** 
 
-I have had a lot of help putting together these materials. Where possible I have documented these individuals and resources throughout. Some explicit thanks is necessary - Jackson Brown, Andrea Thomer, Peter Organisciak, Katrina Fenlon, and Alex Garnett have contributed ideas for exercises, readings, and reviewed portions of each chapter. Yihui Xie and developers at R Studio developed and provided extensive documentation for using `bookdown` - which is the R library used to generate this text. Special thanks to Sean Kross for making the publishing process on Github so smooth. Extra special thanks to Bree Norlander for her help in many aspects of putting together the curriculum, preparing chapters, and being willing to brainstorm at any hour of the day. 
+I wouldn't be teaching this course without the support of Nicholas Weber and Carole Palmer. Most of the content for this course was originally created by Professor Weber and I want to be fully transparent about that. I couldn't have done this without his work. I also want to include the acknowledgements from Professor Weber regarding the content he created:
+
+> I have had a lot of help putting together these materials. Where possible I have documented these individuals and resources throughout. Some explicit thanks is necessary - Jackson Brown, Andrea Thomer, Peter Organisciak, Katrina Fenlon, and Alex Garnett have contributed ideas for exercises, readings, and reviewed portions of each chapter.
 
 # Data Curation II - Introduction
 This introductory chapter provides an overview of the conceptual content that we will engage in for DC II. The goal is to refresh our memory about concepts that were covered in DC I and how we will use these ideas throughout DC II.  

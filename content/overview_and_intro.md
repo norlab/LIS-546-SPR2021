@@ -157,16 +157,17 @@ I have done my best to customize and adapt Professor Weber's course content. Sin
 I wouldn't be teaching this course without the support of Nicholas Weber and Carole Palmer. Most of the content for this course was originally created by Professor Weber and I want to be fully transparent about that. I couldn't have done this without his work. I also want to include the acknowledgements from Professor Weber regarding the content he created:
 
 > I have had a lot of help putting together these materials. Where possible I have documented these individuals and resources throughout. Some explicit thanks is necessary - Jackson Brown, Andrea Thomer, Peter Organisciak, Katrina Fenlon, and Alex Garnett have contributed ideas for exercises, readings, and reviewed portions of each chapter.
-
+<br>  
 # Data Curation II - Introduction
-This introductory chapter provides an overview of the conceptual content that we will engage in for DC II. The goal is to refresh our memory about concepts that were covered in DC I and how we will use these ideas throughout DC II.  
+This introduction provides an overview of the conceptual content that we will engage in for DC II. The goal is to refresh your memory about concepts that were covered in DC I and how we will use these ideas throughout DC II.  
 
 ## Types of Knowledge
+### Author: Nic Weber (with updating by Bree Norlander)
 This class builds upon some foundational concepts and ideas that were introduced in Data Curation I. The emphasis of DC I was establishing some best (or good enough) practices for managing and preparing data for meaningful reuse. In introducing conceptual foundations in DC I, I also argued that practicing data curators need to acquire two types of knowledge: Declarative and Procedural. If you've taken a class with me before you know that I think about this type of framework as being broadly useful for all types of learning. But, this framework is especially relevant for data curation.
 
-To review: Procedural knowledge is *how* to do something, and declarative knowledge is knowing that something is the case. In other words, understanding something *about* the factual underpinnings of a concept. Less abstractly - lets use an example from our (now) everyday lives:  
+To review: Procedural knowledge is *how* to do something, and declarative knowledge is knowing that something is the case. In other words, understanding something *about* the factual underpinnings of a concept. Less abstractly - let's use an example from our (now) everyday lives:  
 
-**Declaratively** we know that a virus outbreak has certain distributions that are the direct result of collective action. If we take no action then there will be an increase in the rate of viral infections. But, if we collectively employ techniques like 'social distancing' then the infection rate will remain lower, essential services provided by public health workers will experience less of an impact, and society in general can effectively respond to incidents of viral infection. Over time we've started to refer to this as "flattening the curve" - that is taking collective action to decrease the height of a plotted distribution of infections over time.
+**Declaratively** we know that a virus outbreak has certain distributions that are the direct result of collective action. If we take no action then there will be an increase in the rate of viral infections. But, if we collectively employ techniques like 'social distancing' then the infection rate will remain lower, essential services provided by public health workers will experience less of an impact, and society in general can effectively respond to incidents of viral infection. We probably all remember hearing the phrase "flatten the curve" to refer to this concept - that is taking collective action to decrease the height of a plotted distribution of infections over time.
 
 ![Image 1 Caption: Visual depiction of distributions in 'flattening the curve' of infections related to Covid-19. This image is courtesy of the CDC and Huffington Post's data vizualization team](https://img.huffingtonpost.com/asset/5e6ac2ab260000f92cb66874.jpeg)
 

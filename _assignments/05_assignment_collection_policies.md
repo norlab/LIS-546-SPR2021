@@ -1,13 +1,13 @@
 ---
 type: assignment
-date: 2021-03-30T4:00:00+4:30
+date: 2021-04-25T4:00:00+4:30
 title: 'Collection Policies Assignment'
 pdf:
 attachment:
 solutions:
 due_event: 
     type: due
-    date: 2021-04-04T23:59:00+3:30
+    date: 2021-05-02T23:59:00+3:30
     description: 'Collection Policies Assignment due'
 ---
 ## Assignment: Data Collection Policies

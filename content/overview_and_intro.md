@@ -181,7 +181,7 @@ Data curation is not so different from this example. We often need to first obta
 In DC I we focused a good deal of our time and effort on obtaining declarative knowledge. In DC II we start to tilt more strongly towards practicing and learning procedural techniques for putting this knowledge to work. In this course we will attempt to help you do this in two ways:
 
 1. Deepen your declarative knowledge about data, management, organization, and encodings that are specific to the types of open data that we are able to reliably access and use via the web. By focusing in particular on open data we have the ability to practice with and use real world examples.
-2. Exposing you to tools and strategies for employing these skills effectively in curating open data. Putting declarative knowledge to work takes practice, and it gets easier when we are able to abstract away from the particulars of any one context or any one tool's affordances (and limitations).
+2. Expose you to tools and strategies for employing these skills effectively in curating open data. Putting declarative knowledge to work takes practice, and it gets easier when we are able to abstract away from the particulars of any one context or any one tool's affordances (and limitations).
 
 
 ## Working Definitions

@@ -6,7 +6,7 @@ Data Curation II examines a broad range of practical and conceptual issues in th
 
 <iframe width=853 height=477 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYfVof4yVt&v=5&ff=1" allowfullscreen="true"></iframe>
 
-## Graduate school during a pandemic
+## Graduate School and a Pandemic
 The last time this course was taught, it was the very beginning of the pandemic for those of us in the United States. No one knew what was going to happen but we knew that life was going to be different. Professor Weber wrote this to his Spring 2020 class:
 <blockquote>There is no easy way to put this - its going to be a challenging quarter. I usually put a note in my syllabus that says something along the lines of "...coursework occasionally needs to take a second, third, or fourth priority in your life. All of us have commitments that exceed the expectation of being fully present each week, and I don't expect you to be operating at 100% engagement each day." Even this qualification seems out of touch given the current climate we are operating in for the Spring 2020 quarter. There will be demands on your time, attention, emotions, and cognitive ability to engage with substantive material over the next 10 weeks. There are many unknowns that we are each managing. I have relaxed my own personal expectations for this quarter, and I encourage you all to do the same. This doesn't mean that I will give anything short of 100% effort to delivering a high quality course, but lets operate with a healthy and charitable amount of <em>good will</em> towards each other and towards ourselves for the next 10 weeks.</blockquote>
 
@@ -16,19 +16,19 @@ In one year a lot has changed and a lot hasn't. All I really want to say is that
 
 **Accessibility**       
 
-- I have turned Professor Weber's original course book into this website on his recommendation and with his permission. There will be minimal (but definitely some) material on the Canvas site. I hope that this makes skimming and digesting the material much easier, and it provides a sustainable resource that you can return to at any time in the future (and is publicly accessible). The course content will remain accessible to you regardless of your being enrolled as a student at UW.
+- I have turned Professor Weber's original course book into this website on his recommendation and with his permission. There will be minimal material on the Canvas site. I hope that this makes skimming and digesting the material much easier, and it provides a sustainable resource that you can return to at any time in the future (and is publicly accessible). The course content will remain accessible to you regardless of your being enrolled as a student at UW.
 
 - There will be a short and hopefully helpful lecture each week either recorded by Professor Weber or myself, but the majority of the substantive content is in the form of pages on this website and as links to articles and other websites.
 
 - On a week to week basis circumstances may change for how and when you are able to access course materials. I am attempting to provide PDFs or links to freely available web resources for all readings that are assigned. These will not require you to have any kind of remote VPN or UW affiliated credentials to access. If you cannot, for any reason, access course materials please be in touch and I will figure out a way to get the material to you.
 
-**Reduced workload and expectations for engagement**    
+**Workload and Expectations for Engagement**    
 
-- I will not use any form of participation in determining your final grade. It is unfortunate, but also unrealistic that we can engage in forum discussions the way that I typically design this course to run. We will still have that opportunity, but keep in mind that I do not expect that your weekly contribution nor will I calculate this into your final mark.
+- My expectations for you are that you engage with the content, meet with me regularly either individually or as a group, and keep me up-to-date on your progress. I know this may sound vague as a participation rubric, but If you meet these criteria you will receive full participation points. I will reach out to you if I am concerned about your level of participation.
 
-- The Protocol project that makes up a substantive amount of work at the conclusion of this quarter will have some examples from previous courses. I do not expect that you are striving to equal the depth or scope of content that student's in previous courses have had the freedom to execute. See my previous comment about relaxing expectations and demands of ourselves - this doesn't mean that we should give anything less than what we are capable  of- but our capabilities are, collectively, diminished this quarter.
+- The Protocol project that makes up a substantive amount of work at the conclusion of this quarter will have some examples from previous courses. The pandemic may place barriers on equaling the depth or scope of content that student's in previous courses have had the freedom to accomplish. See my previous comment about relaxing expectations and demands of ourselves - this doesn't mean that we should give anything less than what we are capable of - but I understand the challenges we are all facing right now.
 
-**Maximum flexibility**       
+**Maximum Flexibility**       
 
 - Everything in this class is negotiable. That applies to grades, assignments, and any course policies. Be in touch when and where you need to negotiate any part of this course, and I can promise you I will be as flexible within the constraints of the University as is possible.
 
@@ -36,7 +36,7 @@ In one year a lot has changed and a lot hasn't. All I really want to say is that
 
 1. Please make an earnest effort to keep up with work. I don't know how to design a course (and I'm not sure it is even possible) that doesn't take advantage of progressive knowledge gain. Meaning - practice or exercise in one week can be the baseline for starting an assignment the next week. There will undeniably be moments where this isn't possible - but give it your best effort.
 
-2. Please try to communicate when a priority deadline is not realistic for you to meet (My email is `nmweber@uw.edu`). This can be in advance or after a deadline has passed. You do not need to explain why. If you are falling behind and I havent't had have any communication from you I may reach out with an email. Please don't interpret this as any form of pressure other than my expressing a concern.    
+2. Please try to communicate when a priority deadline is not realistic for you to meet (My email is `norlab@uw.edu`). This can be in advance or after a deadline has passed. You do not need to explain why. If you are falling behind and I havent't had have any communication from you I may reach out with an email. Please don't interpret this as any form of pressure other than my expressing a concern.    
 
 ## How this class is organized
 There are two aspect of this class that will require your time and attention.
@@ -44,12 +44,12 @@ There are two aspect of this class that will require your time and attention.
 1. Class sessions (Weeks 1-10) follow the typical structure of an iSchool online course.
 2. Your `Protocol` assignment has a weekly activity or assignment that you will complete (either as a group or individually). The assignments vary in terms of the effort that will be required - some are involved and will take hours to complete, others are simple readings that will help you think about your protocol.  
 
-**Weekly content**: each week of the course will consist of four components: 1. Readings (required and optional); 2. Written chapters; 3. Recorded lectures; 4. Exercises.  
+**Weekly content**: each week of the course will consist of four components: 1. Readings (required and optional); 2. Written content on the website; 3. Recorded lectures; 4. Exercises.  
 
 - Readings are meant to reinforce concepts and offer practical applications or extensions of the concept / topic we are discussing each week.
-- Written explanations act like an informal textbook chapter. They are an extended narrative where I attempt to explain, define, and introduce concepts related to data curation. You should read these thoroughly - but also feel free to return to these as a reference resource in the future.
+- Written website content is equivalent to an informal textbook chapter. The content is an extended narrative where Professor Weber (and I) attempt to explain, define, and introduce concepts related to data curation. You should read these thoroughly - but also feel free to return to these as a reference resource in the future.
 - Short lectures reinforce important points from the chapter and provide an opportunity to present more dynamic content. Where possible I will provide links to slides that are used, and all lectures will be accessible as an MP4 that you can view on any device or with any program of your choosing.
-- Excesises: Most weeks I will post an exercise that asks you to engage with open data in some practical way. This might include restructuring a dataset, using a tool, or practicing some skill that is applicable to our weekly topic. A list of exercises are found below. Note that in some weeks there will simply be a demonstration that does not require you to do anything other than watch and engage with the demo. For exercises there is an open discussion forum on Canvas. I encourage you to (following the directions of each excerise) post your response there. Disucssing and debating these exercises is not required but makes for a more enjoyable and interactive course. 
+- Exercises: Most weeks there will be an exercise that asks you to engage with open data in some practical way. This might include restructuring a dataset, using a tool, or practicing some skill that is applicable to our weekly topic. A list of exercises are found below. Note that in some weeks there will simply be a demonstration that does not require you to do anything other than watch and engage with the demo. For exercises there is an open discussion forum on Canvas. I encourage you to (following the directions of each excerise) post your response there. Disucssing and debating these exercises is not required but makes for a more enjoyable and interactive course. 
 
 **Protocol Assignments**: Most weeks I will post an assignment activity that you or your group are to complete. The requirements and effort for completing these, as I said earlier, will be variable. These assignments are in service of a final project deliverable. By combining these different assignments you can create a rather comprehensive protocol that will be valuable to your professional portfolio (more below). You can share the protocol assignments with me in advance of our weekly meeting for feedback. I will give you explicit directions on how to do this.
 

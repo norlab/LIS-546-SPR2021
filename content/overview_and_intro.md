@@ -54,96 +54,84 @@ There are two aspect of this class that will require your time and attention.
 **Protocol Assignments**: Most weeks I will post an assignment activity that you or your group are to complete. The requirements and effort for completing these, as I said earlier, will be variable. These assignments are in service of a final project deliverable. By combining these different assignments you can create a rather comprehensive protocol that will be valuable to your professional portfolio (more below). You can share the protocol assignments with me in advance of our weekly meeting for feedback. I will give you explicit directions on how to do this.
 
 ## Topic Overview
-| Week | Topic                                   | Exercise                                                                                              | Protocol Assignment                                                                                                                                              |
-|------|-----------------------------------------|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0    | Class Introduction                      | Read Syllabus                                                                                         | None                                                                                                                                                             |
-| 1    | Tables, Trees, and Triples              | [Cookie Recipes](https://nniiicc.github.io/LIS-598-DC2-Sp2020/tables-trees-and-triples.html#exercise) | [Data Pitch](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#pre-protocol-assignment-data-pitch)                                           |
-| 2    | Tidy Data                               | [Messy recipe data](https://nniiicc.github.io/LIS-598-DC2-Sp2020/tidy-data.html#exercise-1)           | [Definition and Scope](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-0-project-definition-scope-and-audience)                 |
-| 3    | Data Integration                        | [311 data](https://nniiicc.github.io/LIS-598-DC2-Sp2020/data-integration.html#exercise-2)             | [User Stories](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-1-user-stories-use-cases)                                        |
-| 4    | Data Packaging                          | Data Curator Demo - See coursebook                                                                    | [Data Collection Policies](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-2-data-collection-policies)                          |
-| 5    | Repository Architectures                | TBD                                                                                                   | [Repository Selection](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-3-repository-architectures)                              |
-| 6    | Data Acquisition, Search, and Discovery | APIs - See coursebook                                                                                 | [Data Transformations and Quality](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-4-data-transformations-and-quality-criteria) |
-| 7    | Metadata Application Profiles           | None                                                                                                  | [MAPs](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-6-metadata-application-profiles)                                         |
-| 8    | Ontologies and Linked Data              | None                                                                                                  | [Data Licenses](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-5-data-licensing)                                               |
-| 9    | Emerging Topics                         | None                                                                                                  | Presentation (optional)                                                                                                                                          |                                                |
-
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
 <div class="tg-wrap"><table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax">Week</th>
-    <th class="tg-0lax">Topic</th>
-    <th class="tg-0lax">Exercise</th>
-    <th class="tg-0lax">Protocol Assignment</th>
+    <th class="tg-1wig">Week</th>
+    <th class="tg-1wig">Topic</th>
+    <th class="tg-1wig">Exercise</th>
+    <th class="tg-1wig">Protocol Assignment</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Class Introduction</td>
+    <td class="tg-0lax">Read Syllabus</td>
+    <td class="tg-0lax">None</td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Tables, Trees, and Triples</td>
+    <td class="tg-0lax">Cookie Recipes</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/02_assignment_data_pitch" target="_blank" rel="noopener noreferrer">Data Pitch</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Tidy Data</td>
+    <td class="tg-0lax">Messy Recipe Data</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/03_assignment_statement_of_work" target="_blank" rel="noopener noreferrer">Definition, Scope, Audience</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">4</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Data Integration</td>
+    <td class="tg-0lax">311 Data</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/04_assignment_users_and_uses" target="_blank" rel="noopener noreferrer">User Stories</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Data Packaging</td>
+    <td class="tg-0lax">Data Curator Demo</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/05_assignment_collection_policies" target="_blank" rel="noopener noreferrer">Data Collection Policies</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Repository Architectures</td>
+    <td class="tg-0lax">None</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/09_assignment_repo_arch_OPTIONAL" target="_blank" rel="noopener noreferrer">Repository Architectures</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">7</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Data Acquisition, Search, and Discovery</td>
+    <td class="tg-0lax">APIs</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/06_assignment_transformations_and_quality" target="_blank" rel="noopener noreferrer">Data Transformations and Quality</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Metadata Application Profiles</td>
+    <td class="tg-0lax">None</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/08_assignment_metadata" target="_blank" rel="noopener noreferrer">Metadata Application Profiles</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Ontologies and Linked Data</td>
+    <td class="tg-0lax">None</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/07_assignment_licensing" target="_blank" rel="noopener noreferrer">Data Licensing</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Emerging Topics</td>
+    <td class="tg-0lax">None</td>
+    <td class="tg-0lax">Presentations</td>
   </tr>
 </tbody>
 </table></div>

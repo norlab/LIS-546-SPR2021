@@ -31,22 +31,22 @@ The idea of a "table" comes from the Edgar Codd's relational data model (1969) w
 
 Most of the graphical user interfaces (GUIs) that provide access to information in our lives - from mobile apps to library catalogues - are driven by databases that further hide this logical model from end users. We don't need to know anything about the schema in Zappos' database to know that if we select `brand - converse` and `color-black` and `size-7.5` we can locate our new Chuck Taylor All Stars for summer.
 
-Excel - and before that [Lotus 1-2-3](https://en.wikipedia.org/wiki/Lotus_1-2-3) - are undeniably the most interesting mix of a graphical user interface and a database that allows us to easily create tables of information (or spreadsheets) that mirror the relational model of data management. While Excel doesn't easily facilitate the linking of tables to one another, it still gives us the structuring power of the table in terms of columns, rows, and values. And like a database this allows end users to abstract away from the physical level of data storage.
+Excel - and before that [Lotus 1-2-3](https://en.wikipedia.org/wiki/Lotus_1-2-3) - are undeniably the most interesting mix of a graphical user interface and a database that allows us to easily create tables of information (or spreadsheets) that mirror the relational model of data management. While Excel doesn't easily facilitate the linking of tables to one another (though it tries to mimic this with worksheets within workbooks), it still gives us the structuring power of the table in terms of columns, rows, and values. And like a database this allows end users to abstract away from the physical level of data storage.
 
-What tables are good for is obvious - They help provide a structure for related observations or instances of a thing. But, tables are not well suited for expressing logical structures that go beyond simple observed instances. A simpler way to put that is a database, in being based on a rigid first-order predicate logic, doesn't handle nuance well.
+What tables are good for is obvious - They help provide a structure for related observations or instances of a thing. But, tables are not well suited for expressing logical structures that go beyond simple observed instances. Put simply, a database, in being based on a rigid first-order predicate logic, doesn't handle nuance well.
 
 ## Trees
-A declarative markup language is quite literally built for expressing nuance. Charles Goldfarb in 1981 developed the notion of a descriptive markup language that could, in ways similar to the relational data model, allow for complex information to be expressed at the logical level, but not require that users know anything about physical storage. A markup language, like HTML or XML, structures data in a hierarchical fashion. It depends upon a schema - which defines an element or tag set -  and the application of tags to give structure to our data (values).
+A declarative markup language is quite literally built for expressing nuance. Charles Goldfarb in 1981 developed the notion of a descriptive markup language that could, in ways similar to the relational data model, allow for complex information to be expressed at the logical level, but not require that users know anything about physical storage. A markup language, like HTML or XML, structures data in a hierarchical fashion. It depends upon a schema - which defines an element or tag set - and the application of tags to give structure to our data (values).
 
 A markup language can therefore express complex relationships through its schema and structuring of information. And this logic - the hierarchy that will be defined by our schema - in turn allows physical levels of information storage that are, relatively, efficient at retrieving complex information.
 
-Let's use an example from William Blake's poem 'The Sick Rose' from the anthology 'Songs of Experience'
+Let's use an example from William Blake's poem "The Sick Rose" from the anthology *Songs of Experience*.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Songs_of_innocence_and_of_experience%2C_page_39%2C_The_Sick_Rose_%28Fitzwilliam_copy%29.png/800px-Songs_of_innocence_and_of_experience%2C_page_39%2C_The_Sick_Rose_%28Fitzwilliam_copy%29.png)
 
 Our computers can easily render this JPG, but they cannot easily process or make sense of the data of this poem (stanzas, lines, or words). Putting this type of information into a database also doesn't make a sense. What would we even call an attribute, or a value of this instance?  
 
-Writing an XML schema that defines properties of Blake's work -  like anthology, poem, stanza, and line - will allow us to create a structured data representation of the poem that can be easily be stored and retrieved at the physical level.
+Writing an XML schema that defines properties of Blake's work - like anthology, poem, stanza, and line - will allow us to create a structured data representation of the poem that can be easily be stored and retrieved at the physical level.
 
 ```
 <anthology> 
@@ -72,7 +72,7 @@ The XML tree provides for relations between data both through the schema, and th
 The tag that closes the poem and contains a note `<!-- more poems go here -->` is important. This hints at the idea that we can add more poems with more lines to the anthology markup by simply using the pre-defined schema. So, similar to a table we have the ability through logic to relate data to one another, but we also gain the ability to use the syntax and nesting to further refine and express relationships between data that are hierarchical. The ability to express relationships in structured text is what makes a hierarchical form like a tree so valuable for publishing electronic content.
 
 ## Data Independence
-What I've been describing in the tables and trees sections thus far  - this idea of abstracting away from physical storage to a logical level of data structuring - is the concept of **Data Independence**.
+What I've been describing in the tables and trees sections thus far - this idea of abstracting away from physical storage to a logical level of data structuring - is the concept of **Data Independence**.
 
 By organizing data at a logical level, either through relations or element sets based on a pre-defined schema, we can easily add new data or new relations without having to rewrite our entire database system (or our XML schema). That is, data independence is the ability to present the stored information (at the physical level) in different ways to different users. So we can offload the organization and structure to a general schema, and we can then build rich graphic user interfaces that display the data any way we choose. Data independence also means that we can easily modify and update applications that depend on this structured schema, and minimally impact end-users that interact with a graphic user interface. Both tables and trees make this logical level data independence possible, and allow data to grow (or scale) more or less infinitely.
 

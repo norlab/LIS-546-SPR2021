@@ -245,18 +245,16 @@ For a bit of historical background, Ch 1 of this book (pages 1-13) provides an e
 - Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://github.com/OpenDataLiteracy/LIS-598-Sp2020-DC2/blob/master/Readings/Data-on-the-Web-Skeleton.pdf)
 
 <h2><a id="Exercise">Exercise</a></h2>
-Chances are if you are living under quarantine (Spoiler: We all are!) you have taken up a new hobby to preoccupy yourself. Maybe this is something productive like knitting or pilates. Maybe it is something like baking sourdough bread (Spoiler: So is the rest of the internet!). 
+In preparation for our class on `Tidy Data` next week we will attempt to add some structure to a rather innocuous piece of information that is published to the web and that maybe you've encountered even more frequently during COVID-19 quarantine: Chocolate Chip Cookie Recipes.
 
-In preparation for our class on `Tidy Data` next week we will attempt to add some structure to a rather innocuous piece of information that is published to the web and that you're likely to be encountering with your new found quarantine hobby: Chocolate Chip Cookie recipes.
+This [infographic](https://d3vjjov8ymzzxi.cloudfront.net/chefsteps-com-files/chefsteps-cookie-table.pdf) from ChefSteps provides a "parametric" explanation of different approaches to making a chocolate chip cookie (Credit to [Jenny Bryan](https://jennybryan.org/about/), who pointed out this example and provided the data we will use next week in our `Tidy Data` exercise.)
 
-This [infographic](https://d3vjjov8ymzzxi.cloudfront.net/chefsteps-com-files/chefsteps-cookie-table.pdf) from ChefSteps provides a "parametric" explanation of different approaches to making a chocolate chip cookie ^[[Jenny Bryan](https://jennybryan.org/about/) pointed out this example and provided the data we will use next week in our `Tidy Data` exercise].
-
-Your excercise for this week is to look at the infographic, choose one cookie, and create a table for that cookie's recipe. 
+Your exercise for this week is to look at the infographic, choose one cookie, and create a table for that cookie's recipe. 
 
 Some things to keep in mind: 
 
 - Decide how you would structure the information in this graphic so that it could be interpretable in a table form. (Rows, Columns, and Values) 
-- Each cookie has set of attributes and values that could follow a schema. You don't have to create the schema this week, just focus on structuring a recipe for a single cookie. 
+- Each cookie has a set of attributes and values that could follow a schema. You don't have to create the schema this week, just focus on structuring a recipe for a single cookie. 
 - There is already a good deal of structure to this data, but there are some very strange and confusing choices in the values that will complicate this activity. Take note of those. 
-- On the canvas forum, share your table with us, and explain what was easy or hard about creating the table. You can share the table in whatver form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, etc.)
+- On the canvas forum, share your table with the class, and explain what was easy or hard about creating the table. You can share the table in whatever form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, post a .jpg of your hand-drawn table, etc.)
 

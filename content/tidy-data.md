@@ -47,12 +47,12 @@ The following tidy data table includes characters appearing in a Lewis Caroll [n
   </tr>
   <tr>
     <td class="tg-0lax">Bruno</td>
-    <td class="tg-0lax">22</td>
+    <td class="tg-0lax">22 years</td>
     <td class="tg-0lax">61 inches</td>
   </tr>
   <tr>
     <td class="tg-0lax">Sylvie</td>
-    <td class="tg-0lax">23</td>
+    <td class="tg-0lax">23 years</td>
     <td class="tg-0lax">62 inches</td>
   </tr>
 </table>
@@ -74,9 +74,9 @@ In working downstream, there are some additional data transformations that are h
 
 ## Pivoting data
 
-A pivot table is commonly used to summarize data in some statistical way so as to reduce or summarize information that may be included a single table. In describing the "pivot" as it applies to a tidy dataset, there are two common problems that this technique can help solve.  
+A pivot table is commonly used to summarize data in some statistical way so as to reduce or summarize information that may be included in the original table. In describing the "pivot" as it applies to a tidy dataset, there are two common problems that this technique can help solve.  
 
-First, a variable is often inefficently **"spread"** across multiple columns. For example, we may have the observation of a country and a variable like GDP that is represented annualy. Our dataset could look like this:
+First, a variable is often inefficently **"spread"** across multiple columns. For example, we may have the observation of a country and a variable like GDP that is represented annually. Our dataset could look like this:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

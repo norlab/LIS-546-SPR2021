@@ -17,13 +17,13 @@ The foundation of Wickham's "Tidy Data" relies upon a definition of a dataset wh
 
 - A collection of **values**, and each value has a corresponding observation (row) and variable (column).
 - A **variable** (column), contains values that measure the same attribute (or property) across all observations.
-- An **observation**, contains all values (measured with the same unit) across all variables
+- An **observation**, contains all values (measured with the same unit) across all variables.
 
 More simply, for any given table we associate one observation with one or more variables. Each variable has a standard unit of measurement for its values.  
 
 ![](https://raw.githubusercontent.com/OpenDataLiteracy/LIS-598-Sp2020-DC2/master/Images/TidyData-Pic.png)
 
-This image depicts the structure of a tidy dataset ^[This image is from the open access textbook [R for Data Science](https://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure)].
+This image depicts the structure of a tidy dataset. ([This image is from the open access textbook [R for Data Science](https://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure).)
 
 The following tidy data table includes characters appearing in a Lewis Caroll [novel](https://en.wikipedia.org/wiki/Sylvie_and_Bruno). The characters are observations, and the variables that we associate with each observation are `Age` and `Height`. Each variable has a standard unit of measurement.
 

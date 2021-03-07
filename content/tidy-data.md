@@ -378,7 +378,7 @@ Gathering variables is the exact opposite of separating - instead of having mult
   </tr>
 </table>
 <br>  
-In this dataset we have a very granular representation of time. If as data curators we wanted to represent time using a common standard like [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Times) (and we would, because we're advocates of standardization) then we need to gather these three distinct variables into one single variable. This gathering transformation will represent, in a standard way, when the species was observed (Yes, this frog's common name is ["Bruno's casque-headed frog"](https://en.wikipedia.org/wiki/Bruno%27s_casque-headed_frog) - I have no idea whether or not this is related to the Lewis Caroll novel, but I like continuity).
+In this dataset we have a very granular representation of time. If as data curators we wanted to represent time using a common standard like [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Times) (and we would, because we're advocates of standardization) then we need to gather these three distinct variables into one single variable. This gathering transformation will represent, in a standard way, when the species was observed (Yes, this frog's common name is ["Bruno's casque-headed frog"](https://en.wikipedia.org/wiki/Bruno%27s_casque-headed_frog) - I have no idea whether or not this is related to the Lewis Caroll novel, but I like continuity.)
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -419,9 +419,9 @@ As I said in opening this section - the assumptions we make in tidying data are 
 
 For the purposes of this class, using tidy data principles in a specific programming language is not necessary. Simply understanding common transformations and principles are all that we need to start curating tidy data.
 
-But, it is worth knowing that the tidy data principles have been implemented in a number of executable libraries using `R`. This includes the suite of libraries known as the [tidyverse](https://www.tidyverse.org/). A nice overview of what the tidyverse libraries make possible working with data in `R` is summarized in this [blogpost](https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/) by Joseph Rickert.
+But, it is worth knowing that the tidy data principles have been implemented in a number of executable libraries using `R`. This includes the suite of libraries known as the [tidyverse](https://www.tidyverse.org/). A nice overview of what the tidyverse libraries make possible working with data in `R` is summarized in this [blogpost](https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/) by Joseph Rickert. (*Note from Bree:* I love `R` and use it everyday!)
 
-There are also a number of beginner tutorials and [cheat-sheets](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.pdf) available to get started. If you come from a database background, I particularly like this [tutorial](https://idc9.github.io/stor390/notes/tidy_data/tidy_data.html#relational_data_and_joining_tables) on tidy data applied to the relational model by my colleague [Iain Carmichael](https://idc9.github.io/).
+There are also a number of beginner [tutorials](https://education.rstudio.com/learn/beginner/) and [cheat-sheets](https://rstudio.com/resources/cheatsheets/) available to get started. If you come from a database background, I particularly like this [tutorial](https://idc9.github.io/stor390/notes/tidy_data/tidy_data.html#relational_data_and_joining_tables) on tidy data applied to the relational model by my colleague [Iain Carmichael](https://idc9.github.io/).
 
 ## Extending Tidy Data Beyond the Traditional Observation   
 Many examples of tidy data, such as the ones above, depend upon discrete observations that are often rooted in statistical evidence, or a scientific domain. Qualitative and humanities data often contain unique points of reference (e.g. notions of place rather than mapped coordinates), interpreted factual information (e.g. observations to a humanist mean something very different than to an ecologist), and a need for granularity that may seem non-obvious to the tidy data curator.

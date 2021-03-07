@@ -3,16 +3,8 @@ layout: page
 title: Project
 permalink: /project/
 ---
-<h2>Overview &amp; Requirements</h2>
-<p>
-    <span style="background-color: #999999;">
-        <span style="background-color: #ffff99;">(Note this assignment is describe in detail on the course <strong>
-                <a style="background-color: #ffff99;" href="https://norlab.github.io/LIS-546-SPR2021/project/" target="_blank" rel="noopener">website</a>
-            </strong> with individual pieces of the assignment linked from this <strong>
-                <a class="instructure_file_link inline_disabled" href="https://norlab.github.io/LIS-546-SPR2021/assignments/" target="_blank" rel="noopener">page</a>.)
-            </strong></span>
-    </span>
-</p>
+<h2>Overview &amp; Requirements for Final Deliverable</h2>
+
 <p>A protocol is like a recipe - it tells you what ingredients, tools, and steps are necessary to produce an end result. So just as you would follow a recipe to bake a cake, you might also follow a protocol to archive, share, or reuse data.&nbsp;In Data Curation I you created a simple protocol for a single dataset. In Data Curation II we have significantly more knowledge and skills to develop a more robust curation protocol. Over the course of the quarter you will complete a group or individual project focused on developing a robust protocol for curating a collection of open data. The topic, the audience, the type of data, and the curation tools required are all up for you to decide (note: I provide some examples below).&nbsp;</p>
 <p><strong>Goals</strong></p>
 <ul>

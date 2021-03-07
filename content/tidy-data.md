@@ -4,11 +4,11 @@ layout: default
 # Tidy Data
 
 ## Chapter
-The idea of "tidy data" underlies principles in data management, and database administration that have been around for decades. In 2014, Hadley Wickham started to formalize some of these rules in what he called "Principles for Tidy Data."
+The idea of "tidy data" underlies principles in data management, and database administration that have been around for decades. In 2014, Hadley Wickham started to formalize some of these rules in what he called "Principles for Tidy Data." [PDF](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 These principles are focused mainly on how to follow some simple conventions for structuring data in a matrix (or table) to use in the statistical programming language `R`.
 
-In this chapter, I am going to give an overview of tidy data principles as they relate to data curation, but also try to extend "tidy data" to some of the underlying principles in organizing, managing, and preparing all kinds of structured data for meaningful use. This chapter also sets up a forthcoming chapter on "tidy metadata".
+In this module, I am going to give an overview of tidy data principles as they relate to data curation, but also try to extend "tidy data" to some of the underlying principles in organizing, managing, and preparing all kinds of structured data for meaningful use. This module also sets up a forthcoming chapter on "tidy metadata".
 
 
 ### Tidy Data Principles

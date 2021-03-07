@@ -5,7 +5,7 @@ layout: default
 **Original Author: Nic Weber**  
 **Editing & Updates: Bree Norlander**  
   
-### Introduction
+## Introduction
 Susan Leigh Star once famously wrote that "Information science is the study of boring things." (Star, 2002) [PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.19.7523&rep=rep1&type=pdf). She meant this in loving way. As a field of practitioners and researchers we're concerned with the organization and encoding of information, as well as the standards and practices that govern reliable knowledge production. This requires us to study and become versant in particular "boring" details of how information is represented within broader information systems and infrastructures. An information infrastructure is, by Starr's account, highly relational. Information and infrastructures mean different things to different people at different points in time. Data is no different. In fact, there is a soundbite that you may come across in the data curation community that goes like this:
 
 > One person's metadata is another person's data.
@@ -14,21 +14,20 @@ This quote is getting at exactly what Star meant by the relational nature of inf
 
 Given the fundamental relational nature of data we should start the course off by thinking about how to make decisions about ways data should be represented and made accessible to users. Because, if we accept that choices we make in how to structure, represent, and format data in turn shape access and use, then there must be some guiding principles, or at least an explanation that helps us make sense of these different choices. Indeed, there are a many different paradigmatic ways to approach the relational nature of data. [Weber's] mentor Allen Renear, along with Elizabeth Wickes and Andrea Thomer, have nicely summarized this data concept as being about the abstractions afforded by using "Tables, Trees, or Triples." This first module unpacks some of their ideas and helps frame our course.
 
-### Levels of abstraction
+## Levels of abstraction
 
 Let's begin with an anecdote about a "thing" or an "instance" of a thing that is made into data.
 
-An ecology graduate student sitting in the Brazilian Atlantic rainforest biome observes a species of a frog. Not just any frog, an [Adenomera](https://amphibiaweb.org/species/3299) of the genus leptodactylid. She makes a mark of the observation in her field notebook. A while later she observes another Adenomera. She makes a similar mark in her field notebook. But, now she also makes a third mark - observing the pattern dispersion in a 4x4 meter box where the observations occur. She further records some metadata that includes the lattitude and longitude of the observations, as well as the time of her observations ^[This is an actual observation you find the data described in [this paper](https://www.researchgate.net/profile/Mauricio_Almeida-Gomes/publication/233597154_Ecological_observations_on_the_leaf-litter_frog_Adenomera_marmorata_in_an_Atlantic_rainforest_area_of_southeastern_Brazil/links/5609b1a608ae840a08d41315/Ecological-observations-on-the-leaf-litter-frog-Adenomera-marmorata-in-an-Atlantic-rainforest-area-of-southeastern-Brazil.pdf)].
+An ecology graduate student sitting in the Brazilian Atlantic rainforest biome observes a species of a frog. Not just any frog, an [Adenomera](https://amphibiaweb.org/species/3299) of the genus leptodactylid. She makes a mark of the observation in her field notebook. A while later she observes another Adenomera. She makes a similar mark in her field notebook. But, now she also makes a third mark - observing the pattern dispersion in a 4x4 meter box where the observations occur. She further records some metadata that includes the lattitude and longitude of the observations, as well as the time of her observations. (This is an actual observation you will find described in [this paper](https://www.researchgate.net/profile/Mauricio_Almeida-Gomes/publication/233597154_Ecological_observations_on_the_leaf-litter_frog_Adenomera_marmorata_in_an_Atlantic_rainforest_area_of_southeastern_Brazil/links/5609b1a608ae840a08d41315/Ecological-observations-on-the-leaf-litter-frog-Adenomera-marmorata-in-an-Atlantic-rainforest-area-of-southeastern-Brazil.pdf).)
 
 The data that our intrepid ecology graduate student has collected is made portable by her taking the field notebook back to her lab, and entering the data into a computer. But, she has a decision to make: How should she enter that data in her computer? Should she open an Excel sheet and begin structuring the data into rows and columns? Should she fire up MySQL and create a new database table? Maybe she is in a hurry and simply wants to write up her fieldnotes in a plain text file and go have a beer.
 
-The choices she makes in this brief instance are what transforms her observations from the **conceptual level** of "a thing that happened in the world" to the **logical level** of how data that are structured with a standard, or non-standard schema. Our computers further abstract this data into a **physical level** where the data are *encoded* or made machine interpretable as files, and bits (1s and 0s) written to a disk.
+The choices she makes in this brief instance are what transforms her observations from the **conceptual level** of "a thing that happened in the world" to the **logical level** of how that data are structured with a standard, or non-standard schema. Our computers further abstract this data into a **physical level** where the data are *encoded* or made machine interpretable as files, and bits (1s and 0s) written to a disk.
 
 These three levels - the conceptual, logical, and physical - are all related to the idea of abstraction. We abstract away from the messiness of the conceptual world by using logic that structures information in physical storage and retrieval hardware. The choices made at the logical level will have profound consequences for later reuse. And while our ecology graduate student has many choices available to her (will she or will she not go have that beer?) at the logical level of data representation her choices typically break down into three categories: Tables, trees, or triples.
 
-### Tables
-The idea of a 'table' comes from the Edgar Codd's relational data model (1967) where first-order predicate logic is used to express ordered lists of related instances (tables), as well as relations between tables (the database) ^[A bit of background on Codd's model: The relational database was born out of necessity. In the late 1960's as governments and businesses started to move much of their data gathering into a digital (or qusi-digital) form for computers to interact with there were many idiosyncratic ways of doing so. Each different way depended upon the computing environments, and the organizations that were storing data. To a computer scientist this was chaos. And to Edgar Codd there was a simple and elegant solution: Tables. The relational model for database management is a structure and language consistent with first-order predicate logic - it conceives of `tuples` (ordered lists of data) grouped into relations. In short, the relational model is "a declarative method for specifying data and queries: users directly state what information the database contains and what information they want from it, and let the database management system software take care of describing data structures for storing the data and retrieval procedures for answering queries." In other words, a user should simply structure the data (tuples) in terms of rows and columns, and use a simple logic to declare how those rows and columns relate to one another. How simple: Tables are relations of data and databases are relations of tables.
-]. In this way, tables give structure to data through a column (an attribute), a row (an observed instance) and a value (the data represented as a number, text string, category, etc.).  The power of the relational approach to structuring data is that we can store large amounts of information, and depend on querying syntax to retrieve subsets or "views" of the data. End users don't need to know anything about data at the physical level, they only need to know enough about the logical representation of the data (some attributes) in order to find what they're looking for.
+## Tables
+The idea of a "table" comes from the Edgar Codd's relational data model (1969) where first-order predicate logic is used to express ordered lists of related instances (tables), as well as relations between tables (the database). A bit of background on Codd's model: The relational database was born out of necessity. In the late 1960's as governments and businesses started to move much of their data gathering into a digital (or quasi-digital) form for computers to interact with there were many idiosyncratic ways of doing so. Each different way depended upon the computing environments, and the organizations that were storing data. To a computer scientist this was chaos. And to Edgar Codd there was a simple and elegant solution: Tables. The relational model for database management is a structure and language consistent with first-order predicate logic - it conceives of `tuples` (ordered lists of data) grouped into relations. In short, the relational model is "a declarative method for specifying data and queries: users directly state what information the database contains and what information they want from it, and let the database management system software take care of describing data structures for storing the data and retrieval procedures for answering queries." [Wikipedia](https://en.wikipedia.org/wiki/Relational_model) In other words, a user should simply structure the data (tuples) in terms of rows and columns, and use a simple logic to declare how those rows and columns relate to one another. How simple: Tables are relations of data and databases are relations of tables. In this way, tables give structure to data through a column (an attribute), a row (an observed instance) and a value (the data represented as a number, text string, category, etc.). The power of the relational approach to structuring data is that we can store large amounts of information without redundancy, and depend on querying syntax to retrieve subsets or "views" of the data. End users don't need to know anything about data at the physical level, they only need to know enough about the logical representation of the data (some attributes) in order to find what they're looking for.
 
 Most of the graphical user interfaces (GUIs) that provide access to information in our lives - from mobile apps to library catalogues - are driven by databases that further hide this logical model from end users. We don't need to know anything about the schema in Zappos' database to know that if we select `brand - converse` and `color-black` and `size-7.5` we can locate our new Chuck Taylor All Stars for summer.
 
@@ -36,7 +35,7 @@ Excel - and before that [Lotus 1-2-3](https://en.wikipedia.org/wiki/Lotus_1-2-3)
 
 What tables are good for is obvious - They help provide a structure for related observations or instances of a thing. But, tables are not well suited for expressing logical structures that go beyond simple observed instances. A simpler way to put that is a database, in being based on a rigid first-order predicate logic, doesn't handle nuance well.
 
-### Trees
+## Trees
 A declarative markup language is quite literally built for expressing nuance. Charles Goldfarb in 1981 developed the notion of a descriptive markup language that could, in ways similar to the relational data model, allow for complex information to be expressed at the logical level, but not require that users know anything about physical storage. A markup language, like HTML or XML, structures data in a hierarchical fashion. It depends upon a schema - which defines an element or tag set -  and the application of tags to give structure to our data (values).
 
 A markup language can therefore express complex relationships through its schema and structuring of information. And this logic - the hierarchy that will be defined by our schema - in turn allows physical levels of information storage that are, relatively, efficient at retrieving complex information.
@@ -72,7 +71,7 @@ The XML tree provides for relations between data both through the schema, and th
 
 The tag that closes the poem and contains a note `<!-- more poems go here -->` is important. This hints at the idea that we can add more poems with more lines to the anthology markup by simply using the pre-defined schema. So, similar to a table we have the ability through logic to relate data to one another, but we also gain the ability to use the syntax and nesting to further refine and express relationships between data that are hierarchical. The ability to express relationships in structured text is what makes a hierarchical form like a tree so valuable for publishing electronic content.
 
-### Data Independence
+## Data Independence
 What I've been describing in the tables and trees sections thus far  - this idea of abstracting away from physical storage to a logical level of data structuring - is the concept of **Data Independence**.
 
 By organizing data at a logical level, either through relations or element sets based on a pre-defined schema, we can easily add new data or new relations without having to rewrite our entire database system (or our XML schema). That is, data independence is the ability to present the stored information (at the physical level) in different ways to different users. So we can offload the organization and structure to a general schema, and we can then build rich graphic user interfaces that display the data any way we choose. Data independence also means that we can easily modify and update applications that depend on this structured schema, and minimally impact end-users that interact with a graphic user interface. Both tables and trees make this logical level data independence possible, and allow data to grow (or scale) more or less infinitely.
@@ -81,7 +80,7 @@ The following image depicts the relationship between the concepts we've been tal
 
 ![](https://raw.githubusercontent.com/nniiicc/LIS545-Wi2020/master/Simpsons-Abstractions.jpg)
 
-### Trees and Tables
+## Trees and Tables
 You may have left the last section thinking to yourself, "If the syntax of a markup language affords us so much expressive power, why not use a markup language like XML for all data?"
 
 What we gain expressive power from a markup language comes at the expense of computational tractability. The more syntax we have to write to define how and where a set of data are interpreted by our computers at the physical level, the more difficult and expensive it will be to retrieve that data.  
@@ -199,7 +198,7 @@ But, what XML sacrifices in computational tractability and independence it makes
 
 To reiterate something you're going to get sick of me saying: The tradeoffs in choosing between XML and JSON, or really any logical level data abstraction, are about balancing the need for tractability and expressivity. For textual data that contains many nuances implied in the semantic content, we want to choose something like XML. When we need to privilege fast computation (e.g. retrieval) and data independence then we are more likely to choose something like JSON. Neither approach is right or wrong, but each choice comes at a cost.
 
-### Triples
+## Triples
 In thinking about differences between tables and trees - we recognize that each has certain affordances and limitations. In describing the affordances of a markup language for trees I stressed it's "semantic" power by saying:
 
 > our computers don't just think "this is a member of a list" but instead our computers know "this is a member of the simpsons, that has the property 'first-name' and the value 'Homer'".
@@ -219,14 +218,14 @@ Do you anticipate a "but..." coming?]Do you anticipate a "but..." coming?]. But,
 
 We will return to the concept of the Semantic Web and RDF in the 9th week of class, but its helpful to have this logical level data reprenseation in mind as we work through the quarter. In part, because RDF and the Semantic Web are an emergent way of curating data to provide meaning for end users. At the same time, the Semantic Web has been "five years away" since 1998.    
 
-### Summary
+## Summary
 In this chapter I introduced a number of concepts. Here's a brief review:
 
 - Levels of abstraction. These include a separation between how we represent data in terms of concepts, logic, and physical storage (See Figure 1 for a quick overview).
 - Data Independence is the ability to separate data encodings from the logical level where it is managed and made accessible to users. By making data independent from its storage we can easily modify, and add data at the logical level.
 - Notation languages, such as XML, JSON, and RDF all have tradeoffs. In DC 1 we described these tradeoffs in terms of expressivity and tractability. In DC 2 we introduce the idea of "intelligence" to data representation, but we hold this at arms length because it comes at such a high curation cost.
 
-## Lecture
+# Lecture
 
 <iframe width=853 height=482 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYfQcuavjV&v=5&ff=1" allowfullscreen="true"></iframe>
 

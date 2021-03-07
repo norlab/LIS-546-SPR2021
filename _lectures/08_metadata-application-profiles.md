@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-05-17T8:00:00+8:00
-title: Metadata Application Profiles
+title: "Week 8: Metadata Application Profiles"
 tldr: "Introduction to tidy metadata."
 thumbnail: /static_files/presentations/metadata.png
 links: 
@@ -9,6 +9,8 @@ links:
       name: video
     - url: /content/metadata-application-profiles.html
       name: content
+    - url: /content/metadata-application-profiles.html#Exercise
+      name: exercise
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/metadata-application-profiles.html)

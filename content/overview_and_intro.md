@@ -160,7 +160,8 @@ I wouldn't be teaching this course without the support of Nicholas Weber and Car
   
    
 # Data Curation II - Introduction
-**Author: Nic Weber (with updating by Bree Norlander)**  
+**Original Author: Nic Weber 
+Editing & Updates: Bree Norlander)**  
 This introduction provides an overview of the conceptual content that we will engage in for DC II. The goal is to refresh your memory about concepts that were covered in DC I and how we will use these ideas throughout DC II.  
 
 ## Types of Knowledge

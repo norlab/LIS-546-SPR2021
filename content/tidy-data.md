@@ -76,7 +76,7 @@ In working downstream, there are some additional data transformations that are h
 
 A pivot table is commonly used to summarize data in some statistical way so as to reduce or summarize information that may be included in the original table. In describing the "pivot" as it applies to a tidy dataset, there are two common problems that this technique can help solve.  
 
-First, a variable is often inefficently **"spread"** across multiple columns. For example, we may have the observation of a country and a variable like GDP that is represented annually. Our dataset could look like this:
+First, a variable is often inefficently **"spread"** across multiple **columns**. For example, we may have the observation of a country and a variable like GDP that is represented annually. Our dataset could look like this:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -107,7 +107,7 @@ First, a variable is often inefficently **"spread"** across multiple columns. Fo
     <td class="tg-0lax">2.66</td>
   </tr>
 </table>
-
+<br>
 
 The problem with this structure is that the GDP variables are currently represented as annual values. That is, we have variables that are spread out across multiple columns when they could be easily and more effectively included as values for multiple observations.
 
@@ -158,10 +158,11 @@ Our new tidy dataset then looks like this:
     <td class="tg-0lax">2.66</td>
   </tr>
 </table>
+<br>
 
 Our dataset now contains four observations - USA 2016 and 2017 GDP, and UK 2016 and 2017 GDP. What we've done is remove any external information needed to interpret what the data represent. This could, for example, help with secondary analysis when we want to directly plot GDP over time.
 
-The second type of data structuring problem that curators are likely to encounter is when one observation is **scattered** across multiple rows. This is the exact opposite of the problem that we encountered with spreading variables across multiple columns. In short, the problem with having multiple observations scattered across rows is that we're duplicating information by confusing a variable for a value.
+The second type of data structuring problem that curators are likely to encounter is when one observation is **scattered** across multiple **rows**. This is the opposite of the problem that we encountered with variables spread across multiple columns. In short, the problem with having multiple observations scattered across rows is that we're duplicating information by confusing a variable for a value.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -181,33 +182,34 @@ The second type of data structuring problem that curators are likely to encounte
     <th class="tg-fymr">Country</th>
     <th class="tg-fymr">Year</th>
     <th class="tg-fymr">Type</th>
-    <th class="tg-fymr">Count</th>
+    <th class="tg-fymr">Value</th>
   </tr>
   <tr>
     <td class="tg-0lax">USA</td>
     <td class="tg-0lax">2016</td>
     <td class="tg-0lax">GDP</td>
-    <td class="tg-0lax">18.71 trillion</td>
+    <td class="tg-0lax">18.71 trillion dollars</td>
   </tr>
   <tr>
     <td class="tg-0lax">USA</td>
     <td class="tg-0lax">2016</td>
     <td class="tg-0lax">Population</td>
-    <td class="tg-0lax">323.1 million</td>
+    <td class="tg-0lax">323.1 million people</td>
   </tr>
   <tr>
     <td class="tg-0lax">UK</td>
     <td class="tg-0lax">2016</td>
     <td class="tg-0lax">GDP</td>
-    <td class="tg-0lax">2.69 trillion</td>
+    <td class="tg-0lax">2.69 trillion dollars</td>
   </tr>
   <tr>
     <td class="tg-0lax">UK</td>
     <td class="tg-0lax">2016</td>
     <td class="tg-0lax">Population</td>
-    <td class="tg-0lax">65.38 million</td>
+    <td class="tg-0lax">65.38 million people</td>
   </tr>
 </table>
+<br>
 
 To tidy this kind of dataset we will use a **wide pivot**. We will restructure the data so that each column corresponds with a variable, and each variable contains a value.  
 
@@ -244,8 +246,9 @@ To tidy this kind of dataset we will use a **wide pivot**. We will restructure t
     <td class="tg-0lax">65.38</td>
   </tr>
 </table>
+<br>
 
-Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations - In the first dataset we had to declare, in the value, the standard unit of measurement. GDP and Population are measured in the trillions and millions respectively. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values.
+Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the value, the standard unit of measurement. GDP and Population are measured in the trillions and millions respectively. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values.
 
 In sum, the pivot works to either:
 

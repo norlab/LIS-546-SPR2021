@@ -9,6 +9,8 @@ links:
       name: video
     - url: /content/overview_and_intro.html
       name: content
+    - url: /content/overview_and_intro.html#Exercise
+      name: exercise
 
 ---
 **Required Reading:**

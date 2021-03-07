@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-05-24T8:00:00+8:00
-title: Linked Data
+title: "Week 9: Linked Data"
 tldr: "Introducing some working definitions and providing an overview of concepts related to linked data and the promise, but ultimate failure of the semantic web."
 thumbnail: /static_files/presentations/linked.png
 links: 
@@ -9,6 +9,8 @@ links:
       name: video
     - url: /content/linked-data.html
       name: content
+    - url: /content/linked-data.html#Exercise
+      name: exercise
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/linked-data.html)

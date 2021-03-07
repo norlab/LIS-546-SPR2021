@@ -244,7 +244,7 @@ For a bit of historical background, Ch 1 of this book (pages 1-13) provides an e
 
 - Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://github.com/OpenDataLiteracy/LIS-598-Sp2020-DC2/blob/master/Readings/Data-on-the-Web-Skeleton.pdf)
 
-## Exercise
+<a id="Exercise"><h2>Exercise</h2></a>
 Chances are if you are living under quarantine (Spoiler: We all are!) you have taken up a new hobby to preoccupy yourself. Maybe this is something productive like knitting or pilates. Maybe it is something like baking sourdough bread (Spoiler: So is the rest of the internet!). 
 
 In preparation for our class on `Tidy Data` next week we will attempt to add some structure to a rather innocuous piece of information that is published to the web and that you're likely to be encountering with your new found quarantine hobby: Chocolate Chip Cookie recipes.

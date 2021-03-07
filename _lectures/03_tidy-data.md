@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-04-12T8:00:00+8:00
-title: Tidy Data
+title: "Week 3: Tidy Data"
 tldr: "Overview of tidy data principles as they relate to data curation, plus extending tidy data to some of the underlying principles in organizing, managing, and preparing all kinds of structured data for meaningful use."
 thumbnail: /static_files/presentations/tidy.png
 links: 

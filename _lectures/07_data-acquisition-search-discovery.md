@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-05-10T8:00:00+8:00
-title: Data Acquisition, Search, and Discovery
+title: "Week 7: Data Acquisition, Search, and Discovery"
 tldr: "A review of the fundamental challenges that data curators face in making data discoverable."
 thumbnail: /static_files/presentations/acq.png
 links: 
@@ -9,6 +9,8 @@ links:
       name: video
     - url: /content/data-acquisition-search-discovery.html
       name: content
+    - url: /content/data-acquisition-search-discovery.html#Exercise
+      name: exercise
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/data-acquisition-search-discovery.html)

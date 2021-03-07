@@ -181,7 +181,7 @@ The second type of data structuring problem that curators are likely to encounte
   <tr>
     <th class="tg-fymr">Country</th>
     <th class="tg-fymr">Year</th>
-    <th class="tg-fymr">Type</th>
+    <th class="tg-fymr">Measure</th>
     <th class="tg-fymr">Value</th>
   </tr>
   <tr>

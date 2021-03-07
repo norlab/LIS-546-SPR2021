@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-05-03T8:00:00+8:00
-title: Repository Architectures
+title: "Week 6: Repository Architectures"
 tldr: "Builds upon Data Curation I discussion of a data repository as a layered architecture for curation."
 thumbnail: /static_files/presentations/arch.png
 links: 
@@ -9,6 +9,8 @@ links:
       name: video
     - url: /content/repository-architectures.html
       name: content
+    - url: /content/repository-architectures.html#Exercise
+      name: exercise
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/repository-architectures.html)

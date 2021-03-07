@@ -9,6 +9,8 @@ links:
       name: video
     - url: /content/tidy-data.html
       name: content
+    - url: /content/tidy-data.html#Exercise
+      name: exercise
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/LIS-546-SPR2021/content/tidy-data.html)

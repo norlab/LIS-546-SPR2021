@@ -9,6 +9,8 @@ links:
       name: video
     - url: /content/tables-trees-triples.html
       name: content
+    - url: /content/tables-trees-triples.html#Exercise
+      name: exercise 
 
 ---
 **Required Readings:**

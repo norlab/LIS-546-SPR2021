@@ -233,8 +233,8 @@ In this chapter I introduced a number of concepts. Here's a brief review:
 ## Readings
 Our readings this week are from the W3C standard for `Data on the Web`. W3C is the World Wide Web Consortium - the main standardization organization for web technologies. In 2017 a working group of experts in data curation came together to develop a set of best practices for structuring, publishing, and making data on the web accessible.  
 
-- Lóscio et al (2017) Data on the Web - Best Practices. https://www.w3.org/TR/dwbp/
-- Read one additional Data on the Web - Use Case from this list: https://www.w3.org/TR/dwbp-ucr/
+- Lóscio et al (2017) Data on the Web - Best Practices: [https://www.w3.org/TR/dwbp/](https://www.w3.org/TR/dwbp/)
+- Read one additional Data on the Web - Use Case from this list: [https://www.w3.org/TR/dwbp-ucr/](https://www.w3.org/TR/dwbp-ucr/)
 
 In future weeks we will use the Data on the Web primer for activities related to our data curation protocol.
 
@@ -242,7 +242,7 @@ In future weeks we will use the Data on the Web primer for activities related to
 
 For a bit of historical background, Ch 1 of this book (pages 1-13) provides an excellent overview of how data were originally made compliant with web standards. The rest of the book also provides a great overview of data models and database integration more generally, but it is very much a lengthy and time intensive read:
 
-- Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://github.com/OpenDataLiteracy/LIS-598-Sp2020-DC2/blob/master/Readings/Data-on-the-Web-Skeleton.pdf)
+- Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/Data-on-the-Web-Skeleton.pdf)
 
 <h2><a id="Exercise">Exercise</a></h2>
 In preparation for our class on `Tidy Data` next week we will attempt to add some structure to a rather innocuous piece of information that is published to the web and that maybe you've encountered even more frequently during COVID-19 quarantine: Chocolate Chip Cookie Recipes.

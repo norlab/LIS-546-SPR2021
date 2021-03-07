@@ -1004,7 +1004,7 @@ Formatting data tables in spreadsheets:
 
 - [Data Carpentry lesson](https://datacarpentry.org/2015-05-03-NDIC/excel-ecology/01-format-data.html)
 
-## Exercise
+<h2><a id="Exercise">Exercise</a></h2>
 Last week we looked at an [infographic](https://d3vjjov8ymzzxi.cloudfront.net/chefsteps-com-files/chefsteps-cookie-table.pdf) from ChefSteps that provided a "parametric" explanation of different approaches to making a chocolate chip cookie. This week - I present to you the [data](https://docs.google.com/spreadsheets/d/11H6XGUWNVAsIbtUHCrjFsk4iLViELHG4CZKmQEyyWSA/edit#gid=0) behind behind this infographic.
 
 This is an incredibly "untidy" dataset. There are a number of ways we could restructure this data so that it follows some best practices in efficient and effective reuse. Your assignment is as follows:

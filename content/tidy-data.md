@@ -248,7 +248,7 @@ It should be obvious that we are not abiding by tidy data principles in *at leas
 </table>
 <br>
 
-Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the `Value`, the unit of measurement. GDP is measure in the trillions of USD and Population is measured in the millions of count of people. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values. (One reason this is important is that the value can have a [data type](https://en.wikipedia.org/wiki/Data_type) that is useful for performing mathematics. Originally, the value was a combination of a number (e.g. type = numeric) and words (e.g. type = string). Most data analysis tools will coerce the entire value into a string/character and the user will not be able to perform calculations.) In this example we have not included the metadata about the variable. Ideally we would have a data dictionary indicating that standard unit of measurement or we would state it explicitly in the column heading. How you indicate the units of measurement will vary depending on your domain and the standard practices in your setting.
+Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the `Value`, the unit of measurement. GDP is measure in the trillions of USD and Population is measured in the millions of count of people. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values. (One reason this is important is that the value can have a [data type](https://en.wikipedia.org/wiki/Data_type) that is useful for performing mathematics. Originally, the value was a combination of a number (e.g. type = numeric) and words (e.g. type = string). Most data analysis tools will coerce the entire value into a string/character and the user will not be able to perform calculations.) In this example we have not included the metadata about the variable. Ideally we would have a data dictionary indicating the standard unit of measurement or we would state it explicitly in the column heading. How you indicate the units of measurement will vary depending on your domain and the standard practices in your setting.
 
 In sum, the pivot works to either:
 
@@ -291,8 +291,8 @@ Separating variables is a transformation necessary when two distinct values are 
     <td class="tg-0lax">2.69/65.38</td>
   </tr>
 </table>
-
-In this table we have a variable `GDP per capita` that represents the amount of GDP divided by the population of each country. This may be intuitive to an undergraduate economics student, but it violates our tidy data principle of having one value per variable. Also notice that the `GDP per capita` variable does not use a standard unit of measurement.
+<br>  
+In this table we have a variable `GDP per capita` that represents the amount of GDP divided by the population of each country. This may be intuitive to an undergraduate economics student, but it violates our tidy data principle of having one value per variable. Also notice that the `GDP per capita` variable does not use a standard unit of measurement and includes a character (string) `/`.
 
 To separate these values we would simply create a new column for each of the variables. You may recognize this as a form of 'wide pivot'.
 
@@ -334,8 +334,8 @@ To separate these values we would simply create a new column for each of the var
     <td class="tg-0lax">41.1</td>
   </tr>
 </table>
-
-By separating the values into their own columns we know have a tidy dataset that includes four variables for each observation.
+<br>  
+By separating the values into their own columns we know have a tidy dataset that includes four variables for each observation. Again, the explanation of units of measurement and the calculation used to creat the "GDP per capita" column should be included in the metadata.
 
 ### Gathering
 Gathering variables is the exact opposite of separating - instead of having multiple values in a single variable, a data collector may have gone overboard in recording their observations and unintentionally created a dataset that is too granular (that is, has too much specificity). Generally, granular data is good - but it can also create unnecessary work for performing analysis or interpreting data when taken too far.
@@ -377,8 +377,8 @@ Gathering variables is the exact opposite of separating - instead of having mult
     <td class="tg-0lax">Honduras</td>
   </tr>
 </table>
-
-In this dataset we have a very granular representation of time. If as data curators we wanted to represent time using a common standard like [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Times) (and we would, because we're advocates of standardization) then we need to gather these three distinct variables into one single variable. This gathering transformation will represent, in a standard way, when the species was observed ^[Yes, this frog's common name is ["Bruno's casque-headed frog"](https://en.wikipedia.org/wiki/Bruno%27s_casque-headed_frog) - I have no idea whether or not this is related to the Lewis Caroll novel, but I like continuity].
+<br>  
+In this dataset we have a very granular representation of time. If as data curators we wanted to represent time using a common standard like [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Times) (and we would, because we're advocates of standardization) then we need to gather these three distinct variables into one single variable. This gathering transformation will represent, in a standard way, when the species was observed (Yes, this frog's common name is ["Bruno's casque-headed frog"](https://en.wikipedia.org/wiki/Bruno%27s_casque-headed_frog) - I have no idea whether or not this is related to the Lewis Caroll novel, but I like continuity).
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -409,7 +409,7 @@ In this dataset we have a very granular representation of time. If as data curat
     <td class="tg-0lax">Honduras</td>
   </tr>
 </table>
-
+<br>  
 
 Our dataset now has just two variables - the time when a species was observed, and the location. We've appealed to standard (IS0 8601) to represent time, and expect that anyone using this dataset will know the temporal convetion HH:MM:SS.
 

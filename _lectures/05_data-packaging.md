@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-04-26T8:00:00+8:00
-title: Data Packaging
+title: "Week 5: Data Packaging"
 tldr: "How and why our work in developing metadata for data curation is paramount to sustainable access, and introduce a few broadly used standards for creating data packages."
 thumbnail: /static_files/presentations/data-pkg.png
 links: 
@@ -9,6 +9,8 @@ links:
       name: video
     - url: /content/data-packaging.html
       name: content
+    - url: /content/data-packaging.html#Exercise
+      name: exercise
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/data-packaging.html)

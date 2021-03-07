@@ -1,6 +1,6 @@
 ---
 layout: lectures
-title: Lectures
+title: Modules
 permalink: /lectures/
 ---
 Directory of modules.

@@ -211,7 +211,7 @@ The second type of data structuring problem that curators are likely to encounte
 </table>
 <br>
 
-It should be obvious that we are not abiding by tidy data principles in *at least* one respect. The variable (column), `Value`, does not contain a single unit of measurement. Instead it contains two different measurements, "USD" and "count of People". Additionally, the variable (column), `Measurement`, contains multiple values, "GDP" and "Population." To tidy this kind of dataset we will use a **wide pivot**. We will restructure the data so that each column corresponds with one variable, and each variable contains a value of a single unit of measurement.  
+It should be obvious that we are not abiding by tidy data principles in *at least* one respect. The variable (column), `Value`, does not contain a single unit of measurement. Instead it contains two different measurements, "USD" and "count of People". Additionally, the variable (column), `Measure`, contains multiple values, "GDP" and "Population." To tidy this kind of dataset we will use a **wide pivot**. We will restructure the data so that each column corresponds with one variable, and each variable contains a value of a single unit of measurement.  
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -248,7 +248,7 @@ It should be obvious that we are not abiding by tidy data principles in *at leas
 </table>
 <br>
 
-Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the `Value`, the unit of measurement. GDP is measure in the trillions of USD and Population is measured in the millions of count of people. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values. Ideally we would have a data dictionary indicating that standard unit of measurement or we would state it explicitly in the column heading.
+Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the `Value`, the unit of measurement. GDP is measure in the trillions of USD and Population is measured in the millions of count of people. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values. One reason this is important is that the value can have a data type that is useful for performing mathematics. Originally, the value was a combination of a number (type = numeric) and words (type = string). Most data analysis tools will coerce the entire value into a string and the user will not be able to make calculations. In this example we have not included the metadata about the variable. Ideally we would have a data dictionary indicating that standard unit of measurement or we would state it explicitly in the column heading. How you indicate the units of measurement will vary depending on your domain and the standard practices in your setting.
 
 In sum, the pivot works to either:
 

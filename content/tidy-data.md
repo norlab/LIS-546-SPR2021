@@ -2,8 +2,9 @@
 layout: default
 ---
 # Tidy Data
+**Original Author: Nic Weber**  
+**Editing & Updates: Bree Norlander**  
 
-## Chapter
 The idea of "tidy data" underlies principles in data management, and database administration that have been around for decades. In 2014, Hadley Wickham started to formalize some of these rules in what he called "Principles for Tidy Data." [PDF](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 These principles are focused mainly on how to follow some simple conventions for structuring data in a matrix (or table) to use in the statistical programming language `R`.
@@ -11,7 +12,7 @@ These principles are focused mainly on how to follow some simple conventions for
 In this module, I am going to give an overview of tidy data principles as they relate to data curation, but also try to extend "tidy data" to some of the underlying principles in organizing, managing, and preparing all kinds of structured data for meaningful use. This module also sets up a forthcoming chapter on "tidy metadata".
 
 
-### Tidy Data Principles
+## Tidy Data Principles
 The foundation of Wickham's "Tidy Data" relies upon a definition of a dataset which contains:
 
 - A collection of **values**, and each value has a corresponding observation (row) and variable (column).
@@ -56,7 +57,7 @@ The following tidy data table includes characters appearing in a Lewis Caroll [n
   </tr>
 </table>
 
-#### Tidy Data Curation
+### Tidy Data Curation
 
 The principles described above may seem simplistic and highly intuitive. But, often these principles aren't followed when creating or publishing a dataset. This may be for a variety of reasons, but most obvious is that data creators are often working for convenience in data entry rather than thinking about future data analysis.
 
@@ -70,7 +71,7 @@ For data curators, the principles of tidy data can be applied at different point
 
 In working downstream, there are some additional data transformations that are helfpul for adhering to tidy data principles. These include using pivots to widen or make data longer, and separating or gathering data into a single variable.  
 
-### Pivoting data
+## Pivoting data
 
 A pivot table is commonly used to summarize data in some statistical way so as to reduce or summarize information that may be included a single table. In describing the "pivot" as it applies to a tidy dataset, there are two common problems that this technique can help solve.  
 
@@ -251,10 +252,10 @@ In sum, the pivot works to either:
 2. Transform values that are acting as variables. We do this by creating new variables and replacing the incorrect observation. This makes a tidy dataset wider.
 
 
-### Separating and Gathering
+## Separating and Gathering
 Two other types of transformations are often necessary to create a tidy dataset: **Separating** values that may be incorrectly combined, and **Gathering** redundant values into a single variable. Both of these transformations are highly context dependent.
 
-#### Separating
+### Separating
 Separating variables is a transformation necessary when two distinct values are used as a summary. This is a common shorthand method of data entry.
 
 <style type="text/css">
@@ -332,7 +333,7 @@ To separate these values we would simply create a new column for each of the var
 
 By separating the values into their own columns we know have a tidy dataset that includes four variables for each observation.
 
-#### Gathering
+### Gathering
 Gathering variables is the exact opposite of separating - instead of having multiple values in a single variable, a data collector may have gone overboard in recording their observations and unintentionally created a dataset that is too granular (that is, has too much specificity). Generally, granular data is good - but it can also create unnecessary work for performing analysis or interpreting data when taken too far.
 
 <style type="text/css">
@@ -410,7 +411,7 @@ Our dataset now has just two variables - the time when a species was observed, a
 
 As I said in opening this section - the assumptions we make in tidying data are highly context dependent. If we were working in a field where granular data like `seconds` was not typical, this kind of representation might not be necessary. But, if we want to preserve all of the information that our dataset contains then appealing to broad standards is a best practice.
 
-### Tidy Data in Practice
+## Tidy Data in Practice
 
 For the purposes of this class, using tidy data principles in a specific programming language is not necessary. Simply understanding common transformations and principles are all that we need to start curating tidy data.
 
@@ -418,7 +419,7 @@ But, it is worth knowing that the tidy data principles have been implemented in 
 
 There are also a number of beginner tutorials and [cheat-sheets](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.pdf) available to get started. If you come from a database background, I particularly like this [tutorial](https://idc9.github.io/stor390/notes/tidy_data/tidy_data.html#relational_data_and_joining_tables) on tidy data applied to the relational model by my colleague [Iain Carmichael](https://idc9.github.io/).
 
-### Extending Tidy Data Beyond the Traditional Observation   
+## Extending Tidy Data Beyond the Traditional Observation   
 Many examples of tidy data, such as the ones above, depend upon discrete observations that are often rooted in statistical evidence, or a scientific domain. Qualitative and humanities data often contain unique points of reference (e.g. notions of place rather than mapped coordinates), interpreted factual information (e.g. observations to a humanist mean something very different than to an ecologist), and a need for granularity that may seem non-obvious to the tidy data curator.
 
 In the following section I will try to offer some extensions to the concept of tidy data that draws upon the work of [Matthew Lincoln](https://matthewlincoln.net/) for tidy digital humanities data. In particular, we  will look at ways to transform two types of data: Dates and Categories. Each of these types of data often have multiple ways of being represented. But, this shouldn't preclude us from bringing some coherence to untidy data.
@@ -484,7 +485,7 @@ For these explanations I'll use Matthew's data because it represents a wonderful
   </tr>
 </table>
 
-#### Dates
+### Dates
 In the previous section I described the adherence to a standard, ISO 8601, for structuring time based on the observation of a species. We can imagine a number of use cases where this rigid standard would not be useful for structuring a date or time. In historical data, for example, we may not need the specificity of an ISO standard, and instead we may need to represent something like a period, a date range, or an estimate of time. In the museum catalog dataset we see three different ways to represent a date: After a date, circa a year, and a data error in the catalog (`16220`).
 
 It is helpful to think of these different date representations as "duration" (events with date ranges) and "fixed points" in time.
@@ -718,7 +719,7 @@ We have added two new variables which represent a duration (range of time) - the
 
 Note that we also retained the original dates in our datset. This is another approach to communicating ambiguity - we can simply retain the untidy data, but provide a clean version for analysis. I don't particularly like this approach, but if we assume that the user of this tidy data has the ability to easily exclude a variable from their analysis then this is a perfectly acceptable practice.
 
-#### Categories
+### Categories
 LIS research in knowledge organization (KO) has many useful principles for approaching data and metadata tidying, including the idea of "authority control" ^[We'll talk about this in depth in coming weeks]. In short, authority control is the process of appealing to standard way of representing a spelling, categorization, or classification in data.
 
 In approaching interpretive data that may contain many ambiguities we can draw upon the idea of authority control to logically decide how best to represent categorical information to our users.
@@ -956,7 +957,7 @@ This solution is far from perfect, and we can imagine this going quickly overboa
 
 In future chapters we will further explore the idea of appealing to an "authority control" when making these types of decisions around tidying data and metadata.
 
-### Summary
+## Summary
 In this chapter we've gone full tilt on the boring aspects of data structuring In doing so, we tried to adhere to a set of principles for tidying data:
 
 - Observations are rows that have variables containing values.
@@ -970,11 +971,11 @@ We focused on three types of transformations for tidying data:
 
 I also introduced the idea of using "authority control" for normalizing or making regular data that does not neatly conform to the conventions spelled out by "Tidy Data Principles".
 
-## Lecture
+# Lecture
 
 <iframe width=853 height=482 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYfo0QzbHl&v=6&ff=1" allowfullscreen="true"></iframe>
 
-## Readings
+# Readings
 
 **Required**
 

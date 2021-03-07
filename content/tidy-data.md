@@ -188,7 +188,7 @@ The second type of data structuring problem that curators are likely to encounte
     <td class="tg-0lax">USA</td>
     <td class="tg-0lax">2016</td>
     <td class="tg-0lax">GDP</td>
-    <td class="tg-0lax">18.71 trillion dollars</td>
+    <td class="tg-0lax">18.71 trillion USD</td>
   </tr>
   <tr>
     <td class="tg-0lax">USA</td>
@@ -200,7 +200,7 @@ The second type of data structuring problem that curators are likely to encounte
     <td class="tg-0lax">UK</td>
     <td class="tg-0lax">2016</td>
     <td class="tg-0lax">GDP</td>
-    <td class="tg-0lax">2.69 trillion dollars</td>
+    <td class="tg-0lax">2.69 trillion USD</td>
   </tr>
   <tr>
     <td class="tg-0lax">UK</td>
@@ -211,7 +211,7 @@ The second type of data structuring problem that curators are likely to encounte
 </table>
 <br>
 
-To tidy this kind of dataset we will use a **wide pivot**. We will restructure the data so that each column corresponds with a variable, and each variable contains a value.  
+It should be obvious that we are not abiding by tidy data principles in *at least* one respect. The variable (column), `Value`, does not contain a single unit of measurement. Instead it contains two different measurements, "USD" and "count of People". Additionally, the variable (column), `Measurement`, contains multiple values, "GDP" and "Population." To tidy this kind of dataset we will use a **wide pivot**. We will restructure the data so that each column corresponds with one variable, and each variable contains a value of a single unit of measurement.  
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -248,7 +248,7 @@ To tidy this kind of dataset we will use a **wide pivot**. We will restructure t
 </table>
 <br>
 
-Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the value, the standard unit of measurement. GDP and Population are measured in the trillions and millions respectively. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values.
+Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the `Value`, the unit of measurement. GDP is measure in the trillions of USD and Population is measured in the millions of count of people. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values. Ideally we would have a data dictionary indicating that standard unit of measurement or we would state it explicitly in the column heading.
 
 In sum, the pivot works to either:
 

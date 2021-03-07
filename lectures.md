@@ -1,6 +1,6 @@
 ---
 layout: lectures
-title: Lectures
-permalink: /lectures/
+title: Modules
+permalink: /modules/
 ---
 Directory of modules.

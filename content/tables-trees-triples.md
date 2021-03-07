@@ -3,9 +3,6 @@ layout: default
 ---
 # Tables, Trees, and Triples
 
-
-## Chapter 
-
 ### Introduction
 Susan Leigh Starr once famously wrote that "Information science is the study of boring things." ^[Star, S. L. (2002, April). Got infrastructure? How standards, categories, and other aspects of infrastructure influence communication. In 2nd Social Study of IT Workshop at the LSE ICT and Globalization. [PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.19.7523&rep=rep1&type=pdf)]. She meant this in loving way. As a field of practitioners and researchers we're concerned with the organizaiton and encoding of information, as well as the standards and practices that govern reliable knowledge production. This requires us to study and become versant in particular "boring" details of how information is represented within broader information systems and infrastructures. An information infrastructure is, by Starr's account, highly relational. Information and infrastructures mean different things to different people at different points in time. Data is no different. In fact, there is a soundbite that you may come across in the data curation community that goes like this:
 

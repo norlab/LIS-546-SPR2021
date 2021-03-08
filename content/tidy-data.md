@@ -488,9 +488,9 @@ For these explanations I'll use Matthew's data because it represents a wonderful
     <td class="tg-0lax">portraiture</td>
   </tr>
 </table>
-
+<br>  
 ### Dates
-In the previous section I described the adherence to a standard, ISO 8601, for structuring time based on the observation of a species. We can imagine a number of use cases where this rigid standard would not be useful for structuring a date or time. In historical data, for example, we may not need the specificity of an ISO standard, and instead we may need to represent something like a period, a date range, or an estimate of time. In the museum catalog dataset we see three different ways to represent a date: After a date, circa a year, and a data error in the catalog (`16220`).
+In the previous section I described the adherence to a standard, ISO 8601, for structuring time based on the observation of a species. We can imagine a number of use cases where this rigid standard would not be useful for structuring a date or time. In historical data, for example, we may not need the specificity of an ISO standard, and instead we may need to represent something like a time period, a date range, or an estimate of time. In the museum catalog dataset we see three different ways to represent a date: After a date, [circa](https://en.wikipedia.org/wiki/Circa) a year, and as a data error in the catalog (`16220`).
 
 It is helpful to think of these different date representations as "duration" (events with date ranges) and "fixed points" in time.
 
@@ -516,7 +516,7 @@ Following the tidy data principles, if we want to represent a specific point in 
     <td class="tg-0lax">9th century</td>
   </tr>
 </table>
-
+<br>  
 Here we have three different representations of a point in time. If we want to tidy this data we will have to decide what is the most meaningful representation of this data as a whole. If we choose century, as I would, then we will have to sacrifice a bit of precision for our second observation. The tradeoff is that we will have consistency in representing the data in aggregate.
 
 <style type="text/css">
@@ -530,17 +530,17 @@ Here we have three different representations of a point in time. If we want to t
     <th class="tg-0lax"><span style="font-weight:bold">Date_century</span></th>
   </tr>
   <tr>
-    <td class="tg-0lax">18</td>
+    <td class="tg-0lax">20</td>
   </tr>
   <tr>
-    <td class="tg-0lax">19</td>
+    <td class="tg-0lax">21</td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
   </tr>
 </table>
-
-But now, let's assume that this tradeoff in precision isn't as clear. If, for example, our dataset contains a date range (duration) mixed with point in time values then we need to do some extra work to represent this information clearly in a tidy dataset.
+<br>  
+But now, let's assume that this tradeoff in precision isn't as clear. If, for example, our dataset contains a date range (duration) mixed with point in time values, then we need to do some extra work to represent this information clearly in a tidy dataset.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

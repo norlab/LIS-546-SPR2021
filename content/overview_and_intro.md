@@ -233,4 +233,4 @@ In DC II we are going to tackle topics that help us significantly expand this de
 I will also introduce some more advanced topics that relate to processes of acquiring, packaging, linking, and representing data such that it can be published to the web.
 
 <h2><a id="Exercise">Exercise</a></h2>
-Introduce yourself on the [Canvas discussion board](https://canvas.uw.edu/courses/1465297/discussion_topics/6135505).
+Introduce yourself on the [Canvas discussion board](https://canvas.uw.edu/courses/1465297/discussion_topics/6135505). This is not a graded exercise. 

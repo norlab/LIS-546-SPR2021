@@ -565,7 +565,7 @@ But now, let's assume that this tradeoff in precision isn't as clear. If, for ex
     <td class="tg-cly1">1980's</td>
   </tr>
 </table>
-
+<br>  
 This data contains a number of different estimates about when a piece of art may have been produced. The uncertainty along with the factual estimate is what we want to try to preserve in tidying the data. An approach could be to transform each date estimate into a range.
 
 <style type="text/css">
@@ -602,8 +602,8 @@ This data contains a number of different estimates about when a piece of art may
     <td class="tg-0lax">1989</td>
   </tr>
 </table>
-
-Our data transformation preserves the range estimates, but attempts to give a more consistent representation of the original data. Since we don't know, for example, when in the mid 1200's a piece was produced we infer a range and then create two columns - earliest possible date, and latest possible date - to convey that information to a potential user.
+<br>
+Our data transformation preserves the range estimates, but attempts to give a more consistent representation of the original data. Since we don't know, for example, when in the mid-1200's a piece was produced, we infer a range and then create two columns - earliest possible date, and latest possible date - to convey that information to a potential user.
 
 Another obstacle we may come across in representing dates in our data is missing or non-existent data.
 
@@ -631,7 +631,7 @@ Another obstacle we may come across in representing dates in our data is missing
     <td class="tg-0lax">1999- 01</td>
   </tr>
 </table>
-
+<br>
 We may be tempted to look at these four observations and think it is a simple data entry error - the last observation is clearly supposed to follow the sequence of representing the last day in a year, and the first day in a year. But, without complete knowledge we would have to decide whether or not we should infer this pattern or whether we should transform all of the data to be a duration (range of dates).
 
 There is not a single right answer - a curator would simply have to decide how and in what ways the data might be made more meaningful for reuse. The wrong approach though would be to leave the ambiguity in the dataset. Instead, what we might do is correct what we assume to be a data entry error and create documentation which conveys that inference to a potential reuser.
@@ -667,7 +667,7 @@ There are many ways to do this with metadata, but a helpful approach might be ju
     <td class="tg-0lax">Date is inferred. The original entry read `1999-01`</td>
   </tr>
 </table>
-
+<br>
 Documentation is helpful for all data curation tasks, but is essential in tidying data that may have a number of ambiguities.
 
 Let's return to our original dataset and clean up the dates following the above instructions for tidying ambiguous date information.
@@ -718,15 +718,15 @@ Let's return to our original dataset and clean up the dates following the above 
     <td class="tg-0lax">1622</td>
   </tr>
 </table>
+<br>
+We have added two new variables which represent a duration (range of time) - the earliest estimate and the latest estimate of when a work of art was created. (You may be wondering why 1669 is the latest date for the first entry. Rembrandt died in 1669. His work definitely had staying power, but I think it's safe to say he wasn't producing new paintings after that).
 
-We have added two new variables which represent a duration (range of time) - the earliest estimate and the latest estimate of when a work of art was created ^[You may be wondering why 1669 is the latest date for the first entry. Rembrandt died in 1669 - His work definitely had staying power, but I think its safe to say he wasn't producing new paintings after that].
-
-Note that we also retained the original dates in our datset. This is another approach to communicating ambiguity - we can simply retain the untidy data, but provide a clean version for analysis. I don't particularly like this approach, but if we assume that the user of this tidy data has the ability to easily exclude a variable from their analysis then this is a perfectly acceptable practice.
+Note that we also retained the original dates in our dataset. This is another approach to communicating ambiguity - we can simply retain the untidy data, but provide a clean version for analysis. I don't particularly like this approach, but if we assume that the user of this tidy data has the ability to easily exclude a variable from their analysis then this is a perfectly acceptable practice. (*Note from Bree*: In my work I tend to prefer the approach of keeping the original data and creating a new column/s with the corrected data. Again this is an example of how practice might differ depending on context or domain.)
 
 ### Categories
-LIS research in knowledge organization (KO) has many useful principles for approaching data and metadata tidying, including the idea of "authority control" ^[We'll talk about this in depth in coming weeks]. In short, authority control is the process of appealing to standard way of representing a spelling, categorization, or classification in data.
+LIS research in knowledge organization (KO) has many useful principles for approaching data and metadata tidying, including the idea of "authority control" which we will talk about in depth in coming weeks. In short though, authority control is the process of appealing to standard way of representing a spelling, categorization, or classification in data.
 
-In approaching interpretive data that may contain many ambiguities we can draw upon the idea of authority control to logically decide how best to represent categorical information to our users.
+In approaching interpretive data that may contain many ambiguities, we can draw upon the idea of authority control to logically decide how best to represent categorical information to our users.
 
 A helpful heuristic to keep in mind when curating data with categories is that it is much easier to combine categories later than it is to separate them initially. We can do this by taking some time to evaluate and analyze a dataset first, and then adding new categories later.
 
@@ -765,7 +765,7 @@ Let's return to our original dataset to understand what authority control looks 
     <td class="tg-0lax">oil on canvas, relined</td>
   </tr>
 </table>
-
+<br>
 In the variable medium there are actually three values:
 
 1. The medium that was used to produce the painting.  
@@ -774,9 +774,9 @@ In the variable medium there are actually three values:
 
 This ambiguity likely stems from the fact that art historians often use an informal vocabulary for describing a variable like medium.
 
-Think of the placard on any museum that you have visited -- Often times the "medium" information on that placard will contain a plain language description. This information is stored in a museum database and used to both identify a work owned by the museum, but also produce things like exhibit catalogues and placards. Here is an example from our dataset.
+Think of the placard on any museum that you have visited -- Often the "medium" information on that placard will contain a plain language description. This information is stored in a museum database and used to both identify a work owned by the museum, but also produce things like exhibit catalogues and placards. Here is an example from our dataset.
 
-![](https://raw.githubusercontent.com/OpenDataLiteracy/LIS-598-Sp2020-DC2/master/Images/rembrandt-example.jpg)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/rembrandt-example.jpg)
 
 But, we don't want to create a dataset that retains ambiguous short-hand categories simply because this is convenient to an exhibit curator. What we want is to tidy the data such that it can be broadly useful, and accurately describe a particular piece of art.
 
@@ -828,10 +828,10 @@ This example should trigger a memory from our earlier review of tidy data princi
     <td class="tg-0lax">relined</td>
   </tr>
 </table>
+<br>
+In this wide pivot, we retained the original `medium` variable, but we have also separated the `support` and `conservation notes` into new variables. (Note: I will have much more to say about this example and how we can use an "authority control" in future chapters.)
 
-In this wide pivot, we retained the original `medium` variable, but we have also separated the `support` and `conservation notes` into new variables. ^[Note: I will have much more to say about this example and how we can use an "authority control" in future chapters]
-
-Our original dataset also contained another variable - Name - with multiple values and ambiguities. In general, names are the cause of great confusion in information science. In part because names are often hard to disambiguate across time, but also because "identity" is difficult in the context of cultural heritage data. Art history is no exception.
+Our original dataset also contained another variable `Name` with multiple values and ambiguities. In general, names are the cause of great confusion in information science. In part because names are often hard to disambiguate across time, but also because "identity" is difficult in the context of cultural heritage data. Art history is no exception.
 
 In our original dataset, we have a mix of name disambugity and identity problems.
 
@@ -868,7 +868,7 @@ In our original dataset, we have a mix of name disambugity and identity problems
     <td class="tg-0lax">Hals, Frans</td>
   </tr>
 </table>
-
+<br>
 Let's unpack some of these ambiguities:
 
 - The first observation "Studio of Rembrandt, Govaert Flink" contains two names - `Rembrandt` and `Govaert Flink`. It also has a qualification, that the work was produced in `the studio of` Rembrandt.
@@ -879,9 +879,9 @@ To tidy names there are a number of clear transformations we could apply. We cou
 
 But this is not all of the information that our `Name` variable contains. It also contains qualifiers. And, it is much more difficult to effectively retain qualifications in structured data. In part because they don't neatly fall into the triple model that we expect our plain language to take when being structured as a table.
 
-Take for example our third observation. The subject "Vermeer" has an object (the painting) "View of Delft" being connected by a predicate "painted". In plain language we could easily represent this triple as "Vermeer-painted-View_of_Delft".
+Take for example our third observation. The subject "Vermeer" has an object (the painting) "View of Delft" being connected by a predicate "painted". In plain language we could easily represent this triple as "Vermeer painted View_of_Delft".
 
-But, our first observation is much more complex and not well suited for the triple form. The plain language statement would look somoething like "The studio of Rembrandt sponsored Govaert Flink in painting 'Isaac blessing Jacob'" ^[The painting in question is [here](https://upload.wikimedia.org/wikipedia/commons/b/b2/Amsterdam_-_Rijksmuseum_1885_-_The_Gallery_of_Honour_%281st_Floor%29_-_Isaac_blessing_Jacob_1638_by_Govert_Flinck.jpg)]
+But, our first observation is much more complex and not well suited for the triple form. The plain language statement would look somoething like "The studio of Rembrandt sponsored Govaert Flink in painting 'Isaac blessing Jacob'" (The painting in question is [here](https://upload.wikimedia.org/wikipedia/commons/b/b2/Amsterdam_-_Rijksmuseum_1885_-_The_Gallery_of_Honour_%281st_Floor%29_-_Isaac_blessing_Jacob_1638_by_Govert_Flinck.jpg).)
 
 To represent these ambiguities in our tidy data, we need to create some way to qualify and attribute the different works to different people. Warning in advanance, this will be a VERY wide pivot.
 
@@ -948,21 +948,21 @@ To represent these ambiguities in our tidy data, we need to create some way to q
     <td class="tg-0lax"></td>
   </tr>
 </table></div>
-
+<br>
 Across all observations we separated first and second names. In the case of Vermeer, this is an important distinction as there are multiple Vermeers that produced works of art likely to be found in a museum catalogue.
 
 In the third observation, we also added a qualifier "possibly" to communicate that the origin of the work is assumed, but not verified to be Vermeer. We also used this qualification variable for Rembrandt, who had a studio that most definitely produced a work of art, but the person who may have actually put oil to canvas is ambiguous.
 
 We also created a representation of artist that is numbered - so that we could represent the first artist and the second artist associated with a painting.
 
-Each of these approaches to disambiguation are based on a "separating" transformation through a wide pivot. We tidy the dataset by creating qualifiers, and add variables to represent multiple artists.
+Each of these approaches to disambiguation is based on a "separating" transformation through a wide pivot. We tidy the dataset by creating qualifiers, and add variables to represent multiple artists.
 
 This solution is far from perfect, and we can imagine this going quickly overboard without some control in place for how we will name individuals and how we will assign credit for their work. But, this example also makes clear that the structural decisions are ours to make as data curators. We can solve each transformation problem in multiple ways. The key to tidy data is having a command of the different strategies for transforming data, and knowing when and why to apply each transformation.
 
 In future chapters we will further explore the idea of appealing to an "authority control" when making these types of decisions around tidying data and metadata.
 
 ## Summary
-In this chapter we've gone full tilt on the boring aspects of data structuring In doing so, we tried to adhere to a set of principles for tidying data:
+In this chapter we've gone full tilt on the boring aspects of data structuring. In doing so, we tried to adhere to a set of principles for tidying data:
 
 - Observations are rows that have variables containing values.
 - Variables are columns. Each variable contains only one value, and each value follows a standard unit of measurement.
@@ -1014,7 +1014,7 @@ Last week we looked at an [infographic](https://d3vjjov8ymzzxi.cloudfront.net/ch
 
 This is an incredibly "untidy" dataset. There are a number of ways we could restructure this data so that it follows some best practices in efficient and effective reuse. Your assignment is as follows:
 
-1. Return to your assignment from last week. How well did your structuring of the information match this actual dataset? (Hopefully you structure was tidier)
+1. Return to your assignment from last week. How well did your structuring of the information match this actual dataset? (Hopefully your structure was tidier!)
 2. Take a few moments to look through the dataset, and figure out exactly what information it is trying to represent, and what is problematic about this presentation.
-3. Come up with a new structure. That is, create a tidy dataset that has rows, columns, and values for each of the observations (cookies) that are represented in this dataset. You can do this by either creating a copy of the Google Sheet, and then restructuring it. Or, you can simply create your own structure and plug in values from the original dataset.
+3. Come up with a new structure. That is, create a tidy dataset that has rows, columns, and values for each of the observations (cookies) that are represented in this dataset. You can do this by either creating a copy of the Google Sheet, and then restructuring it or you can simply create your own structure and plug in values from the original dataset.
 4. When your sheet is restructured, share it with us (a link to your Google Sheet is fine) and provide a brief explanation about what was challenging about tidying this dataset.

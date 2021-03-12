@@ -2,11 +2,12 @@
 layout: default
 ---
 # Data Integration
+**Original Author: Nic Weber**  
+**Editing & Updates: Bree Norlander**  
 
-## Chapter
 The next four weeks of our class will focus on 'grand challenges' in data curation. A [grand challenge](https://en.wikipedia.org/wiki/Grand_Challenges) in this context is a problem that requires sustained research and development activities through collective action. Data integration, packaging, discovery, and meaningful descriptive documentation (metadata) are longstanding grand challenges that are approached through a community of practitioners and researchers in curation. This chapter focuses on data integration as it operates at the logical level of tables, and data that feed into user interfaces.
 
-### Integration as a Grand Challenge
+## Integration as a Grand Challenge
 
 In the popular imagination, much of curation work is positioned as the activities necessary to prepare data for meaningful analysis and reuse. For example, when data scientists describe curation work they often say something to the effect of  "95% of data science is about wrangling / cleaning"
 
@@ -25,7 +26,7 @@ In future weeks we will discuss practical ways to approach metadata and document
 
 But, in practice this proves to be incredibly difficult. Each jurisdiction has a slightly different fire code, and each municipal fire department records their investigation of compliance in appreciably different ways. So when we approach a question like "fire code compliance" we have to not just clean data in order for it be combined, but think conceptually about the structural differences in datasets and how they might be integrated with one another.
 
-### Enumerating data integration challenges
+## Enumerating data integration challenges
 
 So, if structured data integration is intuitive conceptually, but in practice the ability to combine one or more data sources is incredibly difficult, then we should be able to generalize some of the problems that are encountered in this activity. Difficulties in data integration break down into, at least, the following:
 
@@ -37,11 +38,11 @@ The curation tradeoff that we've discussed throughout both DC 1 and DC 2 in term
 
 Data Integration, as you might have inferred, is always a downstream curation activity. But, understanding challenges in data integration can also help with decisions that happen upstream in providing recommendations for how data can be initially recorded and documented such that it will be *amenable* to future integration.^[A small plug here for our opening chapter - when I described a curators need to "infrastructurally imagine" how data will be used and reused within a broader information system, upstream curation activities that forecast data integration challenges are very much what I meant.]
 
-### Integration Precursors 
+## Integration Precursors 
 
 To overcome difficulties in combining different data tables we can engage with curation activities that I think of as 'integration precursors' - ways to conceptualize and investigate differences in two datasets before we begin restructuring, normalization, or cleaning. These integration precursors are related to 1. Modeling; 2. Observational depth; and, 3. Variable Homogeneity.
 
-#### Modeling Table Content
+### Modeling Table Content
 
 The first activity in data integration is to informally or formally model the structure of a data table. In DC 1 we created data dictionaries which were focused on providing users of data a quick and precise overview of their contents. Data dictionaries are also a method for informally modeling the content of a dataset so that we, as curators, can make informed decisions about restructuring and cleaning.
 
@@ -68,7 +69,7 @@ Even though these two cities record the same information about the same concept 
 
 The process of modeling our data tables before integration facilitates making accurate decisions, but also enables us to record those decisions and communicate them to end-users. A data dictionary, or a loose description of the contents of both tables, is often our first step in deciding which data cleaning activities we need to undertake for integrating data.
 
-#### Determine the Observation Depth  
+### Determine the Observation Depth  
 
 In integrating two data tables there will likely be a difference in granularity of values. That is, even if the same variable is present in both datasets this does not necessarily mean that the same unit of measurement is used between the two data tables. 
 
@@ -121,7 +122,7 @@ If we want to integrate these two tables then we have to decide
 
 Regardless of how we decide to normalize this data, what we have to try to retain is a reliable reporting of the date such that the two sets of observations are homogenous. For example, the Chicago data doesn't include seconds for a 311 request. So, we can either add these seconds as `00` values in the Chicago table, or we can remove the seconds from the Austin table In either decision, we are changing the depth of granularity in our integrated table. (Note, we also need to transform the hours so that they either represent a 24 hour cycle, or are marked by a 12HR marking such as `AM` or `PM`).
 
-#### Determine Variable Homogeneity
+### Determine Variable Homogeneity
 
 The last integration precursor that we'll discuss has to do with the homogeneity of a variable. In modeling  two or more tables for potential integration we will seek to define and describe which variables are present, but we've not yet identified whether or not two variables can be reliably combined. To make this decision we need to first determine the goals of the integration. Some general criteria to consider when thinkng about the goals of integration are as follows:
 
@@ -152,10 +153,10 @@ Integrating these two variables in the same table seems possible, but we have a 
 
 When we determine there is a variable homogeneity that matches our intended integration goal we can then take a curation action. But, it is only through modeling, exploring observational depth, and investigating variable homogeneity that we can arrive at any one proper curation decision. It's worth noting that the first two precursors - modeling and observational depth - don't require us to necessarily have a goal in mind. We can start to engage in these activities before we quite know exactly what, or why we are going to integrate two tables. It is at the final step, variable homogeneity, that we start to formalize our goals and optimize our decisions as a result.   
 
-### Horizontal and Vertical Table Integration
+## Horizontal and Vertical Table Integration
 Thus far we've described precursors to making decisions and preparing data for integration. Once we've taken these steps we're left with the practical task of combining the two tables. Generally, there are two types of table combinations that can be made: Horizontal and Vertical Integration. 
 
-#### Horizontal data integration 
+### Horizontal data integration 
 
 Horizontal data integration is necessary when we have the same set of observations, but multiple variables *scattered* across two tables. By performing a horizontal data integration we make a table *wider* by adding new variables for each observation. If you have any experience with databases this is also referred to as a **join**. To horizontally integrate data we perform `left_joins` or `right_joins`. 
 
@@ -200,7 +201,7 @@ View(GDPandExchange)
 
 One helpful note about the package `dplyr` that will clarify some of the magic that just happened... the `join` function will automatically detect that the `Currency` variable is shared in both data tables. In recognizing this shared variable `dplyr` will use this, automatically, as the place to perform the left join. And helpfully, when `dplyr` detects this similarity, it simply retains just one example of the `Currency` variables and its values. Voila - a single tidy data table through horizontal data integration !
 
-#### Vertical data integration
+### Vertical data integration
 Vertical data integration, which is much more common in curation, is when we have two tables with the same variables, but different observations. To perform a vertical integration we simply add new observations to one of our existing datasets. This makes our integrated data table *longer* because it contains more observations.  
 
 In `R` we first will subset a native data table (one that is included as an example) and then recombine it to see how vertical integration works in practice.
@@ -235,7 +236,7 @@ These are the two most common integration tasks we will perform - integrating da
 
 The hard part about data integration, as should be obvious by now, is in evaluating and preparing data to be combined. Once we have thoroughly completed each of the different integration precursors our task for actually integrating tables is relatively simple.
 
-### Summary
+## Summary
 In this introduction to grand challenges in data curation we explored ways to prepare for and execute data integration at the table level. We first articulated a set of things that makes all data integration challenging:
 
 1. Differences in semantic content
@@ -250,11 +251,11 @@ To overcome these challenges I proposed a set of `integration precursors` that i
 
 Once these tasks were complete we looked at practical ways to combine two tables, including horizontal and vertical integration. We also were introduced to the magic of `dplyr` in performing simple data integrations. 
 
-## Lecture
+# Lecture
 
 <iframe width=853 height=476 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYf3oHAIEB&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>
 
-## Readings
+# Readings
 Data integration is a topic that can be incredibly complex, and much of the published literature fails to make this an approachable or even realistic read for a course like DC II. So, you get somewhat of a pass on readings this week. 
 
 A very helpful overview of the state of current integration challenges for the open web of data: 
@@ -275,7 +276,7 @@ For a bit of historical background, Ch 1 of this book (pages 1-13) provides an e
 
 - Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://homepages.dcc.ufmg.br/~laender/material/Data-on-the-Web-Skeleton.pdf)
 
-## Exercise
+# Exercise
 The exercise this week comes from an interesting analysis of New York City 311 data by [Chris Whong](https://t.co/J7X3FMUvQc?amp=1). What he observes is a 1000% increase in "Consumer Complaint" 311 requests since the first recorded case of Covid-19 infection in NYC. This is not without some important external conditions - After this recorded infection there was a more concerted effort by NYC residents to stockpile supplies. Having heard numerous informal complaints of price-gouging the city recommended that consumers report businesses using a 311 hotline.
 
 A simple graph makes this more compelling than the narrative description - we see a huge spike in complaints beginning March 1st.

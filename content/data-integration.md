@@ -5,13 +5,11 @@ layout: default
 **Original Author: Nic Weber**  
 **Editing & Updates: Bree Norlander**  
 
-The next four weeks of our class will focus on 'grand challenges' in data curation. A [grand challenge](https://en.wikipedia.org/wiki/Grand_Challenges) in this context is a problem that requires sustained research and development activities through collective action. Data integration, packaging, discovery, and meaningful descriptive documentation (metadata) are longstanding grand challenges that are approached through a community of practitioners and researchers in curation. This chapter focuses on data integration as it operates at the logical level of tables, and data that feed into user interfaces.
+The next four weeks of our class will focus on "grand challenges" in data curation. A [grand challenge](https://en.wikipedia.org/wiki/Grand_Challenges) in this context is a problem that requires sustained research and development activities through collective action. Data integration, packaging, discovery, and meaningful descriptive documentation (metadata) are longstanding grand challenges that are approached through a community of practitioners and researchers in curation. This module focuses on data integration as it operates at the logical level of tables and data that feed into user interfaces.
 
 ## Integration as a Grand Challenge
 
-In the popular imagination, much of curation work is positioned as the activities necessary to prepare data for meaningful analysis and reuse. For example, when data scientists describe curation work they often say something to the effect of  "95% of data science is about wrangling / cleaning"
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Convert back and forth from JSON to Python dictionaries. <a href="https://t.co/AOFXuKWhm3">pic.twitter.com/AOFXuKWhm3</a></p>&mdash; Vicki Boykis (@vboykis) <a href="https://twitter.com/vboykis/status/1116862862755016704?ref_src=twsrc%5Etfw">April 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+In the popular imagination, much of curation work is positioned as the activities necessary to prepare data for meaningful analysis and reuse. For example, when data scientists describe curation work they often say something to the effect of "95% of data science is about wrangling / cleaning."
 
 If there are only two things I am trying to actively argue against in this class it is this:
 

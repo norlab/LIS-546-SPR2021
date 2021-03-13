@@ -55,13 +55,13 @@ Before even before looking at the content of either data table we can assume the
 
 The reality is much messier. 
 
-![Data Dictionaries from Chicago and Austin 311 Data](Images/dataintegration-model.png)
+![Data Dictionaries from Chicago and Austin 311 Data](_images/dataintegration-model.png)
 
 Even though these two cities record the same information about the same concept using the same data infrastructure (each city publishes data using a Socrata-based data repository) there are appreciable differences and challenges in integrating these two datasets. The annotations above point out some of these slight but appreciable differences: 
 
 - Granularity - We can see that the Chicago dataset contains a variable `SR_Status` that includes information about whether or not the request is open, as well as whether or not the request is a duplicate. The Austin dataset contains a similar variable `Status` but instead of also recording a duplicate here, there is a second variable `Duplicate` that contains this information. That is, the Austin dataset is more granular. If duplicate information were important to retain in our integrated dataset we would need to determine a way to tidy these variables or values.
 
-- Semantics - Both datasets include information about the most recent update (response) to the request, but these are variables are labeled in slightly different ways - `Last_Update_Date` and `Last_Modified_Date` ... This should be a simple to tidy by renaming the data variable (but as we will see, this proves to be more more challenging than just renaming the variable).
+- Semantics - Both datasets include information about the most recent update (response) to the request, but these are variables are labeled in slightly different ways - `Last_Update_Date` and `Last_Modified_Date`. This should be a simple to tidy by renaming the data variable (but as we will see, this proves to be more more challenging than just renaming the variable).
 
 - Structure - Both datasets also include location information about the report. However, there is both different granularity as well as a different ordering of these variables. To tidy this location information, we would need to determine which variables to retain and which to discard.
 

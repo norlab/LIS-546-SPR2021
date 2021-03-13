@@ -75,7 +75,7 @@ As curators, value granularity prompts a decision about what specificity is nece
 
 A simple example will make this clear. Imagine we have three tables` A`, `B`, and `C`. Each table contains the same variable `X`, but the values for `X` in each table have a different observational depth.  In comparing the values for this variable we might observe different units of measurement. 
 
-![Three tables with one variable called X. X has different values.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/d3_tables.png)
+![Three tables with one variable called X. X has different values.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/3_tables.png)
 
 | A-X | B-X | C-X |
 |------|------|-----|

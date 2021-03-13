@@ -73,24 +73,17 @@ In integrating two data tables there will likely be a difference in granularity 
 
 As curators, value granularity prompts a decision about what specificity is necessary to retain or discard in the new integrated table. 
 
-A simple example will make this clear. Imagine we have three tables` A`, `B`, and `C`. Each table contains the same variable `X`, but the values for `X` in each table have a different observational depth.  In comparing the values for this variable we might observe different units of measurement. 
+A simple example will make this clear. Imagine we have three tables `A`, `B`, and `C`. Each table contains the same variable `X`, but the values for `X` in each table have a different observational depth. In comparing the values for this variable we might observe different units of measurement. 
 
 ![Three tables with one variable called X. X has different values.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/3_tables.png)
 
-| A-X | B-X | C-X |
-|------|------|-----|
-| 1 | 2 | 1.1|
-| 1 | 2 | 4.7|
-| 1 | 2 | 4.4|
-| 1 | 2 | 3.0|
+(Keep in mind - A, B and C represent the three different tables, and X represents the same variable found in all three tables.)
 
-(Keep in mind - A, B and C represent the three different tables, and X represents the same variable found in all three tables)
+This example looks simple at face value, but will require an important decision for integration. Tables `A` and `B` both represent observational values of `X` as [integers](https://en.wikipedia.org/wiki/Integer). Table `C` represents the observational values of `X` as a decimal number.
 
-This example looks simple at face value, but will require an important decision for integration. Tables `A` and `B` both represent observational values of `X` as integers (whole numbers that are zero, negative, or positive). Table `C` represents the observational values of `X` as an irrational number (with a decimal place).
+Once we recognize this difference, our decision is simple - we can either convert the values in `A` and `B` to be decimals (1.0, 2.0, etc) or we can round the values in `C` to create integers. 
 
-Once we recognize this difference, our decision is simple - we can either convert the values in `A` and `B` to be irrational (1.0, 2.0, etc) or we can round the values in `C` to create integers. 
-
-Regardless of our decision it is important to note that we are not just changing the values, but we are also changing their `encoding` - that is whether they represent integers or irrational numbers. (And we would need to document this change in our documentation).
+Regardless of our decision it is important to note that we are not just changing the values, but we are also changing their `encoding` - that is whether they represent integers or decimal numbers. (And we would need to document this change in our documentation). This may also affect their data type.
 
 Let's look at differences in observational depth from two variables in the 311 data described above.
 

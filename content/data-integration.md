@@ -87,6 +87,8 @@ Regardless of our decision it is important to note that we are not just changing
 
 Let's look at differences in observational depth from two variables in the 311 data described above.
 
+![Two tables of Created Dates with different levels of granularity.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png)
+
 | Created Date  	| Created Date            	|
 |---------------	|-------------------------	|
 | 4/20/20 10:14 	| 2020 Apr 20 10:58:34 AM 	|

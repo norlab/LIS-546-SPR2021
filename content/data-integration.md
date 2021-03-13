@@ -55,7 +55,7 @@ Before even before looking at the content of either data table we can assume the
 
 The reality is much messier. 
 
-![Data Dictionaries from Chicago and Austin 311 Data](_images/dataintegration-model.png)
+![Data Dictionaries from Chicago and Austin 311 Data](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/dataintegration-model.png)
 
 Even though these two cities record the same information about the same concept using the same data infrastructure (each city publishes data using a Socrata-based data repository) there are appreciable differences and challenges in integrating these two datasets. The annotations above point out some of these slight but appreciable differences: 
 
@@ -71,7 +71,7 @@ The process of modeling our data tables before integration facilitates making ac
 
 In integrating two data tables there will likely be a difference in granularity of values. That is, even if the same variable is present in both datasets this does not necessarily mean that the same unit of measurement is used between the two data tables. 
 
-As curators, value granularity prompts a decision about what specificity is necessary to retain or discard for an integrated table. 
+As curators, value granularity prompts a decision about what specificity is necessary to retain or discard in the new integrated table. 
 
 A simple example will make this clear. Imagine we have three tables` A`, `B`, and `C`. Each table contains the same variable `X`, but the values for `X` in each table have a different observational depth.  In comparing the values for this variable we might observe different units of measurement. 
 

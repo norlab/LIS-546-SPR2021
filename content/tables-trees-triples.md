@@ -256,5 +256,5 @@ Some things to keep in mind:
 - Decide how you would structure the information in this graphic so that it could be interpretable in a table form. (Rows, Columns, and Values) 
 - Each cookie has a set of attributes and values that could follow a schema. You don't have to create the schema this week, just focus on structuring a recipe for a single cookie. 
 - There is already a good deal of structure to this data, but there are some very strange and confusing choices in the values that will complicate this activity. Take note of those. 
-- On the canvas forum, share your table with the class, and explain what was easy or hard about creating the table. You can share the table in whatever form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, post a .jpg of your hand-drawn table, etc.)
+- On the [canvas forum](https://canvas.uw.edu/courses/1465297/discussion_topics/6164920), share your table with the class, and explain what was easy or hard about creating the table. You can share the table in whatever form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, post a .jpg of your hand-drawn table, etc.)
 

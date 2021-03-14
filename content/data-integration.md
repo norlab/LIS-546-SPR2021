@@ -83,28 +83,11 @@ This example looks simple at face value, but will require an important decision 
 
 Once we recognize this difference, our decision is simple - we can either convert the values in `A` and `B` to be decimals (1.0, 2.0, etc) or we can round the values in `C` to create integers. 
 
-Regardless of our decision it is important to note that we are not just changing the values, but we are also changing their `encoding` - that is whether they represent integers or decimal numbers. (And we would need to document this change in our documentation). This may also affect their data type.
+Regardless of our decision it is important to note that we are not just changing the values, but we are also changing their `encoding` - that is whether they represent integers or decimal numbers. (And we would need to document this change in our documentation). This may also affect their data type, for example [Python](https://www.w3schools.com/python/python_datatypes.asp) has both integer and float (for decimal values) data types.
 
 Let's look at differences in observational depth from two variables in the 311 data described above.
 
 ![Two tables of Created Dates with different levels of granularity.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png)
-
-| Created Date  	| Created Date            	|
-|---------------	|-------------------------	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:58:34 AM 	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:57:21 AM 	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:54:04 AM 	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:52:39 AM 	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:52:17 AM 	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:46:53 AM 	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:46:29 AM 	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:43:44 AM 	|
-| 4/20/20 10:14 	| 2020 Apr 20 10:43:35 AM 	|
-| 4/20/20 10:13 	| 2020 Apr 20 10:43:29 AM 	|
-| 4/20/20 10:13 	| 2020 Apr 20 10:41:31 AM 	|
-| 4/20/20 10:13 	| 2020 Apr 20 10:40:38 AM 	|
-| 4/20/20 10:13 	| 2020 Apr 20 10:40:28 AM 	|
-
 
 Chicago represents time of a 311 report following a `MM-DD-YY HH:MM` form, while Austin represents this same information with `YYYY-MMM-DD HH:MM:SS 12HRM`
 

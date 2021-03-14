@@ -147,11 +147,15 @@ DollarValue2018 <- data.frame(Currency = c("Euro", "Pound", "Yen", "Dollar"),
                               InDollars = c(1.104, 1.256, .00926, 1))
 ```
 
+You will now have two tables that look something like this:
+
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/GDP2018_Data.png" alt="GDP 2018 Table" width="200"/><img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/DollarValue2018_Data.png" alt="Exchange Rate 2018 Table" width="200"/>
+
 In the initial steps above we have created two data tables and assigned these tables to the name `GDP2018` and `DollarValue2018`. 
 
 To horizontally integrate these two tables we want to **join** or combine `GDP2018` and `DollarValue2018`. 
 
-Use `help(join)` to see the types of joins that we can make in R.
+Use `help(join)` to see the types of joins that we can make in R (and specifically look for the join help in the library `dplyr`).
 
 To complete our horizontal data integration we simply do the following:
 

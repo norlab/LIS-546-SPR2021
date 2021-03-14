@@ -87,7 +87,7 @@ Regardless of our decision it is important to note that we are not just changing
 
 Let's look at differences in observational depth from two variables in the 311 data described above.
 
-![Two tables of Created Dates with different levels of granularity.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png)
+![Two tables of Created Dates with different levels of granularity.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png | width=200)
 
 Chicago represents time of a 311 report following a `MM-DD-YY HH:MM` form, while Austin represents this same information with `YYYY-MMM-DD HH:MM:SS 12HRM`
 

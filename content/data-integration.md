@@ -221,9 +221,9 @@ To overcome these challenges I proposed a set of `integration precursors` that i
 
 1. Modeling data content
 2. Determining Observation Depth
-3. Determining Variable Homogeneity (its at this stage we start to formalize our integration goals)
+3. Determining Variable Homogeneity (it's at this stage we start to formalize our integration goals)
 
-Once these tasks were complete we looked at practical ways to combine two tables, including horizontal and vertical integration. We also were introduced to the magic of `dplyr` in performing simple data integrations. 
+Once these tasks were complete we looked at practical ways to combine two tables, including horizontal and vertical integration. We also were introduced to the magic of `dplyr` in performing simple data integrations in `R`. 
 
 # Lecture
 
@@ -251,12 +251,13 @@ For a bit of historical background, Ch 1 of this book (pages 1-13) provides an e
 - Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://homepages.dcc.ufmg.br/~laender/material/Data-on-the-Web-Skeleton.pdf)
 
 <h2><a id="Exercise">Exercise</a></h2>
-The exercise this week comes from an interesting analysis of New York City 311 data by [Chris Whong](https://t.co/J7X3FMUvQc?amp=1). What he observes is a 1000% increase in "Consumer Complaint" 311 requests since the first recorded case of Covid-19 infection in NYC. This is not without some important external conditions - After this recorded infection there was a more concerted effort by NYC residents to stockpile supplies. Having heard numerous informal complaints of price-gouging the city recommended that consumers report businesses using a 311 hotline.
+The exercise this week comes from an interesting analysis of New York City 311 data by [Chris Whong](https://twitter.com/chris_whong/status/1240363144654000132) ([archived tweet](https://web.archive.org/web/20210314224906/https://twitter.com/chris_whong/status/1240363144654000132)). What he observes is a 1000% increase in "Consumer Complaint" 311 requests since the first recorded case of Covid-19 infection in NYC. This is not without some important external conditions - after this recorded infection there was a more concerted effort by NYC residents to stockpile supplies. Having heard numerous informal complaints of price-gouging the city recommended that consumers report businesses using a 311 hotline.
 
 A simple graph makes this more compelling than the narrative description - we see a huge spike in complaints beginning March 1st.
+
 ![](https://pbs.twimg.com/media/ETapolDX0AAt9Ye?format=png&name=900x900)
 
-As savvy data curators, we might ask whether or not this trend holds across cities throughout the USA.  And at its core, this is a data integration challenge. If we can find other city's 311 data we should be able to reliably compare rates of 311 complaints over time. The challenge will be finding data that has the same kinds of variables, and normalizing values to have a one to one comparison between cities.
+As savvy data curators, we might ask whether or not this trend holds across cities throughout the USA. And, at its core, this is a data integration challenge. If we can find other city's 311 data we should be able to reliably compare rates of 311 complaints over time. The challenge will be finding data that has the same kinds of variables, and normalizing values to have a one to one comparison between cities.
 
 Lucky for us, there is an existing repository of [311 city data](https://andrew-friedman.github.io/jkan/datasets/).
 

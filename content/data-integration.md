@@ -271,6 +271,7 @@ Your exercise this week is to choose two cities from this repository and attempt
 
 **What to turn in:**
 
+Post the following in the [discussion](https://canvas.uw.edu/courses/1465297/discussion_topics/6184508) for this week's exercise:
 - Provide us a table of your data from two cities (a Google Sheet, Excel document, .csv, or even a screenshot of the new table from whatever software platform you are using all work). If you are able to integrate the data, provide just one document or screenshot. If you cannot - give us two separate docs/pics. Note - this will be challenging to do. If you spend an hour trying to integrate the two datasets and up hating me (and this class) that is completely acceptable, but make an attempt and then follow the next step. 
 - Provide an explanation (~1 paragraph) of which cities you selected, what you tried to integrate the data, and why this was or was not challenging.
 - You do not need to create a graph or any form of analysis - but if you do it would be very interesting to see your results!

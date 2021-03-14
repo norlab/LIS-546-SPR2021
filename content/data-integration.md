@@ -149,7 +149,7 @@ DollarValue2018 <- data.frame(Currency = c("Euro", "Pound", "Yen", "Dollar"),
 
 You will now have two tables that look something like this:
 
-<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/GDP2018_Data.png" alt="GDP 2018 Table" width="250"/>  <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/DollarValues2018_Data.png" alt="Exchange Rate 2018 Table" width="250"/>
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/GDP2018_Data.png" alt="GDP 2018 Table" width="300"/>  <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/DollarValues2018_Data.png" alt="Exchange Rate 2018 Table" width="250"/>
 
 In the initial steps above we have created two data tables and assigned these tables to the name `GDP2018` and `DollarValue2018`. 
 
@@ -165,8 +165,15 @@ GDPandExchange <- left_join(GDP2018, DollarValue2018)
 #We have now horizontally integrated our two datasets. To view this integrated dataset do the following
 View(GDPandExchange)
 ```
+The new table will look something like:
 
-One helpful note about the package `dplyr` that will clarify some of the magic that just happened... the `join` function will automatically detect that the `Currency` variable is shared in both data tables. In recognizing this shared variable `dplyr` will use this, automatically, as the place to perform the left join. And helpfully, when `dplyr` detects this similarity, it simply retains just one example of the `Currency` variables and its values. Voila - a single tidy data table through horizontal data integration !
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/GDPandExchange_Data.png" alt="GDP 2018 Table" width="300"/>
+
+One helpful note about the package `dplyr` that will clarify some of the magic that just happened:
+
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/JoiningByCurrency.png" alt="GDP 2018 Table" width="400"/>
+
+The `left_join` (or any `dplyr` join) function will automatically detect that the `Currency` variable is shared in both data tables. In recognizing this shared variable `dplyr` will use this, automatically, as the place to perform the left join. And helpfully, when `dplyr` detects this similarity, it simply retains just one example of the `Currency` variables and its values. Voila - a single tidy data table through horizontal data integration!
 
 ### Vertical data integration
 Vertical data integration, which is much more common in curation, is when we have two tables with the same variables, but different observations. To perform a vertical integration we simply add new observations to one of our existing datasets. This makes our integrated data table *longer* because it contains more observations.  

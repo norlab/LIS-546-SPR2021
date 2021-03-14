@@ -111,24 +111,7 @@ The last integration precursor that we'll discuss has to do with the homogeneity
 An example of variable homogeneity will help make these points clear. The Austin and Chicago tables each contain a variable that roughly corresponds with the "type" of 311 request or report being made. In the Austin table this information is more granularly reported - there is code that is used internally `SR_Type_Code`, and a `Description` variable that provides a plain text explanation of the code. In the Chicago table there is simply a variable called `SR_Type`. If we pay attention closely to the values in these two tables we can determine that the `Description` and `SR_Type` are homogeneous. That is, the Austin table and the Chicago table have similar information but use slightly different semantic values to control the variable.
 
 
-<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/SR_Type_and_Description_2tables.png" alt="Homogeneous Tables Description Variable and SR Type Variable" width="400"/>
-
-| Description                         	| SR_Type                               	|
-|-------------------------------------	|---------------------------------------	|
-| Tree Issue ROW                      	| Aircraft Noise Complaint              	|
-| ARR Missed Recycling                	| Vacant/Abandoned Building Complaint   	|
-| Street Light Issue- Address         	| Tree Removal Request                  	|
-| Found Animal Report - Keep          	| Sign Repair Request - All Other Signs 	|
-| Dangerous/Vicious Dog Investigation 	| Rodent Baiting/Rat Complaint          	|
-| Traffic Signal - Maintenance        	| Rodent Baiting/Rat Complaint          	|
-| ARR Dead Animal Collection          	| Aircraft Noise Complaint              	|
-| ARR Dead Animal Collection          	| Rodent Baiting/Rat Complaint          	|
-| ARR Missed Yard Trimmings/Compost   	| Rodent Baiting/Rat Complaint          	|
-| ARR Missed Yard Trimmings/Compost   	| Fly Dumping Complaint                 	|
-| Animal Control - Assistance Request 	| Tree Debris Clean-Up Request          	|
-| Street Light Issue- Address         	| Aircraft Noise Complaint              	|
-| Street Light Issue- Address         	| Aircraft Noise Complaint              	|
-| Street Light Issue- Address         	| Rodent Baiting/Rat Complaint          	|
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/SR_Type_and_Description_2tables.png" alt="Homogeneous Tables Description Variable and SR Type Variable" width="500"/>
 
 Integrating these two variables in the same table seems possible, but we have a decision to make: We can either combine the two variables and leave the semantic value with low homogeneity, or we can create something like a controlled vocabulary for describing the type of 311 request being made and then normalize the data so that each value is transformed to be compliant with our vocabulary. For example, `Street Light Issue - Address` in the Austin table, and `Sign Repair Request` in the Chicago table both have to do with a report being made about public signage. We could create a broad category like `Public Signage` and then transform (that is, change the values) accordingly. But, we have only determined this step is possible by comparing the two variables directly. 
 

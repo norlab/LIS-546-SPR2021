@@ -75,7 +75,7 @@ As curators, value granularity prompts a decision about what specificity is nece
 
 A simple example will make this clear. Imagine we have three tables `A`, `B`, and `C`. Each table contains the same variable `X`, but the values for `X` in each table have a different observational depth. In comparing the values for this variable we might observe different units of measurement. 
 
-![Three tables with one variable called X. X has different values.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/3_tables.png)
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/3_tables.png" alt="Three tables with one variable called X. X has different values" width="300"/>
 
 (Keep in mind - A, B and C represent the three different tables, and X represents the same variable found in all three tables.)
 
@@ -87,9 +87,7 @@ Regardless of our decision it is important to note that we are not just changing
 
 Let's look at differences in observational depth from two variables in the 311 data described above.
 
-![Two tables of Created Dates with different levels of granularity.](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png)
-
-<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png" alt="Two tables of Created Dates with different levels of granularity" width="200"/>
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png" alt="Two tables of Created Dates with different levels of granularity" width="300"/>
 
 Chicago represents time of a 311 report following a `MM-DD-YY HH:MM` form, while Austin represents this same information with `YYYY-MMM-DD HH:MM:SS 12HRM`
 
@@ -100,7 +98,7 @@ If we want to integrate these two tables then we have to decide
 1. How to normalize the values; and, 
 2. Which depth of granularity to retain.
 
-Regardless of how we decide to normalize this data, what we have to try to retain is a reliable reporting of the date such that the two sets of observations are homogenous. For example, the Chicago data doesn't include seconds for a 311 request. So, we can either add these seconds as `00` values in the Chicago table, or we can remove the seconds from the Austin table In either decision, we are changing the depth of granularity in our integrated table. (Note, we also need to transform the hours so that they either represent a 24 hour cycle, or are marked by a 12HR marking such as `AM` or `PM`).
+Regardless of how we decide to normalize this data, what we have to try to retain is a reliable reporting of the date such that the two sets of observations are homogenous. For example, the Chicago data doesn't include seconds for a 311 request. So, we can either add these seconds as `00` values in the Chicago table, or we can remove the seconds from the Austin table. In either decision, we are changing the depth of granularity in our integrated table. (Note, we also need to transform the hours so that they either represent a 24 hour cycle, or are marked by a 12HR marking such as `AM` or `PM`).
 
 ### Determine Variable Homogeneity
 

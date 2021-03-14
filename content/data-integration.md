@@ -149,7 +149,7 @@ DollarValue2018 <- data.frame(Currency = c("Euro", "Pound", "Yen", "Dollar"),
 
 You will now have two tables that look something like this:
 
-<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/GDP2018_Data.png" alt="GDP 2018 Table" width="200"/><img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/DollarValue2018_Data.png" alt="Exchange Rate 2018 Table" width="200"/>
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/GDP2018_Data.png" alt="GDP 2018 Table" width="250"/>  <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/DollarValues2018_Data.png" alt="Exchange Rate 2018 Table" width="250"/>
 
 In the initial steps above we have created two data tables and assigned these tables to the name `GDP2018` and `DollarValue2018`. 
 

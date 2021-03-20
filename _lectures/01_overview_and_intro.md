@@ -5,7 +5,7 @@ title: "Week 1: Course Overview and Introduction"
 tldr: "Overview of and Introduction to Data Curation II."
 thumbnail: /static_files/presentations/overview.png
 links: 
-    - url: https://screencast-o-matic.com/embed?sc=cYfVof4yVt&v=5&ff=1
+    - url: https://www.youtube.com/watch?v=nGYnknL1QFs
       name: video
     - url: /content/overview_and_intro.html
       name: content

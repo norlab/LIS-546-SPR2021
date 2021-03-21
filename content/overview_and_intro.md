@@ -71,7 +71,7 @@ There are two aspect of this class that will require your time and attention.
   <tr>
     <td class="tg-0lax">1</td>
     <td class="tg-0lax">Class Introduction</td>
-    <td class="tg-0lax">Introductions</td>
+    <td class="tg-0lax"><a href="https://canvas.uw.edu/courses/1465297/discussion_topics/6135505" target="_blank">Introductions</a></td>
     <td class="tg-0lax">None</td>
   </tr>
   <tr>

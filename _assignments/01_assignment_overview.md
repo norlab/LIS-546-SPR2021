@@ -2,17 +2,14 @@
 type: assignment
 date: 2021-03-29T23:59:00+8:00
 title: 'Assignment Overview'
-url: assignments/01_assignment_overview
+url: /assignments/01_assignment_overview
 attachment:
 solutions:
 due_event: 
     type: due
     date: 2021-04-04T23:59:00+8:00
     description: 'Read Assignment Overview'
-    url: assignments/01_assignment_overview
-links: 
-    - url: assignments/01_assignment_overview
-      name: instructions
+    url: /assignments/01_assignment_overview
 ---
 # Protocol Assignment
 

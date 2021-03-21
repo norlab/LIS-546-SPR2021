@@ -1,4 +1,4 @@
-<div class="col col-1" style="color: #8a6d3b ;font-weight: bold;" data-label="Event">Assignment Due</div>
+<div class="col col-1" style="color: #8a6d3b ;font-weight: bold;" data-label="Event">Due</div>
 <div class="col col-1-2" style="font-weight: bold" data-label="Date">
     {{ event.date | date: site.dateformat }}
     {{ event.date | date: "%H:%M" }}
@@ -6,6 +6,7 @@
 </div>
 <div class="col col-2" style="font-weight: bold" data-label="Description">
     {{ include.event.description }}
+    [<a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.title }}</a>]
 </div>
 <div class="col col-4 markdown-content" data-label="Course Material">
     {% if include.event.content != '' %}

@@ -1,0 +1,11 @@
+
+    {% if include.assignment.links %}
+    {% for link in include.assignment.links %}
+    [<a title="View {{ link.name }}" href="
+    {% if link.url contains '://' %}
+      {{ link.url }} 
+    {% else %}
+      {{ link.url | prepend: site.baseurl }} 
+    {% endif %}" target="_blank">{{ link.name }}</a>]
+    {% endfor %}
+    {% endif %}

@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-04-04T23:59:00+8:00
-    description: 'Assignment Overview due'
+    description: 'Read Assignment Overview'
+    url: assignments/01_assignment_overview
 links: 
     - url: assignments/01_assignment_overview
       name: instructions

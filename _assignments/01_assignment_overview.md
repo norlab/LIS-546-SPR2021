@@ -2,7 +2,6 @@
 type: assignment
 date: 2021-03-29T23:59:00+8:00
 title: 'Assignment Overview'
-url: /assignments/01_assignment_overview
 attachment:
 solutions:
 due_event: 

@@ -2,7 +2,7 @@
 type: assignment
 date: 2021-03-29T23:59:00+8:00
 title: 'Assignment Overview'
-url: https://norlab.github.io/LIS-546-SPR2021/assignments/01_assignment_overview
+url: assignments/01_assignment_overview
 attachment:
 solutions:
 due_event: 
@@ -10,7 +10,7 @@ due_event:
     date: 2021-04-04T23:59:00+8:00
     description: 'Assignment Overview due'
 links: 
-    - url: https://norlab.github.io/LIS-546-SPR2021/assignments/01_assignment_overview
+    - url: assignments/01_assignment_overview
       name: instructions
 ---
 # Protocol Assignment

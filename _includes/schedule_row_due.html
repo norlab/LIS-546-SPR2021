@@ -6,7 +6,11 @@
 </div>
 <div class="col col-2" style="font-weight: bold" data-label="Description">
     {% if include.event.url != '' %}
-    <a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.description }}</a>
+        {% if include.event.url contains '://' %}
+          <a href="{{ include.event.url }}">{{ include.event.description }}</a>
+        {% else %}
+          <a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.description }}</a>
+        {% endif %}
     {% else %}
     {{ include.event.description }}
     {% endif %}

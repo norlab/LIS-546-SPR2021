@@ -231,9 +231,9 @@ In this chapter I introduced a number of concepts. Here's a brief review:
 ---
 
 ## Readings
-Our readings this week are from the W3C standard for `Data on the Web`. W3C is the World Wide Web Consortium - the main standardization organization for web technologies. In 2017 a working group of experts in data curation came together to develop a set of best practices for structuring, publishing, and making data on the web accessible.  
+Our readings this week are from the W3C standard for `Data on the Web`. W3C is the World Wide Web Consortium - the main standardization organization for web technologies. In 2017 a working group of experts in data curation came together to develop a set of best practices for structuring, publishing, and making data on the web accessible. The Best Practices document is an excellent resource to return to as you develop your protocol and if (when) you find yourself working in a data curation role.
 
-- Lóscio et al (2017) Data on the Web - Best Practices: [https://www.w3.org/TR/dwbp/](https://www.w3.org/TR/dwbp/)
+- Lóscio et al (2017) Data on the Web - Best Practices: [https://www.w3.org/TR/dwbp/](https://www.w3.org/TR/dwbp/) (If you are pressed for time, you can probably skim the content through to section 8 where the specific best practices begin.)
 - Read one additional Data on the Web - Use Case from this list: [https://www.w3.org/TR/dwbp-ucr/](https://www.w3.org/TR/dwbp-ucr/)
 
 In future weeks we will use the Data on the Web primer for activities related to our data curation protocol.

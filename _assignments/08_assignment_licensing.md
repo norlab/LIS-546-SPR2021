@@ -1,13 +1,13 @@
 ---
 type: assignment
-date: 2021-05-23T4:00:00+4:30
+date: 2021-05-23T23:59:00Z
 title: 'Licensing Assignment'
 pdf:
 attachment:
 solutions:
 due_event: 
     type: due
-    date: 2021-05-30T23:59:00+3:30
+    date: 2021-05-30T23:59:00Z
     description: 'Licensing Assignment due'
 ---
 ## Assignment: Data Licensing

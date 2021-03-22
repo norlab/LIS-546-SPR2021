@@ -5,15 +5,17 @@
     <br class="date-spliter" />{{ event.date | date: "%A" }}
 </div>
 <div class="col col-2" style="font-weight: bold" data-label="Description">
-    {% if include.event.url != '' %}
-        {% if include.event.url contains '://' %}
-          <a href="{{ include.event.url }}">{{ include.event.description }}</a>
+    {% unless include.event.hide_link %}
+        {% if include.event.url != '' %}
+            {% if include.event.url contains '://' %}
+              <a href="{{ include.event.url }}">{{ include.event.description }}</a>
+            {% else %}
+              <a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.description }}</a>
+            {% endif %}
         {% else %}
-          <a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.description }}</a>
+        {{ include.event.description }}
         {% endif %}
-    {% else %}
-    {{ include.event.description }}
-    {% endif %}
+    {% endunless %}
 </div>
 <div class="col col-4 markdown-content" data-label="Course Material">
     {% if include.event.content != '' %}

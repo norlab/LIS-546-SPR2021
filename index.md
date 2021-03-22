@@ -55,7 +55,7 @@ layout: home
     <td class="tg-0lax">6</td>
     <td class="tg-0lax">Repository Architectures</td>
     <td class="tg-0lax">None</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/09_assignment_repo_arch_OPTIONAL" target="_blank" rel="noopener noreferrer">Repository Architectures</a></td>
+    <td class="tg-0lax">None</td>
   </tr>
   <tr>
     <td class="tg-0lax">7</td>

@@ -1,13 +1,13 @@
 ---
 type: assignment
-date: 2021-04-04T08:00:00+8:00
+date: 2021-04-04T23:59:00Z
 title: 'Data Pitch Assignment'
 pdf:
 attachment:
 solutions:
 due_event: 
     type: due
-    date: 2021-04-11T23:59:00+8:00
+    date: 2021-04-11T23:59:00Z
     description: 'Data Pitch Assignment due'
 ---
 ## Pre-Protocol Assignment: Data Pitch

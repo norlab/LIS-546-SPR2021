@@ -1,13 +1,13 @@
 ---
 type: assignment
-date: 2021-05-09T4:00:00+4:30
+date: 2021-05-09T23:59:00Z
 title: 'Transformations and Quality Assignment'
 pdf:
 attachment:
 solutions:
 due_event: 
     type: due
-    date: 2021-05-16T23:59:00+3:30
+    date: 2021-05-16T23:59:00Z
     description: 'Transformations and Quality Assignment due'
 ---
 ## Assignment: Data Transformations and Quality Criteria

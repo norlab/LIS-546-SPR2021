@@ -1,13 +1,13 @@
 ---
 type: assignment
-date: 2021-05-16T4:00:00+4:30
+date: 2021-05-16T23:59:00Z
 title: 'Metadata Assignment'
 pdf:
 attachment:
 solutions:
 due_event: 
     type: due
-    date: 2021-05-23T23:59:00+3:30
+    date: 2021-05-23T23:59:00Z
     description: 'Metadata Assignment due'
 ---
 ## Assignment 5: Metadata Application Profiles

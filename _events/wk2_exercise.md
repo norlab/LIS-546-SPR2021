@@ -1,6 +1,6 @@
 ---
 type: due
-date: 2021-04-11T23:59:00+24:00
+date: 2021-04-11T10:20:00Z
 description: 'Week 2 Exercise Due'
 hide_from_announcments: true
 hide_link: true

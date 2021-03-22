@@ -1,13 +1,13 @@
 ---
 type: assignment
-date: 2021-04-18T4:00:00+4:30
+date: 2021-04-18T23:59:00Z
 title: 'Users and Uses Assignment'
 pdf:
 attachment:
 solutions:
 due_event: 
     type: due
-    date: 2021-04-25T23:59:00+3:30
+    date: 2021-04-25T23:59:00Z
     description: 'Users and Uses Assignment due'
 ---
 ## Assignment: User Stories + Use Cases

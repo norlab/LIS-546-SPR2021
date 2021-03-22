@@ -11,7 +11,7 @@ due_event:
     description: 'Users and Uses Assignment due'
 ---
 ## Assignment: User Stories + Use Cases
-Throughout class we will read examples data curation work that are "user centered." Two broad techniques for developing requirements of systems that are "human centered" are through use cases, and user stories. The following exercises may be helpful in the work you plan to do this quarter in building a protocol to satisfy a community of data users.
+Throughout this class we will read examples of data curation work that is "user centered." Two broad techniques for developing requirements of systems that are "human centered" are through use cases, and user stories. The following exercises may be helpful in the work you plan to do this quarter in building a protocol to satisfy a community of data users.
 
 ### User Stories
 User stories are a simple, but powerful way to capture requirements when doing systems analysis and development.

@@ -1,13 +1,13 @@
 ---
 type: assignment
-date: 2021-04-11T4:00:00+4:30
+date: 2021-04-11T23:59:00Z
 title: 'Statement of Work Assignment'
 pdf:
 attachment:
 solutions:
 due_event: 
     type: due
-    date: 2021-04-18T23:59:00+3:30
+    date: 2021-04-18T23:59:00Z
     description: 'Statement of Work Assignment due'
 ---
 ## Assignment: Project definition, scope, and audience

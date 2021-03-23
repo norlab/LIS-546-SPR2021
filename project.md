@@ -36,7 +36,7 @@ permalink: /project/
 <p><strong>Example Protocols</strong></p>
 <p>Here are some examples of previous Data Curation 2 protocols:</p>
 <ul>
-    <li>Flattened Fauna: <a href="https://github.com/amckennafoster/flattenedfauna">Repository</a> and <a href="https://flattenedfauna.gitbook.io/practice-space/-Lf0sbd1cy0sxUG-f_Sa/">Project Report</a>
+    <li>Flattened Fauna: <a href="https://github.com/amckennafoster/flattenedfauna">Repository</a> and <a href="https://flattenedfauna.gitbook.io/practice-space/">Project Report</a>
     </li>
     <li>VaxStats: <a href="https://github.com/kthrog/VaxStats">Repository</a> and <a href="https://vaxstats.gitbook.io/vax-stats/">Project Report</a>
     </li>

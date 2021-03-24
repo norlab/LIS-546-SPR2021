@@ -7,8 +7,8 @@ attachment:
 solutions:
 due_event: 
     type: due
-    date: 
-    description:
+    date: 2021-06-06T23:59:00Z
+    description: Optional Repository Assignment
 ---
 ## Assignment OPTIONAL: Repository Architectures
 Most of us will never design a new data curation system from the ground up. We will, by and large, develop on top of existing software platforms that provide basic features. This means we can focus our time and attention on **configuring** these architectures to meet our specific needs.  

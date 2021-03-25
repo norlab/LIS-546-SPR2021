@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-04-25T23:59:00Z
-    description: 'Users and Uses Assignment due'
+    description: 'Submit Users and Use Cases'
+    url: /assignments/04_assignment_users_and_uses
 ---
 ## Assignment: User Stories + Use Cases
 Throughout this class we will read examples of data curation work that is "user centered." Two broad techniques for developing requirements of systems that are "human centered" are through use cases, and user stories. The following exercises may be helpful in the work you plan to do this quarter in building a protocol to satisfy a community of data users.

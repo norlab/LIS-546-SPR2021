@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-04-18T23:59:00Z
-    description: 'Statement of Work Assignment due'
+    description: 'Submit Statement of Work'
+    url: /assignments/03_assignment_statement_of_work
 ---
 ## Assignment: Project definition, scope, and audience
 Your first assignment will be to write a group definition and statement of work. This should include the following elements:

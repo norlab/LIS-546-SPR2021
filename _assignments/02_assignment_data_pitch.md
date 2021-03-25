@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-04-11T23:59:00Z
-    description: 'Data Pitch Assignment due'
+    description: 'Data Pitch Assignment Due'
+    url: /assignments/02_assignment_data_pitch
 ---
 ## Pre-Protocol Assignment: Data Pitch
 

@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-05-23T23:59:00Z
-    description: 'Metadata Assignment due'
+    description: 'Submit Metadata Application Profile'
+    url: /assignments/07_assignment_metadata
 ---
 ## Assignment 5: Metadata Application Profiles
 

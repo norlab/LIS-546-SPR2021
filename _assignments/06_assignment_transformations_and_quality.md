@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-05-16T23:59:00Z
-    description: 'Transformations and Quality Assignment due'
+    description: 'Submit Transformations and Quality Assignment'
+    url: /assignments/06_assignment_transformation_and_quality
 ---
 ## Assignment: Data Transformations and Quality Criteria
 

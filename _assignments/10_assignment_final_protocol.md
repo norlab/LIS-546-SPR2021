@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-06-06T23:59:00Z
-    description: Final Protocol
+    description: Submit Final Protocol
+    url: /assignments/10_assignment_final_protocol
 ---
 <h2>Overview &amp; Requirements for Final Deliverable</h2>
 

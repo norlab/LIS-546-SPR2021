@@ -3,6 +3,7 @@ layout: page
 title: Project
 permalink: /project/
 ---
+{{ include project.html }}
 <h2>Overview &amp; Requirements for Final Deliverable</h2>
 
 <p>A protocol is like a recipe - it tells you what ingredients, tools, and steps are necessary to produce an end result. So just as you would follow a recipe to bake a cake, you might also follow a protocol to archive, share, or reuse data. In Data Curation I you created a simple protocol for a single dataset. In Data Curation II we have significantly more knowledge and skills to develop a more robust curation protocol. Over the course of the quarter you will complete a group or individual project focused on developing a robust protocol for curating a collection of open data. The topic, the audience, the type of data, and the curation tools required are all up for you to decide (note: examples provided below).&nbsp;</p>

@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-05-02T23:59:00Z
-    description: 'Collection Policies Assignment due'
+    description: 'Submit Collection Policies'
+    url: /assignments/05_assignment_collection_policies
 ---
 ## Assignment: Data Collection Policies
 

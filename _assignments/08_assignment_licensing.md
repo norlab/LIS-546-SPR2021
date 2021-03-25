@@ -8,7 +8,8 @@ solutions:
 due_event: 
     type: due
     date: 2021-05-30T23:59:00Z
-    description: 'Licensing Assignment due'
+    description: 'Submit Licensing Assignment'
+    url: /assignments/08_assignment_licensing
 ---
 ## Assignment: Data Licensing
 

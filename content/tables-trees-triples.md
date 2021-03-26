@@ -255,11 +255,11 @@ For a bit of historical background, Ch 1 of this book (pages 1-13) provides an e
 <h2><a id="Exercise">Exercise</a></h2>
 In preparation for our class on `Tidy Data` next week we will attempt to add some structure to a rather innocuous piece of information that is published to the web and that maybe you've encountered even more frequently during COVID-19 quarantine: Chocolate Chip Cookie Recipes.
 
-Your exercise for this week is to look at this [chocolate chip cookie recipe](https://www.pccmarkets.com/recipe/thick-chewy-chocolate-chip-cookies/) (PDF version) and choose to represent it as a table, tree, or triple. Use what you've learned in this module and this [blog post](https://katiekodes.com/intro-xml-json-2/) as a guide. 
+Imagine that you are starting a data repository specifically for cookie recipes. You get to choose how best to set up your repository. You are at the stage where you want to decide how to represent the data included in a recipe. Your exercise for this week is to look at this [chocolate chip cookie recipe](https://www.pccmarkets.com/recipe/thick-chewy-chocolate-chip-cookies/) ([PDF version](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/PCC_Chocolate_Chip_Cookies.pdf)) and choose to represent it as a table, tree, or triple. Use what you've learned in this module and this [blog post](https://katiekodes.com/intro-xml-json-2/) as a guide. 
 
 Some things to keep in mind: 
 
 - You can make-up the schema (i.e. the column names or tags used to indicate the variable)
 - There isn't a "right" answer to which representation you choose
-- On the [canvas forum](https://canvas.uw.edu/courses/1465297/discussion_topics/6164920), share your representation with the class, and explain why you made the choices you did. You can share this in whatever form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, post a .jpg of your hand-drawn representation, etc.)
+- On the [canvas forum](https://canvas.uw.edu/courses/1465297/discussion_topics/6164920), share your representation with the class, and explain why you made the choices you did. What was difficult, what was easy? You can share this in whatever form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, post a .jpg of your hand-drawn representation, etc.)
 

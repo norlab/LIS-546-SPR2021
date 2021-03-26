@@ -71,6 +71,8 @@ Writing an XML schema that defines properties of Blake's work - like anthology, 
 </anthology>
 ```
 
+(Before we continue, you might be wondering, "how does that look like a tree?". Or maybe you're not wondering, but I [Norlander] did. In fact, the term tree in this case comes from a mathematical definition of a tree, not the defintion of that large plant in your yard. For more information, check out this [Wikipedia](https://en.wikipedia.org/wiki/XML_tree) article.)
+
 The XML tree provides for relations between data both through the schema, and through the syntax. An anthology contains a poem, a poem contains stanzas, and stanzas contain lines. Each indentation in the above XML nests these elements further inside one another. This is what creates the "hierarchy" that our computers interpret as a tree.   
 
 The tag that closes the poem and contains a note `<!-- more poems go here -->` is important. This hints at the idea that we can add more poems with more lines to the anthology markup by simply using the pre-defined schema. So, similar to a table we have the ability through logic to relate data to one another, but we also gain the ability to use the syntax and nesting to further refine and express relationships between data that are hierarchical. The ability to express relationships in structured text is what makes a hierarchical form like a tree so valuable for publishing electronic content.

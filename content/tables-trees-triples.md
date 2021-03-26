@@ -82,14 +82,14 @@ By organizing data at a logical level, either through relations (e.g. a relation
 
 The following image depicts the relationship between the concepts we've been talking about thus far. Note that a separation between the physical level and the logical level is what enables data independence. Here the logical level practically is split again into three areas where, as data curators, we manage different aspects of our user's experience. At the schema level we define the logical representation and relationship between data, at the data level we manage information, create and edit metadata, and provide documentation, and at the user interface we provide data to end users (in this picture, as a drop down menu).
 
-<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/Simpsons-Abstractions.jpg" alt="Data Abstraction Levels of Homer Simpson" width="500"/>
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/Simpsons-Abstractions.jpg" alt="Data Abstraction Levels of Homer Simpson" width="800"/>
 
 ## Trees and Tables
 You may have left the last section thinking to yourself, "If the syntax of a markup language affords us so much expressive power, why not use a markup language like XML for all data?"
 
 What we gain in expressive power from a markup language comes at the expense of computational tractability. The more syntax we have to write to define how and where a set of data are interpreted by our computers at the physical level, the more difficult and expensive it will be to retrieve that data.  
 
-This tradeoff can be made a bit clearer if we look at the differences between the two most widely used notation systems for structured data: JSON ([javascript object notation](https://www.json.org/json-en.html)) and XML ([extensible markup langauge](https://www.w3.org/XML/)).
+This tradeoff can be made a bit clearer if we look at the differences between the two most widely used notation systems for hierarchically structured data: JSON ([javascript object notation](https://www.json.org/json-en.html)) and XML ([extensible markup langauge](https://www.w3.org/XML/)).
 
 XML, or a hierarchical tree like structure of data, depends on nesting element sets within one another (these were the indentations in our Blake XML). If we want to represent these same elements in a stream - that is in something that our computers can efficiently retrieve as a list or dictionary - JSON is better suited to this task than a markup language. This is, partially, because JSON is based on a programming language not a markup standard. JSON treats an object as *independent* from any kind of semantic meaning that humans might reliably expect that object to have. JSON, in its syntactical structuring of data, is therefore able to achieve a kind of independence at the data level that XML cannot. But removing this semantic (or contextual) meaning has both affordances and limitations. By keeping data objects "independent" from the schema we have the ability to compute against (that is retrieve, reorder, and analyze) objects efficiently. But, we also lose the ability to embed meaning in the structure of our data. (Note: If you come from a computer science background you may recognize this as the concept of `object oriented` programming.)
 

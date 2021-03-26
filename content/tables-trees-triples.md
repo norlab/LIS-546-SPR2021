@@ -26,7 +26,7 @@ The choices she makes in this brief instance are what transforms her observation
 
 These three levels - the conceptual, logical, and physical - are all related to the idea of abstraction. This terminology is common in the domain of database management and refers to, "the process of hiding irrelevant information at each level of a database" ([reference](https://holycoders.com/dbms-data-abstraction-and-data-independence/)). We abstract away from the messiness of the conceptual world by using logic that structures information in physical storage and retrieval hardware. The diagram below showcases examples of this abstraction.
 
-![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/AbstractionDiagram.png)
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/AbstractionDiagram.png" alt="Diagram: physical is bits on a server, logical is a relational database, conceptual is a graph on a website" width="500"/>
 
 The choices made at the logical level will have profound consequences for later reuse. And while our ecology graduate student has many choices available to her (will she or will she not go have that beer?) at the logical level of data representation her choices typically break down into three categories: Tables, trees, or triples.
 

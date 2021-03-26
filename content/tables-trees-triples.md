@@ -237,7 +237,7 @@ In this chapter I introduced a number of concepts. Here's a brief review:
 
 ## Readings
 The following blog post is an easy to digest look at the different data shapes we've discussed in this module. If you're already familiar with tables and nested lists you can skim this.
-- Kodes, Katie (2019)[Data's Shape](https://katiekodes.com/intro-xml-json-2/)
+- Kodes, Katie (2019) [Data's Shape](https://katiekodes.com/intro-xml-json-2/)
 
 Additional readings this week are from the W3C standard for `Data on the Web`. W3C is the World Wide Web Consortium - the main standardization organization for web technologies. In 2017 a working group of experts in data curation came together to develop a set of best practices for structuring, publishing, and making data on the web accessible. The Best Practices document is an excellent resource to return to as you develop your protocol and if (when) you find yourself working in a data curation role.
 
@@ -255,14 +255,11 @@ For a bit of historical background, Ch 1 of this book (pages 1-13) provides an e
 <h2><a id="Exercise">Exercise</a></h2>
 In preparation for our class on `Tidy Data` next week we will attempt to add some structure to a rather innocuous piece of information that is published to the web and that maybe you've encountered even more frequently during COVID-19 quarantine: Chocolate Chip Cookie Recipes.
 
-This [infographic](https://d3vjjov8ymzzxi.cloudfront.net/chefsteps-com-files/chefsteps-cookie-table.pdf) from ChefSteps provides a "parametric" explanation of different approaches to making a chocolate chip cookie (Credit to [Jenny Bryan](https://jennybryan.org/about/), who pointed out this example and provided the data we will use next week in our `Tidy Data` exercise.)
-
-Your exercise for this week is to look at the infographic, choose one cookie, and create a table for that cookie's recipe. 
+Your exercise for this week is to look at this [chocolate chip cookie recipe](https://www.pccmarkets.com/recipe/thick-chewy-chocolate-chip-cookies/) (PDF version) and choose to represent it as a table, tree, or triple. Use what you've learned in this module and this [blog post](https://katiekodes.com/intro-xml-json-2/) as a guide. 
 
 Some things to keep in mind: 
 
-- Decide how you would structure the information in this graphic so that it could be interpretable in a table form. (Rows, Columns, and Values) 
-- Each cookie has a set of attributes and values that could follow a schema. You don't have to create the schema this week, just focus on structuring a recipe for a single cookie. 
-- There is already a good deal of structure to this data, but there are some very strange and confusing choices in the values that will complicate this activity. Take note of those. 
-- On the [canvas forum](https://canvas.uw.edu/courses/1465297/discussion_topics/6164920), share your table with the class, and explain what was easy or hard about creating the table. You can share the table in whatever form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, post a .jpg of your hand-drawn table, etc.)
+- You can make-up the schema (i.e. the column names or tags used to indicate the variable)
+- There isn't a "right" answer to which representation you choose
+- On the [canvas forum](https://canvas.uw.edu/courses/1465297/discussion_topics/6164920), share your representation with the class, and explain why you made the choices you did. You can share this in whatever form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, post a .jpg of your hand-drawn representation, etc.)
 

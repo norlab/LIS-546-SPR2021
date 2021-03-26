@@ -15,6 +15,7 @@ links:
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/tables-trees-triples.html)
+- [Data's Shape](https://katiekodes.com/intro-xml-json-2/)
 - [Data on the Web - Best Practices](https://www.w3.org/TR/dwbp/)
 - [Read one additional Data on the Web - Use Case from this list](https://www.w3.org/TR/dwbp-ucr/)
 

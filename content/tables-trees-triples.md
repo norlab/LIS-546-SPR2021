@@ -123,7 +123,7 @@ The same information, when represented in a markup language like XML (which foll
 
 Practically, we can think about how we would retrieve data from these two representations of the same information, and the efficiency of our computers to do so.
 
-Just looking at the syntax we can see that JSON is more computationally efficient. There are fewer lines of encoded information and fewer assignments of our computer's memory to represent the same information. In JSON we can represent all of the relatives in a simple list, and then use the order of that list to retrieve any member (e.g. ``> Relatives [4]`` returns `Lisa`).
+Just looking at the syntax we can see that JSON is more computationally efficient. There are fewer lines of encoded information and fewer assignments of our computer's memory to represent the same information. In JSON we can represent all of the relatives in a simple list, and then use the order of that list to retrieve any member (e.g. ``> Relatives[4]`` returns `Lisa`).
 
 In the XML we represent each family member with a `<Relative>` tag. In our XML schema we would have defined what the `<Relative>` tag means and rules that govern its proper use. If we want to retrieve the fourth relative `Lisa` from this tree our computers have to read each line until it comes to the fourth `<Relative>` syntax marker, store the value `Lisa` in our RAM, and then return it to us. This is undeniably a simple retrieval task that won't overwhelm any sufficiently powered laptop, but we can imagine this getting much more complex and computationally taxing the more data that we have nested in a markup language like XML. Our computers would have to traverse hundreds or thousands of lines of the XML tree to retrieve data that could be simply listed.  
 

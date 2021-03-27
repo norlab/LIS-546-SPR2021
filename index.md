@@ -24,14 +24,14 @@ layout: home
   <tr>
     <td class="tg-0lax">1</td>
     <td class="tg-0lax">Class Introduction</td>
-    <td class="tg-0lax"><a href="https://canvas.uw.edu/courses/1465297/discussion_topics/6135505" target="_blank">Introductions</a></td>
-    <td class="tg-0lax">None</td>
+    <td class="tg-0lax"><a href="https://canvas.uw.edu/courses/1465297/discussion_topics/6135505" target="_blank">Introductions</a> and a href="https://canvas.uw.edu/calendar" target="_blank">Meet/Greet Sign-up</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/project/" target="_blank">Read the Protocol Project Overview</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-0lax">Tables, Trees, and Triples</td>
-    <td class="tg-0lax">Cookie Recipes</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/02_assignment_data_pitch" target="_blank" rel="noopener noreferrer">Data Pitch</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/content/tables-trees-triples.html#Exercise" target="_blank">Cookie Recipe</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/02_assignment_data_pitch" target="_blank">Data Pitch</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>

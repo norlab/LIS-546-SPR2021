@@ -2,6 +2,8 @@
 layout: default
 ---
 # Metadata Application Profiles
+**Original Author: Nic Weber**  
+**Editing & Updates: Bree Norlander**  
 
 There are an abundance of explanations and tutorials for how metadata should be created under domain specific constraints, but there is surprisingly little attention paid to principles that underlie all knowledge organization and representation activities that are required to create valid metadata. Drawing inspiration from the data science concept of "Tidy Data" this chapter introduces a set of principles for creating Tidy Metadata. These principles are domain-agnostic - they can and should be applied to any setting in which accurate description, retrieval, and discovery are necessary.
 
@@ -33,23 +35,23 @@ Tidy data establishes some general principles that *should* apply to the structu
 - Each observation is a row
 - Each type of observational unit is a table
 
-Metadata should have some similar principles. That is, there should be some general rules that we can follow to develop to describe attributes, values, and their corresponding relationship to instances of a class. Here are the principles I will put for tidy metadata as it applies to tables of data.
+Metadata should have some similar principles. That is, there should be some general rules that we can follow to describe attributes, values, and their corresponding relationship to instances of a class. Below are the principles I will propose for tidy metadata as it applies to tables of data.
 
 The properties of a dataset are expressed as an attribute-value pair that conforms to a schema:
 
 - Attributes are declared by a namespace.  
-- Values are, where possible, constrained by a controlled vocabulary ^[This does not apply to free-text fields].
+- Values are, where possible, constrained by a controlled vocabulary (this does **not** apply to free-text fields).
 - Schemas are published to the web.
 
-Let's unpack each of these statements to that it makes sense in the context of data curation.
+Let's unpack each of these statements so that it makes sense in the context of data curation.
 
-1. "Schemas are published to the web" : a metadata schema establishes and defines data elements (attributes) and the rules governing the use of data elements to describe a resource (Zhang and Gouley, 2009). Schemas are, in plain language, the rules of engagement for creating metadata. That is, they govern what are the valid and invalid use of an attribute-value pair to describe a dataset. Schemas then have to be public in order to be validated. Publishing a schema to the web means that the schema must be at a resolvable web address (a url) and should be encoded in a machine-readable language (e.g. XML or JSON). Schemas should, where possible, use definitions of of elements (attributes) as a unique namespace.
+1. "Schemas are published to the web": a metadata schema establishes and defines data elements (attributes) and the rules governing the use of data elements to describe a resource (Zhang and Gouley, 2009). Schemas are, in plain language, the rules of engagement for creating metadata. That is, they govern what are the valid and invalid use of an attribute-value pair to describe a dataset. Schemas then have to be public in order to be validated. Publishing a schema to the web means that the schema must be at a resolvable web address (a url) and should be encoded in a machine-readable language (e.g. XML or JSON). Schemas should, where possible, use definitions of of elements (attributes) as a unique namespace.
 
 2. "Attributes are declared by a [namespace](https://en.wikipedia.org/wiki/Namespace)" : In publishing a schema to the web, we should also take care to define the use of an attribute such that each attribute has a unique location where the definition and explanation of its use is publicly accessible and identifiable in a schema. The attribute namespace has subtle, but important relationship to a schema. A schema can be made up multiple namespaces, each namespace can be a part of a different schema (I'll offer an example below so that this is less abstract).
 
 3. "Values are, where possible, constrained by a controlled vocabulary" : Recall that in our chapter on Tidy Data, we discussed the appeal to authority control for standard units of measurement. In metadata we want to rely upon this authority control in a similar way - this helps to standardize what types of values an attribute can have, and provide clear guidance for how these values should be constrained.
 
-#### Tidy Metadata Examples
+### Tidy Metadata Examples
 A simple way to express metadata describing the painting "Mona Lisa" might look something like this:
 
 | Attribute 	| Value 	|
@@ -110,7 +112,7 @@ Tidy Metadata:
 - Each attribute is defined as a set of elements in the Dublin Core schema, and these elements are linked as namespaces in our our Schema.
 - Where possible, we have used an authority control on the values of our record. For example, the `Language` attribute is constrained by the controlled vocabulary `ISO639-2` - which provides for country and language codes. In the [standard](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) I identified French, Italian, and English.  Notice, the same is true for the `Date` attribute. In this case, we appealed to the [W3C Date Time Format](https://www.w3.org/TR/NOTE-datetime) to control our date(s). This specifies a date should be expressed as `YYYY-MM-DD` - but also note that we took advantage of the date range in our metadata record. Since it is unclear when exactly da Vinci finished the painting, we represent this uncertainty as two dates of creation: The first day of 1503 and the last day of 1509.
 
-### Using Tidy Metadata Principles for MAPs
+## Using Tidy Metadata Principles for MAPs
 Tidy metadata principles start to take on more meaning when we apply them to the types of data curation challenges we face in building schemas, identifying attribute namespaces, and controlling values for *unique* resources. In practically performing data curation we won't always have the advantage of describing resources that have just one best set of attributes or just one standard to appeal to. Often times we will necessarily want to combine different attributes and different standards to create a unique, but standard way of describing a resource. This is, essentially, the gist of a metadata application profile. An application profile allows a specific institution or metadata creator to combine the most appropriate attributes and authority controls for describing resources they manage.
 
 I think of a metadata application profile like a playlist - sometimes it's perfectly reasonable to put on [Fionna Apple's latest](https://en.wikipedia.org/wiki/Fetch_the_Bolt_Cutters)^[And you should definitely listen to this album] and take a walk. But, sometimes we want to create a mix of the best individual tracks from different albums for our cross country drive.
@@ -146,7 +148,7 @@ Here are two examples of institutions that have created unique attribute namespa
 
 - [Project Open Data](https://project-open-data.cio.gov/) is an initiative by various US federal agencies to create policies and standards that can guide the accurate publication of government data to the web. Project Open Data publishes a metadata [schema](https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo) that defines various attributes of a government dataset that should be included in any dataset's metadata. This schema is, at its core, a modification of many attributes from the W3C's [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-2/). For example, the `type` attribute in Project Open Data's schema is simply borrowing from the DCAT namespace (see the definition [here](https://project-open-data.cio.gov/v1.1/schema/#type)). But, Project Open Data also loosely defines a number of attributes in their schema. That is, they are creating unique namespaces and giving directions to data publishers to follow their schema without borrowing from or reusing existing attribute namespaces and definitions. This is, in my view, wildly inefficient but not so uncommon. I offer this as a cautionary tale - Project Open Data has taken on the task of publishing, updating, and sustaining this schema and its unique namespace attributes indefinitely. If, at any time, these namespaces are unavailable then the machines depending upon the unique definitions will not be able to accurately interpret resources described by Project Open Data's schema. I would also note that there has not been broad conformance with this schema across federal agencies - I'll leave commentary about WHY this might be the case up to your imagination.      
 
-### Tidy Metadata Best Practices 
+## Tidy Metadata Best Practices 
 In this chapter, I have laid out some principles for how metadata *should* be created. These are principles that, in practice, may require modification or may be unnecessary given the time intensive task of describing digital data. 
 
 Metadata is, as we've discussed throughout the quarter, a tradeoff between expressivity and tractability. Throughout this chapter I am arguing that tractable metadata is that which follows a tidy metadata principle of, where possible, reusing existing schemas, attributes, and controlled vocabularies. This significantly reduces the need to sustain metadata standards, and allows for our metadata records to be broadly accessible to both humans (through a graphic user interface) and machines (through encoding).  
@@ -163,7 +165,7 @@ ___
 
 One parting note - There is a concept which doesn't fit neatly into our discussion of MAPs and Tidy Metadata, but is important to think about when approaching metadata for data curation. I'll try to briefly summarize the idea of a 1:1 principle and unpack why this is important for data curation in the concluding section.  
 
-### Principle: 1:1 Relationships
+## Principle: 1:1 Relationships
 The one to one (1:1) principle holds that metadata records should correspond to one, and only one entity (or instance) of a class (Hillmann, 2005, sec. 1.2). This principles was first articulated in the context of cultural heritage metadata where related, but conceptually different instances are often difficult to interpret.
 
 The canonical example of the 1:1 principe is a photograph of the Mona Lisa, and the actual painting of the Mona Lisa by Leonardo Da Vinci. If we search for all of the records that describe the Mona Lisa we can find numerous metadata records about the Mona Lisa with the creator Leonardo Da Vinci. [Here](https://www.europeana.eu/en/search?page=1&view=grid&query=Mona%20Lisa) are the results from searching for "Mona Lisa" in the Europeana database which aggregates metadata across European cultural heritage institutes. If we actually look closely at these records - we will find multiple examples of the creator being named as "Leonardo da Vinci". 

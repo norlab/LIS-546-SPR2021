@@ -200,6 +200,8 @@ ___
 One parting note - There is a concept which doesn't fit neatly into our discussion of MAPs and Tidy Metadata, but is important to think about when approaching metadata for data curation. I'll try to briefly summarize the idea of a 1:1 principle and unpack why this is important for data curation in the concluding section.  
 
 ## Principle: 1:1 Relationships
+>The principle whereby related but conceptually different entities, for example a painting and a digital image of the painting, are described by separate metadata records ([reference](https://www.dublincore.org/specifications/dublin-core/usageguide/glossary/))  
+
 The one to one (1:1) principle holds that metadata records should correspond to one, and only one entity (or instance) of a class ([Hillmann](https://www.dublincore.org/specifications/dublin-core/usageguide/2005-08-15/), 2005, sec. 1.2). This principle was first articulated in the context of cultural heritage metadata where related, but conceptually different instances are often difficult to interpret.
 
 The canonical example of the 1:1 principe is a photograph of the Mona Lisa, and the actual painting of the Mona Lisa by Leonardo Da Vinci. If we search for all of the records that describe the Mona Lisa we can find numerous metadata records about the Mona Lisa with the creator Leonardo da Vinci. [Here](https://www.europeana.eu/en/search?page=1&view=grid&query=Mona%20Lisa) are the results from searching for "Mona Lisa" in the Europeana database which aggregates metadata across European cultural heritage institutes. If we actually look closely at these records - we will find multiple examples of the creator being named as "Leonardo da Vinci". 

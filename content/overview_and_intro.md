@@ -153,8 +153,7 @@ I wouldn't be teaching this course without the support of Nic Weber and Carole P
 
 > I have had a lot of help putting together these materials. Where possible I have documented these individuals and resources throughout. Some explicit thanks is necessary - Jackson Brown, Andrea Thomer, Peter Organisciak, Katrina Fenlon, and Alex Garnett have contributed ideas for exercises, readings, and reviewed portions of each chapter.
   
-   
-# Data Curation II - Introduction
+ <h1><a id="Introduction to Data Curation II">Exercise</a></h1>    
 **Original Author: Nic Weber**  
 **Editing & Updates: Bree Norlander**  
 This introduction provides an overview of the conceptual content that we will engage in for DC II. The goal is to refresh your memory about concepts that were covered in DC I and how we will use these ideas throughout DC II.  
@@ -179,8 +178,7 @@ In DC I we focused a good deal of our time and effort on obtaining declarative k
 1. Deepen your declarative knowledge about data, management, organization, and encodings that are specific to the types of open data that we are able to reliably access and use via the web. By focusing in particular on open data we have the ability to practice with and use real world examples.
 2. Expose you to tools and strategies for employing these skills effectively in curating open data. Putting declarative knowledge to work takes practice, and it gets easier when we are able to abstract away from the particulars of any one context or any one tool's affordances (and limitations).
 
-
-## Working Definitions
+<h2><a id="Working Definitions">Exercise</a></h2>
 
 Before we begin diving into the content of DC II, it will help to revisit some definitions that were established in DC I:
 

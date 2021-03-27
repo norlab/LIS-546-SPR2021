@@ -54,13 +54,45 @@ Let's unpack each of these statements so that it makes sense in the context of d
 ### Tidy Metadata Examples
 A simple way to express metadata describing the painting "Mona Lisa" might look something like this:
 
-| Attribute 	| Value 	|
-|--------------	|------------------------	|
-| Creator 	| Leonardo da Vinci 	|
-| Year_Created 	| c. 1503-1519 	|
-| Medium 	| Oil on poplar 	|
-| Dimmensions 	| 77 x 53 	|
-| Location 	| Musée du Lovre, Paris  	|
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+<div class="tg-wrap"><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-wa1i">Attribute</th>
+    <th class="tg-wa1i">Value</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1">Creator</td>
+    <td class="tg-cly1">Leonardo da Vinci</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Year_Created</td>
+    <td class="tg-cly1">c. 1503-1519</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Medium</td>
+    <td class="tg-cly1">Oil on poplar</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Dimmensions</td>
+    <td class="tg-cly1">77 x 53</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Location</td>
+    <td class="tg-cly1">Musée du Lovre, Paris</td>
+  </tr>
+</tbody>
+</table></div>
 
 The metadata elements in this table are arranged as pairs of attributes and values that generically describe the painting "Mona Lisa".
 

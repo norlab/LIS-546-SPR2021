@@ -65,7 +65,7 @@ Here is an [example](https://rochellelundy.gitbooks.io/r3-recycling-repository/c
     - a 3-5 sentence overview of the data, publisher, and the relevance to your project 
     - Elements that characterize the data available such as: Domains served by the data; Obligation / Motivation for publishing the data; Potential ways that the domains will use the data; Quality (this will vary – we’ll discuss in class); Lineage (provenance); Size; Type / Format; Rate of Change; Lifespan; Potential audiences.
     - Assessment of the data including positive aspects of the published data, negative aspects of the published data, challenges that will face data publishers, users, or meeting best practices over time. See: https://www.w3.org/TR/dwbp-ucr/#general-challenges
-- And finally, requirements for Data on the Web Best Practices: Select two requirements for your data source, and justify why these are requirements (~3 sentences) See: [https://www.w3.org/TR/dwbp-ucr/#requirements-1](https://www.w3.org/TR/dwbp-ucr/#requirements-1)
+- And finally, requirements for Data on the Web Best Practices: Select two requirements for your data source, and justify why these are requirements (~3 sentences). See: [https://www.w3.org/TR/dwbp-ucr/#requirements-1](https://www.w3.org/TR/dwbp-ucr/#requirements-1)
 
 For your final deliverable you will be doing this for each of your users, but in a more truncated fashion. You won’t need to include overviews and assessments of each dataset for each user.
 

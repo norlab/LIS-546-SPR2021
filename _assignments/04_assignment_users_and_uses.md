@@ -11,7 +11,7 @@ due_event:
     description: 'Submit Users and Use Cases'
     url: /assignments/04_assignment_users_and_uses
 ---
-## Assignment: User Stories + Use Cases
+## Assignment: User Stories & Use Cases
 Throughout this class we will read examples of data curation work that is "user centered." Two broad techniques for developing requirements of systems that are "human centered" are through use cases, and user stories.
 
 User stories are a simple but powerful way to capture requirements when doing systems analysis and development. The level of detail, and the specific narrative style will vary greatly depending on the intended audience. For example, if we want to create a user story for accessing data stored in our repository we will need to think closely about different types of users, their skills, the ways they could access data, the different data they may want, etc. However, we don’t want this user story to turn into something so complicated that it is overwhelming to translate into actionable policy or features of our data repository. So we we can try to atomize a user experience and come up with a simple story that tells us the “who what and why” - so that we can figure out “how.” 

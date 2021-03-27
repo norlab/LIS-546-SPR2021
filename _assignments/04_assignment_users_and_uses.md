@@ -21,43 +21,33 @@ User stories are a simple but powerful way to capture requirements when doing sy
 There is also a template example below to help you think through creating a user story.  Another way to begin gathering information about users and their expectations for data are through use cases. In week 2, one of the required readings was an example use case that W3C developed. Use their template to investigate best practices for data and repositories that are relevant to your protocol project.
 
 ### Creating User Stories
-User stories are a simple, but powerful way to capture requirements when doing systems analysis and development.
-
-The level of detail, and the specific narrative style will vary greatly on the intended audience. For example, if we want to create a user story for accessing data stored in our repository we will need to think closely about different types of users, their skills, the ways they could access data, the different data they may want, etc.
-
-This could become a very complicated user story that could be overwhelming to translate into actionable policy or features of our data repository.
-
-Instead of trying to think through each complicated aspect of a user's need we can try to atomize a user experience. In doing so we come up with simple story about the user that tells us the "who what and why" - so that we can figure out "how" ...
-
-*Elements*
+#### Elements
 
 The three most basic elements of a user story are:
-- Stakeholder - the type of stakeholder might be a user, curators, administrator, etc.
-- Feature - this could be a feature of a dataset, a system, or service
-- Goal - what is the stakeholder trying to achieve with the feature?
+- Stakeholder: the type of stakeholder might be a user, curators, administrator, etc.
+- Feature: this could be a feature of a dataset, a system, or service
+- Goal: what is the stakeholder trying to achieve with the feature?
 
-*Templates*
+#### Templates
 A template for a user story goes something like this:
 
 As a `user` I want `some feature` so that I can achieve some `goal`.
 
-As a `data user of the QDR` I want to `find all datasets about recycling for cities in Pacific Northwest` So that I can reliably `compare recycling program policies and outcomes` for this region.
+As a `data user of the QDR` I want to `find all datasets about recycling for cities in Pacific Northwest` so that I can reliably `compare recycling program policies and outcomes` for this region.
 
-Some variations on this theme: More recent work in human centered design places the goals first - that is, it attempts to say what is trying to be done, before even saying who is trying to do it...
+*Variation on a theme*: More recent work in human centered design places the goals first - that is, it attempts to say what is trying to be done, before even saying who is trying to do it.
 
 This is helpful for thinking about goals that may be shared across different user or stakeholder types.
 
 This variation of a user story goes something like:
 
-In order to achieve some business value
-As a stakeholder type
-I want some new system feature
+In order to `achieve some business value` as a `stakeholder type` I want `some new system feature`.
 
-*Here is your task*
+### Your Task
 
-Create user stories that help you understand the potential wants, needs, and desires of your designated community of users. For this first attempt - focus on user stories around data sharing.  How might you satisfy these user stories? What choices do these stories help clarify or obscure about your protocol, and your designated community?
+Create user stories that help you understand the potential wants, needs, and desires of your designated community of users. For this first attempt - focus on user stories around data sharing. How might you satisfy these user stories? What choices do these stories help clarify or obscure about your protocol, and your designated community?
 
-Here is an example that can help clarify the way that user stories are assembled for the protocol: https://rochellelundy.gitbooks.io/r3-recycling-repository/content/r3Recycling/protocolReport/userCommunity.html
+Here is an [example](https://rochellelundy.gitbooks.io/r3-recycling-repository/content/r3Recycling/protocolReport/userCommunity.html) that can help clarify the way that user stories are assembled for the protocol. 
 
 ## Protocol Deliverable
   
@@ -75,7 +65,7 @@ Here is an example that can help clarify the way that user stories are assembled
     - a 3-5 sentence overview of the data, publisher, and the relevance to your project 
     - Elements that characterize the data available such as: Domains served by the data; Obligation / Motivation for publishing the data; Potential ways that the domains will use the data; Quality (this will vary – we’ll discuss in class); Lineage (provenance); Size; Type / Format; Rate of Change; Lifespan; Potential audiences.
     - Assessment of the data including positive aspects of the published data, negative aspects of the published data, challenges that will face data publishers, users, or meeting best practices over time. See: https://www.w3.org/TR/dwbp-ucr/#general-challenges
-- And finally, requirements for Data on the Web Best Practices: Select two requirements for your data source, and justify why these are requirements (~3 sentences) (See: https://www.w3.org/TR/dwbp-ucr/#requirements-1
+- And finally, requirements for Data on the Web Best Practices: Select two requirements for your data source, and justify why these are requirements (~3 sentences) See: [https://www.w3.org/TR/dwbp-ucr/#requirements-1](https://www.w3.org/TR/dwbp-ucr/#requirements-1)
 
 For your final deliverable you will be doing this for each of your users, but in a more truncated fashion. You won’t need to include overviews and assessments of each dataset for each user.
 

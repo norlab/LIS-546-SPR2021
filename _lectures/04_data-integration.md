@@ -5,7 +5,7 @@ title: "Week 4: Data Integration"
 tldr: "Data integration as it operates at the logical level of tables, and data that feed into user interfaces."
 thumbnail: /static_files/presentations/data-int.png
 links: 
-    - url: https://screencast-o-matic.com/embed?sc=cYf3oHAIEB&v=6&ff=1&title=0&controls=1
+    - url: 
       name: video
     - url: /content/data-integration.html
       name: content

@@ -18,8 +18,8 @@ In previous exercises we created a policy that specified what kind of data our r
 **Transfer**        
 In an ideal scenario there is a clear transfer of ownership when data, documentation, and related resources are exchanged between one individual and another. But, often data are acquired, collected, or discovered in less than ideal scenarios. As data curators, we want to set up some general expectations about how data *should* be packaged or prepared for us to take-over responsibility for its preservation and reuse. Some general questions to consider when developing a data transfer policy:    
 
-- How will users or curators upload data to your repository? What kind of authenticity checks would you perform to make sure this data is what it purports to be? Does this include any virus scanning tools? (hint: CKAN provides some easy answers to this)
-- How will you identify confidential, sensitive, or private information contained in this data? (in other words, What constitutes private or sensitive information?O What is your policy for removing / redacting / protecting this kind of content?
+- How will users or curators upload data to your repository? What kind of authenticity checks would you perform to make sure this data is what it purports to be? Does this include any virus scanning tools?
+- How will you identify confidential, sensitive, or private information contained in this data? (in other words, What constitutes private or sensitive information?  What is your policy for removing / redacting / protecting this kind of content?
 - How will you apply an identifier to each data collection? What kind? Why?
 - What additional metadata (beyond what the depositor provides) should be created at the point of data being transfered to your stewardship?
 - Is there any additional documentation that should be created in order to meaningfully preserve or use this data?

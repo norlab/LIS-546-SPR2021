@@ -24,7 +24,7 @@ layout: home
   <tr>
     <td class="tg-0lax">1</td>
     <td class="tg-0lax">Class Introduction</td>
-    <td class="tg-0lax"><a href="https://canvas.uw.edu/courses/1465297/discussion_topics/6135505" target="_blank">Introductions</a> and a href="https://canvas.uw.edu/calendar" target="_blank">Meet/Greet Sign-up</a></td>
+    <td class="tg-0lax"><a href="https://canvas.uw.edu/courses/1465297/discussion_topics/6135505" target="_blank">Introductions</a> and <a href="https://canvas.uw.edu/calendar" target="_blank">Meet/Greet Sign-up</a></td>
     <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/project/" target="_blank">Read the Protocol Project Overview</a></td>
   </tr>
   <tr>
@@ -37,19 +37,19 @@ layout: home
     <td class="tg-0lax">3</td>
     <td class="tg-0lax">Tidy Data</td>
     <td class="tg-0lax">Messy Recipe Data</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/03_assignment_statement_of_work" target="_blank" rel="noopener noreferrer">Definition, Scope, Audience</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/03_assignment_statement_of_work" target="_blank">Definition, Scope, Audience</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">4</td>
     <td class="tg-0lax">Data Integration</td>
     <td class="tg-0lax">311 Data</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/04_assignment_users_and_uses" target="_blank" rel="noopener noreferrer">User Stories</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/04_assignment_users_and_uses" target="_blank">User Stories</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
     <td class="tg-0lax">Data Packaging</td>
     <td class="tg-0lax">Data Curator Demo</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/05_assignment_collection_policies" target="_blank" rel="noopener noreferrer">Data Collection Policies</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/05_assignment_collection_policies" target="_blank">Data Collection Policies</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6</td>
@@ -61,19 +61,19 @@ layout: home
     <td class="tg-0lax">7</td>
     <td class="tg-0lax">Data Acquisition, Search, and Discovery</td>
     <td class="tg-0lax">APIs</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/06_assignment_transformations_and_quality" target="_blank" rel="noopener noreferrer">Data Transformations and Quality</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/06_assignment_transformations_and_quality" target="_blank">Data Transformations and Quality</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
     <td class="tg-0lax">Metadata Application Profiles</td>
     <td class="tg-0lax">None</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/08_assignment_metadata" target="_blank" rel="noopener noreferrer">Metadata Application Profiles</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/08_assignment_metadata" target="_blank">Metadata Application Profiles</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
     <td class="tg-0lax">Ontologies and Linked Data</td>
     <td class="tg-0lax">None</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/07_assignment_licensing" target="_blank" rel="noopener noreferrer">Data Licensing</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/07_assignment_licensing" target="_blank">Data Licensing</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>

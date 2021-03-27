@@ -6,14 +6,14 @@ layout: default
 There are an abundance of explanations and tutorials for how metadata should be created under domain specific constraints, but there is surprisingly little attention paid to principles that underlie all knowledge organization and representation activities that are required to create valid metadata. Drawing inspiration from the data science concept of "Tidy Data" this chapter introduces a set of principles for creating Tidy Metadata. These principles are domain-agnostic - they can and should be applied to any setting in which accurate description, retrieval, and discovery are necessary.
 
 ### Introduction
-The underlying principles of creating metadata come from fields such as knowledge organization and representation, and are applied practically to domain specific data. [Ecology data](https://eml.ecoinformatics.org/) have different needs than do, for example, [cultural heritage](https://www.dublincore.org/about/) materials. As result, many discipline or domain specific metadata standards have been developed to accommodate these different resources.
+The underlying principles of creating metadata come from fields such as knowledge organization and representation, and are applied practically to domain specific data. [Ecology data](https://eml.ecoinformatics.org/) have different needs than do, for example, [cultural heritage](https://www.dublincore.org/about/) materials. As a result, many discipline or domain specific metadata standards have been developed to accommodate these different resources.
 
-At broad level of abstraction, metadata provides for both human and machine-interpretable information necessary for accurate retrieval, discovery, and use of digital objects. But, often metadata creators are not formally trained in either knowledge organization or knowledge representation. For data curators, this poses a number of challenge:
+At a broad level of abstraction, metadata provides for both human and machine-interpretable information necessary for accurate retrieval, discovery, and use of digital objects. But, often metadata creators are not formally trained in either knowledge organization or knowledge representation. For data curators, this poses a number of challenges:
 
 - In upstream curation, curators often need to identify, select, and create a standard for data creators (or collectors) to follow.
 - In downstream curation, curators often need to **refactor** metadata, either to make the metadata comply with an existing standard, or to structure the metadata so that it applies to one and only one conceptual entity.
 
-In the [Introduction chapter](https://nniiicc.github.io/LIS-598-DC2-Sp2020/data-curation-ii-introduction.html) there are simple definitions of core concepts related to metadata that will be helpful to review before reading the rest of this chapter.
+In the [Introduction module](https://norlab.github.io/LIS-546-SPR2021/content/overview_and_intro.html) there are simple definitions of core concepts related to metadata that will be helpful to review before reading the rest of this chapter.
 
 ### Semantics and Syntax of Metadata
 In the most simple form, metadata consists of 'attribute - value' pairs that describe some property of data, or a set of data. Recall that in the introduction, we established that attributes are "the  defining features of a class or sub-class, and refer to instances. An instance is a member of a class if it has **all** of the attributes of that class."

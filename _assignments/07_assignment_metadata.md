@@ -24,8 +24,8 @@ To complete this exercise, you will need to answer the following questions:
 - How does this align with the repository software (CKAN) that you have chosen.
 
 How do I evaluate metadata standards useful for my project? Dian Hillman offers these criteria:
-- Look at what others in the domain are using   
-– Stability/volatility of the standard (and whether it really IS a standard) (i.e. How often is the standard changed?)
+- Look at what others in the domain are using
+- Stability/volatility of the standard (and whether it really IS a standard) (i.e. How often is the standard changed?)
 – How well does the community for the standard integrates new needs and ideas
 – Startup and maintenance costs for use in an individual project (higher for more complex formats and implementations)
 - What is (at most basic level) required for an application profile?

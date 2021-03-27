@@ -5,7 +5,7 @@ title: "Week 8: Metadata Application Profiles"
 tldr: "Introduction to tidy metadata."
 thumbnail: /static_files/presentations/metadata.png
 links: 
-    - url: https://screencast-o-matic.com/embed?sc=cYhi29gDkq&v=6&ff=1&title=0&controls=1
+    - url: 
       name: video
     - url: /content/metadata-application-profiles.html
       name: content

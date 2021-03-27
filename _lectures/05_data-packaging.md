@@ -5,7 +5,7 @@ title: "Week 5: Data Packaging"
 tldr: "How and why our work in developing metadata for data curation is paramount to sustainable access, and introduce a few broadly used standards for creating data packages."
 thumbnail: /static_files/presentations/data-pkg.png
 links: 
-    - url: https://screencast-o-matic.com/embed?sc=cYhnb3BAeu&v=6&ff=1&title=0&controls=1
+    - url: 
       name: video
     - url: /content/data-packaging.html
       name: content

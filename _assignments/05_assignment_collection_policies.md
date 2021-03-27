@@ -13,7 +13,7 @@ due_event:
 ---
 ## Assignment: Data Collection Policies
 
-### Introductin        
+### Introduction        
 Most data repositories draw a distinction between self-deposit, submission-based, and opportunistic data collecting.
 
 - Self-deposit is exactly what it sounds like - data producers or collectors upload their data directly to a repository. Curation takes place post-hoc to make sure that there are no viruses, that data are within copyright protections, etc (Typical curation tasks like cleaning of data, creation of additional metadata, structuring of data, etc, are not typically applied to these kinds of collections.)

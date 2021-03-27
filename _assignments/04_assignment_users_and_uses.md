@@ -16,30 +16,11 @@ Throughout this class we will read examples of data curation work that is "user 
 
 User stories are a simple but powerful way to capture requirements when doing systems analysis and development. The level of detail, and the specific narrative style will vary greatly depending on the intended audience. For example, if we want to create a user story for accessing data stored in our repository we will need to think closely about different types of users, their skills, the ways they could access data, the different data they may want, etc. However, we don’t want this user story to turn into something so complicated that it is overwhelming to translate into actionable policy or features of our data repository. So we we can try to atomize a user experience and come up with a simple story that tells us the “who what and why” - so that we can figure out “how.” 
 
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/UserStoriesTable.png" alt="Table with Who What Why How" width="400"/>
 
+There is also a template example below to help you think through creating a user story.  Another way to begin gathering information about users and their expectations for data are through use cases. In week 2, one of the required readings was an example use case that W3C developed. Use their template to investigate best practices for data and repositories that are relevant to your protocol project.
 
-There is also a template example on the assignment page of the website to help you think through creating a user story.  Another way to begin gathering information about users and their expectations for data are through use cases. In week 2 one of the required readings was an example use case that W3C developed. Use their template to investigate best practices for data and repositories that are relevant to your protocol project.
-
-Here’s how to begin:
-Re-read the Data on the Web Use Cases & Requirements from Week 2
-Describe the audience for your data topic.
-Identify a dataset or collection published on the web that is relevant to your protocol.
-Develop a use case for one of your users.
-
-And here’s what to turn in:
-A description of the potential users or audience your have identified for your data. You can format this in the way that makes the most sense for your project - it might be a paragraph or a table or a list.
-Indicate which user you chose for this assignment.
-Indicate the dataset or data collection that you are using for this assignment. You should provide the following: 
-a link to the data
-a 3-5 sentence overview of the data, publisher, and the relevance to your project 
-Elements that characterize the data available such as: Domains served by the data; Obligation / Motivation for publishing the data; Potential ways that the domains will use the data; Quality (this will vary – we’ll discuss in class); Lineage (provenance); Size; Type / Format; Rate of Change; Lifespan; Potential audiences.
-Assessment of the data including positive aspects of the published data, negative aspects of the published data, challenges that will face data publishers, users, or meeting best practices over time. See: https://www.w3.org/TR/dwbp-ucr/#general-challenges
-And finally, requirements for Data on the Web Best Practices: Select two requirements for your data source, and justify why these are requirements (~3 sentences) (See: https://www.w3.org/TR/dwbp-ucr/#requirements-1
-
-For your final deliverable you will be doing this for each of your users, but in a more truncated fashion. You won’t need to include overviews and assessments of each dataset for each user.
-
-
-### User Stories
+### Creating User Stories
 User stories are a simple, but powerful way to capture requirements when doing systems analysis and development.
 
 The level of detail, and the specific narrative style will vary greatly on the intended audience. For example, if we want to create a user story for accessing data stored in our repository we will need to think closely about different types of users, their skills, the ways they could access data, the different data they may want, etc.
@@ -78,21 +59,23 @@ Create user stories that help you understand the potential wants, needs, and des
 
 Here is an example that can help clarify the way that user stories are assembled for the protocol: https://rochellelundy.gitbooks.io/r3-recycling-repository/content/r3Recycling/protocolReport/userCommunity.html
 
+## Protocol Deliverable
+  
+**Here’s how to begin:**
+1. Re-read the Data on the Web Use Cases & Requirements from Week 2
+2. Describe the audience for your data topic.
+3. Identify a dataset or collection published on the web that is relevant to your protocol.
+4. Develop a use case for one of your users.
 
-### Use Cases (Best Practices)
-Another way to begin gathering information about users and their expectations for data are through use cases. As you read in week 5 for class the W3C has developed a template for conducting use cases for data on the web best practices. This exercise asks you to use that template to investigate best practices for data and repositories that are relevant to your quarter protocols.
+**Here’s what to turn in:**
+- A description of the potential users or audience your have identified for your data. You can format this in the way that makes the most sense for your project - it might be a paragraph or a table or a list.
+- Indicate which user you chose for this assignment.
+- Indicate the dataset or data collection that you are using for this assignment. You should provide the following: 
+    - a link to the data
+    - a 3-5 sentence overview of the data, publisher, and the relevance to your project 
+    - Elements that characterize the data available such as: Domains served by the data; Obligation / Motivation for publishing the data; Potential ways that the domains will use the data; Quality (this will vary – we’ll discuss in class); Lineage (provenance); Size; Type / Format; Rate of Change; Lifespan; Potential audiences.
+    - Assessment of the data including positive aspects of the published data, negative aspects of the published data, challenges that will face data publishers, users, or meeting best practices over time. See: https://www.w3.org/TR/dwbp-ucr/#general-challenges
+- And finally, requirements for Data on the Web Best Practices: Select two requirements for your data source, and justify why these are requirements (~3 sentences) (See: https://www.w3.org/TR/dwbp-ucr/#requirements-1
 
-The simple steps to follow:
-- Read the Data on the Web Use Cases & Requirements (as part of your weekly reading) https://www.w3.org/TR/dwbp-ucr
-- Identify a data collection published on the web that is relevant to your protocol.
-- Develop a Use Case following the DWBP outline.
-
-**Protocol Deliverable**
-Your should begin with a brief 3-5 sentence overview of the data, publisher, and the relevance to your quarter project. Additionally, your report might include the following:
-
-- Elements that characterize the data available (or at least published in summary form) on the web: Domains served by the data; Obligation / Motivation for publishing the data; Potential ways that the domains will use the data; Quality (this will vary – we’ll discuss in class); Lineage (provenance); Size; Type / Format; Rate of Change; Lifespan; Potential audiences.
-- Positive aspects of the published data.
-- Negative aspects of the published data.
-- Challenges that will face data publishers, users, or meeting best practices over time. See: https://www.w3.org/TR/dwbp-ucr/#general-challenges
-- Requirements for DWBP: Select two requirements for your data source, and justify why this is a requirement (~3 sentences) (See: https://www.w3.org/TR/dwbp-ucr/#requirements-1
+For your final deliverable you will be doing this for each of your users, but in a more truncated fashion. You won’t need to include overviews and assessments of each dataset for each user.
 

@@ -3,9 +3,7 @@ layout: default
 ---
 # Metadata Application Profiles
 
-
-
-There are an abundance of explanations and tutorials for how metadata should be created under domain specific constraints, but there is surprisingly little attention paid to principles that underlie all knowledge organization and representation activities that are required to create valid metadata. Drawing inspiration from data science concept of "Tidy Data" this chapter introduces a set of principles for creating Tidy Metadata. These principles are domain-agnostic - they can and should be applied to any setting in which accurate description, retrieval, and discovery are necessary.
+There are an abundance of explanations and tutorials for how metadata should be created under domain specific constraints, but there is surprisingly little attention paid to principles that underlie all knowledge organization and representation activities that are required to create valid metadata. Drawing inspiration from the data science concept of "Tidy Data" this chapter introduces a set of principles for creating Tidy Metadata. These principles are domain-agnostic - they can and should be applied to any setting in which accurate description, retrieval, and discovery are necessary.
 
 ### Introduction
 The underlying principles of creating metadata come from fields such as knowledge organization and representation, and are applied practically to domain specific data. [Ecology data](https://eml.ecoinformatics.org/) have different needs than do, for example, [cultural heritage](https://www.dublincore.org/about/) materials. As result, many discipline or domain specific metadata standards have been developed to accommodate these different resources.

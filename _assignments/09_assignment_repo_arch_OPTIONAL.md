@@ -58,8 +58,8 @@ Here is a template you can use when starting to evaluate a new repository platfo
 - What are the hardware requirements of the repository?
 - What are the related software requirements of the repository (in other words - what is its architecture)?  
 - What is the current release or version number that is available for download?
-- - How often are releases made available?
-- - How do repository developers report an error or bug found in a release?
+    - How often are releases made available?
+    - How do repository developers report an error or bug found in a release?
 - How many people are using the repository? What kinds of data do they curate?
 - How is the software modified by those users? (e.g. are there plugins or extensible libraries?)
 - What type of data is typically stored in the repository? Does the architecture afford any special features for particular kinds of data (e.g. geospatial data repository software might have a map plugin)

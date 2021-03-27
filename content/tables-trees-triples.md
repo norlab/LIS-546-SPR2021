@@ -259,7 +259,7 @@ Imagine that you are starting a data repository specifically for cookie recipes.
 
 Some things to keep in mind: 
 
-- You can make-up the schema (i.e. the column names or tags used to indicate the variable)
+- Don't worry about using established metadata schema for this exercise (we'll get to that later). You can make-up the schema (i.e. the column names or tags used to indicate the variable, the namespaces) and you don't need to create definitions for the metadata, just make sure your terms are fairly self-explanatory (e.g. use `ingredient` instead of `thing`).
 - There isn't a "right" answer to which representation you choose
 - On the [canvas forum](https://canvas.uw.edu/courses/1465297/discussion_topics/6164920), share your representation with the class, and explain why you made the choices you did. What was difficult, what was easy? You can share this in whatever form you like (create one directly in Canvas, link to a Google Doc, Upload an Excel file, post a .jpg of your hand-drawn representation, etc.)
 

@@ -247,5 +247,5 @@ Case Study for discussion (optional):
 
 - Stein, A., & Dunham, E. (2018). Meaningful Data Sharing: Developing the Illinois Data Bank Metadata Framework. Journal of Library Metadata, 18(2), 59-83. https://www.ideals.illinois.edu/handle/2142/103173 
 
-## Exercise
-The exercise for this week is to work on your protocol, and in particular [Assignment](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-5-metadata-application-profiles) 5 which deals with metadata application profiles. Your readings this week describe metadata application profiles in detail. 
+<h2><a id="Exercise">Exercise</a></h2>
+The exercise for this week is to work on your protocol, and in particular the [Metadata Application Profile Assignment](https://norlab.github.io/LIS-546-SPR2021/assignments/07_assignment_metadata). Your readings this week describe metadata application profiles in detail. 

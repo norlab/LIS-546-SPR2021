@@ -13,7 +13,7 @@ due_event:
 ---
 ## Assignment: Data Collection Policies
 
-**Intro**        
+### Introductin        
 Most data repositories draw a distinction between self-deposit, submission-based, and opportunistic data collecting.
 
 - Self-deposit is exactly what it sounds like - data producers or collectors upload their data directly to a repository. Curation takes place post-hoc to make sure that there are no viruses, that data are within copyright protections, etc (Typical curation tasks like cleaning of data, creation of additional metadata, structuring of data, etc, are not typically applied to these kinds of collections.)
@@ -24,11 +24,12 @@ Regardless of how data are acquired there should be clear criteria for which kin
 
 Here are some valuable examples:        
 
-  - ICPSR: [What should my deposit include?](http://www.icpsr.umich.edu/icpsrweb/deposit/)
-  - Cornell: [Content collection policy](http://guides.library.cornell.edu/ecommons/contentpolicy) and also see their valuable [Recommended file formats](http://guides.library.cornell.edu/ecommons/formats)
-  - QDR - has a very structured submission process, including a set of helpful [data deposit forms](https://qdr.syr.edu/deposit/process)
-  - IDEALS - a repository at the University of Illinois has an excellent policy on the preservation grantees they can make for [particular file formats](https://wiki.illinois.edu/wiki/display/IDEALS/Digital+Preservation+Support+Policy#DigitalPreservationSupportPolicy-Category1)
-- SF Open Data [Submission Guidelines](https://datasf.org/publishing/submission-guidelines/)
+- ICPSR: [What should my deposit include?](http://www.icpsr.umich.edu/icpsrweb/deposit/)
+- University of Minnesota: [Data Collection Policy](https://conservancy.umn.edu/pages/drum/policies/#data-collection-policy)
+- Cornell: [Content collection policy](http://guides.library.cornell.edu/ecommons/contentpolicy) and also see their valuable [Recommended file formats](http://guides.library.cornell.edu/ecommons/formats)
+- QDR: has a very structured submission process, including a set of helpful [data deposit forms](https://qdr.syr.edu/deposit/process)
+- IDEALS: a repository at the University of Illinois has an excellent policy on the preservation grantees they can make for [particular file formats](https://wiki.illinois.edu/wiki/display/IDEALS/Digital+Preservation+Support+Policy#DigitalPreservationSupportPolicy-Category1)
+- SF Open Data: [Submission Guidelines](https://datasf.org/publishing/submission-guidelines/)
 - A more general approach is to define the scope of an open data program, see the Seattle Open Data [description](http://www.seattle.gov/tech/initiatives/open-data/about-the-open-data-program) for a helpful example. 
 
 **Protocol Deliverable**      
@@ -36,7 +37,7 @@ Establish the policies that will govern your data collection policy. This should
 
 - What are the criteria that make a dataset, or collection, relevant to your protocol? What, if anything, might exclude a relevant dataset?
 - What will you require to be included for a minimum viable package of data? (e.g. the data must have a clear license, a format that is (or can be converted to) an open standard, and enough contextual documentation that structured metadata can be created).
-- What formats will you accep, and what formats will not you accept?
+- What formats will you accept, and what formats will not you accept?
 - How big can a collection be (in size)?
 - What kind of preservation guarantees will you make for each format?
 

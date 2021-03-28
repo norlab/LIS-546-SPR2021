@@ -97,7 +97,7 @@ Through a critical lens that takes seriously the role of [fourth wave feminism](
 
 Here are some resources to get started: 
 
-- 'Data Feminism' has been made available openly and you can read it here. access draft of the book  on Publon [here](https://data-feminism.mitpress.mit.edu/)
+- 'Data Feminism' has been made available openly and you can read it [here](https://data-feminism.mitpress.mit.edu/).
 - A brief blogpost and a podcast with the authors can be found here https://datasociety.net/library/data-feminism/
 - Another podcast which goes into greater theoretical depth with the authors https://podcasts.apple.com/us/podcast/catherine-dignazio-lauren-klein-data-feminism-mit-press/id593872749?i=1000467308855
 - Feminist Data Manifest-No (Organized and led by iSchool professor Marika Cifor) https://www.manifestno.com/

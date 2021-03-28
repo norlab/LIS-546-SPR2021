@@ -5,21 +5,20 @@ layout: default
 **Original Author: Nic Weber**  
 **Editing & Updates: Bree Norlander**  
 
-The idea of "tidy data" underlies principles in data management, and database administration that have been around for decades. In 2014, Hadley Wickham started to formalize some of these rules in what he called "Principles for Tidy Data." [PDF](https://vita.had.co.nz/papers/tidy-data.pdf)
+The idea of "tidy data" underlies principles in data management, and database administration that have been around for decades. In 2014, Hadley Wickham started to formalize some of these rules in what he called "Principles for Tidy Data." [PDF](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf)
 
 These principles are focused mainly on how to follow some simple conventions for structuring data in a matrix (or table) to use in the statistical programming language `R`.
 
-In this module, I am going to give an overview of tidy data principles as they relate to data curation, but also try to extend "tidy data" to some of the underlying principles in organizing, managing, and preparing all kinds of structured data for meaningful use. This module also sets up a forthcoming chapter on "tidy metadata".
-
+In this module, I am going to give an overview of tidy data principles as they relate to data curation, but also try to extend "tidy data" to some of the underlying principles in organizing, managing, and preparing all kinds of structured data for meaningful use. This module will be relevant again in module 8 when we discuss tidy metadata.
 
 ## Tidy Data Principles
-The foundation of Wickham's "Tidy Data" relies upon a definition of a dataset which contains:
+The foundation of Wickham's "Tidy Data" relies upon a definition of a dataset which contains (Wickham, p. 3, 2014):
 
-- A collection of **values**, and each value has a corresponding observation (row) and variable (column).
-- A **variable** (column), contains values that measure the same attribute (or property) across all observations.
-- An **observation**, contains all values (measured with the same unit) across all variables.
+- A collection of **values**, and every value belongs to a corresponding variable (column) and observation (row).
+- A **variable** (column), contains all values that measure the same attribute (such as height, temperature, duration) across all units (observations/rows).
+- An **observation** (row), contains all values measured on the same unit (such as a person, a date, a state) across all attributes (variables/columns).
 
-More simply, for any given table we associate one observation with one or more variables. Each variable has a standard unit of measurement for its values.  
+More simply, for any given table we associate one observation with one or more variables. Each variable in a tidy dataset has a standard unit of measurement for its values.  
 
 ![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/TidyData-Pic.png)
 

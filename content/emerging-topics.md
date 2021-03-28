@@ -74,11 +74,15 @@ Examples and further reading on Emulation:
 - Adam McMaster has a nice [general blog post on using containers for research](Why you should use Docker in your research).
 
 ## Advocacy and Solidarity Through Data Curation
-This has been a tough quarter, and it is coming to an end during a period of exceptional upheaval at systems that are deeply broken. Throughout this coursebook I have tried to inject relevant content in the examples used, but this has at time fallen far short of what should be a course that equips you with skills to advocate and work on behalf of just outcomes. My goal has been to equip you with the skills necessary to carry out curation in future positions.
+Last year's course came to an end during a period of exceptional upheaval at systems that are deeply broken. These systems are still broken and upheaval continues (understandably). 
 
-When I approach topics like 311 data, or search and discovery of data through web technologies - it is informed by and grounded in the work of data justice, equity, and ultimately advocacy. I wish, in many ways, that I had the ability to give you greater exposure to these topics while simultaneously introducing key concepts in practical curation work - but within the quarter system that is exceptionally difficult. This is a poor excuse. I am committed to trying to do better at this in future. A parting "mention" of these topics is far from what you deserve, and I hope that in the future some of you will be my collaborators in trying to improve this aspect of the course. Below I mention just two areas that deserve far more attention within the curation curriculum. 
+The following are Weber's words from last year:
 
-If you continue on at the iSchool I strongly recommend courses taught by my brilliant colleagues Megan Finn, Miranda Belarde-Lewis, Clarita Lefthand Begay, Marika Cifor, Jason Yip, and Anna-Lauren Hoffman. A few that I recommend in particular are :
+>Throughout this course website I have tried to inject relevant content in the examples used, but this has at time fallen far short of what should be a course that equips you with skills to advocate and work on behalf of just outcomes. My goal has been to equip you with the skills necessary to carry out curation in future positions.
+
+>When I approach topics like 311 data, or search and discovery of data through web technologies - it is informed by and grounded in the work of data justice, equity, and ultimately advocacy. I wish, in many ways, that I had the ability to give you greater exposure to these topics while simultaneously introducing key concepts in practical curation work - but within the quarter system that is exceptionally difficult. This is a poor excuse. I am committed to trying to do better at this in future. A parting "mention" of these topics is far from what you deserve, and I hope that in the future some of you will be my collaborators in trying to improve this aspect of the course. Below I mention just two areas that deserve far more attention within the curation curriculum. 
+
+>If you continue on at the iSchool I strongly recommend courses taught by my brilliant colleagues Megan Finn, Miranda Belarde-Lewis, Clarita Lefthand Begay, Marika Cifor, Jason Yip, and Anna-Lauren Hoffman. A few that I recommend in particular are :
 
 - LIS 583 Cross Cultural Approaches to Leadership (Belarde-Lewis)
 - LIS 577 Participatory Design in Libraries (Yip)
@@ -93,7 +97,7 @@ Through a critical lens that takes seriously the role of [fourth wave feminism](
 
 Here are some resources to get started: 
 
-- You can read a draft of the book 'Data Feminism' on Publon here https://bookbook.pubpub.org/data-feminism
+- 'Data Feminism' has been made available openly and you can read it here. access draft of the book  on Publon [here](https://data-feminism.mitpress.mit.edu/)
 - A brief blogpost and a podcast with the authors can be found here https://datasociety.net/library/data-feminism/
 - Another podcast which goes into greater theoretical depth with the authors https://podcasts.apple.com/us/podcast/catherine-dignazio-lauren-klein-data-feminism-mit-press/id593872749?i=1000467308855
 - Feminist Data Manifest-No (Organized and led by iSchool professor Marika Cifor) https://www.manifestno.com/

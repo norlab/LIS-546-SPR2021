@@ -44,17 +44,24 @@ Here are some resources to continue exploring linked data and ontologies:
 - A very accessible and searchable list of [Linked Data Ontologies](https://lov.linkeddata.es/dataset/lov/vocabs)
 
 ## Sensitive Data & Privacy
-The curation of data containing sensitive contents, including personally identifiable information (PII), is an emerging challenge for curators. As more personal data is collected there are increasingly valuable applications for responsibly using PII to generate valuable knowledge. Here are two emergent examples that are worthy of our attention: 
 
+Coming soon!
+<!--
+The curation of data containing sensitive contents, including personally identifiable information (PII), is an emerging challenge for curators. As more personal data is collected there are increasingly valuable applications for responsibly using PII to generate valuable knowledge. Here are two emergent examples that are worthy of our attention: 
+-->
+<!--
 - Contact tracing: You have likely been hearing about or reading proposals for automated contact tracing in response to the Covid-19 viral outbreak. At the heart of these discussions is how to reliably store, and provide access to personally identifiable information so that public health officials can reliably intervene in cases where an infected person is identified. The tradeoff between identification and anonymity is a difficult one to balance. It requires that we design decentralized data storage architectures that can reliably encrypt PII, and trust that only those with proper credentials have access to resolve queries against these data stores. Decentralization is an incredibly complex problem in all web-based technolgoies that depend upon personal data and will be a topic that continues to play an important role in future curation work. 
   - This is a very good recent paper on the topic: Li, T., Faklaris, C., King, J., Agarwal, Y., Dabbish, L., & Hong, J. I. (2020). Decentralized is not risk-free: Understanding public perceptions of privacy-utility trade-offs in COVID-19 contact-tracing apps. arXiv preprint arXiv:2005.11957. https://arxiv.org/pdf/2005.11957.pdf 
-
+-->
+<!--
 - Census Data: The 2020 census will be the latest in what are regular full surveys of the United States population. The census is key for accurate counts of people, their mobility, and for policymaking. The census is also a key source of demographic data about the USA- used broadly in social science, epidemiology, and legal scholarship. As such, access to reliable administrative micro-data (for example, responses household level census surveys) is critical for research and development. In the past, a network of census data centers was set up to provide access to the most restricted of these data sources. The 2020 census data will be the first to release sensitive data using a process of differential privacy - an encryption algorithm that obscures personally identifiable information but provides statistically sound micro-data to researchers. The 2020 census is also the largest and most sophisticated use of differential privacy to date. This will provide an incredible use case for how data curators might design, and effectively govern the release of sensitive data, and will likely result in many accessible tools and services for 2020 census data. 
-
+-->
+<!--
 If you read just one thing about the census and differential privacy I highly encourage the following primer: 
-
+-->
+<!--
 - Nissim, K., Steinke, T., Wood, A., Altman, M., Bembenek, A., Bun, M., ... & Vadhan, S. (2017, June). Differential privacy: A primer for a non-technical audience. In Privacy Law Scholars Conf. https://privacytools.seas.harvard.edu/files/privacytools/files/pedagogical-document-dp_0.pdf
-
+-->
 
 ## Emulation
 Throughout the quarter we have discussed the transformation of data from closed or proprietary formats to open formats (or plain text encodings) which enable data to be reliably reused across different computing environments. There are typically two ways to achieve these transformations: Migration and Emulation. 
@@ -74,16 +81,23 @@ Examples and further reading on Emulation:
 - Adam McMaster has a nice [general blog post on using containers for research](Why you should use Docker in your research).
 
 ## Advocacy and Solidarity Through Data Curation
+
+Coming soon!
+<!--
 Last year's course came to an end during a period of exceptional upheaval at systems that are deeply broken. These systems are still broken and upheaval continues (understandably). 
-
+-->
+<!--
 The following are Weber's words from last year:
-
+-->
+<!--
 >Throughout this course website I have tried to inject relevant content in the examples used, but this has at time fallen far short of what should be a course that equips you with skills to advocate and work on behalf of just outcomes. My goal has been to equip you with the skills necessary to carry out curation in future positions.
-
+-->
+<!--
 >When I approach topics like 311 data, or search and discovery of data through web technologies - it is informed by and grounded in the work of data justice, equity, and ultimately advocacy. I wish, in many ways, that I had the ability to give you greater exposure to these topics while simultaneously introducing key concepts in practical curation work - but within the quarter system that is exceptionally difficult. This is a poor excuse. I am committed to trying to do better at this in future. A parting "mention" of these topics is far from what you deserve, and I hope that in the future some of you will be my collaborators in trying to improve this aspect of the course. Below I mention just two areas that deserve far more attention within the curation curriculum. 
-
+-->
+<!--
 >If you continue on at the iSchool I strongly recommend courses taught by my brilliant colleagues Megan Finn, Miranda Belarde-Lewis, Clarita Lefthand Begay, Marika Cifor, Jason Yip, and Anna-Lauren Hoffman. A few that I recommend in particular are :
-
+-->
 - LIS 583 Cross Cultural Approaches to Leadership (Belarde-Lewis)
 - LIS 577 Participatory Design in Libraries (Yip)
 - INFO 498 - Data Ethics (Hoffman)
@@ -91,28 +105,40 @@ The following are Weber's words from last year:
 - INFO 350 - Information Ethics and Policy (Finn)
 
 ### Data Feminism & Activism
+
+Coming soon!
+<!--
 I can't say this any better than the blurb for a book authored by Catherine D'Ignazio and Laren F Klein "Today, data science is a form of power. It has been used to expose injustice, improve health outcomes, and topple governments. But it has also been used to discriminate, police, and surveil. This potential for good, on the one hand, and harm, on the other, makes it essential to ask: Data science by whom? Data science for whom? Data science with whose interests in mind? The narratives around big data and data science are overwhelmingly white, male, and techno-heroic. In Data Feminism, Catherine D'Ignazio and Lauren Klein present a new way of thinking about data science and data ethics—one that is informed by intersectional feminist thought."
-
+-->
+<!--
 Through a critical lens that takes seriously the role of [fourth wave feminism](https://en.wikipedia.org/wiki/Fourth-wave_feminism) this book, and the advocacy around data feminism, should be a central place to locate the role of curation in contemporary society. The ability to structure, organize, and encode data cannot (as we have discussed throughout the quarter) be divorced from broader societal and institutional forms of power. By approaching these topics of curatorial power rooted in a historical understanding of oppression and civil liberties we might be able to, regardless of our identity and positionally, be more effective allies. I don't presume to know how, given varied contexts, to do this most effectively, yet. But the emergent scholarship around data feminism is an excellent place to begin.     
-
+-->
+<!--
 Here are some resources to get started: 
-
+-->
+<!--
 - 'Data Feminism' has been made available openly and you can read it [here](https://data-feminism.mitpress.mit.edu/).
 - A brief blogpost and a podcast with the authors can be found here https://datasociety.net/library/data-feminism/
 - Another podcast which goes into greater theoretical depth with the authors https://podcasts.apple.com/us/podcast/catherine-dignazio-lauren-klein-data-feminism-mit-press/id593872749?i=1000467308855
 - Feminist Data Manifest-No (Organized and led by iSchool professor Marika Cifor) https://www.manifestno.com/
 - Another execellent and relevant book is - Christina Dunbar-Hester "Hacking Diversity: The Politics of Inclusion in Open Technology Cultures"
-
+-->
 ### Data For Black Lives
+
+Coming soon!
+<!--
 Straightforwardly - many of the systems of observation and enumeration in state-based data collection are deeply biased against people of color. From the use of flawed [algorithmic systems](https://undark.org/2020/06/01/michigan-unemployment-fraud-algorithm/) in unemployment benefits to the facial recognition technologies that are employed with deep biases related to [black faces](https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/). 
-
+-->
+<!--
 Perpetuating discriminatory policies through technologies that collect and are trained on imperfect data about people of color is a multi-faceted problem. Overcoming and effectively dismantling these flawed technologies requires effective policy development, legal expertise, and ethically trained data professionals. There is no simple way in which we can educate, legislate, or adjudicate our way out of the biases of technologies that are being increasingly used for harm. As data curators our role is first to become informed about the ways in which both technologies for data collection, and resulting data do harm. Second, we can begin to intervene where our skills and our expertise is appropriate. This will likely include volunteering our time to investigate and describe problems related to data encodings, efficient data processing, and documentation which surfaces bias and attempts to clarify why data are never neutral. 
-
+-->
+<!--
 Here are some relevant resources to get started (or continue): 
-
+-->
+<!--
 - Data 4 Black Lives http://d4bl.org/
 - Covid tracking by Race https://covidtracking.com/race/dashboard
 - Black Software: The Internet & Racial Justice, from the AfroNet to Black Lives Matter (not expressly about data, but a beautiful overview of the history of technology in the context of a connected web of information communication technologies) [Book](https://global.oup.com/academic/product/black-software-9780190863845?cc=us&lang=en&) + [Podcast](https://stackoverflow.blog/2019/12/03/podcast-black-software-charlton-mcilwain/)
 - Algorithmic Advocacy Toolkit [Website](https://www.aclu-wa.org/AEKit)
 - An excellent example of data advocacy is the [Mapping Police Violence](https://mappingpoliceviolence.org/) project. You can see their data documentation here: https://mappingpoliceviolence.org/aboutthedata 
-
+-->

@@ -19,10 +19,12 @@ The foundation of Wickham's "Tidy Data" relies upon a definition of a dataset wh
 - An **observation** (row), contains all values measured on the same unit (such as a person, a date, a state) across all attributes (variables/columns).
 
 More simply, for any given table we associate one observation with one or more variables. Each variable in a tidy dataset has a standard unit of measurement for its values.  
-
-![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/TidyData-Pic.png)
-
-This image depicts the structure of a tidy dataset. (This image is from the open access textbook [R for Data Science](https://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure).)
+<figure>
+  <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/TidyData-Pic.png" alt="Image of tidy data in rows and columns" width="800"/>
+  <figcaption>This image is from the open access textbook [R for Data Science](https://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure).</figcaption>
+</figure>
+<br>
+This image depicts the structure of a tidy dataset.
 
 The following tidy data table includes characters appearing in a Lewis Caroll [novel](https://en.wikipedia.org/wiki/Sylvie_and_Bruno). The characters are observations, and the variables that we associate with each observation are `Age` and `Height`. Each variable has a standard unit of measurement.
 
@@ -977,9 +979,9 @@ I also introduced the idea of using "authority control" for normalizing or makin
 # Lecture
 
 Coming soon!
-<!--
-<iframe width=853 height=482 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYfo0QzbHl&v=6&ff=1" allowfullscreen="true"></iframe>
--->
+
+<!--<iframe width=853 height=482 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYfo0QzbHl&v=6&ff=1" allowfullscreen="true"></iframe>-->
+
 # Readings
 
 **Required**

@@ -21,7 +21,7 @@ The foundation of Wickham's "Tidy Data" relies upon a definition of a dataset wh
 More simply, for any given table we associate one observation with one or more variables. Each variable in a tidy dataset has a standard unit of measurement for its values.  
 <figure>
   <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/TidyData-Pic.png" alt="Image of tidy data in rows and columns" width="800"/>
-  <figcaption>This image is from the open access textbook [R for Data Science](https://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure).</figcaption>
+  <figcaption>This image is from the open access textbook <a href="https://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure" target="_blank>R for Data Science</a>.</figcaption>
 </figure>
 <br>
 This image depicts the structure of a tidy dataset.

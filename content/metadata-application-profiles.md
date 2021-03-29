@@ -225,9 +225,7 @@ At its core, the 1:1 principle is trying to disentangle the complex relationship
 ## Lecture
 
 Coming soon!
-<!--
-<iframe width=853 height=473 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYhi29gDkq&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>
--->
+<!--<iframe width=853 height=473 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYhi29gDkq&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>-->
 ## Reading
 
 Application profiles:

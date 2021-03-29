@@ -289,16 +289,16 @@ Separating variables is a transformation necessary when two distinct values are 
   <tr>
     <td class="tg-0lax">USA</td>
     <td class="tg-0lax">2016</td>
-    <td class="tg-0lax">18.71/323.1</td>
+    <td class="tg-0lax">18710000/323.1</td>
   </tr>
   <tr>
     <td class="tg-0lax">UK</td>
     <td class="tg-0lax">2016</td>
-    <td class="tg-0lax">2.69/65.38</td>
+    <td class="tg-0lax">2690000/65.38</td>
   </tr>
 </table>
 <br>  
-In this table we have a variable `GDP per capita` that represents the amount of GDP divided by the population of each country. This may be intuitive to an undergraduate economics student, but it violates our tidy data principle of having one value per variable. Also notice that the `GDP per capita` variable does not use a standard unit of measurement and includes a character (string) `/`.
+In this table we have a variable `GDP per capita` that represents the amount of GDP divided by the population of each country (the numbers have changed from the previous examples to standardize the units of measurement). This may be intuitive to an undergraduate economics student, but it violates our tidy data principle of having one value per variable. Also notice that the `GDP per capita` variable does not use a standard unit of measurement and includes a character (string) `/`.
 
 To separate these values we would simply create a new column for each of the variables. You may recognize this as a form of 'wide pivot'.
 
@@ -328,16 +328,16 @@ To separate these values we would simply create a new column for each of the var
   <tr>
     <td class="tg-0lax">USA</td>
     <td class="tg-0lax">2016</td>
-    <td class="tg-0lax">18.71</td>
+    <td class="tg-0lax">18710000</td>
     <td class="tg-0lax">323.1</td>
-    <td class="tg-0lax">57.9</td>
+    <td class="tg-0lax">57908</td>
   </tr>
   <tr>
     <td class="tg-0lax">UK</td>
     <td class="tg-0lax">2016</td>
-    <td class="tg-0lax">2.69</td>
+    <td class="tg-0lax">2690000</td>
     <td class="tg-0lax">65.38</td>
-    <td class="tg-0lax">41.1</td>
+    <td class="tg-0lax">41144</td>
   </tr>
 </table>
 <br>  

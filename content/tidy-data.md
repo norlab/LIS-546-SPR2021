@@ -7,18 +7,24 @@ layout: default
 
 The idea of "tidy data" underlies principles in data management, and database administration that have been around for decades. In 2014, Hadley Wickham started to formalize some of these rules in what he called "Principles for Tidy Data." [PDF](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf)
 
-These principles are focused mainly on how to follow some simple conventions for structuring data in a matrix (or table) to use in the statistical programming language `R`.
+These principles are focused mainly on how to follow some simple conventions for structuring data in a matrices (or tables) to use in the statistical programming language `R`.
 
 In this module, I am going to give an overview of tidy data principles as they relate to data curation, but also try to extend "tidy data" to some of the underlying principles in organizing, managing, and preparing all kinds of structured data for meaningful use. This module will be relevant again in module 8 when we discuss tidy metadata.
 
 ## Tidy Data Principles
-The foundation of Wickham's "Tidy Data" relies upon a definition of a dataset which contains (Wickham, p. 3, 2014):
+The foundation of Wickham's "Tidy Data" relies upon a definition of a single table which contains (Wickham, p. 3, 2014):
 
 - A collection of **values**, and every value belongs to a corresponding variable (column) and observation (row).
 - A **variable** (column), contains all values that measure the same attribute (such as height, temperature, duration) across all units (observations/rows).
 - An **observation** (row), contains all values measured on the same unit (such as a person, a date, a state) across all attributes (variables/columns).
 
-More simply, for any given table we associate one observation with one or more variables. Each variable in a tidy dataset has a standard unit of measurement for its values.  
+It also allows for the creation of relationships with multiple tables with this principle:
+
+- Each type of observational unit forms a table.
+
+We will be focused on tidying a single table for most of this module, but you can see an example of multiple tables in the R for Data Science section on [relational data in the NYC Flights dataset](https://r4ds.had.co.nz/relational-data.html#nycflights13-relational).
+
+Put simply, for any given table we associate one observation with one or more variables. Each variable in a tidy dataset has a standard unit of measurement for its values.  
 <figure>
   <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/TidyData-Pic.png" alt="Image of tidy data in rows and columns" width="800"/>
   <figcaption>This image is from the open access textbook <a href="https://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure" target="_blank">R for Data Science</a>.</figcaption>
@@ -59,17 +65,17 @@ The following tidy data table includes characters appearing in a Lewis Caroll [n
 </table>
 <br>  
 
-### Tidy Data Curation
+## Tidy Data Curation
 
 The principles described above may seem simplistic and highly intuitive. But, often these principles aren't followed when creating or publishing a dataset. This may be for a variety of reasons, but most obvious is that data creators are often working for convenience in data entry rather than thinking about future data analysis.
 
-Think back to our Module 2 example of an ecology graduate student sitting in a field observing frogs. After a long day of fieldwork she might not care too much about how she makes her data conform with principles of tidy data - she just wants to record her observations. Or, she may be simply following the conventions of a structure that has already been set up by a member of her lab. Later, when she returns to the data to perform some analysis for a publication she may need to clean the data in order to ease computation. But, often she'll simply archive her raw data and not worry about what she did to transform the data in order to make it useful for analysis. These data management practices are highly inefficient, and represent an excellent point for curators to intervene.
+Think back to our module 2 example of an ecology graduate student sitting in a field observing frogs. After a long day of fieldwork she might not care too much about how she makes her data conform with principles of tidy data, she just wants to record her observations. Or, she may be simply following the conventions of a structure that has already been set up by a member of her lab. Later, when she returns to the data to perform some analysis for a publication she may need to clean the data in order to ease computation. But, often she'll simply archive her raw data and not worry about what she did to transform the data in order to make it useful for analysis. These data management practices are highly inefficient, and represent an excellent point for curators to intervene.
 
 For data curators, the principles of tidy data can be applied at different points in time.
 
 - Upstream tidying: In working "upstream" a data curator is collaboratively developing standards to govern data collection and management. In this proactive work a data curator can advocate for these principles at the point in which data is initially made digital.
 
-- Downstream tidying: More commonly, a data curator will receive some untidy data after it has been collected and analyzed. Working downstream requires tidying, such as restructuring and normalizing data, so that it adheres to the principles described above.
+- Downstream tidying: More commonly, a data curator will receive some untidy data after it has been collected and analyzed. Working downstream requires tidying, such as restructuring and standardizing data, so that it adheres to the principles described above.
 
 In working downstream, there are some additional data transformations that are helfpul for adhering to tidy data principles. These include using pivots to widen or make data longer, and separating or gathering data into a single variable.  
 

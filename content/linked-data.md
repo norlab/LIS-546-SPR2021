@@ -145,9 +145,7 @@ Practically though - it seems rather unrealistic to expect that open data publis
 ## Lecture
 
 Coming soon!
-<!--
-<iframe width=853 height=478 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYhuoBpZLZ&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>
--->
+<!--<iframe width=853 height=478 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYhuoBpZLZ&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>-->
 ## Reading
 
 - Allemang, D., & Hendler, J. (2011). Semantic web for the working ontologist: effective modeling in RDFS and OWL. Second Edition.  [PDF](https://canvas.uw.edu/files/65174738/download?download_frd=1) 

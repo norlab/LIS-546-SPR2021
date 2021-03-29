@@ -289,12 +289,12 @@ Separating variables is a transformation necessary when two distinct values are 
   <tr>
     <td class="tg-0lax">USA</td>
     <td class="tg-0lax">2016</td>
-    <td class="tg-0lax">18710000/323.1</td>
+    <td class="tg-0lax">18710/0.3231</td>
   </tr>
   <tr>
     <td class="tg-0lax">UK</td>
     <td class="tg-0lax">2016</td>
-    <td class="tg-0lax">2690000/65.38</td>
+    <td class="tg-0lax">2690/0.06538</td>
   </tr>
 </table>
 <br>  
@@ -328,15 +328,15 @@ To separate these values we would simply create a new column for each of the var
   <tr>
     <td class="tg-0lax">USA</td>
     <td class="tg-0lax">2016</td>
-    <td class="tg-0lax">18710000</td>
-    <td class="tg-0lax">323.1</td>
+    <td class="tg-0lax">18710</td>
+    <td class="tg-0lax">0.3231</td>
     <td class="tg-0lax">57908</td>
   </tr>
   <tr>
     <td class="tg-0lax">UK</td>
     <td class="tg-0lax">2016</td>
-    <td class="tg-0lax">2690000</td>
-    <td class="tg-0lax">65.38</td>
+    <td class="tg-0lax">2690</td>
+    <td class="tg-0lax">0.06538</td>
     <td class="tg-0lax">41144</td>
   </tr>
 </table>
@@ -384,7 +384,7 @@ Gathering variables is the exact opposite of separating - instead of having mult
   </tr>
 </table>
 <br>  
-In this dataset we have a very granular representation of time. If as data curators we wanted to represent time using a common standard like [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Times) (and we would, because we're advocates of standardization) then we need to gather these three distinct variables into one single variable. This gathering transformation will represent, in a standard way, when the species was observed (Yes, this frog's common name is ["Bruno's casque-headed frog"](https://en.wikipedia.org/wiki/Bruno%27s_casque-headed_frog) - I have no idea whether or not this is related to the Lewis Caroll novel, but I like continuity.)
+In this dataset we have a very granular representation of time. If, as data curators, we wanted to represent time using a common standard like [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Times) (and we would, because we're advocates of standardization) then we need to gather these three distinct variables into one single variable. This gathering transformation will represent, in a standard way, when the species was observed (Yes, this frog's common name is ["Bruno's casque-headed frog"](https://en.wikipedia.org/wiki/Bruno%27s_casque-headed_frog) - I have no idea whether or not this is related to the Lewis Caroll novel, but I like continuity.)
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -417,7 +417,7 @@ In this dataset we have a very granular representation of time. If as data curat
 </table>
 <br>  
 
-Our dataset now has just two variables - the time when a species was observed, and the location. We've appealed to standard (IS0 8601) to represent time, and expect that anyone using this dataset will know the temporal convetion HH:MM:SS.
+Our dataset now has just two variables - the time when a species was observed, and the location. We've appealed to standard (IS0 8601) to represent time, and expect that anyone using this dataset will know the temporal convention HH:MM:SS. And, we assume that the timezone is standardized and stated in the metadata (otherwise we would need a column for timezone).
 
 As I said in opening this section - the assumptions we make in tidying data are highly context dependent. If we were working in a field where granular data like `seconds` was not typical, this kind of representation might not be necessary. But, if we want to preserve all of the information that our dataset contains then appealing to broad standards is a best practice.
 

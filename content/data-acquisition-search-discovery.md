@@ -260,9 +260,7 @@ Discoverability has come last in our grand challenges for the simple reason that
 ## Lecture
 
 Coming soon!
-<!--
-<iframe width=853 height=508 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYh2Dik1zz&v=5&controls=1&ff=1" allowfullscreen="true"></iframe>
--->
+<!--<iframe width=853 height=508 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYh2Dik1zz&v=5&controls=1&ff=1" allowfullscreen="true"></iframe>-->
 ## Exercise
 Our exercise this week focuses on exploring the concept of an API. This exercise was developed by the estimable data scientist [Bree Norlander](https://tascha.uw.edu/people/bree-norlander/)
 

@@ -432,7 +432,7 @@ There are also a number of beginner [tutorials](https://education.rstudio.com/le
 ## Extending Tidy Data Beyond the Traditional Observation   
 Many examples of tidy data, such as the ones above, depend upon discrete observations that are often rooted in statistical evidence, or a scientific domain. Qualitative and humanities data often contain unique points of reference (e.g. notions of place rather than mapped coordinates), interpreted factual information (e.g. observations to a humanist mean something very different than to an ecologist), and a need for granularity that may seem non-obvious to the tidy data curator.
 
-In the following section I will try to offer some extensions to the concept of tidy data that draws upon the work of [Matthew Lincoln](https://matthewlincoln.net/) for tidy digital humanities data. In particular, we  will look at ways to transform two types of data: Dates and Categories. Each of these types of data often have multiple ways of being represented. But, this shouldn't preclude us from bringing some coherence to untidy data.
+In the following section I will try to offer some extensions to the concept of tidy data that draws upon the work of [Matthew Lincoln](https://matthewlincoln.net/) for tidy digital humanities data (see an example of one of Matthew's workshops [here](https://matthewlincoln.net/2020/05/26/tidy-data-for-humanities.html)). In particular, we  will look at ways to transform two types of data: Dates and Categories. Each of these types of data often have multiple ways of being represented. But, this shouldn't preclude us from bringing some coherence to untidy data.
 
 For these explanations I'll use Matthew's data because it represents a wonderful example of how to restructure interpreted factual information that was gathered from a museum catalog. The following reference dataset will be used throughout the next two sections. Take a quick moment to read and think about the data that we will transform.    
 
@@ -523,7 +523,7 @@ Following the tidy data principles, if we want to represent a specific point in 
   </tr>
 </table>
 <br>  
-Here we have three different representations of a point in time. If we want to tidy this data we will have to decide what is the most meaningful representation of this data as a whole. If we choose century, as I would, then we will have to sacrifice a bit of precision for our second observation. The tradeoff is that we will have consistency in representing the data in aggregate.
+Here we have three different representations of a point in time. If we want to tidy this data we will have to decide what is the most meaningful representation of this data as a whole. If we choose century, as I would, then we will have to sacrifice a bit of precision for our second observation. The benefit is that we will have consistency in representing the data in aggregate.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -634,13 +634,13 @@ Another obstacle we may come across in representing dates in our data is missing
     <td class="tg-0lax">1999-12-31</td>
   </tr>
   <tr>
-    <td class="tg-0lax">1999- 01</td>
+    <td class="tg-0lax">1999-01</td>
   </tr>
 </table>
 <br>
 We may be tempted to look at these four observations and think it is a simple data entry error - the last observation is clearly supposed to follow the sequence of representing the last day in a year, and the first day in a year. But, without complete knowledge we would have to decide whether or not we should infer this pattern or whether we should transform all of the data to be a duration (range of dates).
 
-There is not a single right answer - a curator would simply have to decide how and in what ways the data might be made more meaningful for reuse. The wrong approach though would be to leave the ambiguity in the dataset. Instead, what we might do is correct what we assume to be a data entry error and create documentation which conveys that inference to a potential reuser.
+There is not a single right answer. A curator would simply have to decide how and in what ways the data might be made more meaningful for reuse. The wrong approach though would be to leave the ambiguity in the dataset. Instead, what we might do is correct what we assume to be a data entry error and create documentation which conveys that inference to a potential reuser.
 
 There are many ways to do this with metadata, but a helpful approach might be just to add a new column with notes.
 
@@ -670,7 +670,7 @@ There are many ways to do this with metadata, but a helpful approach might be ju
   </tr>
   <tr>
     <td class="tg-0lax">1999- 01-01</td>
-    <td class="tg-0lax">Date is inferred. The original entry read `1999-01`</td>
+    <td class="tg-0lax">Date is inferred. The original entry read "1999-01"</td>
   </tr>
 </table>
 <br>

@@ -167,7 +167,7 @@ Our new tidy dataset then looks like this:
 </table>
 <br>
 
-Our dataset now contains four observations - USA 2016 and 2017 GDP, and UK 2016 and 2017 GDP. What we've done is remove any external information needed to interpret what the data represent. This could, for example, help with secondary analysis when we want to directly plot GDP over time.
+Our dataset now contains four observations: USA 2016, USA 2017, UK 2016, and UK 2017. What we've done is remove any external information needed to interpret what the data represent. This could, for example, help with secondary analysis when we want to directly plot GDP over time.
 
 The second type of data structuring problem that curators are likely to encounter is when one observation is **scattered** across multiple **rows**. This is the opposite of the problem that we encountered with variables spread across multiple columns. In short, the problem with having multiple observations scattered across rows is that we're duplicating information by confusing a variable for a value.
 
@@ -189,7 +189,7 @@ The second type of data structuring problem that curators are likely to encounte
     <th class="tg-fymr">Country</th>
     <th class="tg-fymr">Year</th>
     <th class="tg-fymr">Measure</th>
-    <th class="tg-fymr">Value</th>
+    <th class="tg-fymr">Number</th>
   </tr>
   <tr>
     <td class="tg-0lax">USA</td>
@@ -218,7 +218,7 @@ The second type of data structuring problem that curators are likely to encounte
 </table>
 <br>
 
-It should be obvious that we are not abiding by tidy data principles in *at least* one respect. The variable (column), `Value`, does not contain a single unit of measurement. Instead it contains two different measurements, "USD" and "count of People". Additionally, the variable (column), `Measure`, contains multiple values, "GDP" and "Population." To tidy this kind of dataset we will use a **wide pivot**. We will restructure the data so that each column corresponds with one variable, and each variable contains a value of a single unit of measurement.  
+It should be obvious that we are not abiding by tidy data principles in *at least* one respect. The variable (column), `Number`, does not contain a single unit of measurement. Instead it contains two different measurements, "USD" and "count of people". Additionally, the variable (column), `Measure`, contains multiple values, "GDP" and "Population." To tidy this kind of dataset we will use a **wide pivot**. We will restructure the data so that each column corresponds with one variable, and each variable contains a value of a single unit of measurement.  
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -255,13 +255,12 @@ It should be obvious that we are not abiding by tidy data principles in *at leas
 </table>
 <br>
 
-Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the `Value`, the unit of measurement. GDP is measure in the trillions of USD and Population is measured in the millions of count of people. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values. (One reason this is important is that the value can have a [data type](https://en.wikipedia.org/wiki/Data_type) that is useful for performing mathematics. Originally, the value was a combination of a number (e.g. type = numeric) and words (e.g. type = string). Most data analysis tools will coerce the entire value into a string/character and the user will not be able to perform calculations.) In this example we have not included the metadata about the variable. Ideally we would have a data dictionary indicating the standard unit of measurement or we would state it explicitly in the column heading. How you indicate the units of measurement will vary depending on your domain and the standard practices in your setting.
+Our dataset now contains only two observations - the GDP and Population for the UK and USA in 2016. But, note that we also solved a separate problem that plagues the scattering of observations. In the first dataset we had to declare, in the `Number` column, the unit of measurement. GDP is measure in the trillions of USD and Population is measured in the millions of count of people. Through our wide pivot transformation we now have a standard measurement unit for each variable, and no longer have to include measurement information in our values. (One reason this is important is that the value can now have a [data type](https://en.wikipedia.org/wiki/Data_type) that is useful for performing mathematics. Originally, the value was a combination of a number (e.g. type = numeric) and words (e.g. type = string). Most data analysis tools will coerce the entire value into a string/character and the user will not be able to perform calculations.) In this example we have not included the metadata about the variable. Ideally, we would either conform to a metadata schema that specifies units, or include a data dictionary indicating the standard unit of measurement, or we state it explicitly in the column heading (such as `GDP_USD_trillions`). How you indicate the units of measurement will vary depending on your domain and the standard practices in your setting.
 
 In sum, the pivot works to either:
 
 1. Transform variables so that they correspond with just one observation. We do this by adding new observations. This makes a tidy dataset longer.
 2. Transform values that are acting as variables. We do this by creating new variables and replacing the incorrect observation. This makes a tidy dataset wider.
-
 
 ## Separating and Gathering
 Two other types of transformations are often necessary to create a tidy dataset: **Separating** values that may be incorrectly combined, and **Gathering** redundant values into a single variable. Both of these transformations are highly context dependent.

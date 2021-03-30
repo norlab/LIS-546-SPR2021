@@ -784,9 +784,6 @@ Think of the placard on any museum that you have visited -- Often the "medium" i
 
 <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/rembrandt-example.jpg" alt="Placard depicting information about a Rembrandt self-portrait hanging in a museum" width="600"/>
 <br>
-
-![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/rembrandt-example.jpg)
-
 But, we don't want to create a dataset that retains ambiguous short-hand categories simply because this is convenient to an exhibit curator. What we want is to tidy the data such that it can be broadly useful, and accurately describe a particular piece of art.
 
 This example should trigger a memory from our earlier review of tidy data principles - when we see the conflation of two or more values in a single variable we need to apply a "separate" transformation. To do this we will create three new variables to perform a "wide pivot".
@@ -838,7 +835,7 @@ This example should trigger a memory from our earlier review of tidy data princi
   </tr>
 </table>
 <br>
-In this wide pivot, we retained the original `medium` variable, but we have also separated the `support` and `conservation notes` into new variables. (Note: I will have much more to say about this example and how we can use an "authority control" in future chapters.)
+In this wide pivot, we retained the original `medium` variable, but we have also separated the `support` and `conservation notes` into new variables. (Note: I will have much more to say about this example and how we can use an "authority control" in future modules.)
 
 Our original dataset also contained another variable `Name` with multiple values and ambiguities. In general, names are the cause of great confusion in information science. In part because names are often hard to disambiguate across time, but also because "identity" is difficult in the context of cultural heritage data. Art history is no exception.
 
@@ -892,7 +889,7 @@ Take for example our third observation. The subject "Vermeer" has an object (the
 
 But, our first observation is much more complex and not well suited for the triple form. The plain language statement would look somoething like "The studio of Rembrandt sponsored Govaert Flink in painting 'Isaac blessing Jacob'" (The painting in question is [here](https://upload.wikimedia.org/wikipedia/commons/b/b2/Amsterdam_-_Rijksmuseum_1885_-_The_Gallery_of_Honour_%281st_Floor%29_-_Isaac_blessing_Jacob_1638_by_Govert_Flinck.jpg).)
 
-To represent these ambiguities in our tidy data, we need to create some way to qualify and attribute the different works to different people. Warning in advanance, this will be a VERY wide pivot.
+To represent these ambiguities in our tidy data, we need to create some way to qualify and attribute the different works to different people. Warning in advance, this will be a VERY wide pivot.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -962,11 +959,11 @@ Across all observations we separated first and second names. In the case of Verm
 
 In the third observation, we also added a qualifier "possibly" to communicate that the origin of the work is assumed, but not verified to be Vermeer. We also used this qualification variable for Rembrandt, who had a studio that most definitely produced a work of art, but the person who may have actually put oil to canvas is ambiguous.
 
-We also created a representation of artist that is numbered - so that we could represent the first artist and the second artist associated with a painting.
+We also created a representation of the artist that is numbered - so that we could represent the first artist and the second artist associated with a painting.
 
 Each of these approaches to disambiguation is based on a "separating" transformation through a wide pivot. We tidy the dataset by creating qualifiers, and add variables to represent multiple artists.
 
-This solution is far from perfect, and we can imagine this going quickly overboard without some control in place for how we will name individuals and how we will assign credit for their work. But, this example also makes clear that the structural decisions are ours to make as data curators. We can solve each transformation problem in multiple ways. The key to tidy data is having a command of the different strategies for transforming data, and knowing when and why to apply each transformation.
+This solution is far from perfect, and we can imagine this going quickly overboard without some control in place for how we will name individuals and how we will assign credit for their work (imagine creating the entry for the [NAMES Project AIDS Memorial Quilt](https://en.wikipedia.org/wiki/NAMES_Project_AIDS_Memorial_Quilt). But, this example also makes clear that the structural decisions are ours to make as data curators. We can solve each transformation problem in multiple ways. The key to tidy data is having a command of the different strategies for transforming data, and knowing when and why to apply each transformation.
 
 In future chapters we will further explore the idea of appealing to an "authority control" when making these types of decisions around tidying data and metadata.
 
@@ -1008,7 +1005,7 @@ Reading about data structures in spreadsheets:
 
 - Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989
 
-Teaching or learning through spreadhsheets:
+Teaching or learning through spreadsheets:
 
 - Tort, F. (2010). Teaching spreadsheets: Curriculum design principles. arXiv preprint arXiv:1009.2787.
 
@@ -1021,7 +1018,7 @@ Formatting data tables in spreadsheets:
 - [Data Carpentry lesson](https://datacarpentry.org/2015-05-03-NDIC/excel-ecology/01-format-data.html)
 
 <h2><a id="Exercise">Exercise</a></h2>
-This [infographic](https://d3vjjov8ymzzxi.cloudfront.net/chefsteps-com-files/chefsteps-cookie-table.pdf) from ChefSteps provides a "parametric" explanation of different approaches to making a chocolate chip cookie (Credit to [Jenny Bryan](https://jennybryan.org/about/), who pointed out this example and provided the data we will use next week in our `Tidy Data` exercise.) And here is the [data](https://docs.google.com/spreadsheets/d/11H6XGUWNVAsIbtUHCrjFsk4iLViELHG4CZKmQEyyWSA/edit#gid=0) behind this infographic.
+This [infographic](https://d3vjjov8ymzzxi.cloudfront.net/chefsteps-com-files/chefsteps-cookie-table.pdf) from ChefSteps provides a "parametric" explanation of different approaches to making a chocolate chip cookie. Credit to [Jenny Bryan](https://jennybryan.org/about/) for this example and the [data](https://docs.google.com/spreadsheets/d/11H6XGUWNVAsIbtUHCrjFsk4iLViELHG4CZKmQEyyWSA/edit#gid=0) behind this infographic.
 
 This is an incredibly "untidy" dataset. There are a number of ways we could restructure this data so that it follows some best practices in efficient and effective reuse. Your assignment is as follows:
 

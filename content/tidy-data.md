@@ -730,7 +730,7 @@ We have added two new variables which represent a duration (range of time) - the
 Note that we also retained the original dates in our dataset. This is another approach to communicating ambiguity - we can simply retain the untidy data, but provide a clean version for analysis. I don't particularly like this approach, but if we assume that the user of this tidy data has the ability to easily exclude a variable from their analysis then this is a perfectly acceptable practice. (*Note from Bree*: In my work I tend to prefer the approach of keeping the original data and creating a new column/s with the corrected data. Again this is an example of how practice might differ depending on context or domain.)
 
 ### Categories
-LIS research in knowledge organization (KO) has many useful principles for approaching data and metadata tidying, including the idea of "authority control" which we will talk about in depth in coming weeks. In short though, authority control is the process of appealing to standard way of representing a spelling, categorization, or classification in data.
+LIS research in knowledge organization (KO) has many useful principles for approaching data and metadata tidying, including the idea of "authority control" which we will talk about in depth in coming weeks. In short though, authority control is the process of appealing to a standard way of representing a spelling, categorization, or classification in data.
 
 In approaching interpretive data that may contain many ambiguities, we can draw upon the idea of authority control to logically decide how best to represent categorical information to our users.
 
@@ -780,7 +780,10 @@ In the variable medium there are actually three values:
 
 This ambiguity likely stems from the fact that art historians often use an informal vocabulary for describing a variable like medium.
 
-Think of the placard on any museum that you have visited -- Often the "medium" information on that placard will contain a plain language description. This information is stored in a museum database and used to both identify a work owned by the museum, but also produce things like exhibit catalogues and placards. Here is an example from our dataset.
+Think of the placard on any museum that you have visited -- Often the "medium" information on that placard will contain a plain language description. This information is stored in a museum database and used to both identify a work owned by the museum, but also produce things like exhibit catalogues and placards. Here is an example of placard using information represented in our dataset:
+
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/rembrandt-example.jpg" alt="Placard depicting information about a Rembrandt self-portrait hanging in a museum" width="600"/>
+<br>
 
 ![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/rembrandt-example.jpg)
 

@@ -51,21 +51,11 @@ Here is an [example](https://rochellelundy.gitbooks.io/r3-recycling-repository/c
 
 ## Protocol Deliverable
   
-**Here’s how to begin:**
-1. Re-read the Data on the Web Use Cases & Requirements from Week 2
-2. Describe the audience for your data topic.
-3. Identify a dataset or collection published on the web that is relevant to your protocol.
-4. Develop a use case for one of your users.
-
-**Here’s what to turn in:**
-- A description of the potential users or audience your have identified for your data. You can format this in the way that makes the most sense for your project - it might be a paragraph or a table or a list.
-- Indicate which user you chose for this assignment.
-- Indicate the dataset or data collection that you are using for this assignment. You should provide the following: 
-    - a link to the data
-    - a 3-5 sentence overview of the data, publisher, and the relevance to your project 
-    - Elements that characterize the data available such as: Domains served by the data; Obligation / Motivation for publishing the data; Potential ways that the domains will use the data; Quality (this will vary – we’ll discuss in class); Lineage (provenance); Size; Type / Format; Rate of Change; Lifespan; Potential audiences.
-    - Assessment of the data including positive aspects of the published data, negative aspects of the published data, challenges that will face data publishers, users, or meeting best practices over time. See: https://www.w3.org/TR/dwbp-ucr/#general-challenges
-- And finally, requirements for Data on the Web Best Practices: Select two requirements for your data source, and justify why these are requirements (~3 sentences). See: [https://www.w3.org/TR/dwbp-ucr/#requirements-1](https://www.w3.org/TR/dwbp-ucr/#requirements-1)
+For this assignment you will submit to Canvas a document that addresses the following:
+- Describe potential users. Who is the audience for your data repository/collection?
+- Choose an existing openly available dataset within your topic domain and provide an overview.
+- Choose one potential user (or user group such as “policymaker”). Write their story. What is their use case? What do they want from the collection? What is their goal in accessing the data?
+- Assess the dataset’s ability to meet the users goals. Does this dataset provide them everything they need? How will they access the data? What will they do with the data? What features are missing for your user?
 
 For your final deliverable you will be doing this for each of your users, but in a more truncated fashion. You won’t need to include overviews and assessments of each dataset for each user.
 

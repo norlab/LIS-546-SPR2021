@@ -1024,6 +1024,6 @@ This dataset definitely does not meet the definition of "tidy". There are a numb
 
 1. Post to the Canvas discussion board, your thoughts on what should make up the:
     - observations (rows)
-    - attributes (columns)
+    - variables (columns)
 2. Test out your choices by creating a sample dataset with *at least* 3 rows and 3 columns and the associated values. Post your mockup (an Excel spreadsheet, a screenshot, a photo - whatever works).
 3. Discuss what was easy and difficult about structuring this data. 

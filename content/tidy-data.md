@@ -1023,7 +1023,7 @@ Last week you had the opportunity to think about how to transform the traditiona
 This dataset definitely does not meet the definition of "tidy". There are a number of ways we could restructure this data so that it follows some best practices in efficient and effective reuse. Your assignment is as follows:
 
 1. Post to the Canvas discussion board, your thoughts on what should make up the:
-  1. observations (rows)
-  2. attributes (columns)
-2. Test out your choices by creating a sample dataset with *at least* 3 rows and 3 columns and the associated values. Post your mockup (an Excel spreadhseet, a screenshot, a photo - whatever works).
+    - observations (rows)
+    - attributes (columns)
+2. Test out your choices by creating a sample dataset with *at least* 3 rows and 3 columns and the associated values. Post your mockup (an Excel spreadsheet, a screenshot, a photo - whatever works).
 3. Discuss what was easy and difficult about structuring this data. 

@@ -36,7 +36,7 @@ layout: home
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-0lax">Tidy Data</td>
-    <td class="tg-0lax">Messy Recipe Data</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/content/tidy-data.html#Exercise" target="_blank">Messy Recipe Data</a></td>
     <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/03_assignment_statement_of_work" target="_blank">Definition, Scope, Audience</a></td>
   </tr>
   <tr>

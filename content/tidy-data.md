@@ -1018,11 +1018,12 @@ Formatting data tables in spreadsheets:
 - [Data Carpentry lesson](https://datacarpentry.org/2015-05-03-NDIC/excel-ecology/01-format-data.html)
 
 <h2><a id="Exercise">Exercise</a></h2>
-This [infographic](https://d3vjjov8ymzzxi.cloudfront.net/chefsteps-com-files/chefsteps-cookie-table.pdf) from ChefSteps provides a "parametric" explanation of different approaches to making a chocolate chip cookie. Credit to [Jenny Bryan](https://jennybryan.org/about/) for this example and the [data](https://docs.google.com/spreadsheets/d/11H6XGUWNVAsIbtUHCrjFsk4iLViELHG4CZKmQEyyWSA/edit#gid=0) behind this infographic.
+Last week you had the opportunity to think about how to transform the traditional layout of a recipe into the form of data. This week, we present to you chocolate chip cookie recipes in "parametric" [form](https://d3vjjov8ymzzxi.cloudfront.net/chefsteps-com-files/chefsteps-cookie-table.pdf) from ChefSteps. It appears that the plan was to take a bunch of different recipes and average them. (Creative - Bree would totally try this!) Here is the [data](https://docs.google.com/spreadsheets/d/11H6XGUWNVAsIbtUHCrjFsk4iLViELHG4CZKmQEyyWSA/edit#gid=0) behind this infographic in a very messy spreadsheet. Credit to [Jenny Bryan](https://jennybryan.org/about/) for this example of messy data.
 
-This is an incredibly "untidy" dataset. There are a number of ways we could restructure this data so that it follows some best practices in efficient and effective reuse. Your assignment is as follows:
+This dataset definitely does not meet the definition of "tidy". There are a number of ways we could restructure this data so that it follows some best practices in efficient and effective reuse. Your assignment is as follows:
 
-1. Return to your assignment from last week. How well did your structuring of the information match this actual dataset? (Hopefully your structure was tidier!)
-2. Take a few moments to look through the dataset, and figure out exactly what information it is trying to represent, and what is problematic about this presentation.
-3. Come up with a new structure. That is, create a tidy dataset that has rows, columns, and values for each of the observations (cookies) that are represented in this dataset. You can do this by either creating a copy of the Google Sheet, and then restructuring it or you can simply create your own structure and plug in values from the original dataset.
-4. When your sheet is restructured, share it with us (a link to your Google Sheet is fine) and provide a brief explanation about what was challenging about tidying this dataset.
+1. Post to the Canvas discussion board, your thoughts on what should make up the:
+  1. observations (rows)
+  2. attributes (columns)
+2. Test out your choices by creating a sample dataset with *at least* 3 rows and 3 columns and the associated values. Post your mockup (an Excel spreadhseet, a screenshot, a photo - whatever works).
+3. Discuss what was easy and difficult about structuring this data. 

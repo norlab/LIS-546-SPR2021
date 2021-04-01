@@ -989,7 +989,7 @@ I also introduced the idea of using "authority control" for normalizing or makin
 
 **Required**
 
-- Rowson and Munoz (2016) Against Cleaning: http://curatingmenus.org/articles/against-cleaning/
+- Rowson and Munoz (2016) Against Cleaning: [http://curatingmenus.org/articles/against-cleaning/]
 - Wickham, H. (2014), “Tidy Data,” Journal of Statistical Software, 59, 1–23 https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf (Optional - same article with more code and examples https://r4ds.had.co.nz/tidy-data.html)
 
 **Optional**

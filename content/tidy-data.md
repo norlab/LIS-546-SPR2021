@@ -989,27 +989,27 @@ I also introduced the idea of using "authority control" for normalizing or makin
 
 **Required**
 
-- Rowson and Munoz (2016) Against Cleaning: [http://curatingmenus.org/articles/against-cleaning/]
-- Wickham, H. (2014), “Tidy Data,” Journal of Statistical Software, 59, 1–23 https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf (Optional - same article with more code and examples https://r4ds.had.co.nz/tidy-data.html)
+- Rowson and Munoz (2016) Against Cleaning: [http://curatingmenus.org/articles/against-cleaning/](http://curatingmenus.org/articles/against-cleaning/)
+- Wickham, H. (2014), “Tidy Data,” Journal of Statistical Software, 59, 1–23 [https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf) (Optional - same article with more code and examples [https://r4ds.had.co.nz/tidy-data.html](https://r4ds.had.co.nz/tidy-data.html))
 
 **Optional**
 
 Extending tidy data principles:
 
-- Tierney, N. J., & Cook, D. H. (2018). Expanding tidy data principles to facilitate missing data exploration, visualization and assessment of imputations. arXiv preprint arXiv:1809.02264. (There are a number of very helpful R examples in that paper)
-- Leek (2016) Non-tidy data https://simplystatistics.org/2016/02/17/non-tidy-data/
+- Tierney, N. J., & Cook, D. H. (2018). Expanding tidy data principles to facilitate missing data exploration, visualization and assessment of imputations. arXiv preprint [arXiv:1809.02264](https://arxiv.org/abs/1809.02264). (There are a number of very helpful R examples in that paper)
+- Leek (2016) Non-tidy data [https://simplystatistics.org/2016/02/17/non-tidy-data/](https://simplystatistics.org/2016/02/17/non-tidy-data/)
 
 Reading about data structures in spreadsheets:
 
-- Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989
+- Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. [https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
 
 Teaching or learning through spreadsheets:
 
-- Tort, F. (2010). Teaching spreadsheets: Curriculum design principles. arXiv preprint arXiv:1009.2787.
+- Tort, F. (2010). Teaching spreadsheets: Curriculum design principles. arXiv preprint [arXiv:1009.2787](https://arxiv.org/abs/1009.2787).
 
 Spreadsheet practices in the wild:
 
-- Mack, K., Lee, J., Chang, K., Karahalios, K., & Parameswaran, A. (2018, April). Characterizing scalability issues in spreadsheet software using online forums. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (pp. 1-9).
+- Mack, K., Lee, J., Chang, K., Karahalios, K., & Parameswaran, A. (2018, April). Characterizing scalability issues in spreadsheet software using online forums. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (pp. 1-9). [Online](https://dl.acm.org/doi/10.1145/3170427.3174359)
 
 Formatting data tables in spreadsheets:
 

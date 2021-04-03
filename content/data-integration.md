@@ -44,9 +44,9 @@ To overcome difficulties in combining different data tables we can engage with c
 
 The first activity in data integration is to informally or formally model the structure of a data table. In DC 1 we created data dictionaries which were focused on providing users of data a quick and precise overview of their contents. Data dictionaries are also a method for informally modeling the content of a dataset so that we, as curators, can make informed decisions about restructuring and cleaning.
 
-Here is an example of two data dictionaries for the same conceptual information: 311 service requests to the city of [Chicago, IL](https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy) and [Austin, TX](https://data.austintexas.gov/City-Government/311-Unified-Data-Test-Site-2019/i26j-ai4z). Intuitively, we would expect that data from these two cities are similar enough in  content that they can be meaningfully combined. 
+Here is an example of two data dictionaries for the same conceptual information: 311 service requests to the city of [Chicago, IL](https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy) and [Austin, TX](https://data.austintexas.gov/City-Government/311-Unified-Data-Test-Site-2019/i26j-ai4z) (not especially the section called "Columns in this Dataset"). Intuitively, we would expect that data from these two cities are similar enough in  content that they can be meaningfully combined. 
 
-Before even before looking at the content of either data table we can assume there will be: 
+If we look at the [purpose of 311](https://www.govtech.com/dc/articles/What-is-311.html) we should be able to imagine at least a few of the columns, before we even dive into an existing dataset. We can probably safely assume there will be: 
 
 1. A date
 2. A report of some service outage or complaint
@@ -59,11 +59,38 @@ The reality is much messier.
 
 Even though these two cities record the same information about the same concept using the same data infrastructure (each city publishes data using a Socrata-based data repository) there are appreciable differences and challenges in integrating these two datasets. The annotations above point out some of these slight but appreciable differences: 
 
-- Granularity - We can see that the Chicago dataset contains a variable `SR_Status` that includes information about whether or not the request is open, as well as whether or not the request is a duplicate. The Austin dataset contains a similar variable `Status` but instead of also recording a duplicate here, there is a second variable `Duplicate` that contains this information. That is, the Austin dataset is more granular. If duplicate information were important to retain in our integrated dataset we would need to determine a way to tidy these variables or values.
+#### Granularity
+We can see that the Chicago dataset contains a variable `Status`. As of April 3, 2021, the column has not description, but if we perform a little [magic with the API](https://data.cityofchicago.org/resource/v6vf-nfxy.json?$select=distinct%20status) (more on this in a later module) we can see that the values in this field are:
+```
+[{"status":"Canceled"}
+,{"status":"Completed"}
+,{"status":"Open"}]
+```
 
-- Semantics - Both datasets include information about the most recent update (response) to the request, but these are variables are labeled in slightly different ways - `Last_Update_Date` and `Last_Modified_Date`. This should be a simple to tidy by renaming the data variable (but as we will see, this proves to be more more challenging than just renaming the variable).
+The Austin dataset contains a similar variable `SR_Status` with a description of "Duplicate statuses indicate that issue had previously been reported recently." If we perform our [API magic](https://data.austintexas.gov/resource/i26j-ai4z.json?$select=distinct%20sr_status_desc) again, the values in the field are:
+```
+[{"sr_status_desc":"CancelledTesting"}
+,{"sr_status_desc":"Closed"}
+,{"sr_status_desc":"Closed -Incomplete"}
+,{"sr_status_desc":"Closed -Incomplete Information"}
+,{"sr_status_desc":"Duplicate (closed)"}
+,{"sr_status_desc":"Duplicate (open)"}
+,{"sr_status_desc":"Incomplete"}
+,{"sr_status_desc":"New"}
+,{"sr_status_desc":"Open"}
+,{"sr_status_desc":"Resolved"}
+,{"sr_status_desc":"TO BE DELETED"}
+,{"sr_status_desc":"Transferred"}
+,{"sr_status_desc":"Work In Progress"}]
 
-- Structure - Both datasets also include location information about the report. However, there is both different granularity as well as a different ordering of these variables. To tidy this location information, we would need to determine which variables to retain and which to discard.
+```
+Clearly, the Austin dataset is more granular in terms of what status they record. To integrate these datasets we would need to determine which values were important to include and how we would crosswalk the differences. For example, would we collapse the "Closed - Incomplete", "Closed - Incomplete Information", "CancelledTesting", "TO BE DELETED", from the Austin dataset into the simpler "Closed" value used in the Chicago dataset? How would we determine if they had the same meaning?
+
+#### Semantics
+Both datasets include information about the most recent update (response) to the request, but these are variables are labeled in slightly different ways - `Last_Update_Date` and `Last_Modified_Date`. This should be a simple to tidy by renaming the data variable (but as we will see, this proves to be more more challenging than just renaming the variable).
+
+#### Structure
+Both datasets also include location information about the report. However, there is both different granularity as well as a different ordering of these variables. To tidy this location information, we would need to determine which variables to retain and which to discard.
 
 The process of modeling our data tables before integration facilitates making accurate decisions, but also enables us to record those decisions and communicate them to end-users. A data dictionary, or a loose description of the contents of both tables, is often our first step in deciding which data cleaning activities we need to undertake for integrating data.
 

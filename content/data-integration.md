@@ -90,10 +90,10 @@ The Austin dataset contains a similar variable `SR_Status` with a description of
 ,{"sr_status_desc":"Work In Progress"}]
 ```
 
-Clearly, the Austin dataset is more granular in terms of what status they record. To integrate these datasets we would need to determine which values were important to include and how we would crosswalk the differences. For example, would we collapse the "Closed - Incomplete", "Closed - Incomplete Information", "CancelledTesting", "TO BE DELETED", from the Austin dataset into the simpler "Closed" value used in the Chicago dataset? How would we determine if they had the same meaning?
+So the Austin dataset uses one column to indicate status, including duplicate status, while the Chicago dataset uses two columns to indicate status, with the duplicate value being afforded its own column. Additionally, the Austin dataset is more granular in terms of the variety of statuses they record. To integrate these datasets we would need to decide both how to deal with the duplicate statuses AND we would need to determine which values were important to include and how we would crosswalk the differences. For example, would we collapse the "Closed - Incomplete", "Closed - Incomplete Information", "CancelledTesting", "TO BE DELETED", from the Austin dataset into the simpler "Closed" value used in the Chicago dataset? How would we determine if they had the same meaning?
 
 **Semantics**  
-Both datasets include information about the most recent update (response) to the request, but these are variables are labeled in slightly different ways - `Last_Update_Date` and `Last_Modified_Date`. This should be a simple to tidy by renaming the data variable (but as we will see, this proves to be more more challenging than just renaming the variable).
+Both datasets include information about the most recent update (response) to the request, but these variables are labeled in slightly different ways - `LAST_MODIFIED_DATE` and `Last Update Date`. This seem like it should be fairly simple to tidy by renaming the data variable (but as we will see, this proves to be more more challenging than just renaming the variable).
 
 **Structure**  
 Both datasets also include location information about the report. However, there is both different granularity as well as a different ordering of these variables. To tidy this location information, we would need to determine which variables to retain and which to discard.

@@ -157,7 +157,7 @@ Horizontal data integration is necessary when we have the same set of observatio
 
 To accurately perform a horizontal data integration manually - that is copying and pasting between two datasets - it is necessary to make sure that each dataset has a shared variable. When we copy and paste one table into another, we can then simply align, or match, the two shared variables to complete the integration.
 
-I am also going to show you how how to perform a horizontal data integration using `R`. You do not have to follow these steps unless you are interested. To follow along you should download and install the programming language [R](https://www.r-project.org/) and the integrated development environment (IDE) [RStudio](https://rstudio.com/products/rstudio/download/) (select the RStudio Desktop free installation). These example comes from friends running the [Lost Stats](https://lost-stats.github.io/) project.
+I am also going to show you how how to perform a horizontal data integration using `R`. You do not have to follow these steps unless you are interested. To follow along you should download and install the programming language [R](https://www.r-project.org/) and the integrated development environment (IDE) [RStudio](https://rstudio.com/products/rstudio/download/) (select the RStudio Desktop free installation). This example comes from friends running the [Lost Stats](https://lost-stats.github.io/) project.
 
 ```
 # Install dplyr - a package in the tidyverse for restructuring data
@@ -194,18 +194,18 @@ To complete our horizontal data integration we simply do the following:
 ```
 GDPandExchange <- left_join(GDP2018, DollarValue2018)
 
-#We have now horizontally integrated our two datasets. To view this integrated dataset do the following
+# We have now horizontally integrated our two datasets. To view this integrated dataset call the View function:
 View(GDPandExchange)
 ```
 The new table will look something like:
 
 <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/GDPandExchange_Data.png" alt="GDP 2018 Table" width="300"/>
 
-One helpful note about the package `dplyr` that will clarify some of the magic that just happened:
+A helpful note appears thanks to `dplyr` that clarifies some of the magic that just happened:
 
 <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/JoiningByCurrency.png" alt="GDP 2018 Table" width="400"/>
 
-The `left_join` (or any `dplyr` join) function will automatically detect that the `Currency` variable is shared in both data tables. In recognizing this shared variable `dplyr` will use this, automatically, as the place to perform the left join. And helpfully, when `dplyr` detects this similarity, it simply retains just one example of the `Currency` variables and its values. Voila - a single tidy data table through horizontal data integration!
+The `left_join` (or any `dplyr` join) function will automatically detect that the `Currency` variable is shared in both data tables because it has the same column name. In recognizing this shared variable `dplyr` will use this, automatically, as the place to perform the left join. And helpfully, when `dplyr` detects this similarity, it simply retains just one example of the `Currency` variables and its values. Voilà - a single tidy data table through horizontal data integration!
 
 ### Vertical data integration
 Vertical data integration, which is much more common in curation, is when we have two tables with the same variables, but different observations. To perform a vertical integration we simply add new observations to one of our existing datasets. This makes our integrated data table *longer* because it contains more observations.  

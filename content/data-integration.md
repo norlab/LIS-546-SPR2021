@@ -122,16 +122,15 @@ Let's look at differences in observational depth from two variables in the 311 d
 
 <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png" alt="Two tables of Created Dates with different levels of granularity" width="300"/>
 
-Chicago represents time of a 311 report following a `MM-DD-YY HH:MM` form, while Austin represents this same information with `YYYY-MMM-DD HH:MM:SS 12HRM`
+Chicago represents time of a 311 report following a `MM/DD/YYYY HH:MM:SS 12HR` form, while Austin represents this same information with `YYYY MON DD HH:MM:SS 12HR`
 
-The observational depth is greater (has more granularity) in the Austin table. But, we also have some untidy representations of `date` in both datasets. 
+The observational depth (granularity) is the same in both tables but the formats of `date` in both datasets differ (and neither are ISO 8601). 
 
-If we want to integrate these two tables then we have to decide 
+If we want to integrate these two tables then we have to decide how to standardize the values.
 
-1. How to normalize the values; and, 
-2. Which depth of granularity to retain.
+Regardless of how we decide to standardize this data, what we have to try to retain is a reliable reporting of the date such that the two sets of observations are homogenous.
 
-Regardless of how we decide to normalize this data, what we have to try to retain is a reliable reporting of the date such that the two sets of observations are homogenous. For example, the Chicago data doesn't include seconds for a 311 request. So, we can either add these seconds as `00` values in the Chicago table, or we can remove the seconds from the Austin table. In either decision, we are changing the depth of granularity in our integrated table. (Note, we also need to transform the hours so that they either represent a 24 hour cycle, or are marked by a 12HR marking such as `AM` or `PM`).
+<img src="https://imgs.xkcd.com/comics/iso_8601.png " alt="xkcd comic about time date format ISO 8601" width="500"/>
 
 ### Determine Variable Homogeneity
 

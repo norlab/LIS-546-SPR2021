@@ -120,7 +120,7 @@ Regardless of our decision it is important to note that we are not just changing
 
 Let's look at differences in observational depth from two variables in the 311 data described above.
 
-<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png" alt="Two tables of Created Dates with different levels of granularity" width="300"/>
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/CreatedDate_2tables.png" alt="Two tables of Created Dates with different levels of granularity" width="500"/>
 
 Chicago represents time of a 311 report following a `MM/DD/YYYY HH:MM:SS 12HR` form, while Austin represents this same information with `YYYY MON DD HH:MM:SS 12HR`
 
@@ -130,15 +130,15 @@ If we want to integrate these two tables then we have to decide how to standardi
 
 Regardless of how we decide to standardize this data, what we have to try to retain is a reliable reporting of the date such that the two sets of observations are homogenous.
 
-<img src="https://imgs.xkcd.com/comics/iso_8601.png " alt="xkcd comic about time date format ISO 8601" width="500"/>
+<img src="https://imgs.xkcd.com/comics/iso_8601.png " alt="xkcd comic about time date format ISO 8601" width="400"/>
 
 ### Determine Variable Homogeneity
 
 The last integration precursor that we'll discuss has to do with the homogeneity of a variable. In modeling two or more tables for potential integration we will seek to define and describe which variables are present, but we've not yet identified whether or not two variables can be reliably combined. To make this decision we need to first determine the goals of the integration. Some general criteria to consider when thinkng about the goals of integration are as follows:
 
-- Analysis and Computation - If we are optimizing data integration for easing analysis then we want high amount of homogeneity in the variables we will combine.
-- Synthesis - If we are optimizing for a more general purpose, such as the ability to synthesize results from two different datasets, then we can likely afford to combine variables that may have less homogeneity
-- Statistical Significance - If we expect to create statistical summaries that require significant results (that is we will make some decision, forecast, or generalization based on our statistical analysis) then it is of the utmost importance that the combined variables have high homogeneity. But, if all that we require is a rough sense of when or where an observation occurs then low homogeneity is acceptable.
+- **Analysis and Computation**: If we are optimizing data integration for easing analysis then we want high amount of homogeneity in the variables we will combine.
+- **Synthesis**: If we are optimizing for a more general purpose, such as the ability to synthesize results from two different datasets, then we can likely afford to combine variables that may have less homogeneity
+- **Statistical Significance**: If we expect to create statistical summaries that require significant results (that is we will make some decision, forecast, or generalization based on our statistical analysis) then it is of the utmost importance that the combined variables have high homogeneity. But, if all that we require is a rough sense of when or where an observation occurs then low homogeneity is acceptable.
 
 An example of variable homogeneity will help make these points clear. The Austin and Chicago tables each contain a variable that roughly corresponds with the "type" of 311 request or report being made. In the Austin table this information is more granularly reported - there is code that is used internally `SR_Type_Code`, and a `Description` variable that provides a plain text explanation of the code. In the Chicago table there is simply a variable called `SR_Type`. If we pay attention closely to the values in these two tables we can determine that the `Description` and `SR_Type` are homogeneous. That is, the Austin table and the Chicago table have similar information but use slightly different semantic values to control the variable.
 

@@ -106,17 +106,17 @@ In integrating two data tables there will likely be a difference in granularity 
 
 As curators, value granularity prompts a decision about what specificity is necessary to retain or discard in the new integrated table. 
 
-A simple example will make this clear. Imagine we have three tables `A`, `B`, and `C`. Each table contains the same variable `X`, but the values for `X` in each table have a different observational depth. In comparing the values for this variable we might observe different units of measurement. 
+A simple example will make this clear. Imagine we have three tables `Location A`, `Location B`, and `Location C`. Each table contains the same variable `BirthWeight`, but the values for `BirthWeight` in each table have a different observational depth. In comparing the values for this variable we might even observe (presumably) different units of measurement. 
 
-<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/3_tables.png" alt="Three tables with one variable called X. X has different values" width="300"/>
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/3_tables.png" alt="Title is Polar Bears. There are three tables, Location A, Location B, Location C with one column each titles BirthWeight" width="300"/>
 
-(Keep in mind - A, B and C represent the three different tables, and X represents the same variable found in all three tables.)
+This example looks simple at face value, but will require an important decision for integration. Tables `Location A` and `Location B` both represent observational values of `BirthWeight` as [integers](https://en.wikipedia.org/wiki/Integer) but definitely of different units of measurement. Table `Location C` represents the observational values of `BirthWeight` as a decimal number most likely in the same unit of measurement as `Location B`.
 
-This example looks simple at face value, but will require an important decision for integration. Tables `A` and `B` both represent observational values of `X` as [integers](https://en.wikipedia.org/wiki/Integer). Table `C` represents the observational values of `X` as a decimal number.
+Hopefully there is a data dictionary or text somewhere to indicate that the values in table `Location A` are in grams and the values in both tables `Location B` and `Location C` are in ounces. A best guess as to the different ouce values would be that table `Location B` values are rounded to the nearest whole number, while table `Location C` values are rounded to the nearest 100th place. Once we recognize these differences, our decision is two-fold. Should we convert the ounces to grams or vice versa and then will we use decimals or round to integers? 
 
-Once we recognize this difference, our decision is simple - we can either convert the values in `A` and `B` to be decimals (1.0, 2.0, etc) or we can round the values in `C` to create integers. 
+Regardless of our decision it is important to note that we are not just changing the values, but we are also changing their `encoding` - that is whether they represent integers or decimal numbers. (And we would need to document this change in our documentation). This may also affect their data type, for example [Python](https://www.w3schools.com/python/python_datatypes.asp) has both integer and float (for decimal values) data types. Here is one possible integration solution:
 
-Regardless of our decision it is important to note that we are not just changing the values, but we are also changing their `encoding` - that is whether they represent integers or decimal numbers. (And we would need to document this change in our documentation). This may also affect their data type, for example [Python](https://www.w3schools.com/python/python_datatypes.asp) has both integer and float (for decimal values) data types.
+<img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/3_tables_integrated.png" alt="Title is Polar Bears. There is one table, with two columns titled Location and BirthWeight_Ounces" width="300"/>
 
 Let's look at differences in observational depth from two variables in the 311 data described above.
 

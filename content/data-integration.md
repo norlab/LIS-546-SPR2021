@@ -226,7 +226,8 @@ View(mtcars)
 mtcars1 <- mtcars[1:10,]
 mtcars2 <- mtcars[11:32,]
 
-#Our comptuer is now holding the two tables in its memory - mtcars 1 and mtcars2. If you want to check this try 
+# Our machine is now holding the two tables in its memory - mtcars 1 and mtcars2. 
+# If you want to check this use the View function: 
 
 View(mtcars1)
 

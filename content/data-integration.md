@@ -276,7 +276,7 @@ If you are interested in the history of this topic from the perspective of datab
 
 For a bit of historical background, Ch 1 of this book (pages 1-13) provides an excellent overview of how data were originally made compliant with web standards:
 
-- Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://homepages.dcc.ufmg.br/~laender/material/Data-on-the-Web-Skeleton.pdf)
+- Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/Data-on-the-Web-Skeleton.pdf)
 
 <h2><a id="Exercise">Exercise</a></h2>
 The exercise this week comes from an interesting analysis of New York City 311 data by [Chris Whong](https://twitter.com/chris_whong/status/1240363144654000132) ([archived tweet](https://web.archive.org/web/20210314224906/https://twitter.com/chris_whong/status/1240363144654000132)). What he observes is a 1000% increase in "Consumer Complaint" 311 requests since the first recorded case of Covid-19 infection in NYC. This is not without some important external conditions - after this recorded infection there was a more concerted effort by NYC residents to stockpile supplies. Having heard numerous informal complaints of price-gouging the city recommended that consumers report businesses using a 311 hotline.

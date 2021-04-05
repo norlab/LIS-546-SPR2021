@@ -263,18 +263,12 @@ Once these tasks were complete we looked at practical ways to combine two tables
 Coming soon!
 <!--<iframe width=853 height=476 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYf3oHAIEB&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>-->
 # Readings
-Data integration is a topic that can be incredibly complex, and much of the published literature fails to make this an approachable or even realistic read for a course like DC II. So, you get somewhat of a pass on readings this week. 
+Data integration is a topic that can be incredibly complex, and much of the published literature fails to make this an approachable or even realistic read for a course like DC II. But below are two readings that I highly recommend 
 
-A very helpful overview of the state of current integration challenges for the open web of data: 
+- This is a really detailed example of some serious curation activity. Don't worry about understanding the nuances of the data, just read it for the example: Whong, Chris (2020) "Taming the MTA’s Unruly Turnstile Data" [Medium]( https://medium.com/qri-io/taming-the-mtas-unruly-turnstile-data-c945f5f96ba0)
+- The Wikipedia article on [data integration](https://en.wikipedia.org/wiki/Data_integration) is a phenomenal overview that should compliment the content of this module
 
-- Stonebraker, M., & Ilyas, I. F. (2018). Data Integration: The Current Status and the Way Forward. IEEE Data Eng. Bull., 41(2), 3-9. [PDF](https://cs.uwaterloo.ca/~ilyas/papers/StonebrakerIEEE2018.pdf)
-
-Please read this blog post for discussion (if you chose) on the Canvas forum: 
-
-- Whong, Chris (2020) "Taming the MTA’s Unruly Turnstile Data" [Medium]( https://medium.com/qri-io/taming-the-mtas-unruly-turnstile-data-c945f5f96ba0)
-
-Let me also make a plug for the Wikipedia article on [data integration](https://en.wikipedia.org/wiki/Data_integration) - this is a phenomenal overview that should compliment my writing above.
-
+*Optional*
 If you are interested in the history of this topic from the perspective of databases I also highly recommend the following:
 
 - Halevy, A., Rajaraman, A., & Ordille, J. (2006, September). Data integration: The teenage years. In Proceedings of the 32nd international conference on Very large data bases (pp. 9-16). [PDF](https://www.cin.ufpe.br/~if696/referencias/integracao/_Data_Integration-The_Teenage_Years.pdf)

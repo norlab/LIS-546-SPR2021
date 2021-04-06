@@ -300,5 +300,5 @@ Your exercise this week is to attempt to integrate (at least some) of the provid
 
 Post the following in the [discussion](https://canvas.uw.edu/courses/1465297/discussion_topics/6184508) for this week's exercise:
 - Provide a table with an example of your integration. You do not need to integrate all 400 rows. Just choose an example to showcase the work you did. You can provide your new table via a Google Sheet, Excel document, .csv, or even a screenshot of the new table from whatever software platform you are using. If you were unable to integrate the the tables, show an example of the two tables and where you got stuck. I'm not promising that this will be easy, but I also don't want you to spend hours on this. Take one hour to make your best attempt and then follow the next step. 
-- Provide an explanation (~1 paragraph) of what you tried to integrate the data, and why this was or was not challenging.
+- Provide an explanation (~1 paragraph) of what you tried to integrate the data, and why this was or was not challenging. Was this an example of vertical or horizontal integration (or a combination)?
 

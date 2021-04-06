@@ -287,18 +287,16 @@ A simple graph makes this more compelling than the narrative description - we se
 
 Inspired by this creative visualizing of 311 data and by the examples included in the content this week, you will be trying your hands at integrating 311 data from two different cities from a similar time period of March 1, 2020 through May 1, 2020. Lucky for us, there is an existing repository of [311 city data](https://andrew-friedman.github.io/jkan/datasets/). However, retrieving data from some of these repositories can be difficult depending on the size of the data download and the ability to filter before downloading. So I am providing you with datasets to use. (If you're really ambitious and have the time you are more than welcome to choose your own cities and download the data - but don't prioritize this over other work for this class and other classes.) I have provided you with a random sample of [200 rows of data from San Francisco](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/data/SF_311_Feb-Apr.csv) and [200 rows of data from Boston](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/data/Boston_311_Feb-Apr.csv).
 
-Your exercise this week is to choose two cities from this repository and attempt to integrate a subset of their data. You may use your favorite tool for working with tables. Examples include: Microsoft Excel, Google Sheets, OpenRefine, R, Python. This task will be challenging but hopefully rewarding. 
+Your exercise this week is to attempt to integrate (at least some) of the provided data. You may use your favorite tool for working with tables. Examples include: Microsoft Excel, Google Sheets, OpenRefine, R, Python. This task will be challenging but hopefully rewarding. 
 
 **Here are some helpful pointers:**
 
-- Choose cities that have "up-to-date" data (marked by "current" in the title).
-- Subset this data so that it only includes 311 complains from March 1, 2020 forward. You can often subset data in a repository by choosing to view and filter the data first. Here is an example from [Chicago's open data portal](https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy/data) (note just select filter in this interface).
-- Once you have subsetted the tables for your two cities, try to eliminate any unnecessary variables from your dataset. That is - we don't need all of the information about the data - we only need a record of, for example, the complaint and the date.
+- Try to eliminate any unnecessary variables from your dataset. That is - we don't need all of the information about the data - we only need a record of, for example, the complaint and the date.
 
 **What to turn in:**
 
 Post the following in the [discussion](https://canvas.uw.edu/courses/1465297/discussion_topics/6184508) for this week's exercise:
-- Provide us a table of your data from two cities (a Google Sheet, Excel document, .csv, or even a screenshot of the new table from whatever software platform you are using all work). If you are able to integrate the data, provide just one document or screenshot. If you cannot - give us two separate docs/pics. Note - this will be challenging to do. If you spend an hour trying to integrate the two datasets and up hating me (and this class) that is completely acceptable, but make an attempt and then follow the next step. 
-- Provide an explanation (~1 paragraph) of which cities you selected, what you tried to integrate the data, and why this was or was not challenging.
+- Provide a table of your data from two cities (a Google Sheet, Excel document, .csv, or even a screenshot of the new table from whatever software platform you are using). If you are able to integrate the data, provide just one document or screenshot. If you cannot - give us two separate docs/pics. Note - this will be challenging to do. If you spend an hour trying to integrate the two datasets and up hating me (and this class) that is completely acceptable, but make an attempt and then follow the next step. 
+- Provide an explanation (~1 paragraph) of what you tried to integrate the data, and why this was or was not challenging.
 - You do not need to create a graph or any form of analysis - but if you do it would be very interesting to see your results!
 

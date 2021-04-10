@@ -46,13 +46,13 @@ An example of a zip file may help make this clear: If we want to compress a fold
 A zip file then acts as a data package with a very specific purpose - to reduce the size of files, and then package them together in a self-describing, independent container.
 
 ## Data Packages for Curation
-Data packages in curation are meant to bundle together a set of files, describe their contents, and then provide a simple container for transferring these files to a new environment. Compressing the size of our data is not as important a feature in curation as it is in general computing. This is for the simple reason that the size of our data is not as important as making sure that the objects we are transferring remain "authentic" - that is they have not changed or been altered in the course of being exchanged from one environment to another.
+Data packages in curation are meant to bundle together a set of files, describe their contents, and then provide a simple container for transferring these files to a new environment. Compressing the size of our data is not as important a feature in curation as it is in general computing. This is for the simple reason that the size of our data is not as important as making sure that the objects we are transferring remain "authentic", i.e. they have not changed or been altered in the course of being exchanged from one environment to another.
 
-In Data Curation 1 - we described ways to ensure that our data have 'authenticity' - that is a digital object **is** what it purports to be. We discussed how, for example, a curator can characterize a file by creating a "check-sum" which is essentially a number that is generated to describe the header and content information of any digital object.
+In Data Curation 1 - we described ways to ensure that our data have "authenticity", i.e. a digital object **is** what it purports to be. We discussed how, for example, a curator can characterize a file by creating a "check-sum" which is essentially a number that is generated to describe the header and content information of any digital object.
 
-The check-sum is one of the most important features of a data package - it allows for a curator to create a simple string of numbers that characterize a digital object's bits - and then upon re-opening the digital object in a new computing environment - check that the number matches ^[Hence the name, a check-sum - the sum that we "check" to make sure the digital objects are authentic]. We can think of a check-sum as our failsafe for ensuring that digital objects, data, continue to be authentic when packaged and exchanged across different computers. 
+The check-sum is one of the most important features of a data package - it allows for a curator to create a simple string of numbers that characterize a digital object's bits - and then upon re-opening the digital object in a new computing environment - check that the number matches (hence the name, a check-sum - the sum that we "check" to make sure the digital objects are authentic). We can think of a check-sum as our failsafe for ensuring that digital objects, data, continue to be authentic when packaged and exchanged across different computers. 
 
-![](_images/checksum.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/checksum.png)
 
 To quickly review, thus far we have said that a data package in curations consists simply of:
 

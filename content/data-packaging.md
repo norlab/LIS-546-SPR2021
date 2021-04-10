@@ -2,30 +2,33 @@
 layout: default
 ---
 # Data Packaging
+**Original Author: Nic Weber**  
+**Editing & Updates: Bree Norlander**  
+
 As data grow in size, and the documentation, software, and dependencies of an operating system grow in complexity - it is becoming increasingly hard to access and transfer data without a conceptual "package" to do so. 
 
 In this module we're going to think about how both the metaphor and the practical application of "packaging" impacts data curation work. A warning in advance, this is a bit of a "boring" topic but it is an important one to understand for future practical curation work. 
 
 My hope is that this chapter will help us begin to see how and why our work in developing metadata for data curation is paramount to sustainable access, and introduce a few broadly used standards for creating data packages. The readings this week reflect the emergence and complexity of this topic. 
 
-Let's give it our best effort - choose one of the standards I've listed to do some reading of technical documentation. You do not have to read these standards or docs linearly - feel free to skim and get the gist of just one.
+Let's give it our best effort - choose one of the standards I've listed to do some reading of technical documentation. You do not have to read these standards or documents linearly - feel free to skim and get the gist of just one.
 
-Data in the context of this book are defined as "information objects playing the role of evidence". Thus far, we've discussed ways to structure, tidy, and integrate data for long-term archiving and reuse. In doing so, we've focused on trying to ensure that data, as "evidence", remains interpretable and valuable to various end-users. In the next three chapters we will turn our attention to ways that data are packaged, described, and discovered by end-users. These are topics that impact how information objects are exchanged, and the ways that data (as evidence) is reliably evaluated for reuse. These three topics are, as discussed last week, a grand challenge for data curation.
+Data in the context of this course is defined as "information objects playing the role of evidence". Thus far, we've discussed ways to structure, tidy, and integrate data for long-term archiving and reuse. In doing so, we've focused on trying to ensure that data, as "evidence", remains interpretable and valuable to various end-users. In the next three chapters we will turn our attention to ways that data are packaged, described, and discovered by end-users. These are topics that impact how information objects are exchanged, and the ways that data (as evidence) is reliably evaluated for reuse. These three topics are, as discussed last week, a grand challenge for data curation.
 
 ## The Concept of Packaging Data
-A data package is a container that includes, at minimum, a data object and its metadata (e.g. descriptive properties of the data, such as date of creation, size, format, etc.). At face value, a data package may similar in concept to a folder that sits on our desktop computers - these are also "containers" that can include data and metadata. The key difference is that a data package is an *independent* format, and is *self-describing*. The format independence and self-describing features or the data package enable a set of data to be meaningfully exchanged across computing environments.
+A data package is a container that includes, at minimum, a data object and its metadata (e.g. descriptive properties of the data, such as date of creation, size, format, etc.). At face value, a data package is similar in concept to a folder that sits on our desktop computers - these are also "containers" that can include data and metadata. The key difference is that a data package is an *independent* format, and is *self-describing*. The format independence and self-describing features of the data package enable a set of data to be meaningfully exchanged across computing environments.
 
 - Independent Format: The package exists as a standalone formatted file that is not a directory, but instead contains a directory of files. The files are encoded by the package's format.
 - Self-describing: The package contains metadata that describes both the contents, and the format of the package. There are two components to this self-description: The metadata, that describes each item, and the **manifest**, that describes the structure of the package's content.
 
 Data packaging is useful for accomplishing a number of mundane tasks in data curation, such as the transfer of data (from one researcher to another, the exporting and importing of data from one repository to another) or the long-term storage of data.
 
-Packaging, more generally, is something that most users of a computer do without ever thinking about it. For example, every time we create a zip file we are using a data packaging standard. Before we turn to specifications and details of packages used in data curation, let's unpack^[yes, that is a pun] the concept of a zip file to better understand the role of packaging in contemporary computing environments.
+Packaging, more generally, is something that most users of a computer do without ever thinking about it. For example, every time we create a [zip file](https://en.wikipedia.org/wiki/ZIP_(file_format)) we are using a data packaging standard. Before we turn to specifications and details of packages used in data curation, let's unpack (yes, that is a pun) the concept of a zip file to better understand the role of packaging in contemporary computing environments.
 
 ## The Zip Package 
-Most of us have used a "zip file" as a simple way to reduce the *size* of files that we want to send over the internet. A zip file is a bit of a misnomer - a zip is not just a file, but a complex set of technologies that work together to create a package of data.
+Most of us have used a "zip file" as a simple way to reduce the *size* of files that we want to send over the internet. A zip *file* is a bit of a misnomer - a zip is not just *a file*, but a complex set of technologies that work together to create a package of data.
 
-A zip file implements what is called a "compression algorithm" - this algorithm first characterizes the bit sequences in a collection of files (in our class, we've referred to this as the "physical layer" of data). The algorithm then removes any unnecessary or redundant bits across the collection of files. What is left, in the language of data engineering, is called a "payload" - that is, only the unique content that we want to transfer via the package.
+A zip file implements what is called a "compression algorithm" - this algorithm first characterizes the bit sequences in a collection of files (recall the "physical layer" of data from [Module 2](https://norlab.github.io/LIS-546-SPR2021/content/tables-trees-triples.html)). The algorithm then removes any unnecessary or redundant bits across the collection of files. What is left, in the language of data engineering, is called a "[payload](https://en.wikipedia.org/wiki/Payload_(computing))" - that is, only the unique content that we want to transfer via the package.
 
 A Zip tool, which implements the algorithm, will also create metadata that will describe each file, and the *manifest* or metadata about what content the "zip" package contains as a whole.
 
@@ -167,11 +170,11 @@ Take a minute to consider the curation work that we've just laid out: We have a 
 In many ways, packaging is a curatorial intervention that not just makes data easy to transfer, but provides a safeguard for ensuring reliably reuse. We practically accomplish this curation task by simply using the BagIT standard's structure, and creating a set of checksums to ensure authenticity.
 
 
-# Lecture
+## Lecture
 
 Coming soon!
 <!--<iframe width=853 height=476 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYhnb3BAeu&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>-->
-# Readings
+## Readings
 
 - Bechhofer, S., De Roure, D., Gamble, M., Goble, C., & Buchan, I. (2010). Research objects: Towards exchange and reuse of digital knowledge. https://eprints.soton.ac.uk/268555/1/fwcs-ros-submitted-2010-02-15.pdf
 
@@ -189,7 +192,7 @@ Pick One of following to read or review in-depth:
 - Data Package (Ecology): https://releases.dataone.org/online/api-documentation-v2.0.1/design/DataPackage.html
 - HTRC Data Capsules (Digital Humanities) https://wiki.htrc.illinois.edu/display/COM/HTRC+Data+Capsule+Specifications+and+Usage+Guide
 
-# Exercise
+## Exercise
 This week there is no assignment to turn in. Instead we are going to look at a tool `Data Curator` that allows us to describe, validate, and package data using a graphic user interface.
 
 - The tool is available for download here: https://github.com/ODIQueensland/data-curator/releases/tag/v1.0.0

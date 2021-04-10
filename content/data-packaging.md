@@ -41,7 +41,7 @@ Our operating systems then reassemble the original files by re-injecting the mis
 
 An example of a zip file may help make this clear: If we want to compress a folder of PDF documents, then we don't need to actually transfer all of the bits for each PDF - we only need the unique content (the bits) that make up each individual PDF. Because, PDF is a standard and each PDF has the same "header" (bits of information that tell our computers how to interpret a PDF) we don't need to actually transfer any header information. By removing redundant information (the header) we significantly reduce the size of the files being transferred. When a zip file is re-opened, on another computer, the operating system scans the metadata about each file, and based on the standard (in this case a PDF) our operating system will re-inject the header information to make the PDF files readable.
 
-![](Images/ZipFileOverview.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/ZipFileOverview.png)
 
 A zip file then acts as a data package with a very specific purpose - to reduce the size of files, and then package them together in a self-describing, independent container.
 

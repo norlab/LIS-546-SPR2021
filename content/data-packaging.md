@@ -52,7 +52,7 @@ In Data Curation 1 - we described ways to ensure that our data have 'authenticit
 
 The check-sum is one of the most important features of a data package - it allows for a curator to create a simple string of numbers that characterize a digital object's bits - and then upon re-opening the digital object in a new computing environment - check that the number matches ^[Hence the name, a check-sum - the sum that we "check" to make sure the digital objects are authentic]. We can think of a check-sum as our failsafe for ensuring that digital objects, data, continue to be authentic when packaged and exchanged across different computers. 
 
-![](Images/checksum.png)
+![](_images/checksum.png)
 
 To quickly review, thus far we have said that a data package in curations consists simply of:
 

@@ -103,66 +103,23 @@ Let's look at each of these files to understand exactly what the package `My1stB
 
 The `bag-info.txt` file which contains manifest metadata can often be confusing for first time bag creators. Here is a an example of the `bag-info.txt` contents from a bag created by the University of North Texas library. (This example was shared by Mark E Phillips, you can read his blog about bag-info files [here](https://vphill.com/journal/post/4142/).)
 
-<table width="314">
-<tbody>
-<tr>
-<td width="161"><strong>Field</strong></td>
-<td width="153"><strong>How we create the Value</strong></td>
-</tr>
-<tr>
-<td>Bag-Size</td>
-<td>Machine</td>
-</tr>
-<tr>
-<td>Bagging-Date</td>
-<td>Machine</td>
-</tr>
-<tr>
-<td>CODA-Ingest-Batch-Identifier</td>
-<td>Machine</td>
-</tr>
-<tr>
-<td>CODA-Ingest-Timestamp</td>
-<td>Machine</td>
-</tr>
-<tr>
-<td>Contact-Email</td>
-<td>Boiler-Plate</td>
-</tr>
-<tr>
-<td>Contact-Name</td>
-<td>Boiler-Plate</td>
-</tr>
-<tr>
-<td>Contact-Phone</td>
-<td>Boiler-Plate</td>
-</tr>
-<tr>
-<td>External-Description</td>
-<td>Changes per “collection”</td>
-</tr>
-<tr>
-<td>External-Identifier</td>
-<td>Machine</td>
-</tr>
-<tr>
-<td>Internal-Sender-Identifier</td>
-<td>Machine</td>
-</tr>
-<tr>
-<td>Organization-Address</td>
-<td>Boiler-Plate</td>
-</tr>
-<tr>
-<td>Payload-Oxum</td>
-<td>Machine</td>
-</tr>
-<tr>
-<td>Source-Organization</td>
-<td>Boiler-Plate</td>
-</tr>
-</tbody>
-</table>
+<pre>
+Bag-Size: 28.32M
+Bagging-Date: 2015-01-23
+CODA-Ingest-Batch-Identifier: f2dbfd7e-9dc5-43fd-975a-8a47e665e09f
+CODA-Ingest-Timestamp: 2015-01-22T21:43:33-0600
+Contact-Email: mark.phillips@unt.edu
+Contact-Name: Mark Phillips
+Contact-Phone: 940-369-7809
+External-Description: Collection of photographs held by the University of North
+ Texas Archives that were taken by Junebug Clark or other family
+ members. Master files are tiff images.
+External-Identifier: ark:/67531/metadc488207
+Internal-Sender-Identifier: UNTA_AR0749-002-0016-0017
+Organization-Address: P. O. Box 305190, Denton, TX 76203-5190
+Payload-Oxum: 29666559.4
+Source-Organization: University of North Texas Libraries
+</pre>
 
 Practically, a bag is a bit more complicated to produce than a zip package - there are, helpfully, a number of tools for creating bags following the specifications that are described above. Many of these require using a command-line tool, such as the `Bagger` tool that is available from the Library of Congress. There is a [very good set of tutorials](https://www.youtube.com/watch?v=14ZPtYLtUYA) outlining the practical steps in creating a bag from the State of North Carolina Archives if you are interested in exploring more.
 

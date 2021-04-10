@@ -54,7 +54,7 @@ The check-sum is one of the most important features of a data package - it allow
 
 ![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/checksum.png)
 
-To quickly review, thus far we have said that a data package in curations consists simply of:
+To quickly review, thus far we have said that a data package in curation consists of:
 
 - Metadata that describes the structure (the manifest) and the contents of the package
 - Resources such as data files that form the contents of the package
@@ -62,7 +62,7 @@ To quickly review, thus far we have said that a data package in curations consis
 
 The metadata about the package itself, the manifest, often contains the following:
 
-- General metadata such as the package’s title, license, publisher etc
+- General metadata such as the package’s title, license, publisher, etc.
 - A list of the data “resources” that make up the package including their location on disk or online and other relevant information (including, possibly, schema information about these data resources in a structured form)
 
 Here is, conceptually, what a data package might contain: 

@@ -4,16 +4,15 @@ layout: default
 # Data Packaging
 As data grow in size, and the documentation, software, and dependencies of an operating system grow in complexity - it is becoming increasingly hard to access and transfer data without a conceptual "package" to do so. 
 
-In this week we're going to think about how both the metaphor and the practical application of "packaging" impacts data curation work. A warning in advance, this is a bit of a "boring" topic but it is an important one to understand for future, practical, curation work. 
+In this module we're going to think about how both the metaphor and the practical application of "packaging" impacts data curation work. A warning in advance, this is a bit of a "boring" topic but it is an important one to understand for future practical curation work. 
 
 My hope is that this chapter will help us begin to see how and why our work in developing metadata for data curation is paramount to sustainable access, and introduce a few broadly used standards for creating data packages. The readings this week reflect the emergence and complexity of this topic. 
 
 Let's give it our best effort - choose one of the standards I've listed to do some reading of technical documentation. You do not have to read these standards or docs linearly - feel free to skim and get the gist of just one.
 
-## Chapter
 Data in the context of this book are defined as "information objects playing the role of evidence". Thus far, we've discussed ways to structure, tidy, and integrate data for long-term archiving and reuse. In doing so, we've focused on trying to ensure that data, as "evidence", remains interpretable and valuable to various end-users. In the next three chapters we will turn our attention to ways that data are packaged, described, and discovered by end-users. These are topics that impact how information objects are exchanged, and the ways that data (as evidence) is reliably evaluated for reuse. These three topics are, as discussed last week, a grand challenge for data curation.
 
-### The Concept of Packaging Data
+## The Concept of Packaging Data
 A data package is a container that includes, at minimum, a data object and its metadata (e.g. descriptive properties of the data, such as date of creation, size, format, etc.). At face value, a data package may similar in concept to a folder that sits on our desktop computers - these are also "containers" that can include data and metadata. The key difference is that a data package is an *independent* format, and is *self-describing*. The format independence and self-describing features or the data package enable a set of data to be meaningfully exchanged across computing environments.
 
 - Independent Format: The package exists as a standalone formatted file that is not a directory, but instead contains a directory of files. The files are encoded by the package's format.
@@ -23,7 +22,7 @@ Data packaging is useful for accomplishing a number of mundane tasks in data cur
 
 Packaging, more generally, is something that most users of a computer do without ever thinking about it. For example, every time we create a zip file we are using a data packaging standard. Before we turn to specifications and details of packages used in data curation, let's unpack^[yes, that is a pun] the concept of a zip file to better understand the role of packaging in contemporary computing environments.
 
-### The Zip Package 
+## The Zip Package 
 Most of us have used a "zip file" as a simple way to reduce the *size* of files that we want to send over the internet. A zip file is a bit of a misnomer - a zip is not just a file, but a complex set of technologies that work together to create a package of data.
 
 A zip file implements what is called a "compression algorithm" - this algorithm first characterizes the bit sequences in a collection of files (in our class, we've referred to this as the "physical layer" of data). The algorithm then removes any unnecessary or redundant bits across the collection of files. What is left, in the language of data engineering, is called a "payload" - that is, only the unique content that we want to transfer via the package.
@@ -43,7 +42,7 @@ An example of a zip file may help make this clear: If we want to compress a fold
 
 A zip file then acts as a data package with a very specific purpose - to reduce the size of files, and then package them together in a self-describing, independent container.
 
-### Data Packages for Curation
+## Data Packages for Curation
 Data packages in curation are meant to bundle together a set of files, describe their contents, and then provide a simple container for transferring these files to a new environment. Compressing the size of our data is not as important a feature in curation as it is in general computing. This is for the simple reason that the size of our data is not as important as making sure that the objects we are transferring remain "authentic" - that is they have not changed or been altered in the course of being exchanged from one environment to another.
 
 In Data Curation 1 - we described ways to ensure that our data have 'authenticity' - that is a digital object **is** what it purports to be. We discussed how, for example, a curator can characterize a file by creating a "check-sum" which is essentially a number that is generated to describe the header and content information of any digital object.
@@ -69,7 +68,7 @@ Here is, conceptually, what a data package might contain:
 
 In the following section I will offer some in-depth description of two packaging standards that are used often in data curation: BagIT and Research Objects. 
 
-### BagIT
+## BagIT
 BagIT comes from a phrase used in the early days of data engineering "Bag it and tag it" - meaning that data were supposed to be formatted, and described with standard metadata tags. BagIT grew out of a need for conducting digital preservation when operating systems like Windows, Mac, and Linux were much less compatible than they are today. Early digital curators needed a general standard where data could be uniformly described, structured within a self-describing container, and transferred across different operating systems (and their different file directories) reliably ^[For more history on BagIT see this LOC [blog post](https://blogs.loc.gov/thesignal/2019/04/bagit-at-the-library-of-congress/)]
 
 The BagIT standard outlines file naming conventions, so that each file in a package is easily interpretable; it provides a recommendation for how to create a manifest, so that all the files included in a package are accurately described; and, it provides a way to include checksums for each file that is contained in the "bag".
@@ -119,7 +118,7 @@ The `bag-info.txt` file which contains manifest metadata can often be confusing 
 
 Practically, a bag is a bit more complicated to produce than a zip package - there are, helpfully, a number of tools for creating bags following the specifications that are described above. Many of these require using a command-line tool, such as the `Bagger` tool that is available from the Library of Congress. There is a [very good set of tutorials](https://www.youtube.com/watch?v=14ZPtYLtUYA) outlining the practical steps in creating a bag from the State of North Carolina Archives if you are interested in exploring more.
 
-### Why Packages Matter  
+## Why Packages Matter  
 Above I reviewed a formal specification, BagIT, for creating a data package. But, taking a step back - this looks like an incredible amount of work to simply transfer data from one computer to another. We have already downloaded and used data from the web a number of times in this class - so why is a bag necessary if we routinely find, obtain, and use data without a package?
 
 There are three main motivations for creating a data package that are worth explaining in more detail:
@@ -136,7 +135,7 @@ The last decade of innovation in data packaging has, as is typical, produced a c
 
 An emerging standard, and one that I think is going to ultimately be successful, comes from the concept of a Research Object. In the sections below, I'll explain the conceptual foundation of a research object and the standard that is used to package research objects for efficient and effective reuse.
 
-### Research Object + BagIT  
+## Research Object + BagIT  
 In contemporary research and data engineering data are created, used, and managed through a number of software and hardware specific environments. 
 
 For example, in our previous chapter on data integration we looked at a simple dataset, `mtcars` and a set of transformations in `R` using the package `dplyr` to restructure this data.
@@ -168,11 +167,11 @@ Take a minute to consider the curation work that we've just laid out: We have a 
 In many ways, packaging is a curatorial intervention that not just makes data easy to transfer, but provides a safeguard for ensuring reliably reuse. We practically accomplish this curation task by simply using the BagIT standard's structure, and creating a set of checksums to ensure authenticity.
 
 
-## Lecture
+# Lecture
 
 Coming soon!
 <!--<iframe width=853 height=476 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYhnb3BAeu&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>-->
-## Readings
+# Readings
 
 - Bechhofer, S., De Roure, D., Gamble, M., Goble, C., & Buchan, I. (2010). Research objects: Towards exchange and reuse of digital knowledge. https://eprints.soton.ac.uk/268555/1/fwcs-ros-submitted-2010-02-15.pdf
 
@@ -190,7 +189,7 @@ Pick One of following to read or review in-depth:
 - Data Package (Ecology): https://releases.dataone.org/online/api-documentation-v2.0.1/design/DataPackage.html
 - HTRC Data Capsules (Digital Humanities) https://wiki.htrc.illinois.edu/display/COM/HTRC+Data+Capsule+Specifications+and+Usage+Guide
 
-## Exercise
+# Exercise
 This week there is no assignment to turn in. Instead we are going to look at a tool `Data Curator` that allows us to describe, validate, and package data using a graphic user interface.
 
 - The tool is available for download here: https://github.com/ODIQueensland/data-curator/releases/tag/v1.0.0

@@ -72,7 +72,7 @@ Here is, conceptually, what a data package might contain:
 In the following section I will offer some in-depth description of two packaging standards that are used often in data curation: BagIT and Research Objects. 
 
 ## BagIT
-BagIT comes from a phrase used in the early days of data engineering "Bag it and tag it" - meaning that data were supposed to be formatted, and described with standard metadata tags. BagIT grew out of a need for conducting digital preservation when operating systems like Windows, Mac, and Linux were much less compatible than they are today. Early digital curators needed a general standard where data could be uniformly described, structured within a self-describing container, and transferred across different operating systems (and their different file directories) reliably ^[For more history on BagIT see this LOC [blog post](https://blogs.loc.gov/thesignal/2019/04/bagit-at-the-library-of-congress/)]
+BagIT comes from a phrase used in the early days of data engineering "Bag it and tag it" - meaning that data were supposed to be formatted, and described with standard metadata tags. BagIT grew out of a need for conducting digital preservation when operating systems like Windows, Mac, and Linux were much less compatible than they are today. Early digital curators needed a general standard where data could be uniformly described, structured within a self-describing container, and transferred across different operating systems (and their different file directories) reliably. (For more history on BagIT see this LOC [blog post](https://blogs.loc.gov/thesignal/2019/04/bagit-at-the-library-of-congress/).)
 
 The BagIT standard outlines file naming conventions, so that each file in a package is easily interpretable; it provides a recommendation for how to create a manifest, so that all the files included in a package are accurately described; and, it provides a way to include checksums for each file that is contained in the "bag".
 
@@ -87,37 +87,82 @@ bagit.txt
       metadata/
         file1-metadata.json
         file2-metadata.json
-fetch.tex
+fetch.txt
 manifest-md5.txt
 ```
 Let's look at each of these files to understand exactly what the package `My1stBag` contains:
 
 - `bag-info.txt` : This is the manifest metadata about the bag, such as the bag's name, who created it, and on what date. Importantly, the manifest will offer a description of exactly what kinds of files are contained in the bag (see example below).
 - `bagit.txt`:  This is the version of the BagIT standard that we are using, and any information about how the bag might be formatted (or encoded).
-- `data\`: This is the content of our bag - which is going to consist of a set of files
+- `data/`: This is the content of our bag - which is going to consist of a set of files
 - `file1` and `file2`: these are the actual contents of our bag, the data files that are being packaged and described.
-- `metadata\`: This is a directory within our data, that will contain metadata about each content file.
-- `file1-metadta` and `file2metadata`: These are the metadata files that provide descriptive metadata about each data file.
-- `fetch.txt`: The BagIT standard, as I described above, was designed for digital preservation. The fetch.txt file allows an operating system to check if there are any missing contents (this is beyond the scope of the explanation for this chapter - but just keep in mind that this is a file that all bags usually contain, even if you never pay attention to it (I don't))      
+- `metadata/`: This is a directory within our data, that will contain metadata about each content file.
+- `file1-metadata` and `file2-metadata`: These are the metadata files that provide descriptive metadata about each data file.
+- `fetch.txt`: The BagIT standard, as I described above, was designed for digital preservation. The fetch.txt file allows an operating system to check if there are any missing contents (this is beyond the scope of the explanation for this chapter - but just keep in mind that this is a file that all bags usually contain, even if you never pay attention to it (I don't)).      
 - `manifest-md5.txt`: This is the check-sum that we create for the bag of files. In this bag, we have two data files, `file1.csv` and `file2.csv`. The `manifest-md5.txt` contains a checksum for both of these files as well as their metadata. When a new operating system attempts to open the bag, it will first open each data file, and then create a checksum for each file. A curator will then compare the new checksum and the checksum that is listed in the `manifest-md5.txt` file to make sure that these are the same. If they are the same (and they are 99.999% of the time) we can be sure that we've reliably transferred the data from one computing environment to another. The `md5` in the filename of the manifest is a shorthand way to specify which checksum algorithm was used, in this case the algorithm is `md5` - if you're not already terribly bored by this chapter, you can read more about [md5](https://en.wikipedia.org/wiki/MD5). I point this out only to explain that md5 is the most common algorithm used for creating check-sums in data curation.
 
-The `bag-info.txt` file which contains manifest metadata can often be confusing for first time bag creators. Here is a an example of the `bag-info.txt` contents from a bag created by the University of North Texas library ^[This example was shared by Mark E Phillips, you can read his blog about bag-info files [here](https://vphill.com/journal/post/4142/)]
+The `bag-info.txt` file which contains manifest metadata can often be confusing for first time bag creators. Here is a an example of the `bag-info.txt` contents from a bag created by the University of North Texas library. (This example was shared by Mark E Phillips, you can read his blog about bag-info files [here](https://vphill.com/journal/post/4142/).)
 
-| Metadata Element 	| Value 	|
-|------------------------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Bag-Size 	|  28.32M 	|
-| Bagging-Date 	|  2015-01-23 	|
-| CODA-Ingest-Batch-Identifier 	|  f2dbfd7e-9dc5-43fd-975a-8a47e665e09f 	|
-| CODA-Ingest-Timestamp 	|  2015-01-22T21 : 4333-0600 	|
-| Contact-Email 	|  mark.phillips@unt.edu 	|
-| Contact-Name 	|  Mark Phillips 	|
-| Contact-Phone 	|  940-369-7809 	|
-| External-Description 	|  Collection of photographs held by   the University of North;  Texas   Archives that were taken by Junebug Clark or other family members. Master   files are tiff images. 	|
-| External-Identifier 	|  ark/67531/metadc488207 	|
-| Internal-Sender-Identifier 	|  UNTA_AR0749-002-0016-0017 	|
-| Organization-Address 	|  P. O. Box 305190, Denton, TX   76203-5190 	|
-| Payload-Oxum 	| 29666559.4 	|
-| Source-Organization 	|  University of North Texas Libraries 	|
+<table width="314">
+<tbody>
+<tr>
+<td width="161"><strong>Field</strong></td>
+<td width="153"><strong>How we create the Value</strong></td>
+</tr>
+<tr>
+<td>Bag-Size</td>
+<td>Machine</td>
+</tr>
+<tr>
+<td>Bagging-Date</td>
+<td>Machine</td>
+</tr>
+<tr>
+<td>CODA-Ingest-Batch-Identifier</td>
+<td>Machine</td>
+</tr>
+<tr>
+<td>CODA-Ingest-Timestamp</td>
+<td>Machine</td>
+</tr>
+<tr>
+<td>Contact-Email</td>
+<td>Boiler-Plate</td>
+</tr>
+<tr>
+<td>Contact-Name</td>
+<td>Boiler-Plate</td>
+</tr>
+<tr>
+<td>Contact-Phone</td>
+<td>Boiler-Plate</td>
+</tr>
+<tr>
+<td>External-Description</td>
+<td>Changes per “collection”</td>
+</tr>
+<tr>
+<td>External-Identifier</td>
+<td>Machine</td>
+</tr>
+<tr>
+<td>Internal-Sender-Identifier</td>
+<td>Machine</td>
+</tr>
+<tr>
+<td>Organization-Address</td>
+<td>Boiler-Plate</td>
+</tr>
+<tr>
+<td>Payload-Oxum</td>
+<td>Machine</td>
+</tr>
+<tr>
+<td>Source-Organization</td>
+<td>Boiler-Plate</td>
+</tr>
+</tbody>
+</table>
 
 Practically, a bag is a bit more complicated to produce than a zip package - there are, helpfully, a number of tools for creating bags following the specifications that are described above. Many of these require using a command-line tool, such as the `Bagger` tool that is available from the Library of Congress. There is a [very good set of tutorials](https://www.youtube.com/watch?v=14ZPtYLtUYA) outlining the practical steps in creating a bag from the State of North Carolina Archives if you are interested in exploring more.
 

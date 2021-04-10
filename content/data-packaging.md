@@ -67,7 +67,7 @@ The metadata about the package itself, the manifest, often contains the followin
 
 Here is, conceptually, what a data package might contain: 
 
-![](Images/datapackage.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/datapackage.png)
 
 In the following section I will offer some in-depth description of two packaging standards that are used often in data curation: BagIT and Research Objects. 
 

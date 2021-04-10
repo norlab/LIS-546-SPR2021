@@ -104,6 +104,8 @@ Let's look at each of these files to understand exactly what the package `My1stB
 The `bag-info.txt` file which contains manifest metadata can often be confusing for first time bag creators. Here is a an example of the `bag-info.txt` contents from a bag created by the University of North Texas library. (This example was shared by Mark E Phillips, you can read his blog about bag-info files [here](https://vphill.com/journal/post/4142/).)
 
 <pre>
+<b>Metadata Element: Value</b>
+
 Bag-Size: 28.32M
 Bagging-Date: 2015-01-23
 CODA-Ingest-Batch-Identifier: f2dbfd7e-9dc5-43fd-975a-8a47e665e09f

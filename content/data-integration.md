@@ -266,7 +266,7 @@ Please <a href="https://www.canva.com/design/DAEaTIz5QL0/odw-F4t4Pntrlvf07D_ZNg/
 
 # Lecture
 
-Instead of a traditional lecture this week, I've recorded a 15-minute presentation about a real-world data integration problem and solution from my own work:
+Instead of a traditional lecture this week, I've recorded a 15-minute presentation about a real-world data integration problem and solution from my own work. [PDF of slides available](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/DataIntegrationSlides.pdf).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9g3cCV2UYeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

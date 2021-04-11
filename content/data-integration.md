@@ -258,12 +258,18 @@ To overcome these challenges I proposed a set of `integration precursors` that i
 
 Once these tasks were complete we looked at practical ways to combine two tables, including horizontal and vertical integration. We also were introduced to the magic of `dplyr` in performing simple data integrations in `R`. 
 
-# Lecture
+# Guest Lecture
 
 This week we have a [guest lecture](https://www.canva.com/design/DAEaTIz5QL0/odw-F4t4Pntrlvf07D_ZNg/view) by Kaitlin Throgmorton, MLIS who is a Data Curator and Bioinformatics Analyst at [Sage Bionetworks](https://sagebionetworks.org/). Kaitlin graduated last year (2020) and also took Data Curation I and II. Her lecture isn't specifically about Data Integration but the concepts she introduces are important throughout the data curation cycle and I wanted you to have access to her talk sooner rather than later. It may seem hard to believe, but she was exactly where you are one year ago. I just wish this presentation could be in-person so you could ask her all your questions about the profession. But feel free to email her if you do have questions. I am extremely grateful that she was willing to put her time into this guest lecture. 
 
 Please <a href="https://www.canva.com/design/DAEaTIz5QL0/odw-F4t4Pntrlvf07D_ZNg/view" target="_blank">open the video in a new browser window or tab</a> to view. This slides for her talk are available openly in a [Github repository](https://github.com/kthrog/LIS-546-guest-lecture).
-<!--<iframe width=853 height=476 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYf3oHAIEB&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>-->
+
+# Lecture
+
+Instead of a traditional lecture this week, I've recorded a 15-minute presentation about a real-world data integration problem and solution from my own work:
+
+<iframe width=853 frameborder="0" scrolling="no" src="https://youtu.be/9g3cCV2UYeM" allowfullscreen="true"></iframe>
+
 # Readings
 Data integration is a topic that can be incredibly complex, and much of the published literature fails to make this an approachable or even realistic read for a course like DC II. But below are two readings that I highly recommend: 
 

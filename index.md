@@ -48,7 +48,7 @@ layout: home
   <tr>
     <td class="tg-0lax">5</td>
     <td class="tg-0lax">Data Packaging</td>
-    <td class="tg-0lax">Data Curator Demo</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/content/data-packaging.html#Exercise" target="_blank">Data Curator Demo</a></td>
     <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/05_assignment_collection_policies" target="_blank">Data Collection Policies</a></td>
   </tr>
   <tr>

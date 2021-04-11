@@ -134,7 +134,7 @@ There are three main motivations for creating a data package that are worth expl
 2. Self-description: In class thus far, we've depended upon representations of metadata that appear on a dataset's landing page. Here we can get a quick graphic user interface view of what the data are supposed to contain or be about. But, accessing the actual files, containing both data and metadata, has thus far required us to download multiple files and manage the relationship between those files on our own individual computers. By using a data package, we can efficiently transfer a container of data, metadata, and authenticity information that allows us to (similar to a Zip file) have everything we assume to be necessary to meaningfully engage with a collection of data in the same location.   
 3. Complexity: I opened this chapter by describing an increasingly complex ecosystem of creating, managing, and sharing data - packages help to reduce this complexity by systematically describing data (and dependencies) that are necessary for meaningful transfer and eventually reuse.
 
-BagIT is a standard that is broadly used by cultural heritage, archives, and libraries in packaging all kinds of digital objects. But, a number of other packaging standards have built upon BagIT's core features to enhance and standardize things like file and manifest metadata. These standards are often in service of transferring a particular type of metadata, or a particular role that data play as evidence within a specific domain. 
+BagIT is a standard that is broadly used by cultural heritage institutions, archives, and libraries in packaging all kinds of digital objects. But, a number of other packaging standards have built upon BagIT's core features to enhance and standardize things like file and manifest metadata. These standards are often in service of transferring a particular type of metadata, or a particular role that data play as evidence within a specific domain. 
 
 ![](https://imgs.xkcd.com/comics/standards.png)
 
@@ -143,7 +143,7 @@ The last decade of innovation in data packaging has, as is typical, produced a c
 An emerging standard, and one that I think is going to ultimately be successful, comes from the concept of a Research Object. In the sections below, I'll explain the conceptual foundation of a research object and the standard that is used to package research objects for efficient and effective reuse.
 
 ## Research Object + BagIT  
-In contemporary research and data engineering data are created, used, and managed through a number of software and hardware specific environments. 
+In contemporary research and data engineering, data are created, used, and managed through a number of software and hardware specific environments. 
 
 For example, in our previous chapter on data integration we looked at a simple dataset, `mtcars` and a set of transformations in `R` using the package `dplyr` to restructure this data.
 
@@ -153,17 +153,17 @@ But, let's take the example of an ecology graduate student that has performed so
 
 Our ecology graduate student needs a package that can efficiently describe her data, and effectively transfer that data to a peer reviewer who can then verify that the data and software are authentic.
 
-A [Research Object](http://www.researchobject.org/) (RO) is a conceptual way to describe a container of different digital objects - software, data, metadata, workflows, etc - that may need to be packaged together. The concept of an RO is rooted in the desire to improve the reproducibility of scientific claims by providing efficient access to ALL of the materials used to produce a research finding. Practically, a RO is a way to describe the "content" aspect of any data package. It provides a metadata standard that can be used to structure and describe each data file in relation to software or other documentation needed to interpret that file. RO does not, however, provide a way for creating standardized manifest metadata. Instead - it depends on the BagIT standard to implement a file structure, and manifest metadata (the `bag-info.txt` file) for the purposes of creating a transferrable package.
+A [Research Object](http://www.researchobject.org/) (RO) is a conceptual way to describe a container of different digital objects - software, data, metadata, workflows, etc - that may need to be packaged together. The concept of a RO is rooted in the desire to improve the reproducibility of scientific claims by providing efficient access to ALL of the materials used to produce a research finding. Practically, a RO is a way to describe the "content" aspect of any data package. It provides a metadata standard that can be used to structure and describe each data file in relation to software or other documentation needed to interpret that file. The RO does not, however, provide a way for creating standardized manifest metadata. Instead - it depends on the BagIT standard to implement a file structure, and manifest metadata (the `bag-info.txt` file) for the purposes of creating a transferrable package.
 
 Here is a description of a Research Object from Daniel Garijo Verdejo: [RO For the thesis "Mining Abstractions in Scientific Workflows"](http://dgarijo.github.io/ResearchObjects/MiningAbstractionsInScientificWfs/)
 
 Note that Daniel is describing, in plain language, what his Research Object contains, how it is structured, and where different components of the RO can be found on the web.
 
-In a [formalized metadata record](http://dgarijo.github.io/ResearchObjects/MiningAbstractionsInScientificWfs/description.json) (encoded as JSON) Daniel also provides a description of his data, software, and workflows following a set of standards described by RO. He also provides a package of this data, metadata, and workflows available [here](https://figshare.com/articles/FragFlow_evaluation_for_Wings_corpus/1603480)
+In a [formalized metadata record](http://dgarijo.github.io/ResearchObjects/MiningAbstractionsInScientificWfs/description.json) (encoded as JSON) Daniel also provides a description of his data, software, and workflows following a set of standards described by RO. He also provides a package of this data, metadata, and workflows available [here](https://figshare.com/articles/FragFlow_evaluation_for_Wings_corpus/1603480).
 
 In this RO we see a number of different datasets and results files - along with a plain text readme.txt file which contains some additional information about his thesis.
 
-![](Images/DanielDirectory.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/DanielDirectory.png)
 
 As savvy data curators you probably recognize that this RO doesn't include any checksum information. That is, there is no way, even with the shared data and metadata descriptions following ROs recommendations, to verify that these data are what they purport to be, right?
 
@@ -172,7 +172,6 @@ This is where RO can rely on the BagIT standard to further package the RO for re
 Take a minute to consider the curation work that we've just laid out: We have a very thorough researcher who has carefully prepared their data for reuse. To help ensure the long-term viability of this research object, we created a bag and we put Daniel's data into the bag (the structure of BagIT) so that anyone who, in the future, wants to reuse Daniel's thesis can be sure that the data, software, and workflows are exactly what he used to produce novel findings.
 
 In many ways, packaging is a curatorial intervention that not just makes data easy to transfer, but provides a safeguard for ensuring reliably reuse. We practically accomplish this curation task by simply using the BagIT standard's structure, and creating a set of checksums to ensure authenticity.
-
 
 ## Lecture
 

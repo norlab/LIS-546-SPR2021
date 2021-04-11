@@ -202,4 +202,4 @@ This week there is no assignment to turn in. Instead we are going to look at a t
 - The dataset that I used in this demonstration is found [here](https://data.cityofchicago.org/FOIA/FOIA-Request-Log-Human-Resources/7zkx-3pp7)
 - After you download DataCurator and the dataset follow along with the following demo video below. 
 
-<iframe width=853 height=506 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYftImAspN&v=5&controls=1&ff=1" allowfullscreen="true"></iframe>
+<!--<iframe width=853 height=506 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYftImAspN&v=5&controls=1&ff=1" allowfullscreen="true"></iframe>-->

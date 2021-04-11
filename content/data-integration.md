@@ -268,7 +268,7 @@ Please <a href="https://www.canva.com/design/DAEaTIz5QL0/odw-F4t4Pntrlvf07D_ZNg/
 
 Instead of a traditional lecture this week, I've recorded a 15-minute presentation about a real-world data integration problem and solution from my own work:
 
-<iframe width=853 frameborder="0" scrolling="no" src="https://youtu.be/9g3cCV2UYeM" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9g3cCV2UYeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Readings
 Data integration is a topic that can be incredibly complex, and much of the published literature fails to make this an approachable or even realistic read for a course like DC II. But below are two readings that I highly recommend: 

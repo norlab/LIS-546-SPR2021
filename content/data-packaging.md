@@ -195,7 +195,7 @@ Pick One of following to read or review in-depth:
 - [Data Package (Ecology)](https://releases.dataone.org/online/api-documentation-v2.0.1/design/DataPackage.html)
 - [HTRC Data Capsules (Digital Humanities)](https://wiki.htrc.illinois.edu/display/COM/HTRC+Data+Capsule+Specifications+and+Usage+Guide)
 
-## Exercise
+<h2><a id="Exercise">Exercise</a></h2>
 This week there is no assignment to turn in. Instead we are going to look at a tool `Data Curator` that allows us to describe, validate, and package data using a graphic user interface.
 
 - The tool is available for download [here](https://github.com/ODIQueensland/data-curator/releases/tag/v1.0.0)

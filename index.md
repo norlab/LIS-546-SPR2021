@@ -42,7 +42,7 @@ layout: home
   <tr>
     <td class="tg-0lax">4</td>
     <td class="tg-0lax">Data Integration</td>
-    <td class="tg-0lax">311 Data</td>
+    <td class="tg-0lax">< ahref="https://norlab.github.io/LIS-546-SPR2021/content/data-integration.html#Exercise" target="_blank">311 Data</a></td>
     <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/04_assignment_users_and_uses" target="_blank">User Stories</a></td>
   </tr>
   <tr>

@@ -15,12 +15,11 @@ links:
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/data-packaging.html)
 - [Bechhofer, S., De Roure, D., Gamble, M., Goble, C., & Buchan, I. (2010). Research objects: Towards exchange and reuse of digital knowledge](https://eprints.soton.ac.uk/268555/1/fwcs-ros-submitted-2010-02-15.pdf)
-- [Read notes from this RDA meeting in 2018 which thoroughly reviews the concept of data packaging](https://docs.google.com/document/d/1-WPq17GzYL9NBM4cKVbvn3c5nAM6JFr7nEl3JjmHihs/edit)
+- Skim this list of projects and tools for data packaging: [Google Sheet](https://docs.google.com/spreadsheets/d/1Tg-oYGPdBDs5LORt0olD5t4X1R_YliUrwr6bNmImjTk/edit) or [PDF](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/DataPackagingFormats.pdf)
 - [Neylon (2017) Packaging data](http://cameronneylon.net/blog/packaging-data-the-core-problem-in-general-data-sharing/)
 
 **Pick 1 of following to read or review in-depth:**
 - [BagIT for packaging QDR Data (social science / qualitative data)](https://github.com/QualitativeDataRepository/dataverse/wiki/Data-and-Metadata-Packaging-for-Archiving)
-    - [and some background reading on BagIT if you are really interested](https://tools.ietf.org/pdf/draft-kunze-bagit-14.pdf)
 - [Frictionless data (general and open data)](https://frictionlessdata.io/data-package)
 - [Data Crate (general research data)](http://ptsefton.com/2019/07/01/DataCrate-OR2019.htm)
 - [Data Package (Ecology)](https://releases.dataone.org/online/api-documentation-v2.0.1/design/DataPackage.html)

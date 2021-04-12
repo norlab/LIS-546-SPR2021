@@ -183,7 +183,7 @@ In many ways, packaging is a curatorial intervention that not just makes data ea
 
 Approaches to Research Data Packaging: 
 
-- Read notes from this RDA meeting in 2018 which thoroughly reviews the concept of data packaging: [Google Sheet](https://docs.google.com/spreadsheets/d/1Tg-oYGPdBDs5LORt0olD5t4X1R_YliUrwr6bNmImjTk/edit) or [PDF](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/DataPackagingFormats.pdf).
+- Skim this list of projects and tools for data packaging: [Google Sheet](https://docs.google.com/spreadsheets/d/1Tg-oYGPdBDs5LORt0olD5t4X1R_YliUrwr6bNmImjTk/edit) or [PDF](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/DataPackagingFormats.pdf).
 
 - Neylon (2017) [Packaging data](http://cameronneylon.net/blog/packaging-data-the-core-problem-in-general-data-sharing/). (Note this is the motivation for what was created as the Data Crate (see below) standard).
 

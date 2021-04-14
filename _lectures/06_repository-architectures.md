@@ -9,8 +9,7 @@ links:
       name: video
     - url: /content/repository-architectures.html
       name: content
-    - url: /content/repository-architectures.html#Exercise
-      name: exercise
+
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/repository-architectures.html)

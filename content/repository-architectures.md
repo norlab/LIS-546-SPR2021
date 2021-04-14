@@ -13,16 +13,16 @@ The last 20 years have seen data increasingly published to the web as structured
 ## Layers of a Data Repository
 In Data Curation 1 we discussed the idea that repositories are a series of technical "layers" or a "stack" of technologies - each layer consists of a set of services and interfaces that allow data to be reliably preserved and published for reuse. The layers of a repository are, roughly, as follows:
 
-![](Images/hardware.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/hardware.png)
 - **Hardware**: The hardware layer of a repository consists of technologies that practically store, and serve data to a software layer. The hardware layer of a repository practically, at minimum, consists of a set of servers (hosting databases, websites, etc) and a set of backup storage environments such as spinning disks or tape-based storage. The hardware layer is closest to what we described in the Introduction chapter as the "Physical" layer of a computing system (hence the "hard" in [hardware](https://en.wikipedia.org/wiki/Computer_hardware)).
 
-![](Images/software.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/software.png)
 - **Software**: The software layer of a repository consists of code that practically runs a web-interface, and provides APIs that connect different servers to one another so that data can be reliably retrieved, and served to end-users. The software layer presents a graphic user interface to "customers" of the data repository and allows for ease of access. This software layer also provides a graphic user interface for curators who manage deposits to a data repository, and allows for metadata and other descriptive elements to be attached to data before it is ingested into a long-term storage environment. Often the software layer of a repository is described as a "repository framework" (e.g. Dataverse, CKAN, or DSpace) - this simply means the different software components that are particularly configured for data access and preservation (more on this below). The software and hardware layer practically carry out preservation and long-term storage of data.
 
-![](Images/policy.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/policy.png)
 - **Policy**: The policy layer of a repository consists of curation services such as deposit, ingest, metadata creation, and publication of data to the web. The policy layer provides specific rules for how these services are to be carried out, and specifies **who** is in charge of **what** practical functions of data publication and preservation.
 
-![](Images/repository.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/repository.png)
 - **Governance**: The governance layer of a repository consists of institutional guidelines that specify **how** data should be managed over the long term, the rights of data producers and consumers, and the intellectual property claims that can be made by any institutional actor. 
 
 ### Data Preservation + OAIS

@@ -2,6 +2,9 @@
 layout: default
 ---
 # Repository Architectures 
+**Original Author: Nic Weber**  
+**Editing & Updates: Bree Norlander**  
+
 In the most generic sense, data repositories provide for the publication and long-term preservation of data. As a sociotechnical infrastructure data repositories also play a key role in data discover, in data packaging, and in the day to day work of curation. In this chapter I will build upon DC 1's discussion of a data repository as a layered "architecture" for curation. In doing so I will introduce the ISO standard for an Open Archival Information System (OAIS), and relate this to contemporary repository software architectures that facilitate data publishing, access, citation, and preservation.
 
 ## Repositories

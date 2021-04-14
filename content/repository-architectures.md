@@ -5,10 +5,10 @@ layout: default
 **Original Author: Nic Weber**  
 **Editing & Updates: Bree Norlander**  
 
-In the most generic sense, data repositories provide for the publication and long-term preservation of data. As a sociotechnical infrastructure data repositories also play a key role in data discover, in data packaging, and in the day to day work of curation. In this chapter I will build upon DC 1's discussion of a data repository as a layered "architecture" for curation. In doing so I will introduce the ISO standard for an Open Archival Information System (OAIS), and relate this to contemporary repository software architectures that facilitate data publishing, access, citation, and preservation.
+In the most generic sense, data repositories provide for the publication and long-term preservation of data. As a sociotechnical infrastructure, data repositories also play a key role in data discovery, in data packaging, and in the day to day work of curation. In this chapter I will build upon DC 1's discussion of a data repository as a layered "architecture" for curation. In doing so I will introduce the ISO standard for an Open Archival Information System (OAIS), and relate this to contemporary repository software architectures that facilitate data publishing, access, citation, and preservation.
 
 ## Repositories
-The last 20 years have seen data increasingly published to the web as structured information free for sharing and reuse. We have, thus far, discussed multiple innovations that have made this increase in data collection and publishing possible, including how data are practically stored, retrieved, and packaged for reuse. Early efforts at increasing data access focused specifically on how to embed data in electronic publishing environments (Abiteboul et al, 2000) and how to provide programmatic access to data that were stored on remote servers (Richardson et al, 2013). Over the last decade technologies have been developed to better connect different components of the data publication lifecycle - starting from a small number of hard to use proprietary repositories to a diverse range of (slightly easier to use) open-source options. These repositories depend on an "architecture" - that is a complex and highly coordinated integration of software, hardware, and human services. 
+The last 20 years have seen data increasingly published to the web as structured information, free for sharing and reuse. We have, thus far, discussed multiple innovations that have made this increase in data collection and publishing possible, including how data are practically stored, retrieved, and packaged for reuse. Early efforts at increasing data access focused specifically on how to embed data in electronic publishing environments ([Abiteboul et al](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/Data-on-the-Web-Skeleton.pdf), 2000) and how to provide programmatic access to data that were stored on remote servers ([Richardson et al](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/lvbsh/TN_cdi_askewsholts_vlebooks_9781449359744), 2013). Over the last decade technologies have been developed to better connect different components of the data publication lifecycle - starting from a small number of hard to use proprietary repositories to a diverse range of (slightly easier to use) open-source options. These repositories depend on an "architecture" - that is a complex and highly coordinated integration of software, hardware, and human services. 
 
 ## Layers of a Data Repository
 In Data Curation 1 we discussed the idea that repositories are a series of technical "layers" or a "stack" of technologies - each layer consists of a set of services and interfaces that allow data to be reliably preserved and published for reuse. The layers of a repository are, roughly, as follows:
@@ -89,8 +89,8 @@ This chapter has reviewed the major architectural components of a data repositor
 
 **Chapter References**
 
-- Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann.
-- Richardson, L., Amundsen, M., Amundsen, M., & Ruby, S. (2013). RESTful Web APIs: Services for a Changing World. " O'Reilly Media, Inc."
+- Abiteboul, S., Buneman, P., & Suciu, D. (2000). Data on the Web: from relations to semistructured data and XML. Morgan Kaufmann. [PDF](https://github.com/norlab/LIS-546-SPR2021/raw/master/content/readings/Data-on-the-Web-Skeleton.pdf)
+- Richardson, L., Amundsen, M., Amundsen, M., & Ruby, S. (2013). RESTful Web APIs: Services for a Changing World. " O'Reilly Media, Inc." [UW Libraries Link](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/lvbsh/TN_cdi_askewsholts_vlebooks_9781449359744)
 
 ## Lecture
 

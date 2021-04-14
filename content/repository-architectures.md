@@ -74,18 +74,18 @@ The following diagram is a quick (but admittedly busy) overview of the three maj
 To reinforce one important point about the OAIS model - as depicted in this diagram - it is conceptual. It provides a reference language that is not specific to any one repository, but can be used to describe roles, services, and information packages that are managed by ANY data repository.  
 
 ### Data Repository Frameworks 
-As I mentioned at the beginning of this chapter, the curation community has over the last decade developed a number of repository frameworks that make the day to day work of curating, publishing, and preserving data practically possible. These frameworks are often marginal in their differences - they each use a slightly different set of hardware and software components to practically carry out specified functions of an OAIS. But, these marginal differences have important implications for institutions in selecting, implementing, and running a data repository. A repository framework like [CKAN](https://ckan.org/) for example is content agnostic - it doesn't have any specific features that are developed for a particular designated community. Instead it is a highly modifiable open-source technology that can be practically used by governments, scientific institutions, or industry that have access to general hardware. Somewhat oppositely, a repository framework like [Dataverse](https://dataverse.org/) is developed specifically for social science data. Dataverse provides functionality to social science data curators that need to implement specific metadata standards when creating an AIP, and is configured to run on the type of hardware that is often available to a university IT staff. Dataverse also has features that allow for `Consumers` and `Producers` to register for OAIS services based on their university credentials (e.g. that they are a verified member of a particular university). This registration process is an important way for `Management` to implement what an OAIS describes as `Access` controls - who can deposit data, who can search for and obtain data, etc. 
+As I mentioned at the beginning of this chapter, the curation community has over the last decade developed a number of repository frameworks that make the day to day work of curating, publishing, and preserving data practically possible. These frameworks are often marginal in their differences - they each use a slightly different set of hardware and software components to carry out specified functions of an OAIS. But, these marginal differences have important implications for institutions in selecting, implementing, and running a data repository. A repository framework like [CKAN](https://ckan.org/) for example is content agnostic - it doesn't have any specific features that are developed for a particular designated community. Instead it is a highly modifiable open-source technology that can be used by governments, scientific institutions, or industry that have access to general hardware. Somewhat oppositely, a repository framework like [Dataverse](https://dataverse.org/) is developed specifically for social science data. Dataverse provides functionality to social science data curators that need to implement specific metadata standards when creating an AIP, and is configured to run on the type of hardware that is often available to a university IT staff. Dataverse also has features that allow for `Consumers` and `Producers` to register for OAIS services based on their university credentials (e.g. that they are a verified member of a particular university). This registration process is an important way for `Management` to implement what an OAIS describes as `Access` controls - who can deposit data, who can search for and obtain data, etc. 
 
-The three most prevalently used data repository frameworks that you are likely to encounter are Fedora, CKAN, and Dataverse. Fedora, the repository we haven't yet discussed, is a highly extensible framework. This means that Fedora provides a core set features that have, in turn, a core set of hardware dependencies. These core features can be modified and tailored by any institution that has unique needs for serving a "designated community". This extensibility is a major feature of Fedora, and has resulted in what can seem like a dizzying array of repository frameworks that differ by name and feature-set. [Mike Giarlo](https://mike.giarlo.name/), a data curation developer, has helpfully provided an overview of the evolution of Fedora in the image below.  
+The three most prevalently used data repository frameworks that you are likely to encounter are Fedora, CKAN, and Dataverse. Fedora, the repository we haven't yet discussed, is a highly extensible framework. This means that Fedora provides a core set of features that have, in turn, a core set of hardware dependencies. These core features can be modified and tailored by any institution that has unique needs for serving a "designated community". This extensibility is a major feature of Fedora, and has resulted in what can seem like a dizzying array of repository frameworks that differ by name and feature-set. [Mike Giarlo](https://mike.giarlo.name/), a data curation developer, has helpfully provided an overview of the evolution of Fedora in the image below.  
 
 ![](https://pbs.twimg.com/media/EUk7X_AUYAA46FB?format=jpg&name=medium) 
 
-I provide this so that you can get a quick overview of the ways a repository framework like Fedora can be modified and reused across institutions based on their specific needs for serving a designated community. It is worth nothing that even as someone who has worked in this field for 10 years, it wasn't until Mike provided this diagram that the relationship between different repositories was even remotely clear to me. So, if reviewing and reading documentation about repositories seems confusing - welcome to the club! 
+I provide this so that you can get a quick overview of the ways a repository framework like Fedora can be modified and reused across institutions based on their specific needs for serving a designated community. It is worth noting that even as someone who has worked in this field for 10 years, it wasn't until Mike provided this diagram that the relationship between different repositories was even remotely clear to me. So, if reviewing and reading documentation about repositories seems confusing - welcome to the club! 
 
 The important concept to take away from this brief overview of existing frameworks available to data curators is that there are multiple different ways in which to practically set up a storage and preservation environment. The particular services and roles that are played within a repository are shaped by what the framework is designed primarily to achieve (e.g. serving one particular community versus another), but ultimately  `Management` in an OAIS has the discretion to set policies and to govern data as they best see fit. It is in this sense that a repository is a sociotechnical infrastructure - its the combination of people and technologies that practically serve designated communities. 
 
 ### Summary 
-This chapter has reviewed the major architectural components of a data repository, including the software, hardware, policy and governance "layers". In describing the relationship between hardware and software layers we looked specifically at a conceptual model, the Open Archival Information System (OAIS), to better understand how preservation is carried out between different stakeholders - including `Consumers`, `Producers` and `Management`. Less abstractly, I also introduced the idea of a repository as a framework that is practically implemented with specific hardware and software configurations that are meant to serve a particular designated community. In the readings below, there are links to the technical specifications for each of these repository frameworks - I highly encourage you to pick one of these and skim the documentation to understand exactly how concepts in the OAIS model are implemented.  
+This module has reviewed the major architectural components of a data repository, including the software, hardware, policy and governance "layers". In describing the relationship between hardware and software layers we looked specifically at a conceptual model, the Open Archival Information System (OAIS), to better understand how preservation is carried out between different stakeholders - including `Consumers`, `Producers` and `Management`. Less abstractly, I also introduced the idea of a repository as a framework that is practically implemented with specific hardware and software configurations that are meant to serve a particular designated community. In the readings below, there are links to the technical specifications for each of these repository frameworks - I highly encourage you to pick one of these and skim the documentation to understand exactly how concepts in the OAIS model are implemented.  
 
 **Chapter References**
 
@@ -100,59 +100,56 @@ Coming soon!
 
 **Required**
 
-Read this very brief description of digital libraries (cyberinfrastructure) from the National Science Foundation program launched in the mid 1990. It provides a nice and very brief description of how data repositories have emerged from early digital library funding: 
-https://web.archive.org/web/20190207233414/https://www.nsf.gov/news/special_reports/cyber/digitallibraries.jsp 
+Read this very brief description of digital libraries (cyberinfrastructure) from the National Science Foundation program launched in the mid 1990. It provides a nice and very brief description of how data repositories have emerged from early digital library funding: [Link](https://web.archive.org/web/20190207233414/https://www.nsf.gov/news/special_reports/cyber/digitallibraries.jsp) 
 
-Now, let's fast forward to a current landscape of many different repository software platforms available. The following post from the IQSS staff at Harvard's Dataverse provides an excellent table comparing existing data repository services. Pay attention to the categories being compared, and how this related to the affordances of the software (also see the 'optional readings' section for more literature like this): https://dataverse.org/blog/comparative-review-various-data-repositories
+Now, let's fast forward to a current landscape of many different repository software platforms available. The following post from the IQSS staff at Harvard's Dataverse provides an excellent table comparing existing data repository services. Pay attention to the categories being compared, and how this related to the affordances of the software (also see the 'optional readings' section for more literature like this). [Link](https://dataverse.org/blog/comparative-review-various-data-repositories)
 
 Next, read this "overly honest" report from the University of Illinois Library (the largest circulating academic library in the world) on developing a data repository:
 
-- Fallaw, C., Dunham, E., Wickes, E., Strong, D., Stein, A., Zhang, Q., ... & Imker, H. J. (2016). Overly honest data repository development. Code4Lib https://journal.code4lib.org/articles/11980
-
+- Fallaw, C., Dunham, E., Wickes, E., Strong, D., Stein, A., Zhang, Q., ... & Imker, H. J. (2016). Overly honest data repository development. [Code4Lib](https://journal.code4lib.org/articles/11980)
  
 **Review** documentation for just one repository platform listed below. Be sure to also look at an example of the platform's deployment.  
 
 Samavera (Open-source repository for universities and institutional repositories) 
 
-- About https://samvera.org/samvera-open-source-repository-framework/
-- Technical Stack https://samvera.org/samvera-open-source-repository-framework/technology-stack/
-- Example deployment: https://digital.sciencehistory.org/
+- [About](https://samvera.org/samvera-open-source-repository-framework/)
+- [Technical Stack](https://samvera.org/samvera-open-source-repository-framework/technology-stack/)
+- Example deployment: [Science History Institute](https://digital.sciencehistory.org/)
 
 Dataverse (Open-source repository for social science data)
 
-- About: https://dataverse.org/about 
-- Documentation: http://guides.dataverse.org/en/latest/
-- Example deploymenst: https://data.qdr.syr.edu/ or https://dataverse.tdl.org/ 
-- See the QDR Core Seal Trust documentation for more details on how Dataverse is configured: https://www.coretrustseal.org/wp-content/uploads/2018/11/Qualitative-Data-Repository.pdf 
+- [About](https://dataverse.org/about) 
+- [Documentation](http://guides.dataverse.org/en/latest/)
+- Example deployment: [Qualitative Data Repository](https://data.qdr.syr.edu/) or [Texas Data Repository](https://dataverse.tdl.org/) 
+- See the QDR Core Seal Trust documentation for more details on how Dataverse is configured. [PDF](https://www.coretrustseal.org/wp-content/uploads/2018/11/Qualitative-Data-Repository.pdf) 
 
 Fedora (Open-source repository with semantic capabilities - often used by science repositories) 
 
-- About https://duraspace.org/fedora/about/
-- Specifications https://duraspace.org/fedora/resources/technical-specifications/
-- Developer Wiki: https://wiki.duraspace.org/display/FF 
-- Example Deployment: https://archaeologydataservice.ac.uk/
-- ADS certification documentation for further info on how they use Fedora https://assessment.datasealofapproval.org/assessment_96/seal/html/
+- [About](https://duraspace.org/fedora/about/)
+- [Specifications](https://duraspace.org/fedora/resources/technical-specifications/)
+- [Developer Wiki](https://wiki.duraspace.org/display/FF) 
+- Example Deployment: [Archaeology Data Service](https://archaeologydataservice.ac.uk/)
+- ADS certification [documentation](https://assessment.datasealofapproval.org/assessment_96/seal/html/) for further info on how they use Fedora 
 
 CKAN (open-source data repository - often used for civic data) 
 
-- About: https://ckan.org/
-- Documentation: https://docs.ckan.org/en/latest/sysadmin-guide.html
-- Example deployment: https://data.gov.au/ + Data.gov 
-- Some additional info on Data.gov.au's CKAN: https://ckan.org/portfolio/data-gov-au/
+- [About](https://ckan.org/)
+- [Documentation](https://docs.ckan.org/en/latest/sysadmin-guide.html)
+- Example deployment: [U.S. Government](https://www.data.gov/) or [Australian Government](https://data.gov.au/)
+- Some [additional info](https://ckan.org/portfolio/data-gov-au/) on the Australian Government instantiation of CKAN 
 
 Clowder (Open-source for long-tail data)
 
-- Description of project: https://clowder.ncsa.illinois.edu/
-- Description of technical design https://dl.acm.org/citation.cfm?id=3219159 
-- Example deployment: http://criticalzone.org/iml/ 
+- [Description of project](https://clowder.ncsa.illinois.edu/)
+- [Description of technical design](https://dl.acm.org/citation.cfm?id=3219159) 
+- Example deployment: [Critical Zone Observatories (Archived)](https://czo-archive.criticalzone.org/national/)
  
 **Additional optional reading:**
 
-- Amorim, R. C., Castro, J. A., Da Silva, J. R., & Ribeiro, C. (2017). A comparison of research data management platforms: architecture, flexible metadata and interoperability. Universal Access in the Information Society, 16(4), 851-862.  https://repositorio-aberto.up.pt/bitstream/10216/111537/2/229906.pdf
-
-- Lnenicka, M. (2015). An in-depth analysis of open data portals as an emerging public e-service. International Journal of Social, Education, Economics and Management Engineering, 9(2), 589-599.  (see table 3 in particular for a comparative approach to Open Data portal evaluation)  https://pdfs.semanticscholar.org/f83e/e7fa439fb9011ff064a90a42a2c2f1fb43b4.pdf
-- Cornell University Library Repository Principles and Strategies Handbook (I highly recommend this if you are looking for some background on how a University Library strategizes around digital infrastructures) https://confluence.cornell.edu/display/culpublic/Cornell+University+Library+Repository+Principles+and+Strategies+Handbook 
-- Blanke, T., & Hedges, M. (2013). Scholarly primitives: Building institutional infrastructure for humanities e-Science. Future Generation Computer Systems, 29(2), 654-661. https://www.sciencedirect.com/science/article/pii/S0167739X11001178 
+- Amorim, R. C., Castro, J. A., Da Silva, J. R., & Ribeiro, C. (2017). A comparison of research data management platforms: architecture, flexible metadata and interoperability. Universal Access in the Information Society, 16(4), 851-862. [PDF](https://repositorio-aberto.up.pt/bitstream/10216/111537/2/229906.pdf)
+- Lnenicka, M. (2015). An in-depth analysis of open data portals as an emerging public e-service. International Journal of Social, Education, Economics and Management Engineering, 9(2), 589-599.  (see table 3 in particular for a comparative approach to Open Data portal evaluation) [PDF](https://pdfs.semanticscholar.org/f83e/e7fa439fb9011ff064a90a42a2c2f1fb43b4.pdf)
+- [Cornell University Library Repository Principles and Strategies Handbook](https://confluence.cornell.edu/display/culpublic/Cornell+University+Library+Repository+Principles+and+Strategies+Handbook) (I highly recommend this if you are looking for some background on how a University Library strategizes around digital infrastructures)
+- Blanke, T., & Hedges, M. (2013). [Scholarly primitives: Building institutional infrastructure for humanities e-Science](https://www.sciencedirect.com/science/article/pii/S0167739X11001178 ). Future Generation Computer Systems, 29(2), 654-661.
  
 ## Exercise 
-There is no exercise this week. However, if you would like to apply some of the concepts that have been reviewed in the Chapter and in Lecture you can see this [optional component of your protocol assignment](https://nniiicc.github.io/LIS-598-DC2-Sp2020/protocol-assignment.html#assignment-optional-repository-architectures) for selecting and evaluating a repository framework. 
+There is no exercise this week. However, if you would like to apply some of the concepts that have been reviewed in the Chapter and in Lecture you can see this [optional component of your protocol assignment](https://norlab.github.io/LIS-546-SPR2021/assignments/09_assignment_repo_arch_OPTIONAL) for selecting and evaluating a repository framework. 

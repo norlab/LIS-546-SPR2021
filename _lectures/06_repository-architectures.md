@@ -5,7 +5,7 @@ title: "Week 6: Repository Architectures"
 tldr: "Builds upon Data Curation I discussion of a data repository as a layered architecture for curation."
 thumbnail: /static_files/presentations/arch.png
 links: 
-    - url: 
+    - url: https://screencast-o-matic.com/embed?sc=cYhYohkEou&v=5&controls=1&ff=1
       name: video
     - url: /content/repository-architectures.html
       name: content

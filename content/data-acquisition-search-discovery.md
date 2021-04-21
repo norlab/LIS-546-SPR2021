@@ -122,10 +122,10 @@ A number of seemingly mundane issues thwarted my ability to search for and disco
 
 Each of these issues are, at the core, challenges to publishing open data such that is meaningfully discoverable. It's also worth noting that while my search is for very specific data the phenomena of finding and using [open data related to emerging public health crises](https://www.gothamgazette.com/opinion/9379-opening-up-new-york-covid-19-data-can-save-lives) is being argued and debated in numerous venues. 
 
-Making data broadly discoverable requires, at minimum, the indexing of metadata, the accurate and meaningful description of data, and facilitating search and browsing of these resources through graphic user interfaces. In the next sections I'll step through some of the practical steps necessary to carry out indexing of data, and the implication this has on data discovery.^[We have already discussed, at length, issues related to accurate description of metadata on the web.] 
+Making data broadly discoverable requires, at minimum, the indexing of metadata, the accurate and meaningful description of data, and facilitating search and browsing of these resources through graphic user interfaces. In the next sections I'll step through some of the practical steps necessary to carry out indexing of data, and the implication this has on data discovery.
  
 ## Data Indexing  
-The indexing of datasets differs in some appreciable ways from other web-based "documents", but at the [root of all indexing is the markup of a document such that "tags" or attributes can be reliably crawled by search engine service providers](https://moz.com/beginners-guide-to-seo/how-search-engines-operate). Often times these "tags" have certain information, such as keywords, that describe what the resource contains, who the publisher is, etc. For the sake of convenience, just think of tags as structured metadata about a web-resource. Search engines "crawl" these tags to create an index of all the related resources that match keywords. So if I search for "Cooperatives in Seattle, WA" I can get a reliable list of all documents published to the web where documents have keywords matching keywords related to my query, such as "Cooperative", "Seattle" and "WA". 
+The indexing of datasets differs in some appreciable ways from other web-based "documents", but at the [root of all indexing is the markup of a document such that "tags" or attributes can be reliably crawled by search engine service providers](https://moz.com/beginners-guide-to-seo/how-search-engines-operate). Often times these "tags" have certain information, such as keywords, that describe what the resource contains, who the publisher is, etc. For the sake of convenience, just think of tags as structured metadata about a web-resource. Search engines "crawl" these tags to create an index of all the related resources that match keywords. So if I search for "Cooperatives in Seattle, WA" I can get a reliable list of all documents published to the web where documents have keywords matching keywords related to my query, such as "Cooperative", "Seattle", and "WA". 
 
 Importantly, search engines don't just list these resources or documents in a generic order. Instead, sophisticated approaches have been developed to rank which documents are most important. If I search for "Cooperatives in Seattle, WA" I get not only all the documents that have keywords related to my search (in Information Retrieval this is **recall**), but I get the most relevant documents related to my specific search (in Information Retrieval this is **precision**). 
 
@@ -133,7 +133,7 @@ The famous [Page-Rank algorithm](https://en.wikipedia.org/wiki/PageRank) develop
 
 Given this very brief description of search engines, there are some challenges for indexing datasets published to the web: 
 
-1. Most datasets are not structured as web-based documents, but instead  have a landing page where metadata about the data are described, and HTML or XML "Tags" are used to describe the contents of the data. Sometimes this descriptive information is turned into machine-readable tags, but often times data publishers do not take this extra step. This prohibits search engines from accurately indexing the pages where data can be discovered. 
+- Most datasets are not structured as web-based documents, but instead have a landing page where metadata about the data are described, and HTML or XML "Tags" are used to describe the contents of the data. Sometimes this descriptive information is turned into machine-readable tags, but often times data publishers do not take this extra step. This prohibits search engines from accurately indexing the pages where data can be discovered. 
 
 Here is an example of [landing page for a dataset](https://doi.pangaea.de/10.1594/PANGAEA.833670) that is published by the repository Pangea.
 
@@ -145,13 +145,13 @@ If we look closely at the HTML of this landing page, we can better understand ho
 
 In the html of this landing page, Pangea has used the tag `<meta` to tell an indexing service that the page contains metadata. In this case, the publisher can also use existing standards, like the Dublin Core metadata attribute `name=DC.identifier`, to qualify exactly what kind of information the indexing service will find when it crawls this tag - it can find information about the identifier of the dataset. So, by using the tag `<meta name=DC.identifier` the indexing service will find metadata about the identifier of the data described on the landing page. 
 
-Embedding all of the dataset's metadata in HTML pages (like the example above) is laborious and inefficient. This would require that each time we publish a new dataset, we not only do we have to create metadata and attach it to a dataset, but we also have to create that metadata and make it available in specifically formatted HTML tags. We should commend Pangea for their effort - but surely there is a better, more efficient way to index datasets. 
+Embedding all of the dataset's metadata in HTML pages (like the example above) is laborious and inefficient. This would require that each time we publish a new dataset, we not only have to create metadata and attach it to a dataset, but we also have to create that metadata and make it available in specifically formatted HTML tags. We should commend Pangea for their effort - but surely there is a better, more efficient way to index datasets. 
 
 [Schema.org](https://schema.org/) is a community effort by web companies to do just this - it attempts to create a standard way to markup data on the web such that there is not a duplicate of effort in describing resources (e.g. [datasets](https://schema.org/Dataset)) and marking-up pages (or creating HTML) to be indexed for discovery. Schema.org allows JSON or XML to be embedded directly into HTML. So, for example we could create a JSON record that describes out dataset (as we talked about in [Tables, Trees & Tripples](https://nniiicc.github.io/LIS-598-DC2-Sp2020/tables-trees-and-triples.html), and [Tidy Metadata](https://nniiicc.github.io/LIS-598-DC2-Sp2020/metadata-application-profiles.html)) and embed this information directly in our HTML so that a dataset, based on its descriptive metadata, is indexed and made discoverable. This is a significant step towards reducing the amount of effort that is needed to create discoverable datasets. It also allows for an encoding, like JSON or XML, to be used to power multiple "views" of a dataset. We could, for example, use a JSON record so that descriptive metadata is displayed to an end-user on a landing page, and use this same JSON record to power indexing in search engines that crawl pages looking for information about datasets. 
 
 Here is an [example](https://developers.google.com/search/docs/data-types/dataset) from Google on how the Schema.org standard can be practically implemented. 
 
-```
+<pre>
 <html>
 <head>
   <title>NCDC Storm Events Database</title>
@@ -227,7 +227,7 @@ Here is an [example](https://developers.google.com/search/docs/data-types/datase
 <body>
 </body>
 </html>
-```
+</pre>
 
 Note that in this example we have attributes, such as `Creator` and `License` and `Keywords` all of which are about the dataset being indexed. 
 

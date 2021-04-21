@@ -380,6 +380,6 @@ Accessing the API documentation is the key to successfully using an API. Not all
 
 ### Additional APIs I Recommend for Practice
 
-+ [The COVID Tracking Project](https://covidtracking.com/api)
++ [The COVID Tracking Project](https://covidtracking.com/api) (Sadly this service is ending May 2021.)
 + [PokeAPI The RESTful Pokemon API](https://pokeapi.co/)
 

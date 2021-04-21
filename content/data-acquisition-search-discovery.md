@@ -151,7 +151,7 @@ Embedding all of the dataset's metadata in HTML pages (like the example above) i
 
 Here is an [example](https://developers.google.com/search/docs/data-types/dataset) from Google on how the Schema.org standard can be practically implemented. 
 
-<pre>
+```
 <html>
 <head>
   <title>NCDC Storm Events Database</title>
@@ -227,7 +227,7 @@ Here is an [example](https://developers.google.com/search/docs/data-types/datase
 <body>
 </body>
 </html>
-</pre>
+```
 
 Note that in this example we have attributes, such as `Creator` and `License` and `Keywords` all of which are about the dataset being indexed. 
 

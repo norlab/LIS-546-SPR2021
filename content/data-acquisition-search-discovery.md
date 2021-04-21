@@ -26,10 +26,10 @@ This is for good reason - it is challenging to break out of a paradigm of data d
 - There are a finite number of repository environments where data are stored - but these repositories vary greatly in which descriptive metadata is used, and how these metadata can be accurately **aggregated** to allow users to search across repositories.
 - Versions of datasets are often unwieldy in a repository - there may be multiple tables, multiple versions of tables, etc. Multiple versions of data may prohibit the retrieval of one precise dataset that can be reliably indexed.
 
-### A Brief Review of Information Searching
+## A Brief Review of Information Searching
 In order to gain a greater understanding of data discovery as a curation challenge it is worth reflecting on how search and discovery *typically* works for end-users of an information system. Generally, information search and discovery falls under the umbrella of "information seeking behavior" or "information retrieval" in Information Science. These two areas have much to teach us about the representation of data for discovery. Below I will briefly review some key concepts in both of these topics, and then offer examples for how data curators address these topics in facilitating data discovery.
 
-#### Search and seeking
+### Search and seeking
 In searching for information, one typically turns to reliable or trusted authorities. Patrick Wilson described this process as an appeal to a ["cognitive authority"](https://en.wikipedia.org/wiki/Cognitive_authority) on what constitutes a trusted or valued resource within an institution. Information search has a long history within information science, but for practical purposes let's consider just three techniques that users typically employ when searching for information:
 
 - **Subject Search** (Buckland, 1979) - In a subject driven search a user will turn to a cognitive authority to retrieve an item based on keywords that are controlled by some standard (e.g. searching for a book based on a Library of Congress subject heading), by an author that they know to produce works in a certain genre, or by a field or domain that has been aggregated into a certain subject specific interface (e.g. searching the San Diego Open Data portal for information about police activities). Subject search is, in some ways, relying upon known descriptive elements about a subject and attempting to retrieve relevant information that results. The burden of sifting through and making sense of the retrieved resources are on the end-user.
@@ -47,7 +47,7 @@ For example, we may search `data.gov` for data about recycling programs in the U
 
 Precision and recall are very helpful measurement techniques for judging how well a system performs, but these two metrics don't necessarily result in high end-user satisfaction. In the following sections I'll attempt to make this point clearer. 
 
-### Data Discovery Challenges - By Example 
+## Data Discovery Challenges - By Example 
 Here are some examples from my ongoing research that I hope makes the challenges of dataset discovery tractable.
 
 In response to Covid-19, state's in the USA have put into place social distancing orders. Being a federated nation of states - the enforcement of these orders falls to local municipalities. Each municipality has, in turn, crafted their own policies about how social distancing should be enforced. Some cities have even started to fine citizens for violating social distancing orders. There have been (as we have seen) regional variations in compliance with state social distancing ordinances.   
@@ -56,7 +56,7 @@ In an open data paradigm there should be evidence of how law enforcement is upho
 
 Sounds easy enough, right? Here are three examples of my journey to search for and discover relevant data.  
 
-#### Attempt 1: NYC
+### Attempt 1: NYC
 The [NYT](https://web.archive.org/web/20210418122750/https://www.nytimes.com/2020/05/07/nyregion/nypd-social-distancing-race-coronavirus.html), [Washington Post](https://www.instagram.com/p/B_8JYbeHoHp/) and [Times Inc](https://web.archive.org/web/20210323225519/https://time.com/5834414/nypd-social-distancing-arrest-data/) reported that "According to NYPD data, 374 summons 'for violations of emergency procedures and acts liable to spread disease' were handed out by police between March 16 and May 5. Of the 374 summons, 304 were handed out to black and Hispanic people." This reporting raised some serious red flags for me as a researcher interested in public transparency and the accountability of public institutions. This same statistic has been cited in a [number of other news outlets](https://web.archive.org/web/20210201133346/https://nypost.com/2020/05/09/reopen-ny-protesters-busted-outside-new-york-city-hall/).
 
 If we trace the sources for all of these reports back as far as possible we find a post from a local NYC [CBS affiliate that claims](https://web.archive.org/web/20210316020706/https://newyork.cbslocal.com/2020/05/07/exclusive-cbs2-obtains-breakdown-of-nypds-social-distancing-enforcement/) "Data obtained exclusively by CBS2 shows stops are down dramatically during the coronavirus pandemic. From March 16-May 5, police made 1,053 stops, compared to 2,335 in 2019. When it comes to social distancing enforcement, the NYPD recorded about one million contacts that lead to 368 summonses and 120 arrests. Breaking down the arrests by race: Nearly 68% were black, 24% were Hispanic and nearly 7% were white." What is interesting here is that the NYT and Times Inc reports seem to have updated this "exclusively obtained" data (note the difference in "summonses").
@@ -74,14 +74,14 @@ Here is a brief description of my search process:
 
 - I first searched Google for "NYC Crime Data" - this should give me a rough cut at locating the relevant data at NYC's Open Data Portal. 
 - After browsing a number of results, I determined that the dataset ["NYPD Complaint Data Current (Year To Date)"](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/) is probably the best candidate. 
-- Note, I also browsed and search for data within the "data.cityofnewyork.us" portal - but got back a confusing number of potential data sources. There is no public log of "police stops" so I know that at best the data that I can find should have information about infractions or complaints. My search has already been narrowed based on this initial, very rough, information seeking process.  
-- I then searched for the string that was mentioned in the above articles `"for violations of emergency procedures and acts liable to spread disease"` , but I find no results in the "NYPD Complaint Data Current (Year To Date)" dataset. 
-- If I use the attribute (variable) descriptions in the dataset's metadata I can determine that the `Offense Description` variable is probably my best bet for identifying the infractions related to social distancing. Note - this isn't just a best guess - this is what the [NBIR standard](https://en.wikipedia.org/wiki/National_Incident-Based_Reporting_System#Group_B_offenses[2]) dictates the infraction should be classified as. But, filtering this data I find only five infractions (!?!?) for the dates when social distancing went into effect in New York state (03.23)
+- Note, I also browsed and searched for data within the "data.cityofnewyork.us" portal - but got back a confusing number of potential data sources. There is no public log of "police stops" so I know that at best the data that I can find should have information about infractions or complaints. My search has already been narrowed based on this initial, very rough, information seeking process.  
+- I then searched for the string that was mentioned in the above articles `"for violations of emergency procedures and acts liable to spread disease"`, but I find no results in the "NYPD Complaint Data Current (Year To Date)" dataset. 
+- If I use the attribute (variable) descriptions in the dataset's metadata I can determine that the `Offense Description` variable is probably my best bet for identifying the infractions related to social distancing. Note - this isn't just a best guess - this is what the [NIBR standard](https://en.wikipedia.org/wiki/National_Incident-Based_Reporting_System#Group_B_offenses[2]) dictates the infraction should be classified as. But, filtering this data I find only five infractions (!?!?) for the dates when social distancing went into effect in New York state (03.23)
 - After some additional searches for relevant data, I give up and determine that even though I know this information exists I cannot find it. This known-item search failed based on how the data were described in reports, and the reality of how data are actually described with metadata by a data publisher.   
 
 Let's take another example of the same phenomena. 
 
-#### Attempt 2: Detroit 
+### Attempt 2: Detroit 
 In Detroit, Police [reportedly](https://deadlinedetroit.com/articles/24934/detroit_police_issue_140_citations_for_social_distancing_violations) issued 56 misdemeanor tickets in a single weekend, and are [actively using surveillance technologies](https://www.bridgemi.com/michigan-government/violating-michigan-social-distancing-orders-big-brother-may-be-watching) to issue an additional "1,700 citations publishable by fines of up to $1,000 and 3,100 warnings for social distancing violation".
 
 Again, the news reports about social distancing violations in Detroit makes no reference to the actual data source used - but we should be able to corroborate these statistics given Michigan laws related to open records. In Michigan, a municipal police department must publicly post citation infractions to an open data repository no later than 24 hours after a cited infraction occurs. This is an actual, executable known-item search - I know that this data should exist, and I know what it's contents should include. 
@@ -100,7 +100,7 @@ Again, I have a known-item search that cannot be accurately executed. The data t
 
 Let's explore one more example of a failed search for relevant data. 
 
-#### Attempt 3: Bellevue, WA
+### Attempt 3: Bellevue, WA
 The City of Bellevue WA in King County has developed a [specific application](https://bellevuewa.gov/city-news/report-stay-home-violations_) for residents to report violations of the Washington state's 'Stay home, Stay healthy' (social distancing) guidelines. As of April 22nd, the [Bellevue police department claims](https://mynorthwest.com/1829768/social-distancing-violations-bellevue-app/) to have receive 567 reports of violations related to social distancing. I have previously worked with cities throughout King County on making 311 request data publicly available, and I know that Bellevue, WA regularly publishes 311 data to their city portal. 
 
 So yet again, at face value this is a known item search - a news outlet reports on a Police Department's activities and their is a corresponding public dataset where this information should be discoverable. When I search [Bellevue's data portal](https://bellevue.data.socrata.com) I find a number of "311" related data sets, and one that claims to be "updated daily" with a most recent update on May 10, 2020. 
@@ -113,7 +113,7 @@ However, when I look at the actual data - I discover that the last date when inf
 
 Again, my efforts to discover a data source that should be publicly available yields none of the actual data I am hoping to find. This known-item search failed because the metadata powering my search within the portal is incorrect. 
 
-### Open Data Discovery 
+## Open Data Discovery 
 A number of seemingly mundane issues thwarted my ability to search for and discover relevant data: 
 
 1. Data exist, but are not public. 
@@ -124,7 +124,7 @@ Each of these issues are, at the core, challenges to publishing open data such t
 
 Making data broadly discoverable requires, at minimum, the indexing of metadata, the accurate and meaningful description of data, and facilitating search and browsing of these resources through graphic user interfaces. In the next sections I'll step through some of the practical steps necessary to carry out indexing of data, and the implication this has on data discovery.^[We have already discussed, at length, issues related to accurate description of metadata on the web.] 
  
-#### Data Indexing  
+## Data Indexing  
 The indexing of datasets differs in some appreciable ways from other web-based "documents", but at the [root of all indexing is the markup of a document such that "tags" or attributes can be reliably crawled by search engine service providers](https://moz.com/beginners-guide-to-seo/how-search-engines-operate). Often times these "tags" have certain information, such as keywords, that describe what the resource contains, who the publisher is, etc. For the sake of convenience, just think of tags as structured metadata about a web-resource. Search engines "crawl" these tags to create an index of all the related resources that match keywords. So if I search for "Cooperatives in Seattle, WA" I can get a reliable list of all documents published to the web where documents have keywords matching keywords related to my query, such as "Cooperative", "Seattle" and "WA". 
 
 Importantly, search engines don't just list these resources or documents in a generic order. Instead, sophisticated approaches have been developed to rank which documents are most important. If I search for "Cooperatives in Seattle, WA" I get not only all the documents that have keywords related to my search (in Information Retrieval this is **recall**), but I get the most relevant documents related to my specific search (in Information Retrieval this is **precision**). 

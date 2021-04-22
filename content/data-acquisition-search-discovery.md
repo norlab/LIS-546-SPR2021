@@ -389,7 +389,7 @@ Accessing the API documentation is the key to successfully using an API. Not all
 
 Your exercise this week is to query an API about Pet Licenses in the City of Seattle. 
 
-`[https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb](https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb)`
+[`https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb`](https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb)
 
 If you click on the API button in the upper right-hand corner of the dataset, you will find a link to to the full dataset in JSON format. You could copy and paste that url into a browser and you would see the maximum allowed (I think it's 1000) number of records in the dataset. But for this exercise, you will find a smaller, more specific set of records. Click on the API Docs link.
 

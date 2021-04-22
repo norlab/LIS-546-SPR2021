@@ -288,8 +288,9 @@ Case Study (optional):
 ## Lecture
 
 A note about the lecture: since the recording of this lecture, we have changed the order of the modules and you will be learning about [Tidy Metadata](https://norlab.github.io/LIS-546-SPR2021/content/metadata-application-profiles.html) **next** week. 
+<div>
 <iframe width=853 height=508 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYh2Dik1zz&v=5&controls=1&ff=1" allowfullscreen="true"></iframe>
-
+</div>
 <h2><a id="Exercise">Exercise</a></h2>
 Our exercise this week focuses on exploring the concept of an API.
 

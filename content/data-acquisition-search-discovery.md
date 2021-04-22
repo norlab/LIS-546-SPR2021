@@ -387,3 +387,16 @@ Accessing the API documentation is the key to successfully using an API. Not all
 
 ## Exercise Assignment
 
+Your exercise this week is to query an API about Pet Licenses in the City of Seattle. 
+
+`[https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb](https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb)`
+
+If you click on the API button in the upper right-hand corner of the dataset, you will find a link to to the full dataset in JSON format. You could copy and paste that url into a browser and you would see the maximum allowed (I think it's 1000) number of records in the dataset. But for this exercise, you will find a smaller, more specific set of records. Click on the API Docs link.
+
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/SeattlePetAPI.png)
+
+This brings you to some very important documentation telling you how to query the dataset. Note, you **do not** need to apply for a token for this exercise. Read through to (or scroll down to) the `Fields` section of the documentation and expand the section on Animal's Name.
+
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/AnimalsNameQuery.png)
+
+The documentation gives you the exact query URL for searching the dataset for a particular pet name. I want you to query the dataset for a pet name that is **not** *Zen*. Post to the discussion board the name of the pet you chose to query on and what you found for results. Feel free to test things like different cases, names with spaces, etc.

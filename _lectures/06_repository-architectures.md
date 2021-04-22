@@ -14,8 +14,8 @@ links:
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/repository-architectures.html)
 - [description of digital libraries (cyberinfrastructure) from the National Science Foundation program](https://web.archive.org/web/20190207233414/https://www.nsf.gov/news/special_reports/cyber/digitallibraries.jsp)
-- [The following post from the IQSS staff at Harvard’s Dataverse provides an excellent table comparing existing data repository services. Pay attention to the categories being compared, and how this related to the affordances of the software](https://dataverse.org/blog/comparative-review-various-data-repositories)
-- [Fallaw, C., Dunham, E., Wickes, E., Strong, D., Stein, A., Zhang, Q., … & Imker, H. J. (2016). Overly honest data repository development. Code4Lib](https://journal.code4lib.org/articles/11980)
+- [This post](https://dataverse.org/blog/comparative-review-various-data-repositories) from the IQSS staff at Harvard’s Dataverse provides an excellent table comparing existing data repository services. Pay attention to the categories being compared, and how this related to the affordances of the software
+- Fallaw, C., Dunham, E., ... (2016). [Overly honest data repository development. Code4Lib](https://journal.code4lib.org/articles/11980)
 
 **Review documentation for just one repository platform listed below (be sure to also look at an example of the platform’s deployment):**
 - Samavera (Open-source repository for universities and institutional repositories)

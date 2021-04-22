@@ -60,7 +60,7 @@ layout: home
   <tr>
     <td class="tg-0lax">7</td>
     <td class="tg-0lax">Data Acquisition, Search, and Discovery</td>
-    <td class="tg-0lax">APIs</td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/content/data-acquisition-search-discovery.html#Exercise" target="_blank">APIs</a></td>
     <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/06_assignment_transformations_and_quality" target="_blank">Data Transformations and Quality</a></td>
   </tr>
   <tr>

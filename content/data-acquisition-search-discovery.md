@@ -388,7 +388,7 @@ Accessing the API documentation is the key to successfully using an API. Not all
 
 ## Exercise Assignment
 
-Your exercise this week is to query an API about Pet Licenses in the City of Seattle. 
+Your exercise this week is to query an API about Pet Licenses in the City of Seattle. (This is meant to be fairly simple and straightforward, I didn't want to assign a complicated exercise knowing that the tutorial itself took time.)
 
 [`https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb`](https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb)
 
@@ -400,4 +400,4 @@ This brings you to some very important documentation telling you how to query th
 
 ![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/AnimalsNameQuery.png)
 
-The documentation gives you the exact query URL for searching the dataset for a particular pet name. I want you to query the dataset for a pet name that is **not** *Zen*. Post to the discussion board the name of the pet you chose to query on and what you found for results. Feel free to test things like different cases, names with spaces, etc.
+The documentation gives you the exact query URL for searching the dataset for a particular pet name. I want you to query the dataset for a pet name that is **not** *Zen*. Post to the [discussion board](https://canvas.uw.edu/courses/1465297/discussion_topics/6318579) the name of the pet you chose to query on and what you found for results. Feel free to test things like different cases, names with spaces, etc. If this was really easy for you, try retrieving a csv instead of JSON, or try a SoQL query found at this [link](https://dev.socrata.com/docs/functions/#2.1,) in the documentation.

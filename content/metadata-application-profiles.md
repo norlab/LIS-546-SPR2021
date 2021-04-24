@@ -15,10 +15,10 @@ At a broad level of abstraction, metadata provides for both human and machine-in
 - In upstream curation, curators often need to identify, select, and create a standard for data creators (or collectors) to follow.
 - In downstream curation, curators often need to **refactor** metadata, either to make the metadata comply with an existing standard, or to structure the metadata so that it applies to one and only one conceptual entity.
 
-In the [Introduction module](https://norlab.github.io/LIS-546-SPR2021/content/overview_and_intro.html#Introduction) there are simple [definitions](https://norlab.github.io/LIS-546-SPR2021/content/overview_and_intro.html#Definitions) of core concepts related to metadata that will be helpful to review before reading the rest of this chapter.
+In the [Introduction module](https://norlab.github.io/LIS-546-SPR2021/content/overview_and_intro.html#Introduction) there are simple [definitions](https://norlab.github.io/LIS-546-SPR2021/content/overview_and_intro.html#Definitions) of core concepts related to metadata that will be helpful to review before reading the rest of this module.
 
 ## Semantics and Syntax of Metadata
-In the most simple form, metadata consists of 'attribute - value' pairs that describe some property of data, or a set of data. Recall that in the introduction, we established that attributes are "the  defining features of a class or sub-class, and refer to instances. An instance is a member of a class if it has **all** of the attributes of that class."
+In the most simple form, metadata consists of 'attribute - value' pairs that describe some property of data, or a set of data. Recall that in the introduction, we established that attributes are "the defining features of a class or sub-class, and refer to instances. An instance is a member of a class if it has **all** of the attributes of that class."
 
 Attributes and values can be expressed, semantically, as descriptive, administrative, or technical information about data.
 

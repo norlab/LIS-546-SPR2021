@@ -262,13 +262,13 @@ Discoverability is dependent upon reliable integration, packaging, and tidy meta
 
 ## Reading
 
-This week I am going to ask you to read two things, but offer a number of other readings in this area if you are interested: 
+This week I am going to ask you to read three things, but offer a number of other readings in this area if you are interested: 
 
-1. Read this piece that was recently published on the development of a search infrastructure at Google: 
+Read this piece that was recently published on the development of a search infrastructure at Google: 
 
-- Brickley, D., Burgess, M., & Noy, N. (2019, May). Google Dataset Search: Building a search engine for datasets in an open Web ecosystem. In The World Wide Web Conference (pp. 1365-1375). [PDF](https://dl.acm.org/doi/pdf/10.1145/3308558.3313685)
+- Brickley, D., Burgess, M., & Noy, N. (2019, May). Google Dataset Search: Building a search engine for datasets in an open Web ecosystem. In The World Wide Web Conference (pp. 1365-1375). [PDF on Canvas](https://canvas.uw.edu/files/76572318/download?download_frd=1)
 
-2. Then read these two short blog posts about when the initative started, and where it finished: 
+Then read these two short blog posts about when the initative started, and where it finished: 
 
 - Noy, N et al (2017) "Facilitating the discovery of public datasets" [Link](https://ai.googleblog.com/2017/01/facilitating-discovery-of-public.html)
 - Noy, N (2020) "Discovering millions of datasets on the web" [Link](https://www.blog.google/products/search/discovering-millions-datasets-web/)
@@ -277,7 +277,7 @@ Additional valuable readings on data discovery:
 
 - Wu, M., Psomopoulos, F., Khalsa, S. J., & de Waard, A. (2019). Data Discovery Paradigms: User Requirements and Recommendations for Data Repositories. Data Science Journal, 18(1). [Link](https://datascience.codata.org/articles/10.5334/dsj-2019-003/) 
 - Gregory, K. M., Cousijn, H., Groth, P., Scharnhorst, A., & Wyatt, S. (2019). Understanding data search as a socio-technical practice. Journal of Information Science, [PDF](https://journals.sagepub.com/doi/pdf/10.1177/0165551519837182) 
-- Vissers, J., Van den Bosch, F., Bogaerts, A., Cocquyt, C., Degreef, J., Diagre, D., ... & Fabri, R. (2017). Scientific user requirements for a herbarium data portal. PhytoKeys, (78), 37 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543274/ 
+- Vissers, J., Van den Bosch, F., Bogaerts, A., Cocquyt, C., Degreef, J., Diagre, D., ... & Fabri, R. (2017). Scientific user requirements for a herbarium data portal. PhytoKeys, (78), 37 [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543274/) 
 - Fenlon, K., Senseney, M., Green, H., Bhattacharyya, S., Willis, C., & Downie, J. S. (2014). Scholar‐built collections: A study of user requirements for (Humanities) research in large‐scale digital libraries. Proceedings of the American Society for Information Science and Technology, 51(1), 1-10. [PDF](https://onlinelibrary.wiley.com/doi/pdf/10.1002/meet.2014.14505101047) 
 - Macgregor, George. "Improving the discoverability and web impact of open repositories: techniques and evaluation." Code4Lib Journal 43 (2019).  [PDF](https://strathprints.strath.ac.uk/66997/1/Macgregor_C4L_2019_Improving_the_discoverability_and_web_impact_of_open_repositories_techniques_and_evaluation.pdf) 
 

@@ -67,13 +67,13 @@ layout: home
     <td class="tg-0lax">8</td>
     <td class="tg-0lax">Metadata Application Profiles</td>
     <td class="tg-0lax">None</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/08_assignment_metadata" target="_blank">Metadata Application Profiles</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/07_assignment_metadata" target="_blank">Metadata Application Profiles</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
     <td class="tg-0lax">Ontologies and Linked Data</td>
     <td class="tg-0lax">None</td>
-    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/07_assignment_licensing" target="_blank">Data Licensing</a></td>
+    <td class="tg-0lax"><a href="https://norlab.github.io/LIS-546-SPR2021/assignments/08_assignment_licensing" target="_blank">Data Licensing</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>

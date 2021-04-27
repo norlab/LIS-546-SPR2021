@@ -37,7 +37,7 @@ Establish the policies that will govern your data collection policy. This should
 
 - What are the criteria that make a dataset, or collection, relevant to your protocol? What, if anything, might exclude a relevant dataset?
 - What will you require to be included for a minimum viable package of data? (e.g. the data must have a clear license, a format that is (or can be converted to) an open standard, and enough contextual documentation that structured metadata can be created).
-- What formats will you accept, and what formats will not you accept?
+- What formats will you accept, and what formats will you not accept?
 - How big can a collection be (in size)?
 - What kind of preservation guarantees will you make for each format?
 

@@ -21,7 +21,7 @@ To complete this exercise, you will need to answer the following questions:
 - What elements are necessary to meet your stakeholders' expectations?
 - Will an existing schema meet all of these requirements?
 - If not what extensions or modifications are needed?
-- How does this align with the repository software (CKAN) that you have chosen.
+- Did you choose a specific repository architecture (this was optional) and if so do your answers to the above bullet points align with that architecture?
 
 How do I evaluate metadata standards useful for my project? Dian Hillman offers these criteria:
 - Look at what others in the domain are using

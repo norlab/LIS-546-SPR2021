@@ -236,7 +236,7 @@ Application profiles:
 
 Some examples of metadata application profiles:
 
-- [DPLA](https://drive.google.com/file/d/1fJEWhnYy5Ch7_ef_-V48-FAViA72OieG/view)
+- [DPLA](https://pro.dp.la/hubs/metadata-application-profile)
 - [Cornell Library](https://confluence.cornell.edu/display/mwgweb/CUL+Metadata+Application+Profiles)
 - [Carnegie Hall Archives](https://carnegiehall.github.io/digitalcolls-metadataprofile/)
 

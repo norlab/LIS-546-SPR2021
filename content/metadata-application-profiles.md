@@ -213,41 +213,41 @@ In his [doctoral thesis](https://alliance-primo.hosted.exlibrisgroup.com/permali
 At its core, the 1:1 principle is trying to disentangle the complex relationship between digital objects and their various manifestations. In data curation, we often need to adhere to this principle when we are describing complex datasets that contain multiple tables, multiple versions of a table, or multiple instances of the same data. To practically do this, we can follow a few basic rules: 
 
 1. Recognize item-level and collection-level relationships: Item-level and collection-level metadata is meant to provide a way for individual objects (data) to be described in a part/whole relationship. Collection level metadata is often about describing attributes of the aggregate of a set of resources, rather than any one resource specifically. But, these relationships may be hard to disentangle upon first glance. The first step I take when dealing with complex relationships like this is to try to specify the *autonomy* of the data being described. Does it make sense as a stand-alone dataset that can be accurately interpreted, or does it have a relationship with additional resources that are needed for meaningful reuse. If the latter is the case, then there is a need to create a collection level description. 
-2. Classes and instances (this is very similar to item-level and collection-level descriptions): When approaching a dataset or table, often we need to determine what class this instance of data belongs to. Remember our Homer, Lisa and Bart Simpson example from the [Tables, Trees, & Triples](https://norlab.github.io/LIS-546-SPR2021/content/tables-trees-triples.html) module? We have instances (characters) of the class (Simpson family). The membership in the class is defined by attributes such as having a parent that is named Simpson. In adhering to 1:1 principle we should create metadata that can represent these relationships without violating the idea that one record corresponds with one instance. That is, we can create a description of a class (Simpsons) and instances of the class (characters), but we should not be creating a Simpson family record if it contains only one character description. Instead - we can use the collection-item level descriptions to accommodate this relationship. We could, for example create a record that describes all Simpsons, and then individual records for each character. We might also next these attributes, such that only our Collection-level metadata records describes the instances of the class (members). In Dublin Core we can use attributes like `is_part_of` to define these types of collection-item level relationships (read more [here](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/isPartOf))
+2. Classes and instances (this is very similar to item-level and collection-level descriptions): When approaching a dataset or table, often we need to determine what class this instance of data belongs to. Remember our Homer, Lisa and Bart Simpson example from the [Tables, Trees, & Triples](https://norlab.github.io/LIS-546-SPR2021/content/tables-trees-triples.html) module? We have instances (characters) of the class (Simpson family). The membership in the class is defined by attributes such as having a parent that is named Simpson. In adhering to 1:1 principle we should create metadata that can represent these relationships without violating the idea that one record corresponds with one instance. That is, we can create a description of a class (Simpsons) and instances of the class (characters), but we should not be creating a Simpson family record if it contains only one character description. Instead - we can use the collection-item level descriptions to accommodate this relationship. We could, for example create a record that describes all Simpsons, and then individual records for each character. We might also nest these attributes, such that only our Collection-level metadata records describes the instances of the class (members). In Dublin Core we can use attributes like `is_part_of` to define these types of collection-item level relationships (read more [here](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/isPartOf)).
 3. Reuse existing records: Just as we should take care to reuse existing namespaces and schemas following tidy metadata principles, we might also attempt to reuse *parts* of existing metadata records that already exist. For example, if we were describing a photo of a the Mona Lisa we should be able to find existing records describing the painting, and existing records describing photos of original art works. We can then attempt to create a unique record of our photo of the Mona Lisa by reusing these existing schemas, namespaces, and attribute-value pairs. In this search for related items - we can further establish whether we are creating a unique record, or whether we are describing a unique resource for the first time. The former, finding and discovering related records, is useful if and only if the data we are curating is likely to exist in multiple places. This is a useful technique for downstream curation, but is of limited value to upstream curators.  
 
 **Referenced works** 
 
-- Hillmann, D. (2005). Using Dublin Core, Dublin Core Metadata Initiative (DCMI).
-- Wickham, H. (2014). Tidy data. Journal of Statistical Software, 59(10), 1-23. 
-- Urban, R. J. (2012). Principle paradigms: revisiting the Dublin Core 1: 1 principle (Doctoral dissertation, University of Illinois at Urbana-Champaign). 
+- Hillmann, D. (2005). [Using Dublin Core, Dublin Core Metadata Initiative](https://www.dublincore.org/specifications/dublin-core/usageguide/2005-08-15/) (DCMI).
+- Wickham, H. (2014). [Tidy data](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf). Journal of Statistical Software, 59(10), 1-23. 
+- Urban, R. J. (2012). [Principle paradigms: revisiting the Dublin Core 1:1 principle](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/lvbsh/TN_cdi_proquest_journals_1415842856) (Doctoral dissertation, University of Illinois at Urbana-Champaign). 
 
 ## Lecture
 
-Coming soon!
-<!--<iframe width=853 height=473 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYhi29gDkq&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>-->
+<iframe width=853 height=473 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYhi29gDkq&v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>
+
 ## Reading
 
 Application profiles:
 
-- Heery, R., & Patel, M. (2000). Application profiles: mixing and matching metadata schemas. Ariadne, (25). http://www.ariadne.ac.uk/issue/25/app-profiles/ 
+- Heery, R., & Patel, M. (2000). [Application profiles: mixing and matching metadata schemas](http://www.ariadne.ac.uk/issue/25/app-profiles/). Ariadne, (25).  
 
-- [The Singapore Framework for Application Profiles](https://www.dublincore.org/specifications/dublin-core/singapore-framework/). Note this is currently under revision by DCMI. You can catch up on their work here https://github.com/dcmi/dcap  (and also see an example of `use cases` in the wild)
+- [The Singapore Framework for Application Profiles](https://www.dublincore.org/specifications/dublin-core/singapore-framework/). Note this is currently under revision by DCMI. You can catch up on their work [here](https://github.com/dcmi/dcap) (and also see an example of `use cases` in the wild)
 
 Some examples of metadata application profiles:
 
-- DPLA https://drive.google.com/file/d/1fJEWhnYy5Ch7_ef_-V48-FAViA72OieG/view
-- Cornell Library https://confluence.cornell.edu/display/mwgweb/CUL+Metadata+Application+Profiles
-- Carnegie Hall Archives https://carnegiehall.github.io/digitalcolls-metadataprofile/
+- [DPLA](https://drive.google.com/file/d/1fJEWhnYy5Ch7_ef_-V48-FAViA72OieG/view)
+- [Cornell Library](https://confluence.cornell.edu/display/mwgweb/CUL+Metadata+Application+Profiles)
+- [Carnegie Hall Archives](https://carnegiehall.github.io/digitalcolls-metadataprofile/)
 
 Relevant (optional) readings:
 
-- Hebron, T. K. (2018). Extending and Adapting Metadata Audit Tools for Mountain West Digital Library Members Code4Lib Journal, (41). https://journal.code4lib.org/articles/13632 
-- Curado Malta, M., Bermúdez Sabel, H., Baptista, A. A., & González-Blanco García, E. (2018). Validation of a metadata application profile domain model. http://e-spacio.uned.es/fez/view/bibliuned:363-Egonzalez15 
-
+- Hebron, T. K. (2018). [Extending and Adapting Metadata Audit Tools for Mountain West Digital Library Members](https://journal.code4lib.org/articles/13632 ) Code4Lib Journal, (41). 
+- Curado Malta, M., Bermúdez Sabel, H., Baptista, A. A., & González-Blanco García, E. (2018). [Validation of a metadata application profile domain model](http://e-spacio.uned.es/fez/view/bibliuned:363-Egonzalez15). 
+- 
 Case Study for discussion (optional):
 
-- Stein, A., & Dunham, E. (2018). Meaningful Data Sharing: Developing the Illinois Data Bank Metadata Framework. Journal of Library Metadata, 18(2), 59-83. https://www.ideals.illinois.edu/handle/2142/103173 
+- Stein, A., & Dunham, E. (2018). [Meaningful Data Sharing: Developing the Illinois Data Bank Metadata Framework](https://www.ideals.illinois.edu/handle/2142/103173). Journal of Library Metadata, 18(2), 59-83. 
 
 <h2><a id="Exercise">Exercise</a></h2>
 The exercise for this week is to work on your protocol, and in particular the [Metadata Application Profile Assignment](https://norlab.github.io/LIS-546-SPR2021/assignments/07_assignment_metadata). Your readings this week describe metadata application profiles in detail. 

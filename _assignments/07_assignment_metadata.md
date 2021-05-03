@@ -11,7 +11,7 @@ due_event:
     description: 'Submit Metadata Application Profile'
     url: /assignments/07_assignment_metadata
 ---
-## Assignment 5: Metadata Application Profiles
+## Assignment: Metadata Application Profiles
 <!--
 [metadata folder](https://github.com/OpenDataLiteracy/LIS-598-DataCuration2-Sp2019/tree/master/Metadata-Examples)
 -->

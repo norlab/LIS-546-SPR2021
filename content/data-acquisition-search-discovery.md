@@ -365,7 +365,7 @@ Let's start with the first example on the page. [`http://poetrydb.org/title/Ozym
 
 ![Output of URL as seen in Safari browser](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/Poetry_JSON_Safari.png)
 
-If this output were considerably longer and contained more nested arrays, it would be easy to get lost in the data. So let's use a helpful tool called [JSON Formatter](https://jsonformatter.org/), one of many JSON parsers. Click on the Upload Data button in the center of the screen and paste in a URL. Let's try data about poems by author Bronte using this URL: [`https://poetrydb.org/author/Bronte`](https://poetrydb.org/author/Bronte). 
+If this output were considerably longer and contained more nested arrays, it would be easy to get lost in the data. So let's use a helpful tool called [JSON Formatter](https://jsonformatter.org/), one of many JSON parsers. Click on the Upload Data button in the center of the screen and paste in a URL. Let's try data about poems by author Bronte using this URL (and note that for some reason in order for this to work here we have to add the 's' to http): `https://poetrydb.org/author/Bronte`. 
 
 ![Pop-up Window to paste URL](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/JSONFormatter_Load.png)
 

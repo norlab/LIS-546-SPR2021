@@ -23,6 +23,6 @@ links:
     - [Carnegie Hall Archives](https://carnegiehall.github.io/digitalcolls-metadataprofile/)
 
 **Suggested Readings:**
-- [Hebron, T. K. (2018). Extending and Adapting Metadata Audit Tools for Mountain West Digital Library Members Code4Lib Journal, (41)](https://journal.code4lib.org/articles/13632)
-- [Curado Malta, M., Bermúdez Sabel, H., Baptista, A. A., & González-Blanco García, E. (2018). Validation of a metadata application profile domain model](http://e-spacio.uned.es/fez/view/bibliuned:363-Egonzalez15)
-- [Stein, A., & Dunham, E. (2018). Meaningful Data Sharing: Developing the Illinois Data Bank Metadata Framework. Journal of Library Metadata, 18(2), 59-83](https://www.ideals.illinois.edu/handle/2142/103173)
+- Hebron, T. K. (2018). [Extending and Adapting Metadata Audit Tools for Mountain West Digital Library Members](https://journal.code4lib.org/articles/13632) Code4Lib Journal, (41)
+- Curado Malta, M., Bermúdez Sabel, H., Baptista, A. A., & González-Blanco García, E. (2018). [Validation of a metadata application profile domain model](http://e-spacio.uned.es/fez/view/bibliuned:363-Egonzalez15)
+- Stein, A., & Dunham, E. (2018). [Meaningful Data Sharing: Developing the Illinois Data Bank Metadata Framework](https://www.ideals.illinois.edu/handle/2142/103173). Journal of Library Metadata, 18(2), 59-83

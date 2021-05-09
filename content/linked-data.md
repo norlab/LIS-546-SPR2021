@@ -2,9 +2,12 @@
 layout: default
 ---
 # Linked Data
+**Original Author: Nic Weber**  
+**Editing & Updates: Bree Norlander** 
+
 The final week in Data Curation II addresses the prospect of linked data for curation. At various points this quarter we have discussed the idea of semantically enhanced data that takes on a form of artificial intelligence. This "intelligence" is practically achieved through enhanced markup of data and web infrastructure that enables applications to make use of data that are published following strict linked data standards. Thus far we have touched on, but not explored in-depth the ways that linked data practically manifests in curation work. In the following chapter, I will introduce some working definitions and provide an overview of concepts related to linked data and the promise, but ultimate failure of the semantic web. Next week, I will describe ontologies and their role in a linked data ecosystem.
 
-### The Early Web
+## The Early Web
 
 A "web of information" seems almost silly to say aloud in certain academic or technical circles. We have, over a very short period of time, gone from an internet infrastructure that was rudimentary and difficult to access, to a paradigm of native web-publishing. Graphic user interfaces have provided a layer of accessibility to what are otherwise rote protocols for transferring information between computers, and for structuring rich information experiences. We can browse, search, and discover all kinds of data by simply navigating and "clicking" on hypertext links.
 
@@ -22,7 +25,7 @@ The display of this factual information (called the ["knowledge bar"](https://su
 
 In the following sub-sections I'll unpack how this linked data ecosystem evolved, and the implications that a paradigm of linked data holds for the working curation professional.    
 
-### The promise and failure of the Semantic Web
+## The promise and failure of the Semantic Web
 In short, the semantic web was an approach to the development of web technologies that privileged machine-readable data. This readability or "machine intelligence" was proposed to overcome the limitations of Web 1.0. The early technologies that facilitated exchange of information, such as HTTP and HTML, were meant to enable a web of information to emerge - linking documents to one another through standards that could interoperate regardless of what browser, or which search engine we choose to use.
 
 The semantic web - which was positioned between the interactivity of Web 2.0 and Web 3.0 - was to be facilitated by markup languages that allow for the semantic contents of data to be declared explicitly, and logic to be used inferentially to build connections between data embedded in web documents. In the vision of the semantic web, web content could both be displayed (like typical HTML and CSS) as well as queried and acted upon by web applications. We previously discussed both schema.org and the idea of a "triple" as ways in which data can be encoded such that they are machine-readable on the web. The idea of the triple is central to the vision of semantic web evangelists. They see all factual content as relationships which can be explicitly declared. By explicitly declaring just a few relationships we can build up a variety of "inferences". Think back to our discussion of Simpsons characters - by knowing some familial relationships we could infer that Lisa and Bart were siblings without having to explicitly declare that is the case.
@@ -31,7 +34,7 @@ Where the semantic web failed was in believing that this kind of explicit declar
 
 In previous chapters we have discussed some of the ways in which machine-readability is achieved, but we did not go into detail about how this encoding practically takes place. In the following section I will describe some of the practical realities of linked data, and how linked data is created using the standard JSON-LD. 
 
-### Linked Data
+## Linked Data
 The linked data paradigm - which is the practical manifestation of the semantic web vision - makes use of structured markup to enhance web resources such that we can query and discover related information through simple declarations.
 
 Let's take a simple web page that includes a bunch of random ideas expressed about people, places, and things [^note: I choose the [hipster Lorum Ipsum](https://hipsum.co/) random text generation to create text for this "dummy" web page]. If one of those topics in our web page is about Austin, TX web 1.0 would create a link between that topic and a relevant page about Austin, TX.
@@ -54,7 +57,7 @@ It has now (as of May 2020) grown to over [1200 authoritative linked data source
 
 In the next section we will look at how we can practically link our data to existing resources. This is acheived through the standard JSON-LD. 
 
-### JSON-LD
+## JSON-LD
 Schema.org - which we have talked about in the previous chapter on Data Discovery - is practically implemented on the web through an encoding standard called JSON-LD (which stands for JSON-Linked Data). To understand the power of JSON-LD let's think all the way back to our chapter on [Tables, Trees, and Triples](https://nniiicc.github.io/LIS-598-DC2-Sp2020/tables-trees-and-triples.html#trees-and-tables) where I described differences in hierarchical data structuring (XML) vs graph structuring (JSON). Recall that in that chapter I warned:
 
 "What we gain expressive power from a markup language comes at the expense of computational tractability. The more syntax we have to write to define how and where a set of data are interpreted by our computers at the physical level, the more difficult and expensive it will be to retrieve that data."
@@ -67,10 +70,10 @@ JSON-LD is an attempt to add meaning to the structure of graph data through a sc
 
 JSON-LD has some key markup features that are necessary to practically implement linked data. In introducing these features I'll also note how the syntax of JSON-LD works through examples. 
 
-### JSON-LD Applications
+## JSON-LD Applications
 JSON-LD operates exactly like JSON - there are attributes and values that are declared. In JSON these declarations are "dumb" objects - they don't have any semantic meaning. In JSON-LD we have the ability to give these objects meaning through external schemas. The two features we will look at first are the Context and ID tags. 
 
-#### Context
+### Context
 Context or `@Context` -  In JSON-LD the `@Context` tag is used to declare a schema that will be used to name attributes in the dataset. So any attribute in our JSON-LD should be understood as following the schema that `@Context` defines. If we plan to use, for example, the Schema.org standard we can in the `@Context` syntax specify this is the standard we are following and expect that all of the machines that interpret our data's attributes as being in the Schema.org standard. 
 
 Here is an example of how this might practically work. The following is a typical JSON representation of some structured information about me. 
@@ -109,7 +112,7 @@ Note that in this example our data also has an attribute `homepage` that corresp
 
 All of this semantic meaning is achieved through the use of JSON-LD and Schema.org. 
 
-#### ID
+### ID
 In a linked data paradigm every factual statement is made up of resources, and in order to resolve or find those resources we need an identifier which uniquely picks out that the information about that resource.
 
 The ID or `@ID` tag in JSON-LD then is simply the syntax that is used to uniquely identify things that are being described in the data. Practically, this differs only slightly from the `@Context`which is used to pull in an existing schema and name attributes. With `@ID` we can instead use the namespaces to identify our objects. 
@@ -128,7 +131,7 @@ Note - we are still using Schema.org as the authority for things like "name", "u
 
 Both approaches - using plain language attribute names as well as id names - are valid. We can use either to create linked data about Nic Weber. The important point is that we have used JSON-LD to create graph structured data that is semantically meaningful. In particular, we added a schema to define attributes in our dataset through the standard Scehma.org and its namespaces. 
 
-### Linked Data for Curation 
+## Linked Data for Curation 
 The description of linked data above may seem somewhat tenuously related to data curation. In the following section I will draw on examples from previous chapters to explain how and why linked data is relevant to our practical work in curating data for reuse. 
 
 In our first chapter we used the scenario of an intrepid graduate student sitting in a Brazilian rainforrest counting frogs. Our graduate student transported her observations from the field to a digital computing environment. In doing so she faced a series of choices about how to structure her data for future use. Now, it is unrealistic to expect that our graduate student would follow any of the struct rules described above to create an initial digital record of her observations as linked data. More than likely she will simply enter her data in a spreadsheet application like Excel and use some plain text variation of this table (like a csv) for her analysis. 

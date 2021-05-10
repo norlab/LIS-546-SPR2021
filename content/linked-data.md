@@ -60,9 +60,9 @@ In the next section we will look at how we can practically link our data to exis
 ## JSON-LD
 Schema.org - which we have talked about in the previous chapter on Data Discovery - is practically implemented on the web through an encoding standard called JSON-LD (which stands for JSON-Linked Data). To understand the power of JSON-LD let's think all the way back to our chapter on [Tables, Trees, and Triples](https://norlab.github.io/LIS-546-SPR2021/content/tables-trees-triples.html) where I described differences in hierarchical data structuring (XML) vs graph structuring (JSON). Recall that in that chapter I warned:
 
-<blockquote>What we gain expressive power from a markup language comes at the expense of computational tractability. The more syntax we have to write to define how and where a set of data are interpreted by our computers at the physical level, the more difficult and expensive it will be to retrieve that data.</blockquote>
+<blockquote>What we gain in expressive power from a markup language comes at the expense of computational tractability. The more syntax we have to write to define how and where a set of data are interpreted by our computers at the physical level, the more difficult and expensive it will be to retrieve that data.</blockquote>
 
-In that chapter I also explained that JSON is an object-oriented graph and XML is a hierarchical tree. The tradeoff between these two structures is that XML can use a schema to explicitly declare what it's content is about (I'll save you some jumping back and forth and paste that section below)
+In that chapter I also explained that JSON is an object-oriented graph and XML is a hierarchical tree. The tradeoff between these two structures is that XML can use a schema to explicitly declare what it's content is about (I'll save you some jumping back and forth and paste that section below):
 
 <blockquote>JSON treats an object as independent from any kind of semantic meaning that humans might reliably expect that object to have. JSON, in its structuring of data, is therefore able to achieve a kind of independence at the data level that XML cannot. But, removing this semantic (or contextual) meaning has both affordances and limitations. By keeping data objects “independent” from the schema we have the ability compute against (that is retrieve, reorder, and analyze) objects efficiently. But, for JSON we also lose the ability to embed meaning in the structure of our data.</blockquote>
 
@@ -73,10 +73,10 @@ JSON-LD has some key markup features that are necessary to practically implement
 ## JSON-LD Applications
 JSON-LD operates exactly like JSON - there are attributes and values that are declared. In JSON these declarations are "dumb" objects - they don't have any semantic meaning. In JSON-LD we have the ability to give these objects meaning through external schemas. The two features we will look at first are the Context and ID tags. 
 
-### Context
-Context or `@Context` -  In JSON-LD the `@Context` tag is used to declare a schema that will be used to name attributes in the dataset. So any attribute in our JSON-LD should be understood as following the schema that `@Context` defines. If we plan to use, for example, the Schema.org standard we can in the `@Context` syntax specify this is the standard we are following and expect that all of the machines that interpret our data's attributes as being in the Schema.org standard. 
+### Context or `@Context`
+In JSON-LD the `@Context` tag is used to declare a schema that will be used to name attributes in the dataset. So any attribute in our JSON-LD should be understood as following the schema that `@Context` defines. If we plan to use, for example, the Schema.org standard we can, in the `@Context` syntax, specify this is the standard we are following and expect that all of the machines that interpret our data's attributes understand this as being in the Schema.org standard. 
 
-Here is an example of how this might practically work. The following is a typical JSON representation of some structured information about me. 
+Here is an example of how this might practically work. The following is a typical JSON representation of some structured information about Professor Weber. 
 
 ```
 {
@@ -86,7 +86,7 @@ Here is an example of how this might practically work. The following is a typica
 }
 ```
 
-In this data we have attribute and value pairs like `name` and `Nic Weber`... But our attributes don't mean anything to a machine. These are just objects that we, as data curators, have to know and understand in order to make sense of. 
+In this data we have attribute and value pairs like `name` and `Nic Weber`. But our attributes don't mean anything to a machine. These are just objects that we, as data curators, have to know and understand in order to make sense of. 
 
 If we use the JSON-LD `@Context` tag we can pull in a schema to give our attributes some semantic meaning. 
 
@@ -106,9 +106,9 @@ If we use the JSON-LD `@Context` tag we can pull in a schema to give our attribu
 
 In this example we have declared that our attributes are not just dumb objects, but they mean something specific in the linked data standard of Schema.org. The `name` variable in fact means what Schema.org defines as a "name". A machine can interpret this information given the namespace that defines "name" at the following address `http://schema.org/name`. 
 
-Note that in this example our data also has an attribute `homepage` that corresponds with the Schema.org definition for a URL, and a `photo` which corresponds with the Schema.org definition of an Image. So a machine can interpret that Nic Weber is the name of a person, that person has a webpage, and that webpage contains a photo of Nic Weber. If another web resources wanted to consume my linked data - they could ask Schema.org "What do you know about Nic Weber" and retrieve a result like "This is a person, with a webpage, and a photo". To see this in practice - here is a result when you search for me on Google. The University of Washington has used Schema.org to say who I am, what my photo is, and through this web of linked data Google also identifies my Google Scholar page where it pulls in Co-authors and relevant publications that appear on the web. 
+Note that in this example our data also has an attribute `homepage` that corresponds with the Schema.org definition for a URL, and a `photo` which corresponds with the Schema.org definition of an Image. So a machine can interpret that Nic Weber is the name of a person, that person has a webpage, and that webpage contains a photo of Nic Weber. If another web resource wanted to consume my linked data - they could ask Schema.org "What do you know about Nic Weber" and retrieve a result like "This is a person, with a webpage, and a photo". To see this in practice - here is a result when you search for me on Google. The University of Washington has used Schema.org to say who I am, what my photo is, and through this web of linked data Google also identifies my Google Scholar page where it pulls in Co-authors and relevant publications that appear on the web. 
 
-![](Images/Nic-GoogleResults.png)
+![](https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/Nic-GoogleResults.png)
 
 All of this semantic meaning is achieved through the use of JSON-LD and Schema.org. 
 

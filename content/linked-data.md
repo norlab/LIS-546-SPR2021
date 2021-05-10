@@ -112,10 +112,10 @@ Note that in this example our data also has an attribute `homepage` that corresp
 
 All of this semantic meaning is achieved through the use of JSON-LD and Schema.org. 
 
-### ID
+### ID or `@ID`
 In a linked data paradigm every factual statement is made up of resources, and in order to resolve or find those resources we need an identifier which uniquely picks out that the information about that resource.
 
-The ID or `@ID` tag in JSON-LD then is simply the syntax that is used to uniquely identify things that are being described in the data. Practically, this differs only slightly from the `@Context`which is used to pull in an existing schema and name attributes. With `@ID` we can instead use the namespaces to identify our objects. 
+The `@ID` tag in JSON-LD then is simply the syntax that is used to uniquely identify things that are being described in the data. Practically, this differs only slightly from the `@Context` which is used to pull in an existing schema and name attributes. With `@ID` we can instead use the namespaces to identify our objects. 
 
 Here is a JSON-LD encoding of the same factual information as our previous example. 
 
@@ -127,9 +127,9 @@ Here is a JSON-LD encoding of the same factual information as our previous examp
 }
 ```
 
-Note - we are still using Schema.org as the authority for things like "name", "url" and "image" - only with the `@ID` tage we used the schema.org namespace as our actual attribute name. So for a JSON-LD encoding of information about me - there is no plain language "name" attribute, but instead the attribute is "http://schema.org/name". In some ways - this makes machine operations easier, there are fewer lines of data to read and interpret. But, the cost of using this form of syntax is that it is much less human readable (we have to know, for example, what "url" means to accurately interpret what the link "http://nicweber.info" stands for). 
+Note, we are still using Schema.org as the authority for things like "name", "url", and "image", only with the `@ID` tag we used the schema.org namespace as our actual attribute name. So for a JSON-LD encoding of information about Nic Weber, there is no plain language "name" attribute, but instead the attribute is "http://schema.org/name". In some ways - this makes machine operations easier, there are fewer lines of data to read and interpret. But, the cost of using this form of syntax is that it is much less human readable (we have to know, for example, what "url" means to accurately interpret what the link "http://nicweber.info" stands for). 
 
-Both approaches - using plain language attribute names as well as id names - are valid. We can use either to create linked data about Nic Weber. The important point is that we have used JSON-LD to create graph structured data that is semantically meaningful. In particular, we added a schema to define attributes in our dataset through the standard Scehma.org and its namespaces. 
+Both approaches, using plain language attribute names as well as id names, are valid. We can use either to create linked data about Nic Weber. The important point is that we have used JSON-LD to create graph structured data that is semantically meaningful. In particular, we added a schema to define attributes in our dataset through the standard Scehma.org and its namespaces. 
 
 ## Linked Data for Curation 
 The description of linked data above may seem somewhat tenuously related to data curation. In the following section I will draw on examples from previous chapters to explain how and why linked data is relevant to our practical work in curating data for reuse. 

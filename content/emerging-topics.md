@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-# Wrap Up (or "What I wish I had integrated into the curriculum prior to day 1")
+# Wrap Up
+## or "What I wish I had integrated into the curriculum prior to day 1"
 **Original Author: Nic Weber**  
 **Editing & Updates: Bree Norlander** 
 

@@ -11,7 +11,7 @@ The one reading I wanted to find a place for (and ultimately never did - unless 
 
 >large, uncurated, Internet-based datasets encode the dominant/hegemonic view, which further harms people at the margins, and recommend significant resource allocation towards dataset curation and documentation practices. (p. 613)
 
-This fourteen-page article about one particular type of dataset encapsulates so many issues I want you to think about as you embark on data-related (or other) careers. Not only is the paper so important, but issues surrounding the publication of the paper are important - two of the authors of the paper were fired (see [The Verge](https://www.theverge.com/2021/4/13/22370158/google-ai-ethics-timnit-gebru-margaret-mitchell-firing-reputation), or [CNN](https://www.cnn.com/2021/02/19/tech/google-ai-ethics-investigation/index.html), or any number of articles about this paper and the Google Ethics in AI Team). But I'm going to focus on how we can learn from the content of the paper in our work as data curators.  
+This fourteen-page article about one particular type of dataset encapsulates so many issues I want you to think about as you embark on data-related (or other) careers. (Additionally there are issues regarding the response by Google to Timnit Gebru and Margaret Mitchell's roles in publishing this article.) But I'm going to focus on how we can learn from the content of the paper in our work as data curators.  
 
 ## Advocacy and Solidarity Through Data Curation
 **Original Author: Nic Weber**

@@ -1,7 +1,24 @@
 ---
 layout: default
 ---
-# Emerging Topics
+# Wrap Up (or "What I wish I had integrated into the curriculum prior to day 1")
+**Original Author: Nic Weber**  
+**Editing & Updates: Bree Norlander** 
+
+## Advocacy and Solidarity Through Data Curation
+
+Coming soon!
+
+### Data Feminism & Activism
+
+Coming soon!
+
+### Data For Black Lives
+
+Coming soon!
+
+## Emerging Topics in Data Curation
+**Author: Nic Weber** 
 
 ## Data Curation Future Directions
 This final module discusses the future in data curation. Data curation is a fast moving field that responds to emerging needs of data producers, consumers, and users. Many emerging topics in data curation are beyond the scope of a 10 week quarter, but are worthy of our time and attention. Below, I cover some interesting topics and provide resources that you can use for future reference.
@@ -45,8 +62,16 @@ Here are some resources to continue exploring linked data and ontologies:
 
 ## Sensitive Data & Privacy
 
-Coming soon!  
+The curation of data containing sensitive contents, including personally identifiable information (PII), is an emerging challenge for curators. As more personal data is collected there are increasingly valuable applications for responsibly using PII to generate valuable knowledge. Here are two emergent examples that are worthy of our attention: 
 
+- Contact tracing: You have likely been hearing about or reading proposals for automated contact tracing in response to the Covid-19 viral outbreak. At the heart of these discussions is how to reliably store, and provide access to personally identifiable information so that public health officials can reliably intervene in cases where an infected person is identified. The tradeoff between identification and anonymity is a difficult one to balance. It requires that we design decentralized data storage architectures that can reliably encrypt PII, and trust that only those with proper credentials have access to resolve queries against these data stores. Decentralization is an incredibly complex problem in all web-based technolgoies that depend upon personal data and will be a topic that continues to play an important role in future curation work. 
+- - This is a very good recent paper on the topic: Li, T., Faklaris, C., King, J., Agarwal, Y., Dabbish, L., & Hong, J. I. (2020). Decentralized is not risk-free: Understanding public perceptions of privacy-utility trade-offs in COVID-19 contact-tracing apps. arXiv preprint arXiv:2005.11957. https://arxiv.org/pdf/2005.11957.pdf 
+
+- Census Data: The 2020 census will be the latest in what are regular full surveys of the United States population. The census is key for accurate counts of people, their mobility, and for policymaking. The census is also a key source of demographic data about the USA- used broadly in social science, epidemiology, and legal scholarship. As such, access to reliable administrative micro-data (for example, responses household level census surveys) is critical for research and development. In the past, a network of census data centers was set up to provide access to the most restricted of these data sources. The 2020 census data will be the first to release sensitive data using a process of differential privacy - an encryption algorithm that obscures personally identifiable information but provides statistically sound micro-data to researchers. The 2020 census is also the largest and most sophisticated use of differential privacy to date. This will provide an incredible use case for how data curators might design, and effectively govern the release of sensitive data, and will likely result in many accessible tools and services for 2020 census data. 
+
+If you read just one thing about the census and differential privacy I highly encourage the following primer: 
+
+- Nissim, K., Steinke, T., Wood, A., Altman, M., Bembenek, A., Bun, M., ... & Vadhan, S. (2017, June). Differential privacy: A primer for a non-technical audience. In Privacy Law Scholars Conf. https://privacytools.seas.harvard.edu/files/privacytools/files/pedagogical-document-dp_0.pdf
 
 ## Emulation
 Throughout the quarter we have discussed the transformation of data from closed or proprietary formats to open formats (or plain text encodings) which enable data to be reliably reused across different computing environments. There are typically two ways to achieve these transformations: Migration and Emulation. 
@@ -64,15 +89,3 @@ Examples and further reading on Emulation:
 - Yale's Emulation as a Service https://web.library.yale.edu/emulation
 - Code Ocean and the ability to "push a button" and rerun someone's analysis is a good example of emulation as a service for research data. This is a good [webinar video](https://codeocean.com/webinar/editor) on the topic.
 - Adam McMaster has a nice [general blog post on using containers for research](Why you should use Docker in your research).
-
-## Advocacy and Solidarity Through Data Curation
-
-Coming soon!
-
-### Data Feminism & Activism
-
-Coming soon!
-
-### Data For Black Lives
-
-Coming soon!

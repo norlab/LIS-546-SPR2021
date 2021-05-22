@@ -5,6 +5,8 @@ layout: default
 ## or "What I wish I had integrated into the curriculum prior to day 1"
 **Author: Bree Norlander**
 
+The one reading I wanted to find a place for (and ultimately never did - unless you count right now) in this course this quarter is "[On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922) 🦜" (and not just because it includes an emoji in the title). If you have time this week, read it. If you don't, read it later.
+
 ## Advocacy and Solidarity Through Data Curation
 **Original Author: Nic Weber**
 **Editing & Updates by: Bree Norlander**

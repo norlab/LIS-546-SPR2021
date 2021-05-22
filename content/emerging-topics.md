@@ -7,6 +7,10 @@ layout: default
 
 The one reading I wanted to find a place for (and ultimately never did - unless you count right now) in this course this quarter is "[On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922) 🦜" (and not just because it includes an emoji in the title). If you have time this week, read it. If you don't, read it later.
 
+>It is past time for researchers to prioritize energy efficiency and cost to reduce negative environmental impact and inequitable access to resources — both of which disproportionately affect people who are already in marginalized positions. (p. 613)
+
+>large, uncurated, Internet-based datasets encode the dominant/hegemonic view, which further harms people at the margins, and recommend significant resource allocation towards dataset curation and documentation practices. (p. 613)
+
 ## Advocacy and Solidarity Through Data Curation
 **Original Author: Nic Weber**
 **Editing & Updates by: Bree Norlander**

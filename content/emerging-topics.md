@@ -21,12 +21,12 @@ Coming soon!
 ## Emerging Topics in Data Curation
 **Author: Nic Weber** 
 
-## Data Curation Future Directions
+### Data Curation Future Directions
 This final module discusses the future in data curation. Data curation is a fast moving field that responds to emerging needs of data producers, consumers, and users. Many emerging topics in data curation are beyond the scope of a 10 week quarter, but are worthy of our time and attention. Below, I cover some interesting topics and provide resources that you can use for future reference.
 
 These are also not just my thoughts - [I asked friends and collaborators to tell me what emergent topics they thought were most important for the future of data curation](https://twitter.com/nniiicc/status/1266069650359500800?s=20). Below are their responses (and my own thoughts).
 
-## Ontologies for Linked Data
+### Ontologies for Linked Data
 In our previous chapter on linked data I described a rapidly evolving "cloud" or graph of linked data published to the web. Linked data are often governed by formal ontologies or vocabularies that include class, sub-class, properties and instances of data. These formalisms allow for data to follow a common markup (a standard), and these standards in turn enable relationships between data to be formally expressed and acted upon by machines.
 
 The difference between a "vocabulary" and an "ontology" is often, ironically, semantic - ontologies are really just formal vocabularies that give linked data practitioners standard terms to define subjects, objects, and predicates for markup of data. As the [W3C notes](https://www.w3.org/standards/semanticweb/ontology):
@@ -61,7 +61,7 @@ Here are some resources to continue exploring linked data and ontologies:
 - A handy [Linked Data Glossary](https://www.w3.org/TR/ld-glossary/)
 - A very accessible and searchable list of [Linked Data Ontologies](https://lov.linkeddata.es/dataset/lov/vocabs)
 
-## Sensitive Data & Privacy
+### Sensitive Data & Privacy
 
 The curation of data containing sensitive contents, including personally identifiable information (PII), is an emerging challenge for curators. As more personal data is collected there are increasingly valuable applications for responsibly using PII to generate valuable knowledge. Here are two emergent examples that are worthy of our attention: 
 
@@ -74,7 +74,7 @@ If you read just one thing about the census and differential privacy I highly en
 
 - Nissim, K., Steinke, T., Wood, A., Altman, M., Bembenek, A., Bun, M., ... & Vadhan, S. (2017, June). Differential privacy: A primer for a non-technical audience. In Privacy Law Scholars Conf. https://privacytools.seas.harvard.edu/files/privacytools/files/pedagogical-document-dp_0.pdf
 
-## Emulation
+### Emulation
 Throughout the quarter we have discussed the transformation of data from closed or proprietary formats to open formats (or plain text encodings) which enable data to be reliably reused across different computing environments. There are typically two ways to achieve these transformations: Migration and Emulation. 
 
 Migration is, quite simply, the reformatting of data - which depends upon moving content encoded in one standard to another (e.g. Excel to CSV).

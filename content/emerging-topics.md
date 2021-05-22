@@ -11,6 +11,8 @@ The one reading I wanted to find a place for (and ultimately never did - unless 
 
 >large, uncurated, Internet-based datasets encode the dominant/hegemonic view, which further harms people at the margins, and recommend significant resource allocation towards dataset curation and documentation practices. (p. 613)
 
+This fourteen-page article about one particular type of dataset encapsulates so many issues I want you to think about as you embark on data-related (or other) careers. Not only is the paper so important, but issues surrounding the publication of the paper are important - two of the authors of the paper were fired (see [The Verge](https://www.theverge.com/2021/4/13/22370158/google-ai-ethics-timnit-gebru-margaret-mitchell-firing-reputation), or [CNN](https://www.cnn.com/2021/02/19/tech/google-ai-ethics-investigation/index.html), or any number of articles about this paper and the Google Ethics in AI Team). But I'm going to focus on how we can learn from the content of the paper in our work as data curators.  
+
 ## Advocacy and Solidarity Through Data Curation
 **Original Author: Nic Weber**
 **Editing & Updates by: Bree Norlander**
@@ -37,7 +39,7 @@ Here are some relevant resources to get started (or continue):
 
 - The authors have made the entire book available open access here: [http://datafeminism.io/](http://datafeminism.io/). 
 - A brief blogpost and a podcast with the authors can be found here: [https://datasociety.net/library/data-feminism/](https://datasociety.net/library/data-feminism/).
-- I (Bree) watched an amazing presentation with the authors through the Sasaki Foundation on March 25, 2021 and I keep checking to see if they've put the recording up, but they also have some great resources to go with the presentation here: [https://www.sasakifoundation.org/events/](https://www.sasakifoundation.org/events/). 
+- I (Bree) watched an fantastic panel presentation with D'Ignazio through the Sasaki Foundation on March 25, 2021 and I keep checking to see if they've put the recording up, but they also have some great resources to go with the presentation here: [https://www.sasakifoundation.org/events/](https://www.sasakifoundation.org/events/). 
 - Here's another [podcast](https://podcasts.apple.com/us/podcast/catherine-dignazio-lauren-klein-data-feminism-mit-press/id593872749?i=1000467308855) which goes into greater theoretical depth with the authors.
 - Feminist Data Manifest-No (Organized and led by iSchool professor Marika Cifor): [https://www.manifestno.com/](https://www.manifestno.com/)
 - Another execellent and relevant book is Christina Dunbar-Hester's *[Hacking Diversity: The Politics of Inclusion in Open Technology Cultures](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/kjtuig/CP71314421840001451)*

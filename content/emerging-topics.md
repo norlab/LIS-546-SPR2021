@@ -3,20 +3,53 @@ layout: default
 ---
 # Wrap Up
 ## or "What I wish I had integrated into the curriculum prior to day 1"
-**Original Author: Nic Weber**  
-**Editing & Updates: Bree Norlander** 
+**Author: Bree Norlander**
 
 ## Advocacy and Solidarity Through Data Curation
+**Original Author: Nic Weber**
+**Editing & Updates by: Bree Norlander**
 
-Coming soon!
+These past 18 months have put a spotlight on so many injustices, inequities, and wrongs. It has been a period of exceptional upheaval at systems that are deeply broken. Throughout the course content we have tried to make the content relevant in the examples used, but we have certainly at times fallen far short of what should be a course that equips you with skills to advocate and work on behalf of just outcomes. This is a work in progress and we aim to continue revising and making content that promotes justice, equity, and advocacy in data curation. 
+
+If you continue on at the iSchool we strongly recommend courses taught by our brilliant colleagues Megan Finn, Miranda Belarde-Lewis, Clarita Lefthand Begay, Marika Cifor, Jason Yip, and Anna Lauren Hoffman. A few that we recommend in particular are:
+
+- LIS 534 Indigenous Systems of Knowledge (Belarde-Lewis)
+- LIS 553 Information and Social Justice
+- LIS 577 Participatory Design in Libraries (Yip)
+- LIS 583 Cross Cultural Approaches to Leadership (Belarde-Lewis)
+- INFO 498 - Data Ethics (Hoffman)
+- INFO 402 - Gender, Race, and IT (Cifor)
+- INFO 350 - Information Ethics and Policy (Finn)
 
 ### Data Feminism & Activism
 
-Coming soon!
+I can't say this any better than the blurb for a book authored by Catherine D'Ignazio and Laren F Klein, "Today, data science is a form of power. It has been used to expose injustice, improve health outcomes, and topple governments. But it has also been used to discriminate, police, and surveil. This potential for good, on the one hand, and harm, on the other, makes it essential to ask: Data science by whom? Data science for whom? Data science with whose interests in mind? The narratives around big data and data science are overwhelmingly white, male, and techno-heroic. In Data Feminism, Catherine D'Ignazio and Lauren Klein present a new way of thinking about data science and data ethics—one that is informed by intersectional feminist thought."
+
+Through a critical lens that takes seriously the role of [fourth wave feminism](https://en.wikipedia.org/wiki/Fourth-wave_feminism) this book, and the advocacy around data feminism, should be a central place to locate the role of curation in contemporary society. The ability to structure, organize, and encode data cannot (as we have discussed throughout the quarter) be divorced from broader societal and institutional forms of power. By approaching these topics of curatorial power rooted in a historical understanding of oppression and civil liberties we might be able to, regardless of our identity and positionally, be more effective allies. I don't presume to know how, given varied contexts, to do this most effectively, yet. But the emergent scholarship around data feminism is an excellent place to begin.     
+
+Here are some relevant resources to get started (or continue): 
+
+- The authors have made the entire book available open access here: [http://datafeminism.io/](http://datafeminism.io/). 
+- A brief blogpost and a podcast with the authors can be found here: [https://datasociety.net/library/data-feminism/](https://datasociety.net/library/data-feminism/).
+- I (Bree) watched an amazing presentation with the authors through the Sasaki Foundation on March 25, 2021 and I keep checking to see if they've put the recording up, but they also have some great resources to go with the presentation here: [https://www.sasakifoundation.org/events/](https://www.sasakifoundation.org/events/). 
+- Here's another [podcast](https://podcasts.apple.com/us/podcast/catherine-dignazio-lauren-klein-data-feminism-mit-press/id593872749?i=1000467308855) which goes into greater theoretical depth with the authors.
+- Feminist Data Manifest-No (Organized and led by iSchool professor Marika Cifor): [https://www.manifestno.com/](https://www.manifestno.com/)
+- Another execellent and relevant book is Christina Dunbar-Hester's *[Hacking Diversity: The Politics of Inclusion in Open Technology Cultures](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/kjtuig/CP71314421840001451)*
 
 ### Data For Black Lives
 
-Coming soon!
+Straightforwardly - many of the systems of observation and enumeration in state-based data collection are deeply biased against people of color. From the use of flawed [algorithmic systems](https://undark.org/2020/06/01/michigan-unemployment-fraud-algorithm/) in unemployment benefits to the facial recognition technologies that are employed with deep biases related to [black faces](https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/). 
+
+Perpetuating discriminatory policies through technologies that collect and are trained on imperfect data about people of color is a multi-faceted problem. Overcoming and effectively dismantling these flawed technologies requires effective policy development, legal expertise, and ethically trained data professionals. There is no simple way in which we can educate, legislate, or adjudicate our way out of the biases of technologies that are being increasingly used for harm. As data curators our role is first to become informed about the ways in which both technologies for data collection, and resulting data do harm. Second, we can begin to intervene where our skills and our expertise are appropriate. This will likely include volunteering our time to investigate and describe problems related to data encodings, efficient data processing, and documentation which surfaces bias and attempts to clarify why data are never neutral. 
+
+Here are some relevant resources to get started (or continue): 
+
+- [Data 4 Black Lives](http://d4bl.org/)
+- Covid tracking by Race: [https://covidtracking.com/race/dashboard](https://covidtracking.com/race/dashboard)
+- [Covid Black](https://www.covidblack.org/): Data and stories about Black health.
+- Black Software: The Internet & Racial Justice, from the AfroNet to Black Lives Matter (not expressly about data, but a beautiful overview of the history of technology in the context of a connected web of information communication technologies) [Book](https://global.oup.com/academic/product/black-software-9780190863845?cc=us&lang=en&) + [Podcast](https://stackoverflow.blog/2019/12/03/podcast-black-software-charlton-mcilwain/)
+- Algorithmic Advocacy Toolkit [Website](https://www.aclu-wa.org/AEKit)
+- An excellent example of data advocacy is the [Mapping Police Violence](https://mappingpoliceviolence.org/) project. You can see their data documentation here: https://mappingpoliceviolence.org/aboutthedata 
 
 ## Emerging Topics in Data Curation
 **Author: Nic Weber** 

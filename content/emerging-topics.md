@@ -9,7 +9,7 @@ The one reading I wanted to find a place for (and ultimately never did - unless 
 
 >It is past time for researchers to prioritize energy efficiency and cost to reduce negative environmental impact and inequitable access to resources — both of which disproportionately affect people who are already in marginalized positions. (p. 613)
 
->large, uncurated, Internet-based datasets encode the dominant/hegemonic view, which further harms people at the margins, and recommend significant resource allocation towards dataset curation and documentation practices. (p. 613)
+>we discuss how large, uncurated, Internet-based datasets encode the dominant/hegemonic view, which further harms people at the margins, and recommend significant resource allocation towards dataset curation and documentation practices. (p. 613)
 
 This fourteen-page article about one particular type of dataset encapsulates so many issues I want you to think about as you embark on data-related (or other) careers. (Additionally there are issues regarding the response by Google to Timnit Gebru's and Margaret Mitchell's roles in publishing this article.) But I'm going to focus on how we can learn from the content of the paper in our work as data curators. 
 
@@ -17,10 +17,10 @@ Let me set the stage. *Stochastic Parrots* is specifically about natural languag
 
 >One of the biggest trends in natural language processing (NLP) has been the increasing size of language models (LMs) as measured by the number of parameters and size of training data. (p. 610)
 
-Here the authors are referring to two parts of natural languague processing, models and datasets:
+Here the authors are referring to two pieces of natural languague processing, *models* and *datasets*:
 
-1. [Language **models**](https://en.wikipedia.org/wiki/Language_model), which are calcualtions of the probabilistic relationships between words, that are 
-2. "[trained](https://www.techopedia.com/definition/33181/training-data)" on **datasets** full of natural language examples. These datasets can come from anywhere in which there are vast quantities of spoken or written language to harvest (books, emails, tweets, reddit posts, blogs, on and on). 
+1. [Language **models**](https://en.wikipedia.org/wiki/Language_model), which are calculations of probabilistic relationships between words, that are 
+2. "[trained](https://www.techopedia.com/definition/33181/training-data)" on **datasets** full of natural language examples. These datasets can come from anywhere in which there is spoken or written language to extract (books, emails, tweets, reddit posts, blogs, on and on). 
 
 In this instance they are specifically referring to the computational and storage size of language models. The datasets themselves are large, and then the probability modeling on top of the large datasets can be extremely resource intensive (in energy consumption, memory consumption, CPU workload, etc.). 
 

@@ -7,8 +7,7 @@ thumbnail: /static_files/presentations/future.png
 links: 
     - url: /content/emerging-topics.html
       name: content
-    - url: /content/emerging-topics.html#Exercise
-      name: exercise
+
 ---
 **Required Reading:**
 - [Course Content]({{ site.baseurl }}/content/emerging-topics.html)

@@ -37,7 +37,7 @@ OK, enough set-up...go read the article.
 Now, what questions do you have about the role of data curation? Why is this article relevant? Here are some of the thoughts I walked away with:
 
 - This article talks a lot about data curation and data documentation. How do the authors' definition of those activities resonate or differ from the activities we've learned about this quarter? 
-- In my experience in LIS, we want to save/preserve everything. Not that long ago digital storage was cheap and plentiful and we set about to preserve every digital artifact. This is not sustainable. Can we start to incorporate the envrionmental impact of data preservation into protocols for preservation? What does that look like? How do we weigh the costs and benefits?
+- In my experience in LIS, we want to save/preserve everything. Not that long ago digital storage was cheap and plentiful and we set about to preserve every digital artifact. This is not sustainable. Can we start to incorporate the environmental impact of data preservation into protocols for preservation? What does that look like? How do we weigh the costs and benefits?
 - As we work to dismantle systems of inequity and injustice, what is our role as data curators in vetting datasets for erasure, bias, marginalization, and harm?
 
 <figure>

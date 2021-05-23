@@ -14,7 +14,7 @@ The main reading I wanted to find a place for (and ultimately never did - unless
 This fourteen-page article about one particular type of dataset encapsulates so many issues I want you to think about as you embark on data-related (or other) careers. (Additionally there are issues regarding the response by Google to Timnit Gebru's and Margaret Mitchell's roles in publishing this article, but I'll just focus on the content of the paper for now.)
 
 <figure>
-  <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/phone_lm.png" alt="Screenshot of a phone screen with some text - circled are the phone's auto-generated next word choices." width="500"/>
+  <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/phone_lm.png" alt="Screenshot of a phone screen with some text - circled are the phone's auto-generated next word choices." width="250"/>
 </figure>
 
 Let me set the stage. *Stochastic Parrots* is specifically about natural language modeling (used for auto-generating text, machine transcribing, automated speech recognition, and more) and the datasets used in the process: 

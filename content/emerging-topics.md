@@ -33,7 +33,7 @@ After reading this article, what questions do you have about the role of data cu
 
 <figure>
   <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/MadeInvisible.png" alt="Gender repartition of EU28 population, according to Eurostat. The collected data includes data for women and men. The category non-binary is not included in the dataset, and therefore made invisible." width="800"/>
-  <figcaption>Chart by Luc Guillemot from https://observablehq.com/@lucguillemot/european-population-by-gender?ui=classic</figcaption>
+  <figcaption><a href="https://observablehq.com/@lucguillemot/european-population-by-gender?ui=classic" target="_blank">Chart by Luc Guillemot</a></figcaption>
 </figure>
 
 ## Advocacy and Solidarity Through Data Curation

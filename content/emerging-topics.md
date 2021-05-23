@@ -37,7 +37,7 @@ After reading this article, what questions do you have about the role of data cu
 </figure>
 
 ## Advocacy and Solidarity Through Data Curation
-**Original Author: Nic Weber**
+**Original Author: Nic Weber**  
 **Editing & Updates by: Bree Norlander**
 
 These past 18 months have put a spotlight on so many injustices, inequities, and wrongs. It has been a period of exceptional upheaval at systems that are deeply broken. Throughout the course content we have tried to make the content relevant in the examples used, but we have certainly at times fallen far short of what should be a course that equips you with skills to advocate and work on behalf of just outcomes. This is a work in progress and we aim to continue revising and making content that promotes justice, equity, and advocacy in data curation. 

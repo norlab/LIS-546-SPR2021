@@ -7,8 +7,37 @@ layout: default
 
 The one reading I wanted to find a place for (and ultimately never did - unless you count right now) in this course this quarter is "[On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922) 🦜" (and not just because it includes an emoji in the title). If you have time this week, read it. If you don't, read it later.
 
+>It is past time for researchers to prioritize energy efficiency and cost to reduce negative environmental impact and inequitable access to resources — both of which disproportionately affect people who are already in marginalized positions. (p. 613)
+
+>we discuss how large, uncurated, Internet-based datasets encode the dominant/hegemonic view, which further harms people at the margins, and recommend significant resource allocation towards dataset curation and documentation practices. (p. 613)
+
+This fourteen-page article about one particular type of dataset encapsulates so many issues I want you to think about as you embark on data-related (or other) careers. (Additionally there are issues regarding the response by Google to Timnit Gebru's and Margaret Mitchell's roles in publishing this article.) But I'm going to focus on how we can learn from the content of the paper in our work as data curators. 
+
+Let me set the stage. *Stochastic Parrots* is specifically about natural language modeling datasets: 
+
+>One of the biggest trends in natural language processing (NLP) has been the increasing size of language models (LMs) as measured by the number of parameters and size of training data. (p. 610)
+
+Here the authors are referring to two pieces of natural languague processing, *models* and *datasets*:
+
+1. [Language **models**](https://en.wikipedia.org/wiki/Language_model), which are calculations of probabilistic relationships between words (e.g. the likelihood that certain words will follow a given string of words), that are 
+2. "[trained](https://www.techopedia.com/definition/33181/training-data)" on **datasets** full of natural language examples. These datasets can come from anywhere in which there is spoken or written language to extract (books, emails, tweets, reddit posts, blogs, on and on). 
+
+In this instance they are specifically referring to the computational and storage size of language models. The datasets themselves are large, and then the probability modeling on top of the large datasets can be extremely resource intensive (in energy consumption, memory consumption, CPU workload, etc.). 
+
+As you work through this piece, you will likely come across technical terms that you are unfamiliar with and that likely have more to do with *language models* than with the *datasets* (I am unfamiliar with a lot it). That's OK. I want you to pay attention to the real-world environmental and ethical issues that arise when we think about natural language *datasets* and their use. That's what we are doing as data curators, thinking through the preservation **and re/use** of the datasets we are making available.
+
+After reading this article, what questions do you have about the role of data curation? Why is this article relevant? Here are some of the thoughts I walked away with:
+
+- In my experience in LIS, we want to save/preserve everything. Not that long ago digital storage was cheap and plentiful and we set about to preserve every digital artifact. This is not sustainable. Can we start to incorporate the envrionmental impact of data preservation into protocols for preservation? What does that look like? How do we weigh the costs and benefits?
+- As we work to dismantle systems of inequity and injustice, what is our role as data curators in vetting datasets for erasure, bias, marginalization, and harm?
+
+<figure>
+  <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/MadeInvisible.png" alt="Gender repartition of EU28 population, according to Eurostat. The collected data includes data for women and men. The category non-binary is not included in the dataset, and therefore made invisible." width="800"/>
+  <figcaption><a href="https://observablehq.com/@lucguillemot/european-population-by-gender?ui=classic" target="_blank">Chart by Luc Guillemot</a></figcaption>
+</figure>
+
 ## Advocacy and Solidarity Through Data Curation
-**Original Author: Nic Weber**
+**Original Author: Nic Weber**  
 **Editing & Updates by: Bree Norlander**
 
 These past 18 months have put a spotlight on so many injustices, inequities, and wrongs. It has been a period of exceptional upheaval at systems that are deeply broken. Throughout the course content we have tried to make the content relevant in the examples used, but we have certainly at times fallen far short of what should be a course that equips you with skills to advocate and work on behalf of just outcomes. This is a work in progress and we aim to continue revising and making content that promotes justice, equity, and advocacy in data curation. 
@@ -33,7 +62,7 @@ Here are some relevant resources to get started (or continue):
 
 - The authors have made the entire book available open access here: [http://datafeminism.io/](http://datafeminism.io/). 
 - A brief blogpost and a podcast with the authors can be found here: [https://datasociety.net/library/data-feminism/](https://datasociety.net/library/data-feminism/).
-- I (Bree) watched an amazing presentation with the authors through the Sasaki Foundation on March 25, 2021 and I keep checking to see if they've put the recording up, but they also have some great resources to go with the presentation here: [https://www.sasakifoundation.org/events/](https://www.sasakifoundation.org/events/). 
+- I (Bree) watched an fantastic panel presentation with D'Ignazio through the Sasaki Foundation on March 25, 2021 and I keep checking to see if they've put the recording up, but they also have some great resources to go with the presentation here: [https://www.sasakifoundation.org/events/](https://www.sasakifoundation.org/events/). 
 - Here's another [podcast](https://podcasts.apple.com/us/podcast/catherine-dignazio-lauren-klein-data-feminism-mit-press/id593872749?i=1000467308855) which goes into greater theoretical depth with the authors.
 - Feminist Data Manifest-No (Organized and led by iSchool professor Marika Cifor): [https://www.manifestno.com/](https://www.manifestno.com/)
 - Another execellent and relevant book is Christina Dunbar-Hester's *[Hacking Diversity: The Politics of Inclusion in Open Technology Cultures](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/kjtuig/CP71314421840001451)*

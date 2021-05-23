@@ -5,36 +5,55 @@ layout: default
 ## or "What I wish I had integrated into the curriculum prior to day 1"
 **Author: Bree Norlander**
 
-The one reading I wanted to find a place for (and ultimately never did - unless you count right now) in this course this quarter is "[On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922) 🦜" (and not just because it includes an emoji in the title). If you have time this week, read it. If you don't, read it later.
+The main reading I wanted to find a place for (and ultimately never did - unless you count right now) this quarter is "[On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922) 🦜" (and not just because it includes an emoji in the title, though that in itself is certainly novel). If you have time this week, read it. If you don't, read it later.
 
 >It is past time for researchers to prioritize energy efficiency and cost to reduce negative environmental impact and inequitable access to resources — both of which disproportionately affect people who are already in marginalized positions. (p. 613)
 
 >we discuss how large, uncurated, Internet-based datasets encode the dominant/hegemonic view, which further harms people at the margins, and recommend significant resource allocation towards dataset curation and documentation practices. (p. 613)
 
-This fourteen-page article about one particular type of dataset encapsulates so many issues I want you to think about as you embark on data-related (or other) careers. (Additionally there are issues regarding the response by Google to Timnit Gebru's and Margaret Mitchell's roles in publishing this article.) But I'm going to focus on how we can learn from the content of the paper in our work as data curators. 
+This fourteen-page article about one particular type of dataset encapsulates so many issues I want you to think about as you embark on data-related (or other) careers. (Additionally there are issues regarding the response by Google to Timnit Gebru's and Margaret Mitchell's roles in publishing this article, but I'll just focus on the content of the paper for now.)
 
-Let me set the stage. *Stochastic Parrots* is specifically about natural language modeling datasets: 
+<figure>
+  <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/phone_lm.png" alt="Screenshot of a phone screen with some text - circled are the phone's auto-generated next word choices." width="500"/>
+</figure>
+
+Let me set the stage. *Stochastic Parrots* is specifically about natural language modeling (used for auto-generating text, machine transcribing, automated speech recognition, and more) and the datasets used in the process: 
 
 >One of the biggest trends in natural language processing (NLP) has been the increasing size of language models (LMs) as measured by the number of parameters and size of training data. (p. 610)
 
 Here the authors are referring to two pieces of natural languague processing, *models* and *datasets*:
 
-1. [Language **models**](https://en.wikipedia.org/wiki/Language_model), which are calculations of probabilistic relationships between words (e.g. the likelihood that certain words will follow a given string of words), that are 
-2. "[trained](https://www.techopedia.com/definition/33181/training-data)" on **datasets** full of natural language examples. These datasets can come from anywhere in which there is spoken or written language to extract (books, emails, tweets, reddit posts, blogs, on and on). 
+1. [Language **models**](https://en.wikipedia.org/wiki/Language_model), which are calculations of probabilistic relationships between words (e.g. the likelihood that certain words will follow a given string of words), that are "[trained](https://www.techopedia.com/definition/33181/training-data)" on
+2. **datasets** full of natural language examples. These datasets can come from anywhere in which there is spoken or written language to extract (books, emails, tweets, reddit posts, blogs, on and on). 
 
-In this instance they are specifically referring to the computational and storage size of language models. The datasets themselves are large, and then the probability modeling on top of the large datasets can be extremely resource intensive (in energy consumption, memory consumption, CPU workload, etc.). 
+And, *size,* which refers to the computational and storage size of language models. The datasets themselves are large, and then the probability modeling on top of the large datasets can be extremely resource intensive (in energy consumption, memory consumption, CPU workload, etc.). 
 
-As you work through this piece, you will likely come across technical terms that you are unfamiliar with and that likely have more to do with *language models* than with the *datasets* (I am unfamiliar with a lot it). That's OK. I want you to pay attention to the real-world environmental and ethical issues that arise when we think about natural language *datasets* and their use. That's what we are doing as data curators, thinking through the preservation **and re/use** of the datasets we are making available.
+As you work through this piece, you will likely come across technical terms that you are unfamiliar with and that likely have more to do with *language models* than with the *datasets* (though the authors really do an excellent job of defining almost everything which is such an asset to a technical paper). That's OK. I want you to pay attention to the real-world environmental and ethical issues that arise when we think about natural language *datasets* and their use. That's what we are doing as data curators, thinking through the preservation **and re/use** of the datasets we are making available.
 
-After reading this article, what questions do you have about the role of data curation? Why is this article relevant? Here are some of the thoughts I walked away with:
+>In accepting large amounts of web text as ‘representative’ of ‘all’ of humanity we risk perpetuating dominant viewpoints, increasing power imbalances, and further reifying inequality. (p. 614)
 
+OK, enough set-up...go read the article.
+
+Now, what questions do you have about the role of data curation? Why is this article relevant? Here are some of the thoughts I walked away with:
+
+- This article talks a lot about data curation and data documentation. How do the authors' definition of those activities resonate or differ from the activities we've learned about this quarter? 
 - In my experience in LIS, we want to save/preserve everything. Not that long ago digital storage was cheap and plentiful and we set about to preserve every digital artifact. This is not sustainable. Can we start to incorporate the envrionmental impact of data preservation into protocols for preservation? What does that look like? How do we weigh the costs and benefits?
 - As we work to dismantle systems of inequity and injustice, what is our role as data curators in vetting datasets for erasure, bias, marginalization, and harm?
 
 <figure>
   <img src="https://raw.githubusercontent.com/norlab/LIS-546-SPR2021/master/_images/MadeInvisible.png" alt="Gender repartition of EU28 population, according to Eurostat. The collected data includes data for women and men. The category non-binary is not included in the dataset, and therefore made invisible." width="800"/>
   <figcaption><a href="https://observablehq.com/@lucguillemot/european-population-by-gender?ui=classic" target="_blank">Chart by Luc Guillemot</a></figcaption>
-</figure>
+</figure>  
+
+I present this article and these questions to you without answers. More than anything, I want you to have these questions in mind as you go about your work. You may end up in a position to advocate for better use of environmental resources, better vetting of datasets, more pre-mortem discussions of the data gathering process, and I hope you do. We need you in the field. 
+
+>In summary, we advocate for research that centers the people who stand to be adversely affected by the resulting technology, with a broad view on the possible ways that technology can affect people. This, in turn, means making time in the research process for considering environmental impacts, for doing careful data curation and documentation, for engaging with stakeholders early in the design process, for exploring multiple possible paths towards longterm goals, for keeping alert to dual-use scenarios, and finally for allocating research effort to harm mitigation in such cases. (p. 619)
+
+### Additional Reading on the Topic  
+
+In addition to the costs (environment, financial, opportunity) and harms discussed in *Stochastic Parrots*, other researchers are looking very closely at some of the datasets used to train these models and finding copyright violations, content duplication, and genre biases (see [Jack Bandy's](https://towardsdatascience.com/dirty-secrets-of-bookcorpus-a-key-dataset-in-machine-learning-6ee2927e8650) post). 
+
+Brandon Locke and Nic Weber have a chapter currently in publication called "Ethics of Open Data". Nic has generously allowed you [pre-publication access](https://canvas.uw.edu/courses/1465297/files?preview=77782427) to this chapter, but you will need Canvas access to download it. It is an excellent overview of open data through the lens of virtue, consequential, and non-consequential (deontological) ethics including three relevant case studies. Future iterations of this course will no doubt include this text throughout the modules.
 
 ## Advocacy and Solidarity Through Data Curation
 **Original Author: Nic Weber**  

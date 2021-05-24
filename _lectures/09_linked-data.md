@@ -9,8 +9,7 @@ links:
       name: video
     - url: /content/linked-data.html
       name: content
-    - url: /content/linked-data.html#Exercise
-      name: exercise
+
 ---
 **Required Readings:**
 - [Course Content]({{ site.baseurl }}/content/linked-data.html)
